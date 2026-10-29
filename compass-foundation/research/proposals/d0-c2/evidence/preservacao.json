@@ -1,0 +1,215 @@
+{
+  "authorized_progress_edits": [
+    "COMPASS_STATE.md",
+    "docs/COORDENACAO.md"
+  ],
+  "note": "Inventario capturado antes da escrita C2; hashes dos arquivos protegidos conferidos depois. Nao e build/teste novo.",
+  "protected_file_count": 34,
+  "protected_files": [
+    {
+      "after_sha256": "abdbe1ff2020396e7d6fb40277280414c8e3c30f8455a27100a789931867ac76",
+      "before_sha256": "abdbe1ff2020396e7d6fb40277280414c8e3c30f8455a27100a789931867ac76",
+      "identical": true,
+      "path": "../compass-documento-principal/COMPASS_DOCUMENTO_PRINCIPAL.md"
+    },
+    {
+      "after_sha256": "54fb726165727d6652c005c48cc4566c1de379141da76dc7c26b14b63e328a7a",
+      "before_sha256": "54fb726165727d6652c005c48cc4566c1de379141da76dc7c26b14b63e328a7a",
+      "identical": true,
+      "path": "AGENTS.md"
+    },
+    {
+      "after_sha256": "361419c662dfbf699baf87d02aeb26e64875eab5577e9452132aa79ceedd63b6",
+      "before_sha256": "361419c662dfbf699baf87d02aeb26e64875eab5577e9452132aa79ceedd63b6",
+      "identical": true,
+      "path": "Cargo.lock"
+    },
+    {
+      "after_sha256": "57de1a4d61318d24e85730d103a89f538d3c776537eb12cd2a7d82e4e79238fb",
+      "before_sha256": "57de1a4d61318d24e85730d103a89f538d3c776537eb12cd2a7d82e4e79238fb",
+      "identical": true,
+      "path": "Cargo.toml"
+    },
+    {
+      "after_sha256": "a4f6be5111fd6747549e4eec7484d12b9d10e5888d6631dfd92c54d367fcd373",
+      "before_sha256": "a4f6be5111fd6747549e4eec7484d12b9d10e5888d6631dfd92c54d367fcd373",
+      "identical": true,
+      "path": "README.md"
+    },
+    {
+      "after_sha256": "c89cc40d98795ebf1244c8e824487178c33ce5f8bb6851401449ff35afe7d4f2",
+      "before_sha256": "c89cc40d98795ebf1244c8e824487178c33ce5f8bb6851401449ff35afe7d4f2",
+      "identical": true,
+      "path": "crates/compass-cli/Cargo.toml"
+    },
+    {
+      "after_sha256": "6fdf80de84d8e34934dbdf9fbd6bb775d3fca9e61d809666f12c15b631747e8b",
+      "before_sha256": "6fdf80de84d8e34934dbdf9fbd6bb775d3fca9e61d809666f12c15b631747e8b",
+      "identical": true,
+      "path": "crates/compass-cli/src/main.rs"
+    },
+    {
+      "after_sha256": "5655d7fedbbc9c103ff753bd3101199907649152839bc091cde28a5af889beec",
+      "before_sha256": "5655d7fedbbc9c103ff753bd3101199907649152839bc091cde28a5af889beec",
+      "identical": true,
+      "path": "crates/compass-core/Cargo.toml"
+    },
+    {
+      "after_sha256": "b28f43833a943214fb58421c78e730511e00c621f29999e14ae31305219ae013",
+      "before_sha256": "b28f43833a943214fb58421c78e730511e00c621f29999e14ae31305219ae013",
+      "identical": true,
+      "path": "crates/compass-core/build.rs"
+    },
+    {
+      "after_sha256": "1359ac1aeea9eedaef31c53de7160bbe7709e730b5098e7af4fc46a126f24dc0",
+      "before_sha256": "1359ac1aeea9eedaef31c53de7160bbe7709e730b5098e7af4fc46a126f24dc0",
+      "identical": true,
+      "path": "crates/compass-core/src/codec.rs"
+    },
+    {
+      "after_sha256": "ebb4d8a6e77399d7d2ca0d5b3ab18c8d62a7fbc8b2de299fd95f1f8cd5293c83",
+      "before_sha256": "ebb4d8a6e77399d7d2ca0d5b3ab18c8d62a7fbc8b2de299fd95f1f8cd5293c83",
+      "identical": true,
+      "path": "crates/compass-core/src/compare.rs"
+    },
+    {
+      "after_sha256": "316a1e9f768cbb04febda49ed29e80774de81752e43d0976ab7ed772e7efaf73",
+      "before_sha256": "316a1e9f768cbb04febda49ed29e80774de81752e43d0976ab7ed772e7efaf73",
+      "identical": true,
+      "path": "crates/compass-core/src/error.rs"
+    },
+    {
+      "after_sha256": "8715757ba37b97e858c5f961fb0e2fc1ac98ede586312fa882c15530520b939b",
+      "before_sha256": "8715757ba37b97e858c5f961fb0e2fc1ac98ede586312fa882c15530520b939b",
+      "identical": true,
+      "path": "crates/compass-core/src/lib.rs"
+    },
+    {
+      "after_sha256": "2ddd144126d2b31fa5652cfa41f2d782fc8fa8fed22b4ae1ad3021d95acebbe9",
+      "before_sha256": "2ddd144126d2b31fa5652cfa41f2d782fc8fa8fed22b4ae1ad3021d95acebbe9",
+      "identical": true,
+      "path": "crates/compass-core/src/model.rs"
+    },
+    {
+      "after_sha256": "b794db36422f7eff9c18050a7c5e258dd836469fe92adbc47c58a14210c0c950",
+      "before_sha256": "b794db36422f7eff9c18050a7c5e258dd836469fe92adbc47c58a14210c0c950",
+      "identical": true,
+      "path": "crates/compass-core/src/observe.rs"
+    },
+    {
+      "after_sha256": "fb25a7ced4c52858d736164a4acd2bdf07d9aa34ad2005327c293832b206995c",
+      "before_sha256": "fb25a7ced4c52858d736164a4acd2bdf07d9aa34ad2005327c293832b206995c",
+      "identical": true,
+      "path": "crates/compass-core/src/storage.rs"
+    },
+    {
+      "after_sha256": "86161ee4263515d25ce904c095b539bba36f2d4f05da27ccacdc37b7188dc607",
+      "before_sha256": "86161ee4263515d25ce904c095b539bba36f2d4f05da27ccacdc37b7188dc607",
+      "identical": true,
+      "path": "crates/compass-core/tests/contract.rs"
+    },
+    {
+      "after_sha256": "bc3a0b8d69120db214a79691a84187b90467e22b1801c7398a21a77ef8da4845",
+      "before_sha256": "bc3a0b8d69120db214a79691a84187b90467e22b1801c7398a21a77ef8da4845",
+      "identical": true,
+      "path": "research/contracts/FOUNDATION.md"
+    },
+    {
+      "after_sha256": "506d12db6241d4ac8aa30fb6a527b4411808db14c28b991b7bc9e8763bb7c5a8",
+      "before_sha256": "506d12db6241d4ac8aa30fb6a527b4411808db14c28b991b7bc9e8763bb7c5a8",
+      "identical": true,
+      "path": "research/contracts/fixtures/baseline.json"
+    },
+    {
+      "after_sha256": "203d9d151daf867604ac31afc22b349d91106e5c7dbab0cf998f020c4b2b27d5",
+      "before_sha256": "203d9d151daf867604ac31afc22b349d91106e5c7dbab0cf998f020c4b2b27d5",
+      "identical": true,
+      "path": "research/contracts/fixtures/current.json"
+    },
+    {
+      "after_sha256": "2703c3a7be1d50583ad9534974a244f5aa5ef8db7a59b629e78ee0fe1cb86abe",
+      "before_sha256": "2703c3a7be1d50583ad9534974a244f5aa5ef8db7a59b629e78ee0fe1cb86abe",
+      "identical": true,
+      "path": "research/contracts/fixtures/expected-comparison.json"
+    },
+    {
+      "after_sha256": "5d0d044ac2e5316937d9b398d8dbd1255ff21c1d2946c87ff65f6a36d520aa8c",
+      "before_sha256": "5d0d044ac2e5316937d9b398d8dbd1255ff21c1d2946c87ff65f6a36d520aa8c",
+      "identical": true,
+      "path": "research/contracts/fixtures/hash-vectors.json"
+    },
+    {
+      "after_sha256": "db317e5ac8a349071407b18fea8289c4bf8e7769b0732c9ee05d84b70955bf43",
+      "before_sha256": "db317e5ac8a349071407b18fea8289c4bf8e7769b0732c9ee05d84b70955bf43",
+      "identical": true,
+      "path": "research/contracts/transport.schema.json"
+    },
+    {
+      "after_sha256": "f3134e6d8f1e2d2df10292557c04cb9a59e4e72a7d267b7e91a4188486088dac",
+      "before_sha256": "f3134e6d8f1e2d2df10292557c04cb9a59e4e72a7d267b7e91a4188486088dac",
+      "identical": true,
+      "path": "research/proposals/D0_V0.1.md"
+    },
+    {
+      "after_sha256": "c33d1f0b1b8fda448bea32d7dc867aa64947c87169fd9de7122ffccad1dd80f9",
+      "before_sha256": "c33d1f0b1b8fda448bea32d7dc867aa64947c87169fd9de7122ffccad1dd80f9",
+      "identical": true,
+      "path": "rust-toolchain.toml"
+    },
+    {
+      "after_sha256": "f131c11d34078e51f0c267f407cd2b92122c826f8c8dccec79db426175e48559",
+      "before_sha256": "f131c11d34078e51f0c267f407cd2b92122c826f8c8dccec79db426175e48559",
+      "identical": true,
+      "path": "scripts/cargo-local.sh"
+    },
+    {
+      "after_sha256": "08ad7885645af82bb1eaac6de5286f238e7028701d9b0dc67f24118c4ca4a5d1",
+      "before_sha256": "08ad7885645af82bb1eaac6de5286f238e7028701d9b0dc67f24118c4ca4a5d1",
+      "identical": true,
+      "path": "verification/ACCEPTANCE.md"
+    },
+    {
+      "after_sha256": "d5f243ea8dd11d1f06af17285f767ca7c2a64725fc0891e7069197924ca4ec0b",
+      "before_sha256": "d5f243ea8dd11d1f06af17285f767ca7c2a64725fc0891e7069197924ca4ec0b",
+      "identical": true,
+      "path": "verification/evidence/integration.json"
+    },
+    {
+      "after_sha256": "c8a872e8307710e7009a2b02da54b3ac272d04b66a8799016d2706d1629d97d4",
+      "before_sha256": "c8a872e8307710e7009a2b02da54b3ac272d04b66a8799016d2706d1629d97d4",
+      "identical": true,
+      "path": "verification/evidence/resource-profile.json"
+    },
+    {
+      "after_sha256": "4f724bfb976caccef8bf12d4afc8e53fb66ba358e0a16bbf856b52519418ee50",
+      "before_sha256": "4f724bfb976caccef8bf12d4afc8e53fb66ba358e0a16bbf856b52519418ee50",
+      "identical": true,
+      "path": "verification/fixtures/manual_expectations.json"
+    },
+    {
+      "after_sha256": "950c891638092299351e141d2974f2c3d74ea1ddaf7f09de33c70512e574c825",
+      "before_sha256": "950c891638092299351e141d2974f2c3d74ea1ddaf7f09de33c70512e574c825",
+      "identical": true,
+      "path": "verification/reference/acceptance.py"
+    },
+    {
+      "after_sha256": "54edcc98506fc2d762155c100e22d5bf728e9cac362a590b393916048f711258",
+      "before_sha256": "54edcc98506fc2d762155c100e22d5bf728e9cac362a590b393916048f711258",
+      "identical": true,
+      "path": "verification/reference/mutations.py"
+    },
+    {
+      "after_sha256": "75c8ab04beb57a09bfd392055f0a73b8cc16fbaa51a032c592f302fe75f025a3",
+      "before_sha256": "75c8ab04beb57a09bfd392055f0a73b8cc16fbaa51a032c592f302fe75f025a3",
+      "identical": true,
+      "path": "verification/reference/profile.py"
+    },
+    {
+      "after_sha256": "4d2a54bb8c59b37342cafab9ff5cc01edbb133aeb23f8e2d024aa209ad631097",
+      "before_sha256": "4d2a54bb8c59b37342cafab9ff5cc01edbb133aeb23f8e2d024aa209ad631097",
+      "identical": true,
+      "path": "verification/reference/release-verification.json"
+    }
+  ],
+  "status": "passed"
+}

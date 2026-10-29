@@ -1,0 +1,45 @@
+{
+  "scope": "Verificação documental e cálculos didáticos; sem execução do motor ou das campanhas.",
+  "word_count": 18734,
+  "heading_count": 28,
+  "score_weights_total": 100,
+  "language_scores": {
+    "Rust": 91.6,
+    "C++": 81.8,
+    "C#": 85.0,
+    "Java": 77.6
+  },
+  "weighted_graph_exact_solution": [
+    "22/35",
+    "11/35",
+    "2/35"
+  ],
+  "historical_coverage_recomputed_from_published_table": {
+    "B": 0.2222222222222222,
+    "C0": 0.4444444444444444,
+    "C1": 0.4722222222222222
+  },
+  "c1_vs_b": {
+    "wins": 6,
+    "losses": 4,
+    "ties": 2,
+    "zero_coverage_tasks": 6
+  },
+  "bootstrap_probability_no_T01": 0.3519956280141371,
+  "embeddings_example": {
+    "bytes": 153600000,
+    "MB": 153.6,
+    "MiB": 146.484375
+  },
+  "all_source_labels_defined": true,
+  "chapters_1_to_20_present": true,
+  "product_executed": false,
+  "scientific_campaign_reproduced": false,
+  "pdf_pages": 49,
+  "pdf_outline_entries": 28,
+  "coverage_matrix_topics": 57,
+  "decision_records": 26,
+  "rendered_page_coordinate_outliers": 0,
+  "pdf_replacement_characters": 0,
+  "pdf_rendering_inspected": "Primeira versão e versão final renderizadas; contato visual de todas as páginas, inspeções ampliadas dos casos representativos."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1",
+  "intent": "Inspecionar checkoutSignal sem ocultar uma pendência de interpretação",
+  "obligations": [
+    {
+      "id": "checkout-definition",
+      "kind": "symbol_definition",
+      "symbol": {"name": "checkoutSignal"}
+    }
+  ],
+  "interpretation_pending": [
+    "Definir qual comportamento de checkoutSignal precisa ser avaliado"
+  ]
+}

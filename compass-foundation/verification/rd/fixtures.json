@@ -1,0 +1,212 @@
+{
+  "boundaries": {
+    "S": 131224,
+    "S_manifest": 128656,
+    "W": 81922,
+    "line": [
+      4096,
+      4097
+    ],
+    "measurement": {
+      "bytes": 4096000,
+      "files": 1000,
+      "known": 1000,
+      "reserved": 4097000,
+      "returned": 20
+    },
+    "peak": 213146,
+    "query": [
+      256,
+      257
+    ]
+  },
+  "literal": [
+    {
+      "hits": [
+        {
+          "end_byte": "5",
+          "line": "1",
+          "start_byte": "0",
+          "text": "alvo\n"
+        },
+        {
+          "end_byte": "20",
+          "line": "3",
+          "start_byte": "10",
+          "text": "alvo alvo\n"
+        }
+      ],
+      "id": "RD01",
+      "query": "alvo",
+      "raw": "YWx2bwpOYWRhCmFsdm8gYWx2bwo=",
+      "sha256": "209af09f4784d5c5c5e38cb677c044cc13cdbd3d9ee18d10a1a4714628a89ea1"
+    },
+    {
+      "hits": [
+        {
+          "end_byte": "4",
+          "line": "1",
+          "start_byte": "0",
+          "text": "aaa\n"
+        }
+      ],
+      "id": "RD02",
+      "query": "aa",
+      "raw": "YWFhCg==",
+      "sha256": "17e682f060b5f8e47ea04c5c4855908b0a5ad612022260fe50e11ecb0cc0ab76"
+    },
+    {
+      "hits": [],
+      "id": "RD03",
+      "query": "absent",
+      "raw": "YWJjCg==",
+      "sha256": "edeaaff3f1774ad2888673770c6d64097e391bc362d7d6fb34982ddf0efd18cb"
+    },
+    {
+      "hits": [],
+      "id": "RD04",
+      "query": "x",
+      "raw": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "hits": [],
+      "id": "RD04",
+      "query": "x",
+      "raw": "Cg==",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "hits": [
+        {
+          "end_byte": "8",
+          "line": "1",
+          "start_byte": "0",
+          "text": "é🙂\r\n"
+        }
+      ],
+      "id": "RD05",
+      "query": "🙂",
+      "raw": "w6nwn5mCDQpuZWVkbGUK",
+      "sha256": "0fb6ba8523134bf598837924d5ed7571b1fdc36a64c92d9de3b973f8858452b1"
+    },
+    {
+      "hits": [
+        {
+          "end_byte": "15",
+          "line": "2",
+          "start_byte": "8",
+          "text": "needle\n"
+        }
+      ],
+      "id": "RD05",
+      "query": "needle",
+      "raw": "w6nwn5mCDQpuZWVkbGUK",
+      "sha256": "0fb6ba8523134bf598837924d5ed7571b1fdc36a64c92d9de3b973f8858452b1"
+    },
+    {
+      "hits": [
+        {
+          "end_byte": "8",
+          "line": "1",
+          "start_byte": "0",
+          "text": "a\rb c\n"
+        }
+      ],
+      "id": "RD05",
+      "query": "b",
+      "raw": "YQ1i4oCoYwo=",
+      "sha256": "7b7ed88649bc64b70630df94bb8fc420318826a6e6302102669b3f061fe0fd05"
+    },
+    {
+      "hits": [
+        {
+          "end_byte": "8",
+          "line": "1",
+          "start_byte": "0",
+          "text": "﻿alvo\n"
+        }
+      ],
+      "id": "RD06",
+      "query": "alvo",
+      "raw": "77u/YWx2bwo=",
+      "sha256": "0d96ba3728fdcf797f86a9e1e2d38744e8c4219b8b21757fa7a2beec9068129e"
+    },
+    {
+      "hits": [],
+      "id": "RD06",
+      "query": "é",
+      "raw": "w6kK",
+      "sha256": "edd3a863872a04239eb29ad4bc12fc892b3d4ae57cc7e786a3697816f8e141c2"
+    },
+    {
+      "hits": [],
+      "id": "RD02",
+      "query": "ALVO",
+      "raw": "YWx2bwo=",
+      "sha256": "db6e01d03a4a05ac33e60c46a6342da6b2a97a40df7d2da52f6f1a6079322778"
+    },
+    {
+      "hits": [
+        {
+          "end_byte": "8",
+          "line": "1",
+          "start_byte": "0",
+          "text": " [.*]\t \n"
+        }
+      ],
+      "id": "RD02",
+      "query": " [.*]\t ",
+      "raw": "IFsuKl0JIAo=",
+      "sha256": "4af524e7dd6edf989fe55982671403098fd01a74cce2728ee504545423ff8197"
+    }
+  ],
+  "mutation_control": {
+    "matches": [
+      {
+        "content_sha256": "209af09f4784d5c5c5e38cb677c044cc13cdbd3d9ee18d10a1a4714628a89ea1",
+        "end_byte": "5",
+        "line": "1",
+        "path_key": "YS50eHQ",
+        "size_bytes": "20",
+        "start_byte": "0",
+        "text": "alvo\n"
+      }
+    ],
+    "scan": {
+      "matches_returned": "1",
+      "matches_truncated": true,
+      "matching_lines_known": "2",
+      "reasons": [
+        "unresolved_files"
+      ],
+      "status": "partial"
+    }
+  },
+  "scenarios": {
+    "RD01": "`a.txt=\"alvo\\nNada\\nalvo alvo\\n\"`, query alvo: hits linha 1 [0,5) e linha 3 [10,20); 3 ocorrências textuais dão **2 linhas**.",
+    "RD02": "`aaa\\n`, query aa: um hit linha 1 [0,4); ALVO não encontra alvo; regex/pontuação e espaços são literais.",
+    "RD03": "Query ausente em texto verificado: complete/0, zero hits; scoped ao snapshot.",
+    "RD04": "Vazio e `\\n`: zero/uma linha, nenhum hit com query não vazia, ambos searched e EOF verificado; reserva 1 no vazio.",
+    "RD05": "`é🙂\\r\\nneedle\\n` (15 bytes): 🙂 retorna linha 1 [0,8); needle linha 2 [8,15). Texto inclui CRLF/LF. CR isolado e U+2028 não separam linhas; o oráculo não pode usar splitlines genérico.",
+    "RD06": "BOM+`alvo\\n` (8 bytes): query alvo retorna [0,8), BOM preservado; é e e+combining não são normalizados.",
+    "RD07": "Caminhos nativos incluindo `0xff`, `10`, `2`: ordem por bytes, path_key sem perda; nomes nunca viram caminho de objeto.",
+    "RD08": "UTF-8 inválido e NUL: non_text, razões exatas e checks verified; fora dos hits; precedência invalid_utf8 antes de nul.",
+    "RD09": "Um arquivo ausente + outro textual válido: partial/3; removendo o válido, unavailable/1. Nenhuma falha vira zero completo.",
+    "RD10": "Adulteração mesmo tamanho, menor e maior: hash/size/EOF e actual_revision corretos; nenhum trecho adulterado.",
+    "RD11": "Raiz/objects/objeto symlink, link pendente, FIFO/socket: motivos exatos, sem leitura externa ou bloqueio indefinido; controle regular passa.",
+    "RD12": "Barreira troca nome/componente/ancestral antes da reconferência, inclusive alias/../package: source_unstable, sem hits desse arquivo; referências estáveis seguem válidas.",
+    "RD13": "Snapshot parcial com observed verificado + cobertura desconhecida: hit permitido, scan partial; parcial sem resolvido: unavailable. Excluded não é lido.",
+    "RD14": "Fronteiras de s+1 e saldo não devolvido; recusa de arquivo grande não impede posterior menor; arquivos de mesmo hash debitados por caminho.",
+    "RD15": "Linha de 4096 bytes admitida; 4097 bloqueia todo o arquivo antes de reter hits. Query de 256 bytes admitida e 257 recusada; fronteiras contam UTF-8 bruto.",
+    "RD16": "Três linhas matching, max_matches=1: primeiro hit, known=3, truncated=true; falha em arquivo posterior continua aparecendo e reduz cobertura.",
+    "RD17": "S_manifest/S/W exatamente no teto e abaixo; preflight antes do domínio, W antes de leitura/reserva; créditos/peak literais independentes.",
+    "RD18": "JSON duplicado, campos extras, profundidade, números/strings u64, negativo/float/overflow e perfil incompleto: envelope/código/exit específicos.",
+    "RD19": "SIGINT/deadline sincronizados durante leitura/busca e antes de publicar; cancelamento vence deadline/erro, nenhum relatório parcial.",
+    "RD20": "Fluxo init→snapshot→pacote→search; árvore viva removida, mesmo stdout; sem escrita no acervo/pacote/manifesto.",
+    "RD21": "Descritor inválido/binding divergente também no universo vazio; snapshot/pacote de revisão diferente não é reconciliado silenciosamente.",
+    "RD22": "JCS, Unicode, strings u64, newline/escapes, output exato no cap e acima: sem prefixo preparado ou perda silenciosa; query igual a d0/init/search não troca comando.",
+    "RD23": "S0/S1 mesmo path com conteúdos diferentes: cada busca entrega bytes do seu snapshot/pacote; pacote trocado falha; D0 baixo/zero não autoriza mistura.",
+    "RD24": "Oráculo/validador: controle válido e mutações de trecho, offsets, revisão, cobertura falsamente complete e truncamento; cada uma deve atingir a asserção específica."
+  }
+}

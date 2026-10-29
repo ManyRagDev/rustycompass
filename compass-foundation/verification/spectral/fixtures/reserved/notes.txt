@@ -1,0 +1,1 @@
+Synthetic repository. Runtime callback and environment are supplied outside this repository.

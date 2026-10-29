@@ -1,0 +1,34 @@
+{
+  "absolute_tolerance": 3e-05,
+  "cases": 7,
+  "checks": [
+    "pinned_install_reuse",
+    "independent_embeddings",
+    "contiguous_utf8_bytes",
+    "original_lines",
+    "syntax_boundaries",
+    "no_silent_truncation",
+    "hash_mismatch",
+    "cancel"
+  ],
+  "cosine_minimum_assertion": 0.99999,
+  "dimensions": 384,
+  "long_document_spans": 3,
+  "max_abs_error": 1.51805579662323e-07,
+  "model": {
+    "backend": "candle-0.9.2-cpu-f32",
+    "dimensions": 384,
+    "fingerprint": "aca42574d20750e01376f459f8a88a0abf0b1674b1c8fdb842bf833a23761eaa",
+    "max_tokens": 512,
+    "model_id": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "segmenter_id": "syntax-boundaries-or-utf8-contiguous-halving-16384-e5passage512-v1"
+  },
+  "oracle_sha256": "f947b5dac55e30b35e3fdc7b1f823c8f993388aa266dfe7c65c887caba1c63ae",
+  "producer_build": "sha256:9ab2d5e5a93098b020909866957c455ac1ef2e95081cfc95702c1d146498e62c",
+  "semantic_source_sha256": "612fecb761f58a329cd659ee69ba5a33bfcf5bd992e9f184979a3d58506a711a",
+  "syntax_spans": 2,
+  "token_ids_exact": true,
+  "status": "passed",
+  "scope": "Focused model/backend test; producer_build identifies tested source tree, not necessarily latest unrelated graph/transport changes."
+}

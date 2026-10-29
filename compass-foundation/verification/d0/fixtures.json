@@ -1,0 +1,36 @@
+{
+  "origin": "Literal independent expectations authored before Rust D0 execution; frozen E01–E55 referenced read-only",
+  "frozen_cases": "research/proposals/d0-c2/fixtures/cases.json",
+  "index_sha256": "63168b321845393168134a30afa39811e702eecc678b31c06f3bc24d3c17208e",
+  "additional_literals": {
+    "native_metadata": {
+      "path_hex": [
+        "41",
+        "61",
+        "ff"
+      ],
+      "C": "0",
+      "M": "6"
+    },
+    "unchanged_mass": {
+      "C": "2",
+      "M": "20"
+    },
+    "same_root_empty": {
+      "reserved": "1"
+    },
+    "distinct_roots_empty": {
+      "reserved": "2"
+    },
+    "prefix_abc_abcd": {
+      "actual_revision": null,
+      "hash_check": null,
+      "size_check": false
+    }
+  },
+  "checkpoint_proofs": {
+    "E35": "I1/R1: SIGINT after p before q; expired deadline before publication; SIGINT priority",
+    "E43": "I1/R1: replace regular object/name/components after open; metadata recheck; no retry; preserve EOF facts",
+    "E46": "I1/R1: bounded read checkpoints and S_manifest before constructing domain; no RSS guarantee"
+  }
+}

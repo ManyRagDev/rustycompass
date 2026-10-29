@@ -1,0 +1,271 @@
+{
+  "binary_sha256": "f263dad974f60186eebae512b446d498557a72f2d39d3d72f6ce7588171dc09a",
+  "controls_sha256": "2f4eb35d52fa78487fd663e4dd8d5385fee83b58c7b22383b0f589425c830f61",
+  "results": [
+    {
+      "split": "dev",
+      "generation": "78356fe3-1b6a-46a5-96fb-c70e0af2202b",
+      "updated_generation": "bc08bfad-e4cc-4447-a862-9349e1dafda2",
+      "variants": {
+        "none": {
+          "files": [
+            "checkout.py"
+          ],
+          "payload_bytes": 1461,
+          "expected_recall": 0.5,
+          "path_precision": 1.0
+        },
+        "bfs": {
+          "files": [
+            "checkout.py",
+            "ledger.py"
+          ],
+          "payload_bytes": 2057,
+          "expected_recall": 1.0,
+          "path_precision": 1.0
+        },
+        "heat": {
+          "files": [
+            "checkout.py",
+            "ledger.py"
+          ],
+          "payload_bytes": 2308,
+          "expected_recall": 1.0,
+          "path_precision": 1.0
+        }
+      },
+      "semantic_top3": [
+        "ledger.py",
+        "checkout.py",
+        "Badge.tsx"
+      ],
+      "disk_bytes": "442782",
+      "semantic_reused_files": 6,
+      "checks": "passed"
+    },
+    {
+      "split": "holdout",
+      "generation": "6dd25379-8b91-43ae-9a14-23fe43aca084",
+      "updated_generation": "55a527a3-2f08-4bf7-a5be-c1fa232cde43",
+      "variants": {
+        "none": {
+          "files": [
+            "visitor.py"
+          ],
+          "payload_bytes": 1426,
+          "expected_recall": 0.5,
+          "path_precision": 1.0
+        },
+        "bfs": {
+          "files": [
+            "reservations.py",
+            "visitor.py"
+          ],
+          "payload_bytes": 2072,
+          "expected_recall": 1.0,
+          "path_precision": 1.0
+        },
+        "heat": {
+          "files": [
+            "reservations.py",
+            "visitor.py"
+          ],
+          "payload_bytes": 2324,
+          "expected_recall": 1.0,
+          "path_precision": 1.0
+        }
+      },
+      "semantic_top3": [
+        "reservations.py",
+        "visitor.py",
+        "network.ts"
+      ],
+      "disk_bytes": "270564",
+      "semantic_reused_files": 3,
+      "checks": "passed"
+    }
+  ],
+  "measurements": [
+    {
+      "operation": "collection prepare",
+      "seconds": 1.6081755699997302,
+      "peak_rss_kib": 1237016,
+      "stdout_bytes": 3058
+    },
+    {
+      "operation": "files --store",
+      "seconds": 0.002910539013100788,
+      "peak_rss_kib": 7228,
+      "stdout_bytes": 1213
+    },
+    {
+      "operation": "query --store",
+      "seconds": 0.006606168986763805,
+      "peak_rss_kib": 8648,
+      "stdout_bytes": 1026
+    },
+    {
+      "operation": "query --store",
+      "seconds": 1.2831361510034185,
+      "peak_rss_kib": 1231388,
+      "stdout_bytes": 1747
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.006169806991238147,
+      "peak_rss_kib": 8512,
+      "stdout_bytes": 1462
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.005421406996902078,
+      "peak_rss_kib": 8340,
+      "stdout_bytes": 2058
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.004808460013009608,
+      "peak_rss_kib": 8688,
+      "stdout_bytes": 2309
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.006159707001643255,
+      "peak_rss_kib": 8504,
+      "stdout_bytes": 1462
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.005164989997865632,
+      "peak_rss_kib": 8532,
+      "stdout_bytes": 2058
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.00632955101900734,
+      "peak_rss_kib": 8732,
+      "stdout_bytes": 2309
+    },
+    {
+      "operation": "collection update",
+      "seconds": 1.3416745950235054,
+      "peak_rss_kib": 1236868,
+      "stdout_bytes": 3093
+    },
+    {
+      "operation": "query --store",
+      "seconds": 0.004842280992306769,
+      "peak_rss_kib": 8584,
+      "stdout_bytes": 1026
+    },
+    {
+      "operation": "query --store",
+      "seconds": 0.005688573990482837,
+      "peak_rss_kib": 8456,
+      "stdout_bytes": 561
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.006118195015005767,
+      "peak_rss_kib": 8968,
+      "stdout_bytes": 2309
+    },
+    {
+      "operation": "collection status",
+      "seconds": 0.005495777993928641,
+      "peak_rss_kib": 8524,
+      "stdout_bytes": 3398
+    },
+    {
+      "operation": "collection prepare",
+      "seconds": 1.4474285079922993,
+      "peak_rss_kib": 1234948,
+      "stdout_bytes": 2364
+    },
+    {
+      "operation": "files --store",
+      "seconds": 0.002895058016292751,
+      "peak_rss_kib": 7284,
+      "stdout_bytes": 792
+    },
+    {
+      "operation": "query --store",
+      "seconds": 0.004628135007806122,
+      "peak_rss_kib": 8192,
+      "stdout_bytes": 990
+    },
+    {
+      "operation": "query --store",
+      "seconds": 1.3192357790248934,
+      "peak_rss_kib": 1230876,
+      "stdout_bytes": 1696
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.004168683022726327,
+      "peak_rss_kib": 8020,
+      "stdout_bytes": 1427
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.00382360300864093,
+      "peak_rss_kib": 8428,
+      "stdout_bytes": 2073
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.005026105995057151,
+      "peak_rss_kib": 8228,
+      "stdout_bytes": 2325
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.005211661016801372,
+      "peak_rss_kib": 8260,
+      "stdout_bytes": 1427
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.007826891989680007,
+      "peak_rss_kib": 8332,
+      "stdout_bytes": 2073
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.005710063996957615,
+      "peak_rss_kib": 8572,
+      "stdout_bytes": 2325
+    },
+    {
+      "operation": "collection update",
+      "seconds": 1.3614191399828997,
+      "peak_rss_kib": 1235060,
+      "stdout_bytes": 2399
+    },
+    {
+      "operation": "query --store",
+      "seconds": 0.0049772950005717576,
+      "peak_rss_kib": 8252,
+      "stdout_bytes": 990
+    },
+    {
+      "operation": "query --store",
+      "seconds": 0.004847991018323228,
+      "peak_rss_kib": 8128,
+      "stdout_bytes": 561
+    },
+    {
+      "operation": "retrieve --store",
+      "seconds": 0.005101548013044521,
+      "peak_rss_kib": 8368,
+      "stdout_bytes": 2325
+    },
+    {
+      "operation": "collection status",
+      "seconds": 0.004319347004638985,
+      "peak_rss_kib": 7816,
+      "stdout_bytes": 2706
+    }
+  ],
+  "measurement_conditions": "Separate CLI processes, uncontrolled OS page cache; peak RSS from /usr/bin/time. Synthetic fixtures, no efficacy generalization."
+}

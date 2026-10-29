@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "command": "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/scripts/compass-mcp.sh",
+  "protocol": "2025-11-25",
+  "checks": [
+    "initialize",
+    "tools/list",
+    "demo search/read/continuation",
+    "original bytes/hash",
+    "same revision",
+    "compass source search/read",
+    "managed heat pack",
+    "managed semantic query",
+    "managed verified read",
+    "contract discovery",
+    "one-call current-pack sufficient evidence",
+    "interpretation pending blocks sufficiency",
+    "spectral policy discovery",
+    "spectral terminal pack with explicit scope and fixed generation",
+    "foreign cwd",
+    "clean EOF shutdown"
+  ],
+  "snapshots": {
+    "demo": {
+      "path_namespace": "linux_bytes_v1",
+      "policy_id": "27fa6dd768b4334c12f38f410a4b3d9ed403577cf42dd4e14d3d1df3fd976c7e",
+      "quality": "complete",
+      "snapshot_file_sha256": "683c2ff5cde394101cb7fdc03e999cd0f015a880c8fb4066948c2d6dd43df622",
+      "snapshot_id": "744be940-589e-4b91-a9fb-e34aad962d88",
+      "state_digest": "50bbe9b31b8d43e0ad9bc169b77844eccb9cab75d0cff9ae2c66a3f838d66313",
+      "workspace_id": "6b1eb9c6-43eb-49f1-80ea-f00f2f53e61c"
+    },
+    "compass-source": {
+      "path_namespace": "linux_bytes_v1",
+      "policy_id": "27fa6dd768b4334c12f38f410a4b3d9ed403577cf42dd4e14d3d1df3fd976c7e",
+      "quality": "complete",
+      "snapshot_file_sha256": "7969baca909cafcf56535a23833f3ab29f7b24d90a2863111dcc4f2873fa45b7",
+      "snapshot_id": "cd0fc73c-43b7-4eda-9b6c-8fc77694f940",
+      "state_digest": "ada2d5f9f390e5576bad8f993c79ab929dd77f2a6ca1680b2b7e58181ba3e6f0",
+      "workspace_id": "ea831498-dcab-4919-a19a-bb34d84a769c"
+    }
+  }
+}

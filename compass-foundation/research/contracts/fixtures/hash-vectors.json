@@ -1,0 +1,19 @@
+{
+  "sha256": [
+    {
+      "utf8": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "utf8": "abc",
+      "sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+    }
+  ],
+  "jcs": [
+    {
+      "input": "{\"b\":2,\"a\":1}",
+      "canonical": "{\"a\":1,\"b\":2}"
+    }
+  ],
+  "policy_id": "27fa6dd768b4334c12f38f410a4b3d9ed403577cf42dd4e14d3d1df3fd976c7e"
+}

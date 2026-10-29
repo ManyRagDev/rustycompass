@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "cell_budget": {
+      "const": "normalized_lines_exact_equal_zero_else_n0_times_nt_v1"
+    },
+    "diff": {
+      "const": "exact_line_lcs_insert_delete"
+    },
+    "limits": {
+      "additionalProperties": false,
+      "properties": {
+        "max_cells_per_unit": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_cells_total": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_duration_ms": {
+          "anyOf": [
+            {
+              "maxLength": 20,
+              "pattern": "^[1-9][0-9]*$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "max_file_bytes": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_json_depth": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_lines_per_side": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_logical_memory_bytes": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_manifest_bytes": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_output_bytes": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_records": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_source_descriptor_bytes": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        },
+        "max_total_object_bytes": {
+          "maxLength": 20,
+          "pattern": "^[1-9][0-9]*$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "max_manifest_bytes",
+        "max_source_descriptor_bytes",
+        "max_records",
+        "max_json_depth",
+        "max_file_bytes",
+        "max_total_object_bytes",
+        "max_lines_per_side",
+        "max_cells_per_unit",
+        "max_cells_total",
+        "max_logical_memory_bytes",
+        "max_output_bytes",
+        "max_duration_ms"
+      ],
+      "type": "object"
+    },
+    "memory_accounting": {
+      "const": "logical_credits_v1"
+    },
+    "metric_version": {
+      "const": "1"
+    },
+    "normalization": {
+      "const": "one_initial_bom_crlf_terminal_lf_v1"
+    },
+    "object_budget": {
+      "const": "declared_size_plus_one_nonrefundable_v1"
+    },
+    "order": {
+      "const": "native_path_bytes_baseline_first"
+    },
+    "rounding": {
+      "const": "six_places_half_even_integer"
+    },
+    "sensor_id": {
+      "const": "d0_line_mass_v1"
+    },
+    "sources": {
+      "const": "verified_external_packages_v1"
+    },
+    "text": {
+      "const": "strict_utf8_without_nul"
+    },
+    "unknown": {
+      "const": "blocks_integral"
+    },
+    "weight": {
+      "const": "bilateral_line_mass"
+    },
+    "zero": {
+      "const": "explicit_empty_or_zero_mass_v1"
+    }
+  },
+  "required": [
+    "sensor_id",
+    "metric_version",
+    "text",
+    "normalization",
+    "diff",
+    "weight",
+    "zero",
+    "rounding",
+    "unknown",
+    "sources",
+    "order",
+    "memory_accounting",
+    "object_budget",
+    "cell_budget",
+    "limits"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "source_root": "/home/many/Projetos/PostSpark 3",
+  "corpus_root": "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/.compass/evaluation/postspark-v1/corpus",
+  "corpus_id": "449101e71aeac3d10cd76e4fc1ccb1c69d8ba247d11e353c8ff129bf1665b98f",
+  "identity_rule": "sha256(JSON inventory sorted keys, compact separators, UTF-8); bytes, not HEAD",
+  "scope": "Selected TypeScript files under editor, creative and typography, plus six explicit shared/migration files; not the full app",
+  "files": [
+    {
+      "path": "client/src/editor/adapters/elementGeometryAdapters.test.ts",
+      "sha256": "78434d62ed4897000e1e069d28a61817f496f7e3ed7b379e83c159881b68ce6e",
+      "size_bytes": 3322
+    },
+    {
+      "path": "client/src/editor/adapters/elementGeometryAdapters.ts",
+      "sha256": "d36884c69bd551443dc281b13bab54a7b5f79dd7d1023d918c3d9d5122aec165",
+      "size_bytes": 3382
+    },
+    {
+      "path": "client/src/editor/adapters/index.ts",
+      "sha256": "9583e8edc41c86159f8a61d20588c55c5d22a251756e92a5880dd1d931764c72",
+      "size_bytes": 86
+    },
+    {
+      "path": "client/src/editor/adapters/layoutPositionAdapter.test.ts",
+      "sha256": "bbf54dc99811318c5a6aa5b958ccab8da74c13c911c32dfb897efaf39d785f9b",
+      "size_bytes": 4745
+    },
+    {
+      "path": "client/src/editor/adapters/layoutPositionAdapter.ts",
+      "sha256": "8be96eb09f7ddb771072995c721d844be5a56da64f4c513821d7a123ff8a0b37",
+      "size_bytes": 3035
+    },
+    {
+      "path": "client/src/editor/geometry/bounds.ts",
+      "sha256": "4a11e27211ece0029e9e59c643f25ef9e44fef148cc17874571e1270d54211f8",
+      "size_bytes": 2756
+    },
+    {
+      "path": "client/src/editor/geometry/canvasMetrics.ts",
+      "sha256": "4cba14ca1e987f50273f5126cf4f82b36b57bb72861bc697cc4f3883796d9e6a",
+      "size_bytes": 1303
+    },
+    {
+      "path": "client/src/editor/geometry/constraints.ts",
+      "sha256": "8fb4be80a14b57cb40bcedd0e4bdd0c7c32d5efc7f960b012d3aee2195398838",
+      "size_bytes": 7814
+    },
+    {
+      "path": "client/src/editor/geometry/geometry.test.ts",
+      "sha256": "a8e9e11943150fe27c5fd901587fa63df82a45ee8bf31566187c5eb916320b8f",
+      "size_bytes": 12450
+    },
+    {
+      "path": "client/src/editor/geometry/index.ts",
+      "sha256": "895eca07dd693c11d28aec6eb0c5163bc35412b3872c28f7e35bc349fd60767a",
+      "size_bytes": 150
+    },
+    {
+      "path": "client/src/editor/geometry/transforms.ts",
+      "sha256": "c5aaed820e89e01d63a4cf95144ce7cdcd8fb1999d4dd477f4178063a89a5a88",
+      "size_bytes": 2672
+    },
+    {
+      "path": "client/src/editor/geometry/types.ts",
+      "sha256": "45cbfcbf3802bc0a6ab96345f070ce121baef9019926fb8837ced96001384f2c",
+      "size_bytes": 5121
+    },
+    {
+      "path": "client/src/editor/history/historyStack.test.ts",
+      "sha256": "082f95d77002a6ab04d9da6806d962583a25f2e0e8593f8998911cab424b5735",
+      "size_bytes": 4397
+    },
+    {
+      "path": "client/src/editor/history/historyStack.ts",
+      "sha256": "a56e017fad4cdd70b86586fb0894db80f38d9876ed402d124aa6fb84737b9136",
+      "size_bytes": 1965
+    },
+    {
+      "path": "client/src/editor/history/index.ts",
+      "sha256": "4db4be2fefc0307ca791bad06817eec76417c446c646f66073bcaf0793b704d0",
+      "size_bytes": 235
+    },
+    {
+      "path": "client/src/editor/history/useEditorHistory.ts",
+      "sha256": "e799b6dd53b4c9fb4f4f3da9c67d542eefc03f834479f75864f8405ee794ad3d",
+      "size_bytes": 1267
+    },
+    {
+      "path": "client/src/editor/integration/CanvasInteractionProvider.tsx",
+      "sha256": "9a4ea2a9f9cd21eb8383decd81347a00d5e7331834b81c6f967fb6e9a776b2d2",
+      "size_bytes": 13848
+    },
+    {
+      "path": "client/src/editor/integration/ElementRegistry.test.ts",
+      "sha256": "792b0a231e89b09d6c9c7a5ca41aebbd422a63fd3eee6d9bf791ef89ed2271b4",
+      "size_bytes": 1560
+    },
+    {
+      "path": "client/src/editor/integration/ElementRegistry.ts",
+      "sha256": "d9ad93843d9b5e0fa61a95f5500d55d4be2d2ee0a81e9bb322d54808b96e6781",
+      "size_bytes": 2596
+    },
+    {
+      "path": "client/src/editor/integration/InteractionOverlay.tsx",
+      "sha256": "2fdb00ddc8b345145009e146899189168d6bb4e1a4496f0516ee5684af4dd73e",
+      "size_bytes": 6395
+    },
+    {
+      "path": "client/src/editor/integration/InteractiveElement.tsx",
+      "sha256": "d3910b2783391d0ff39a01f0fe4af0ff92650ed0d023f1e942881bf35b029398",
+      "size_bytes": 1707
+    },
+    {
+      "path": "client/src/editor/integration/blockInteraction.test.ts",
+      "sha256": "c83564700340f9773ab7871b5657335379a0172f356c2fe1e473c7fad9fa60ba",
+      "size_bytes": 4006
+    },
+    {
+      "path": "client/src/editor/integration/editorBindings.ts",
+      "sha256": "8c4a409dee3eb6070c01c6904ac7300e3440594dd5008625d93e8fcdbde00f1b",
+      "size_bytes": 447
+    },
+    {
+      "path": "client/src/editor/integration/firstDrag.dom.test.tsx",
+      "sha256": "c5b9e276b90af619eca6d11ba1c4cdc9b9826aeda008c7f30be63c8850bb35ee",
+      "size_bytes": 6626
+    },
+    {
+      "path": "client/src/editor/interaction/index.ts",
+      "sha256": "eeef0bb362181dee1f364669b8b652b4561d469444d43d3968f22dcd0bd0e04e",
+      "size_bytes": 142
+    },
+    {
+      "path": "client/src/editor/interaction/interaction.test.ts",
+      "sha256": "3ea475096f0173a34e86adffda74c76a1a458078199cbbe632c28e3eab787fed",
+      "size_bytes": 20320
+    },
+    {
+      "path": "client/src/editor/interaction/interactionController.ts",
+      "sha256": "ee549b67d6c97b148c590773a08f1e7f4bebd2525912bc08abbc40860f52feb2",
+      "size_bytes": 6874
+    },
+    {
+      "path": "client/src/editor/interaction/interactionReducer.ts",
+      "sha256": "64c4bde84adbd499903a54bd8088d893424d9c849e1a6aa85e5b0557d3cad6f5",
+      "size_bytes": 8781
+    },
+    {
+      "path": "client/src/editor/interaction/transientStore.ts",
+      "sha256": "ca244a6fc5b5310e404177bdd6f32fb1fbb2d3998cd0c1292a7ff7bc119177d2",
+      "size_bytes": 979
+    },
+    {
+      "path": "client/src/editor/interaction/types.ts",
+      "sha256": "5aca4c1ca3fd5a4874f8eb759faae598fb083636cdfe44e47bc8bf9372e711d1",
+      "size_bytes": 4953
+    },
+    {
+      "path": "client/src/editor/snap/snapEngine.ts",
+      "sha256": "d437b3681e6b3d5d937a1e98347f77fa2183b0aba8640ea78e57828a1b96ec39",
+      "size_bytes": 6220
+    },
+    {
+      "path": "client/src/lib/snapshotMigration.test.ts",
+      "sha256": "bf69f1cf63be086e45454bb116f803aad79857e757555090585fac08c262c7fa",
+      "size_bytes": 3187
+    },
+    {
+      "path": "client/src/lib/snapshotMigration.ts",
+      "sha256": "a2e71aff38ce4fd8643724a13efeaa784e79da0e3e9105ef38e77c9dc1665084",
+      "size_bytes": 2313
+    },
+    {
+      "path": "shared/creative/color.test.ts",
+      "sha256": "57c16e3d94d3decd90a049153cf359c7a4b7441d221ec6b2318dd390e8515506",
+      "size_bytes": 2853
+    },
+    {
+      "path": "shared/creative/color.ts",
+      "sha256": "ecbeb8aadf986ff4d0bf196710ca46ab50e44470df52181a330f2a8f30992d15",
+      "size_bytes": 7249
+    },
+    {
+      "path": "shared/creative/compose.test.ts",
+      "sha256": "39c0b74045c4db9fd4b6425d4effab68e5fdcd810addfb44daa82809f3b64a14",
+      "size_bytes": 2562
+    },
+    {
+      "path": "shared/creative/compose.ts",
+      "sha256": "7fd2677f06460ad80f30d82fbb667733a1835009b76ae82452ef14d72553eaae",
+      "size_bytes": 10304
+    },
+    {
+      "path": "shared/creative/directCreative.test.ts",
+      "sha256": "2e76abe15d585244686d961826c79e919305fa34dc2ab39949c0461e562e1683",
+      "size_bytes": 2178
+    },
+    {
+      "path": "shared/creative/directCreative.ts",
+      "sha256": "34a93161d3af7492c73c8c9950c6e1c7800b4893323757951153e955236df280",
+      "size_bytes": 6376
+    },
+    {
+      "path": "shared/creative/families.ts",
+      "sha256": "f5fdebf0a7e29e9cb9df266155d0881b8f61214d5a10f7355dbf2d1623964735",
+      "size_bytes": 25868
+    },
+    {
+      "path": "shared/creative/familyGeometry.test.ts",
+      "sha256": "da25ef901ad29ab2da884c1397c49c5ab5da4d466bfd1cc85499007e4dfc46c8",
+      "size_bytes": 8487
+    },
+    {
+      "path": "shared/creative/index.ts",
+      "sha256": "ab3c06dd95b025c7fca066834697813ab43c748bd4b7f6117bf07fd0551c3594",
+      "size_bytes": 255
+    },
+    {
+      "path": "shared/creative/layoutArchetypes.ts",
+      "sha256": "a94c884e21cbb72c1571c61952bfce857c2939101f92bc4ad7bbbd14baa950f6",
+      "size_bytes": 9000
+    },
+    {
+      "path": "shared/creative/palettes.ts",
+      "sha256": "584ca11937dbbc9ee985f4b24c8d799e3b4df940d50e4f578e8f2ff6871be088",
+      "size_bytes": 4607
+    },
+    {
+      "path": "shared/creative/seed.test.ts",
+      "sha256": "6e9443c0aa73307298e920c473003cd51f643905e0a5b6b5ae40a8cd0adad2c7",
+      "size_bytes": 1040
+    },
+    {
+      "path": "shared/creative/seed.ts",
+      "sha256": "68d0935b9dd670c052c78ad12c21c0aff4fb445a2eaa26b0e24dc6fe70863735",
+      "size_bytes": 737
+    },
+    {
+      "path": "shared/creative/types.ts",
+      "sha256": "3e4f6aaf2b7a123491d4b8e73e3c6a9ac5c6b42d494a839922d0b4ac95625eb7",
+      "size_bytes": 3380
+    },
+    {
+      "path": "shared/creative/utils.ts",
+      "sha256": "e3ae5ade68392174f1349bc8c76c8edaaa85a71c1ab93194096c652d8c3139e4",
+      "size_bytes": 739
+    },
+    {
+      "path": "shared/creative/visualDiversityPlan.test.ts",
+      "sha256": "7ee4509db052d9bff06f49b83fcb7c010e4be96c068daef8c52ae19b5d5d4b57",
+      "size_bytes": 1365
+    },
+    {
+      "path": "shared/creative/visualDiversityPlan.ts",
+      "sha256": "8709f9a0dcdc7edd170bf3066b711b8600b610be311cb6ed725c0af2a127f502",
+      "size_bytes": 5610
+    },
+    {
+      "path": "shared/layoutToAdvanced.ts",
+      "sha256": "dbc3d91ab3179b7b7f76ab0090ee72f5832cd98cdad681c127c0e541e2916769",
+      "size_bytes": 2691
+    },
+    {
+      "path": "shared/postspark.ts",
+      "sha256": "02ecc6fd280c5d6b6b82e766d266b4847f4f3a177d33f6375f8c13670f11d739",
+      "size_bytes": 39041
+    },
+    {
+      "path": "shared/typography/constants.ts",
+      "sha256": "ebe05c7ea5c7ccaba7b78084e2ef8f768579d7fc4c923fcc12387cbf1bffa3cd",
+      "size_bytes": 639
+    },
+    {
+      "path": "shared/typography/equivalence.test.ts",
+      "sha256": "bdac0813d3d996a297c4ef23c883e2a58ae5176170d37f6f9356b5fc57be2fa1",
+      "size_bytes": 3786
+    },
+    {
+      "path": "shared/typography/fit.ts",
+      "sha256": "600cfb1f5e3cf94c6c83d30d66a4b60a3fa46e934daf579432be0653a407ee3d",
+      "size_bytes": 4416
+    },
+    {
+      "path": "shared/typography/fontkitMeasurer.ts",
+      "sha256": "b9a0dc2182a31e499520c1537e01ac7f8f354392a61a2f2af20721634cb43905",
+      "size_bytes": 3524
+    },
+    {
+      "path": "shared/typography/fonts/registry.ts",
+      "sha256": "32b8195f261cafe53fca29a5e4b0f952da91b2ac69b30bbbec0684ccc5109b65",
+      "size_bytes": 3889
+    },
+    {
+      "path": "shared/typography/measurer.ts",
+      "sha256": "3f1733efb04cdf20b117e2b1746a3e9b57b31738a3548ec76c44f3ba4b636350",
+      "size_bytes": 1386
+    },
+    {
+      "path": "shared/typography/resolve.test.ts",
+      "sha256": "9625d637aaa69c438d9188cc43637e8c075956bd9421f00e3f6e6aaed0bf4eac",
+      "size_bytes": 5938
+    },
+    {
+      "path": "shared/typography/resolve.ts",
+      "sha256": "b8c8f09875122f0c5d923d330180716d7a8ac65401b948a0c2860035607478c2",
+      "size_bytes": 6577
+    },
+    {
+      "path": "shared/typography/types.ts",
+      "sha256": "08a1f437ea29ce464989fc1862887a5008797833c52cd541c4821e01184c7c4e",
+      "size_bytes": 2620
+    },
+    {
+      "path": "shared/typography/wrap.ts",
+      "sha256": "3398e3986d75bafce89a1ed0a30ba0973d62f5cf0e1ac32657aad15096386c8a",
+      "size_bytes": 1433
+    },
+    {
+      "path": "shared/variationSnapshot.ts",
+      "sha256": "f18dadfd7a50d33ec5641f5a881ef1278a8b0c48aed372a0376f2a21049192c4",
+      "size_bytes": 22416
+    },
+    {
+      "path": "shared/visualFit.ts",
+      "sha256": "b6b87cecea056c26955c05e75691436873b6280058937d554f5e5f9885e90d2f",
+      "size_bytes": 19059
+    }
+  ]
+}

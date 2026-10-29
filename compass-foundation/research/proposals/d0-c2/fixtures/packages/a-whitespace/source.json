@@ -1,0 +1,8 @@
+{
+  "source_schema_version": "1",
+  "source_contract_version": "0.1.0",
+  "workspace_id": "00000000-0000-4000-8000-000000000001",
+  "snapshot_id": "00000000-0000-4000-8000-000000000010",
+  "policy_id": "27fa6dd768b4334c12f38f410a4b3d9ed403577cf42dd4e14d3d1df3fd976c7e",
+  "snapshot_file_sha256": "21eb861a31e83ba72ca4a86e2e0a8bbc6f457ff6cb6fdf7479943d1c90bcb38e"
+}

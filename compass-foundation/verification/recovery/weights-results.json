@@ -1,0 +1,542 @@
+{
+  "status": "completed",
+  "experiment": "synthetic_relation_weights_v1",
+  "protocol": {
+    "theta": 1.0,
+    "top_k": 1,
+    "seeds": [
+      [
+        "entry",
+        1.0
+      ]
+    ],
+    "repetitions": 7,
+    "ranking": "heat descending; node ID ascending ties; seed excluded",
+    "timing": "external subprocess wall time includes startup, JSON, graph construction and heat; no kernel-only latency claim",
+    "relevance": "predeclared from query intent; same graph/seeds/theta/top-k for every policy",
+    "limitations": "two tiny label-permuted synthetic graphs; no held-out task corpus or statistical/generalization claim; not PostSpark"
+  },
+  "policies": {
+    "unit": {
+      "contains": 1.0,
+      "imports": 1.0,
+      "calls": 1.0
+    },
+    "calls_favored": {
+      "contains": 1.0,
+      "imports": 0.25,
+      "calls": 1.0
+    },
+    "imports_favored": {
+      "contains": 1.0,
+      "imports": 1.0,
+      "calls": 0.25
+    }
+  },
+  "fixtures": [
+    {
+      "name": "call-id-first",
+      "ids": [
+        "entry",
+        "a_call_helper",
+        "b_imported_module",
+        "c_nested_declaration"
+      ],
+      "typed_edges": [
+        [
+          "entry",
+          "a_call_helper",
+          "calls"
+        ],
+        [
+          "entry",
+          "b_imported_module",
+          "imports"
+        ],
+        [
+          "entry",
+          "c_nested_declaration",
+          "contains"
+        ]
+      ],
+      "queries": [
+        {
+          "name": "follow-call",
+          "text": "Find the helper implementation called by entry.",
+          "intent": "calls",
+          "relevant": [
+            "a_call_helper"
+          ]
+        },
+        {
+          "name": "follow-import",
+          "text": "Find the module imported locally by entry.",
+          "intent": "imports",
+          "relevant": [
+            "b_imported_module"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "import-id-first",
+      "ids": [
+        "entry",
+        "b_call_helper",
+        "a_imported_module",
+        "c_nested_declaration"
+      ],
+      "typed_edges": [
+        [
+          "entry",
+          "b_call_helper",
+          "calls"
+        ],
+        [
+          "entry",
+          "a_imported_module",
+          "imports"
+        ],
+        [
+          "entry",
+          "c_nested_declaration",
+          "contains"
+        ]
+      ],
+      "queries": [
+        {
+          "name": "follow-call",
+          "text": "Find the helper implementation called by entry.",
+          "intent": "calls",
+          "relevant": [
+            "b_call_helper"
+          ]
+        },
+        {
+          "name": "follow-import",
+          "text": "Find the module imported locally by entry.",
+          "intent": "imports",
+          "relevant": [
+            "a_imported_module"
+          ]
+        }
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "fixture": "call-id-first",
+      "policy": "unit",
+      "selected": [
+        "a_call_helper"
+      ],
+      "ranking": [
+        "a_call_helper",
+        "b_imported_module",
+        "c_nested_declaration"
+      ],
+      "scores": {
+        "a_call_helper": 0.184100715263166,
+        "b_imported_module": 0.184100715263166,
+        "c_nested_declaration": 0.184100715263166,
+        "entry": 0.4476978533788914
+      },
+      "iterations": 11,
+      "edge_visits": 66,
+      "analytic_tail_bound": 8.320140502016328e-10,
+      "elapsed_subprocess_ns": [
+        1065669,
+        1073860,
+        1049588,
+        1001987,
+        969006,
+        981437,
+        978597
+      ],
+      "median_elapsed_subprocess_ns": 1001987
+    },
+    {
+      "fixture": "call-id-first",
+      "policy": "calls_favored",
+      "selected": [
+        "a_call_helper"
+      ],
+      "ranking": [
+        "a_call_helper",
+        "c_nested_declaration",
+        "b_imported_module"
+      ],
+      "scores": {
+        "a_call_helper": 0.23375742765443452,
+        "b_imported_module": 0.07000307124029535,
+        "c_nested_declaration": 0.23375742765443452,
+        "entry": 0.46248207261922475
+      },
+      "iterations": 11,
+      "edge_visits": 66,
+      "analytic_tail_bound": 8.320140502016328e-10,
+      "elapsed_subprocess_ns": [
+        1023707,
+        1049498,
+        1000687,
+        1165801,
+        1056958,
+        1760377,
+        1023517
+      ],
+      "median_elapsed_subprocess_ns": 1049498
+    },
+    {
+      "fixture": "call-id-first",
+      "policy": "imports_favored",
+      "selected": [
+        "b_imported_module"
+      ],
+      "ranking": [
+        "b_imported_module",
+        "c_nested_declaration",
+        "a_call_helper"
+      ],
+      "scores": {
+        "a_call_helper": 0.07000307124029535,
+        "b_imported_module": 0.23375742765443452,
+        "c_nested_declaration": 0.23375742765443452,
+        "entry": 0.46248207261922475
+      },
+      "iterations": 11,
+      "edge_visits": 66,
+      "analytic_tail_bound": 8.320140502016328e-10,
+      "elapsed_subprocess_ns": [
+        1028418,
+        1243994,
+        1080870,
+        999577,
+        1085159,
+        1093010,
+        1105590
+      ],
+      "median_elapsed_subprocess_ns": 1085159
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "unit",
+      "selected": [
+        "a_imported_module"
+      ],
+      "ranking": [
+        "a_imported_module",
+        "b_call_helper",
+        "c_nested_declaration"
+      ],
+      "scores": {
+        "a_imported_module": 0.184100715263166,
+        "b_call_helper": 0.184100715263166,
+        "c_nested_declaration": 0.184100715263166,
+        "entry": 0.4476978533788914
+      },
+      "iterations": 11,
+      "edge_visits": 66,
+      "analytic_tail_bound": 8.320140502016328e-10,
+      "elapsed_subprocess_ns": [
+        986757,
+        992826,
+        1058958,
+        1019427,
+        1013067,
+        1019518,
+        997327
+      ],
+      "median_elapsed_subprocess_ns": 1013067
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "calls_favored",
+      "selected": [
+        "b_call_helper"
+      ],
+      "ranking": [
+        "b_call_helper",
+        "c_nested_declaration",
+        "a_imported_module"
+      ],
+      "scores": {
+        "a_imported_module": 0.07000307124029535,
+        "b_call_helper": 0.23375742765443452,
+        "c_nested_declaration": 0.23375742765443452,
+        "entry": 0.46248207261922475
+      },
+      "iterations": 11,
+      "edge_visits": 66,
+      "analytic_tail_bound": 8.320140502016328e-10,
+      "elapsed_subprocess_ns": [
+        1003207,
+        968996,
+        998947,
+        1016698,
+        1054258,
+        1115980,
+        989016
+      ],
+      "median_elapsed_subprocess_ns": 1003207
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "imports_favored",
+      "selected": [
+        "a_imported_module"
+      ],
+      "ranking": [
+        "a_imported_module",
+        "c_nested_declaration",
+        "b_call_helper"
+      ],
+      "scores": {
+        "a_imported_module": 0.23375742765443452,
+        "b_call_helper": 0.07000307124029535,
+        "c_nested_declaration": 0.23375742765443452,
+        "entry": 0.46248207261922475
+      },
+      "iterations": 11,
+      "edge_visits": 66,
+      "analytic_tail_bound": 8.320140502016328e-10,
+      "elapsed_subprocess_ns": [
+        995797,
+        1036608,
+        1013847,
+        970747,
+        852613,
+        1041948,
+        1055919
+      ],
+      "median_elapsed_subprocess_ns": 1013847
+    }
+  ],
+  "evaluations": [
+    {
+      "fixture": "call-id-first",
+      "policy": "unit",
+      "query": "follow-call",
+      "intent": "calls",
+      "selected": [
+        "a_call_helper"
+      ],
+      "relevant": [
+        "a_call_helper"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0
+    },
+    {
+      "fixture": "call-id-first",
+      "policy": "unit",
+      "query": "follow-import",
+      "intent": "imports",
+      "selected": [
+        "a_call_helper"
+      ],
+      "relevant": [
+        "b_imported_module"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0
+    },
+    {
+      "fixture": "call-id-first",
+      "policy": "calls_favored",
+      "query": "follow-call",
+      "intent": "calls",
+      "selected": [
+        "a_call_helper"
+      ],
+      "relevant": [
+        "a_call_helper"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0
+    },
+    {
+      "fixture": "call-id-first",
+      "policy": "calls_favored",
+      "query": "follow-import",
+      "intent": "imports",
+      "selected": [
+        "a_call_helper"
+      ],
+      "relevant": [
+        "b_imported_module"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0
+    },
+    {
+      "fixture": "call-id-first",
+      "policy": "imports_favored",
+      "query": "follow-call",
+      "intent": "calls",
+      "selected": [
+        "b_imported_module"
+      ],
+      "relevant": [
+        "a_call_helper"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0
+    },
+    {
+      "fixture": "call-id-first",
+      "policy": "imports_favored",
+      "query": "follow-import",
+      "intent": "imports",
+      "selected": [
+        "b_imported_module"
+      ],
+      "relevant": [
+        "b_imported_module"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "unit",
+      "query": "follow-call",
+      "intent": "calls",
+      "selected": [
+        "a_imported_module"
+      ],
+      "relevant": [
+        "b_call_helper"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "unit",
+      "query": "follow-import",
+      "intent": "imports",
+      "selected": [
+        "a_imported_module"
+      ],
+      "relevant": [
+        "a_imported_module"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "calls_favored",
+      "query": "follow-call",
+      "intent": "calls",
+      "selected": [
+        "b_call_helper"
+      ],
+      "relevant": [
+        "b_call_helper"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "calls_favored",
+      "query": "follow-import",
+      "intent": "imports",
+      "selected": [
+        "b_call_helper"
+      ],
+      "relevant": [
+        "a_imported_module"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "imports_favored",
+      "query": "follow-call",
+      "intent": "calls",
+      "selected": [
+        "a_imported_module"
+      ],
+      "relevant": [
+        "b_call_helper"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0
+    },
+    {
+      "fixture": "import-id-first",
+      "policy": "imports_favored",
+      "query": "follow-import",
+      "intent": "imports",
+      "selected": [
+        "a_imported_module"
+      ],
+      "relevant": [
+        "a_imported_module"
+      ],
+      "precision_at_k": 1.0,
+      "recall_at_k": 1.0
+    }
+  ],
+  "summary": [
+    {
+      "policy": "unit",
+      "query_count": 4,
+      "macro_precision_at_k": 0.5,
+      "macro_recall_at_k": 0.5,
+      "by_intent": {
+        "calls": {
+          "precision_at_k": 0.5,
+          "recall_at_k": 0.5
+        },
+        "imports": {
+          "precision_at_k": 0.5,
+          "recall_at_k": 0.5
+        }
+      }
+    },
+    {
+      "policy": "calls_favored",
+      "query_count": 4,
+      "macro_precision_at_k": 0.5,
+      "macro_recall_at_k": 0.5,
+      "by_intent": {
+        "calls": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0
+        },
+        "imports": {
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0
+        }
+      }
+    },
+    {
+      "policy": "imports_favored",
+      "query_count": 4,
+      "macro_precision_at_k": 0.5,
+      "macro_recall_at_k": 0.5,
+      "by_intent": {
+        "calls": {
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0
+        },
+        "imports": {
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0
+        }
+      }
+    }
+  ],
+  "conclusion": "Keep unit weights in production. These balanced synthetic controls show that favoring calls helps call tasks and hurts import tasks, while favoring imports reverses the outcome. They supply no generalizable evidence for a fixed non-unit policy. Timing is descriptive and process-dominated.",
+  "binary_sha256": "ed02c27f9955519ce43202b0122a605f60d278004380f38ddc80e385a5302f6c",
+  "source_sha256": {
+    "verification/recovery/weights_experiment.py": "59e96644e105f36ba3efcb9c79541a2b187d1967f395e1319e9b45c67a564392",
+    "crates/compass-core/src/diffusion.rs": "28b2cb20ba87409629aacc86ce1a22269610c6ea3c86c3d60fa01e39eec981d7",
+    "crates/compass-core/examples/heat_probe.rs": "615751573cd7f142356844b13bf4839813218a69884f644bfe4ee48c1d389a9f",
+    "Cargo.lock": "7f14234c2a0e696a139b74229d7c25b376086266a55a5cf2e4e3e7923d638b27"
+  }
+}

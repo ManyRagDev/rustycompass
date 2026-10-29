@@ -1,0 +1,60 @@
+{
+  "os": "OS-D0-R1 v1",
+  "authority": "docs/entregas/d0/CONTRATO-ACEITE-D0-R1.md v1",
+  "expected_origin": "Contract literals fixed before sensor execution; independently checked from recipes",
+  "M": {
+    "recipe": {
+      "initial_files": 1000,
+      "directories": 100,
+      "lines_per_file": 64,
+      "bytes_per_line": 64,
+      "bytes_per_file": 4096,
+      "path": "dir-{i // 10:03d}/file-{i:04d}.txt",
+      "line": "f'F{i:04d}:L{j:02d}:BASE'.ljust(63, 'x') + '\n'",
+      "modified_indices": [0, 9],
+      "edited_line": 31,
+      "replacement": ["BASE", "EDIT"],
+      "removed_indices": [10, 14],
+      "added_indices": [1000, 1004],
+      "added_directory": "dir-000"
+    },
+    "expected": {
+      "files": [1000, 1000],
+      "bytes": [4096000, 4096000],
+      "counts": {"unchanged": "985", "modified": "10", "removed": "5", "added": "5", "metadata_changed": "0", "left_scope": "0", "entered_scope": "0", "unknown": "0"},
+      "candidates": "1005",
+      "resolved_text_units": "1005",
+      "value": {"numerator": "660", "denominator": "128000", "decimal": "0.005156"},
+      "resources": {"object_bytes_read": "8192000", "object_bytes_reserved": "8194000", "cells_reserved": "40960"},
+      "bilateral_Wb": 81924,
+      "bilateral_W": 86540,
+      "unilateral_Wb": 73732,
+      "unilateral_W": 75788,
+      "modified_lcs": 63,
+      "unchanged_lcs": 64
+    }
+  },
+  "L": {
+    "recipe": {"path": "p.txt", "lines": 2000, "bytes_per_line": 10, "line": "f'line-{j:04d}\\n'", "edited_line": 1000, "replacement": "edit-1000\n"},
+    "expected": {
+      "files": [1, 1],
+      "bytes": [20000, 20000],
+      "counts": {"unchanged": "0", "modified": "1", "removed": "0", "added": "0", "metadata_changed": "0", "left_scope": "0", "entered_scope": "0", "unknown": "0"},
+      "candidates": "1",
+      "resolved_text_units": "1",
+      "calculation": {"n0": "2000", "nt": "2000", "l": "1999", "a": "1", "r": "1", "c": "2", "m": "4000", "delta": {"numerator": "2", "denominator": "4000", "decimal": "0.000500"}, "zero_basis": null},
+      "value": {"numerator": "2", "denominator": "4000", "decimal": "0.000500"},
+      "resources": {"object_bytes_read": "40000", "object_bytes_reserved": "40002", "cells_reserved": "4000000"},
+      "bilateral_Wb": 145540,
+      "bilateral_W": 289548
+    }
+  },
+  "negative_controls": [
+    {"id": "L-no-baseline-source", "exit": 1, "reason": "source_missing", "baseline_state": "not_attempted"},
+    {"id": "L-object-missing", "exit": 1, "reason": "object_missing", "baseline_state": "failed"},
+    {"id": "L-object-tampered", "exit": 1, "reason": "hash_mismatch", "baseline_state": "failed"},
+    {"id": "L-binding-mismatch", "exit": 2, "code": "incompatible_inputs"}
+  ],
+  "samples_per_load": 3,
+  "guard_timeout_seconds": 60
+}

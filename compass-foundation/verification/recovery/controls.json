@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "dev": {"seed_query":"checkoutSignal", "direct":"checkout.py", "related":"ledger.py", "semantic_query":"calcular o preço total de uma compra", "semantic_relevant":["ledger.py","checkout.py"]},
+  "holdout": {"seed_query":"departureMarker", "direct":"visitor.py", "related":"reservations.py", "semantic_query":"liberar o quarto depois de cancelar uma reserva", "semantic_relevant":["reservations.py","visitor.py"]},
+  "acceptance": {"direct_literal_contains_seed_file":true,"heat_reaches_related_file":true,"semantic_relevant_in_top_3":true,"payload_budget_exact":true,"old_generation_still_readable":true,"mcp_equivalent_to_cli":true}
+}

@@ -1,0 +1,92 @@
+{
+  "complete": {
+    "baseline_manifest": "manifests/a.json",
+    "baseline_package": "packages/a",
+    "current_manifest": "manifests/b.json",
+    "current_package": "packages/b",
+    "expected_exit": 0,
+    "expected_report": "reports/complete.json",
+    "note": "literal substituicao de uma linha"
+  },
+  "created-text": {
+    "baseline_manifest": "manifests/empty.json",
+    "baseline_package": "packages/empty",
+    "current_manifest": "manifests/a.json",
+    "current_package": "packages/a",
+    "expected_exit": 0,
+    "expected_report": "reports/created-text.json",
+    "note": "ausencia demonstrada, check absent"
+  },
+  "empty-universe": {
+    "baseline_manifest": "manifests/empty.json",
+    "baseline_package": "packages/empty",
+    "current_manifest": "manifests/empty.json",
+    "current_package": "packages/empty",
+    "expected_exit": 0,
+    "expected_report": "reports/empty-universe.json",
+    "note": "sem candidatos"
+  },
+  "non-text": {
+    "baseline_manifest": "manifests/a.json",
+    "baseline_package": "packages/a",
+    "current_manifest": "manifests/binary.json",
+    "current_package": "packages/binary",
+    "expected_exit": 1,
+    "expected_report": "reports/non-text.json",
+    "note": "nul em UTF8 valido"
+  },
+  "partial": {
+    "baseline_manifest": "manifests/a.json",
+    "baseline_package": "packages/a",
+    "current_manifest": "manifests/partial.json",
+    "current_package": "packages/partial",
+    "expected_exit": 3,
+    "expected_report": "reports/partial.json",
+    "note": "regiao private sem candidatos"
+  },
+  "scope-transition": {
+    "baseline_manifest": "manifests/a.json",
+    "baseline_package": "packages/a",
+    "current_manifest": "manifests/excluded.json",
+    "current_package": "packages/excluded",
+    "expected_exit": 1,
+    "expected_report": "reports/scope-transition.json",
+    "note": "symlink nunca lido"
+  },
+  "unavailable-hash": {
+    "baseline_manifest": "manifests/abc.json",
+    "baseline_package": "packages/abc-adulterated",
+    "current_manifest": "manifests/abc.json",
+    "current_package": "packages/abc",
+    "expected_exit": 1,
+    "expected_report": "reports/unavailable-hash.json",
+    "note": "mesmo source_ref, raizes distintas, dois checks"
+  },
+  "unavailable-source": {
+    "baseline_manifest": "manifests/a.json",
+    "baseline_package": null,
+    "current_manifest": "manifests/b.json",
+    "current_package": null,
+    "expected_exit": 1,
+    "expected_report": "reports/unavailable-source.json",
+    "note": "ambas flags omitidas"
+  },
+  "unknown": {
+    "baseline_manifest": "manifests/a.json",
+    "baseline_package": "packages/a",
+    "current_manifest": "manifests/unknown.json",
+    "current_package": "packages/unknown",
+    "expected_exit": 1,
+    "expected_report": "reports/unknown.json",
+    "note": "ancestral unstable vence observed"
+  },
+  "zero-text-mass": {
+    "baseline_manifest": "manifests/zero.json",
+    "baseline_package": "packages/zero",
+    "current_manifest": "manifests/zero.json",
+    "current_package": "packages/zero",
+    "expected_exit": 0,
+    "expected_report": "reports/zero-text-mass.json",
+    "note": "mesma raiz/binding: leitura compartilhada"
+  }
+}

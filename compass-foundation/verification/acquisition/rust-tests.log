@@ -1,0 +1,278 @@
+   Compiling compass-core v0.1.0 (/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/crates/compass-core)
+   Compiling compass-cli v0.1.0 (/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/crates/compass-cli)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.96s
+     Running unittests src/main.rs (target/debug/deps/compass-f0376cbafb308720)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/d0.rs (target/debug/deps/d0-8daa5278054a8b65)
+
+running 3 tests
+test noncanonical_manifest_correct_raw_binding_and_human_mode ... ok
+test public_help_arguments_and_canonical_error_envelopes ... ok
+test strict_manifest_profiles_limits_and_empty_source_envelopes ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
+
+     Running tests/managed.rs (target/debug/deps/managed-47d979ab4289bb77)
+
+running 5 tests
+test pagination_requires_generation_before_access ... ok
+test malformed_cli_contracts_are_rejected_before_store_access ... ok
+test contract_acquisition_cli_keeps_legacy_pack_and_checks_explicit_obligations ... ok
+test prepare_query_update_old_generation_and_read ... ok
+test retrieve_cursor_pins_generation_across_update ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.27s
+
+     Running tests/managed_mcp.rs (target/debug/deps/managed_mcp-bdc4ffc7e2c6a048)
+
+running 9 tests
+test managed_output_limit_returns_error_without_success_payload ... ok
+test indexed_tools_explicitly_reject_unsupported_reduced_legacy_caps ... ok
+test managed_arguments_cannot_select_unconfigured_paths_or_cross_tool_options ... ok
+test advertised_managed_tools_execute_and_legacy_catalog_remains_two ... ok
+test generation_and_cursor_continuations_keep_old_revision_after_update ... ok
+test acquisition_contract_mcp_matches_cli_and_keeps_legacy_catalog ... ok
+test managed_deadline_produces_explicit_response_and_keeps_server_usable ... ok
+test acquisition_cursor_is_bound_to_contract_and_generation ... ok
+test managed_client_cancellation_suppresses_reply_and_allows_next_request ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.44s
+
+     Running tests/read.rs (target/debug/deps/read-656b51859bfe9692)
+
+running 2 tests
+test path_value_does_not_select_output_mode_on_parser_error ... ok
+test invalid_numbers_keys_and_missing_options_are_structured_errors ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running tests/search.rs (target/debug/deps/search-8000e931d4c55776)
+
+running 5 tests
+test invalid_search_without_json_keeps_structured_transport ... ok
+test rd18_invalid_arguments_use_exact_envelope ... ok
+test rd22_command_words_in_query_preserve_search_route ... ok
+test bug005_query_json_is_a_value_and_real_flags_select_transport ... ok
+test bug005_valid_hyphenated_queries_keep_typed_transport ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.07s
+
+     Running unittests src/lib.rs (target/debug/deps/compass_core-3e4db6b57879f926)
+
+running 60 tests
+test d0::input::tests::strict_transport_and_depth ... ok
+test d0::metric::tests::e49_u64_and_checked_equations ... ok
+test d0::resources::tests::exact_memory_and_nonrefundable_reservations ... ok
+test d0::resources::tests::interrupt_precedes_deadline_and_pending_error ... ok
+test d0::metric::tests::lcs_checkpoints_bound_work_and_cancel ... ok
+test d0::input::tests::structural_preflight_precedes_domain_validation ... ok
+test d0::source::tests::synchronized_package_ancestor_replacement_with_same_pinned_root ... ok
+test d0::metric::tests::e36_e51_e52_e54_e55_equality_and_balances ... ok
+test d0::source::tests::synchronized_object_name_component_and_post_eof_replacement ... ok
+test d0::source::tests::object_eof_prefix_empty_and_short ... ok
+test d0::source::tests::prohibited_kinds_missing_and_no_external_bytes ... ok
+test d0::tests::deadline_before_publication_and_priority_over_error ... ok
+test d0::tests::bug004_baseline_component_replacement_remains_detected ... ok
+test d0::metric::tests::frozen_lcs_counts_aggregates_and_byte_vectors ... ok
+test diffusion::tests::two_nodes_closed_form_and_mass ... ok
+test diffusion::tests::isolated_disconnected_duplicate_and_limits ... ok
+test diffusion::tests::energy_decreases_on_star ... ok
+test d0::tests::bug004_current_component_replaced_during_shared_read ... ok
+test observe::tests::directory_reenumeration_detects_new_names ... ok
+test observe::tests::actual_linux_permission_denial_is_reported ... ok
+test observe::tests::captured_stream_only_finishes_stable_attempt_and_excludes_secrets ... ok
+test observe::tests::exact_byte_budget_accepts_complete_file_and_empty_tree_is_complete ... ok
+test observe::tests::inaccessible_file_and_directory_preserve_unknown_regions ... ok
+test observe::tests::modifications_during_both_attempts_never_accept_a_revision ... ok
+test observe::tests::exclusions_links_and_fifo_are_not_read ... ok
+test observe::tests::cancelled_observation_returns_no_snapshot ... ok
+test observe::tests::pinned_root_survives_path_rename_without_following_replacement ... ok
+test observe::tests::known_hash_vectors_and_repeated_observation ... ok
+test observe::tests::native_names_hardlinks_binary_and_explicit_subtree_exclusions ... ok
+test observe::tests::file_replaced_by_fifo_is_rejected_without_blocking_or_reading ... ok
+test d0::source::tests::reservation_never_refunded_and_chunk_checkpoint ... ok
+test observe::tests::successful_retry_records_only_second_revision_and_all_read_bytes ... ok
+test observe::tests::symlink_substitution_before_open_never_reads_external_target ... ok
+test d0::tests::descriptor_binding_and_present_invalid_on_empty_universe ... ok
+test d0::tests::bug004_stable_same_and_distinct_references_share_one_read ... ok
+test d0::tests::same_root_shares_only_within_unit ... ok
+test read::tests::validates_arguments_before_opening_and_binding_before_lookup ... ok
+test read::tests::synchronized_replacement_cannot_publish_verified_prefix ... ok
+test d0::tests::synchronized_sigint_after_first_unit_before_next_and_before_publication ... ok
+test semantic::model_tests::independent_transformers_embeddings_and_full_span_coverage ... ignored, requires explicitly installed pinned local model and COMPASS_SEMANTIC_MODEL
+test semantic::tests::cancel_before_install_or_load ... ok
+test semantic::tests::exact_cosine_rejects_malformed ... ok
+test semantic::tests::pinned_identity_is_stable_and_explicit ... ok
+test semantic::tests::tampered_config_rejected_before_loading_weights ... ok
+test search::tests::rd17_exact_structural_and_working_credit_precedes_open ... ok
+test storage::tests::cancellation_before_publication_leaves_no_final_or_temporary ... ok
+test observe::tests::file_total_entry_and_duration_limits_are_explicit ... ok
+test read::tests::logical_memory_reservation_and_output_boundaries ... ok
+test storage::tests::state_directory_link_is_rejected_without_external_writes ... ok
+test storage::tests::existing_record_is_never_overwritten ... ok
+test search::tests::rd12_synchronized_object_component_ancestor_and_dotdot ... ok
+test read::tests::independent_line_fixtures_and_exact_transport ... ok
+test storage::tests::receipts_preserve_native_root_bytes ... ok
+test read::tests::unicode_across_validation_windows_preserves_raw_offsets ... ok
+test read::tests::no_excerpt_from_bad_bytes_missing_objects_or_late_long_line ... ok
+test observe::tests::streaming_preserves_binary_bytes_and_mtime_is_not_content_identity ... ok
+test storage::tests::repeated_and_concurrent_init_preserves_identity ... ok
+test search::tests::rd01_08_frozen_literals_nontext_and_boundaries ... ok
+test search::tests::rd19_synchronized_cancel_deadline_and_priority ... ok
+test read::tests::cancellation_deadline_and_final_error_priority ... ok
+
+test result: ok. 59 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.30s
+
+     Running tests/acquisition.rs (target/debug/deps/acquisition-d30cd18399901502)
+
+running 15 tests
+test literal_preserves_multiline_crlf_and_unicode ... ok
+test literal_scope_is_exact_even_when_outside_text_shares_a_line ... ok
+test full_union_is_fitted_before_incomplete_metadata ... ok
+test mandatory_evidence_precedes_optional_diffusion ... ok
+test direct_relations_are_directed_and_need_current_witnesses ... ok
+test malformed_contract_rejected_and_unfittable_line_is_omitted ... ok
+test full_syntax_spans_include_wrappers_and_long_bodies ... ok
+test complete_relation_range_can_fit_when_its_prefix_cannot ... ok
+test exact_definition_does_not_require_unrelated_same_line_text ... ok
+test missing_ambiguous_unknown_and_pending_fail_closed ... ok
+test parse_errors_cannot_be_proven_by_contains_edges ... ok
+test node_ids_require_explicit_generation_and_corruption_cancel_fail_closed ... ok
+test lexical_hit_and_partial_pack_cannot_satisfy_complete_definition ... ok
+test exact_selectors_bypass_two_hundred_candidates_and_deduplicate ... ok
+test cursor_binds_contract_request_and_generation ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.28s
+
+     Running tests/acquisition_review.rs (target/debug/deps/acquisition_review-98f436b6b5efe920)
+
+running 9 tests
+test replaced_object_links_and_preexisting_cancellation_never_return_proof ... ok
+test complete_individual_witness_survives_partial_tail_metadata_discontinuity ... ok
+test exact_complete_pack_fits_at_its_measured_boundary ... ok
+test direct_relation_and_parse_error_controls_use_actual_witnesses ... ok
+test small_definition_ignores_unrelated_bytes_on_its_source_line ... ok
+test scoped_literals_and_ambiguous_names_fail_closed ... ok
+test node_id_is_explicit_and_generation_specific ... ok
+test paginated_definition_can_start_midline_and_stops_at_syntax_end ... ok
+test prior_page_evidence_never_certifies_later_page ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.36s
+
+     Running tests/collection.rs (target/debug/deps/collection-18b78af8e2784be1)
+
+running 9 tests
+test collection_queries_honor_cancellation_and_index_tampering_after_open ... ok
+test logical_spans_preserve_crlf_unicode_and_chunk_boundaries ... ok
+test package_can_be_read_without_live_tree ... ok
+test corruption_and_links_are_rejected ... ok
+test persistent_lexical_query_and_source_compatibility ... ok
+test internal_destination_native_names_binary_and_interrupted_staging ... ok
+test staged_publication_compare_and_swap_preserves_current ... ok
+test updates_preserve_generations_and_reuse_unchanged_work ... ok
+test disk_failure_and_cancellation_preserve_current ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.33s
+
+     Running tests/collection_review.rs (target/debug/deps/collection_review-08724426fe01e2e4)
+
+running 7 tests
+test capture_retries_replaced_inode_and_only_accepts_exact_new_revision ... ok
+test capture_cancel_mid_stream_produces_no_accepted_revision ... ok
+test abandoned_stage_symlink_is_never_followed_or_removed ... ok
+test object_component_symlink_rejected_even_with_matching_bytes ... ok
+test malformed_source_descriptor_is_rejected_before_admitting_generation ... ok
+test opened_collection_stays_on_pinned_generation_after_store_rename ... ok
+test failed_update_respects_logical_disk_budget_and_retains_queryable_generation ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+
+     Running tests/contract.rs (target/debug/deps/contract-93785d8d47d1b4e3)
+
+running 20 tests
+test canonical_native_paths_reject_aliases_and_traversal ... ok
+test policy_cannot_disable_internal_or_environment_exclusions ... ok
+test partial_empty_tree_keeps_unknown_region_without_inventing_changes ... ok
+test canonical_hashes_uuids_and_decimals_are_required ... ok
+test rename_is_removal_and_addition_even_for_equal_hashes ... ok
+test hash_tampering_and_wrong_counters_are_rejected ... ok
+test empty_workspace_is_complete_and_empty_file_is_real ... ok
+test impossible_tree_and_missing_coverage_are_rejected ... ok
+test nullable_and_absent_fields_are_distinct ... ok
+test standard_sha256_and_jcs_vectors ... ok
+test absent_ancestor_proves_descendant_absence_only_with_complete_parent ... ok
+test strict_json_rejects_duplicate_members_at_any_depth ... ok
+test executable_change_and_byte_only_change_remain_distinct ... ok
+test unreadable_entry_is_unknown_not_removed ... ok
+test frozen_transport_and_manual_comparison ... ok
+test revision_and_quality_cannot_contradict_states ... ok
+test unknown_ancestor_dominates_missing_and_successfully_read_descendants ... ok
+test state_digest_ignores_observation_identity_window_and_diagnostics ... ok
+test file_directory_and_link_transitions_follow_fixed_contract ... ok
+test valid_incompatibility_and_unknown_version_have_distinct_exit_codes ... ok
+
+test result: ok. 20 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/d0.rs (target/debug/deps/d0-88ebfdafd4be4b2a)
+
+running 1 test
+test frozen_physical_reports_exact_except_real_producer ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running tests/recovery_review.rs (target/debug/deps/recovery_review-893fadfe06b7108c)
+
+running 7 tests
+test pinned_generation_survives_ancestor_substitution ... ok
+test pagination_preserves_complete_lines_that_fit_a_fresh_page ... ok
+test heat_expansion_uses_remaining_budget_after_preserving_direct_evidence ... ok
+test oversize_excerpt_remains_explicitly_omitted_with_usable_reference ... ok
+test partial_excerpt_continuation_has_no_byte_gap_or_duplicate ... ok
+test exact_pack_bytes_evidence_and_generation_bound_continuation ... ok
+test many_direct_hits_reserve_expansion_share_without_starvation ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.32s
+
+     Running tests/retrieval.rs (target/debug/deps/retrieval-c5499d02b5095fac)
+
+running 3 tests
+test all_source_descriptor_bindings_and_shape_are_checked ... ok
+test hybrid_omits_only_unsupported_literal_shapes ... ok
+test literal_many_hits_canonicalizes_each_file_once ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.07s
+
+     Running tests/search.rs (target/debug/deps/search-a893f81cbd751439)
+
+running 3 tests
+test public_invalid_query_never_opens_inputs ... ok
+test public_limits_are_closed_and_canonical ... ok
+test public_search_exact_bytes_and_immutable_inputs ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/structure.rs (target/debug/deps/structure-834c3f102e8a1a6e)
+
+running 9 tests
+test bounded_navigation_projection_and_cancellation ... ok
+test unavailable_modules_private_exports_unsupported_and_invalid_inputs ... ok
+test native_path_identity_never_resolves_through_a_lossy_display_collision ... ok
+test revisions_invalidate_targets_and_order_is_deterministic ... ok
+test lexical_scope_controls_do_not_promote_associated_or_shadowed_bindings ... ok
+test ambiguity_dynamic_dispatch_shadowing_and_errors_stay_explicit ... ok
+test independent_language_controls_and_byte_evidence ... ok
+test independent_import_alias_and_namespace_controls ... ok
+test relative_modules_respect_package_and_rust_module_boundaries ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests compass_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

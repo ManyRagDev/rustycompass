@@ -1,0 +1,75 @@
+{
+  "evidence_origin": "Independent Astra review artifacts, inspected and summarized here; these attacks were not rerun by the evaluator.",
+  "derived_integrity": {
+    "artifact_sha256": "e0cc6360b5f0f04943bce50aee69af4d5f09732a6f0b7d2041e8ae488116ded7",
+    "probe_sha256": "9f9d0fd50c65d41d597f5bb8d5d83d69d0bfc33cfe50f8ac80102aab8151bc0d",
+    "checks": [
+      {
+        "case": "valid_old_build_generation",
+        "returncode": 0,
+        "error": null,
+        "items": 1,
+        "acquisition": {
+          "policy": "spectral_window_v1",
+          "reason": "spectral_window",
+          "state": "terminal"
+        }
+      },
+      {
+        "case": "unknown_reference_target",
+        "returncode": 1,
+        "error": {
+          "code": "invalid_record",
+          "message": "spectral graph relation identity or target invalid"
+        },
+        "items": null,
+        "acquisition": null
+      },
+      {
+        "case": "reidentified_wrong_witness",
+        "returncode": 1,
+        "error": {
+          "code": "invalid_record",
+          "message": "derived factual graph does not match complete verified generation"
+        },
+        "items": null,
+        "acquisition": null
+      },
+      {
+        "case": "existing_wrong_target",
+        "returncode": 1,
+        "error": {
+          "code": "invalid_record",
+          "message": "derived factual graph does not match complete verified generation"
+        },
+        "items": null,
+        "acquisition": null
+      }
+    ]
+  },
+  "generation_preflight": {
+    "artifact_sha256": "49acd24b1337e0a36ff705e3fc4ff963f2fe3bf6661670c994b27046cdc96af0",
+    "binary_sha256": "9f9d0fd50c65d41d597f5bb8d5d83d69d0bfc33cfe50f8ac80102aab8151bc0d",
+    "acquisition": {
+      "policy": "spectral_window_v1",
+      "reason": "structural_work_limit",
+      "state": "terminal"
+    },
+    "structural": {
+      "status": "not_revalidated"
+    },
+    "coverage": {
+      "gaps": [
+        "complete_generation_source_revalidation_limit"
+      ],
+      "scope": "local",
+      "scope_supplied": true
+    },
+    "limits": {
+      "elapsed_ms": 20000,
+      "generation_bytes": 22369621,
+      "generation_documents": 128
+    },
+    "items": 0
+  }
+}

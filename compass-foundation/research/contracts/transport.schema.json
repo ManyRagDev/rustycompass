@@ -1,0 +1,668 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Compass Foundation transport 1 / contract 0.1.0",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/workspace"
+    },
+    {
+      "$ref": "#/$defs/policy"
+    },
+    {
+      "$ref": "#/$defs/snapshot"
+    },
+    {
+      "$ref": "#/$defs/comparison"
+    }
+  ],
+  "$defs": {
+    "workspace": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1"
+        },
+        "contract_version": {
+          "const": "0.1.0"
+        },
+        "workspace_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "path_namespace": {
+          "const": "linux_bytes_v1"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "schema_version",
+        "contract_version",
+        "workspace_id",
+        "path_namespace",
+        "created_at"
+      ]
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1"
+        },
+        "contract_version": {
+          "const": "0.1.0"
+        },
+        "exclude_directory_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "exclude_file_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "exclude_file_prefixes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "exclude_paths": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "max_file_bytes": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^[1-9][0-9]*$"
+            }
+          ]
+        },
+        "max_total_bytes_read": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^[1-9][0-9]*$"
+            }
+          ]
+        },
+        "max_entries": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^[1-9][0-9]*$"
+            }
+          ]
+        },
+        "max_duration_ms": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^[1-9][0-9]*$"
+            }
+          ]
+        },
+        "read_attempts": {
+          "const": "2"
+        }
+      },
+      "required": [
+        "schema_version",
+        "contract_version",
+        "exclude_directory_names",
+        "exclude_file_names",
+        "exclude_file_prefixes",
+        "exclude_paths",
+        "max_file_bytes",
+        "max_total_bytes_read",
+        "max_entries",
+        "max_duration_ms",
+        "read_attempts"
+      ]
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path_key": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "kind": {
+          "enum": [
+            "file",
+            "directory",
+            "symlink",
+            "other",
+            "unknown"
+          ]
+        },
+        "state": {
+          "enum": [
+            "observed",
+            "excluded",
+            "unreadable",
+            "unstable",
+            "limit_exceeded"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        },
+        "content_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "size_bytes": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "executable": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "path_key",
+        "kind",
+        "state"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "const": "observed"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "kind": {
+                "const": "file"
+              }
+            },
+            "required": [
+              "content_sha256",
+              "size_bytes",
+              "executable"
+            ],
+            "not": {
+              "required": [
+                "reason"
+              ]
+            }
+          },
+          "else": {
+            "required": [
+              "reason"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "content_sha256"
+                  ]
+                },
+                {
+                  "required": [
+                    "size_bytes"
+                  ]
+                },
+                {
+                  "required": [
+                    "executable"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path_key": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]*$"
+        },
+        "state": {
+          "enum": [
+            "complete",
+            "unreadable",
+            "unstable",
+            "not_visited"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path_key",
+        "state"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "state": {
+                "const": "complete"
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "required": [
+                "reason"
+              ]
+            }
+          },
+          "else": {
+            "required": [
+              "reason"
+            ]
+          }
+        }
+      ]
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path_key": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]*$"
+        },
+        "ordinal": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "code": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path_key",
+        "ordinal",
+        "code",
+        "message"
+      ]
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "observed_files": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "excluded_entries": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "unknown_entries": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "bytes_read": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "read_attempts": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "duration_ms": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        }
+      },
+      "required": [
+        "observed_files",
+        "excluded_entries",
+        "unknown_entries",
+        "bytes_read",
+        "read_attempts",
+        "duration_ms"
+      ]
+    },
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1"
+        },
+        "contract_version": {
+          "const": "0.1.0"
+        },
+        "producer_version": {
+          "type": "string"
+        },
+        "producer_build": {
+          "type": "string"
+        },
+        "workspace_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "snapshot_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "path_namespace": {
+          "const": "linux_bytes_v1"
+        },
+        "policy": {
+          "$ref": "#/$defs/policy"
+        },
+        "policy_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "finished_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "consistency": {
+          "const": "observation_window"
+        },
+        "quality": {
+          "enum": [
+            "complete",
+            "partial"
+          ]
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          }
+        },
+        "directory_coverage": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/coverage"
+          }
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue"
+          }
+        },
+        "state_digest": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "stats": {
+          "$ref": "#/$defs/stats"
+        }
+      },
+      "required": [
+        "schema_version",
+        "contract_version",
+        "producer_version",
+        "producer_build",
+        "workspace_id",
+        "snapshot_id",
+        "path_namespace",
+        "policy",
+        "policy_id",
+        "started_at",
+        "finished_at",
+        "consistency",
+        "quality",
+        "entries",
+        "directory_coverage",
+        "issues",
+        "state_digest",
+        "stats"
+      ]
+    },
+    "change": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path_key": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]+$"
+        },
+        "classification": {
+          "enum": [
+            "added",
+            "removed",
+            "modified",
+            "metadata_changed",
+            "left_scope",
+            "entered_scope",
+            "unknown"
+          ]
+        },
+        "before": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/entry"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "after": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/entry"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "content_changed": {
+          "type": "boolean"
+        },
+        "executable_changed": {
+          "type": "boolean"
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "path_key",
+        "classification",
+        "before",
+        "after",
+        "content_changed",
+        "executable_changed"
+      ]
+    },
+    "unknown_region": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "side": {
+          "enum": [
+            "baseline",
+            "current"
+          ]
+        },
+        "path_key": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]*$"
+        },
+        "state": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "side",
+        "path_key",
+        "state"
+      ]
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "unchanged": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "added": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "removed": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "modified": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "metadata_changed": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "left_scope": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "entered_scope": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        },
+        "unknown": {
+          "type": "string",
+          "pattern": "^(0|[1-9][0-9]*)$"
+        }
+      },
+      "required": [
+        "unchanged",
+        "added",
+        "removed",
+        "modified",
+        "metadata_changed",
+        "left_scope",
+        "entered_scope",
+        "unknown"
+      ]
+    },
+    "comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1"
+        },
+        "contract_version": {
+          "const": "0.1.0"
+        },
+        "baseline_snapshot_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "current_snapshot_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "workspace_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "path_namespace": {
+          "const": "linux_bytes_v1"
+        },
+        "policy_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "quality": {
+          "enum": [
+            "complete",
+            "partial"
+          ]
+        },
+        "relation": {
+          "enum": [
+            "equal",
+            "different",
+            "undetermined"
+          ]
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/change"
+          }
+        },
+        "unknown_regions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/unknown_region"
+          }
+        },
+        "counts": {
+          "$ref": "#/$defs/counts"
+        }
+      },
+      "required": [
+        "schema_version",
+        "contract_version",
+        "baseline_snapshot_id",
+        "current_snapshot_id",
+        "workspace_id",
+        "path_namespace",
+        "policy_id",
+        "quality",
+        "relation",
+        "changes",
+        "unknown_regions",
+        "counts"
+      ]
+    }
+  }
+}

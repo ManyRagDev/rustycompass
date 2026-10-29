@@ -1,0 +1,26 @@
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "max_node_visits", "limits": {"max_node_visits": 0}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "max_edge_visits", "limits": {"max_edge_visits": 0}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "max_operator_applications", "limits": {"max_operator_applications": 0}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "max_samples", "limits": {"max_samples": 0}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "max_elapsed_ms", "limits": {"max_elapsed_ms": 0}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "accumulated-increments", "limits": {"max_increments": 3}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "accumulated-samples", "limits": {"max_samples": 1}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "cancelled", "cancelled": true}
+{"node_count": 10000, "edges": [], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "many-isolates-node-budget", "limits": {"max_node_visits": 100}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [10.0], "case_id": "precision-series", "config": {"poisson_tail_tolerance": 1e-300}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [], "scales": [0.0, 1.0, 2.0], "case_id": "zero-seed"}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0], [1, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "uniform"}
+{"node_count": 5, "edges": [], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "no-edges"}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [1e-200], "case_id": "subnormal-theta"}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [1.0, 0.5], "case_id": "decreasing-scale"}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [-1.0], "case_id": "negative-scale"}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "invalid-increment", "config": {"max_increment": 0.0}}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, -1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "negative-seed"}
+{"node_count": 2, "edges": [[0, 1, 1.0]], "seeds": [[0, 1e+308], [1, 1e+308]], "scales": [0.0, 1.0, 2.0], "case_id": "seed-overflow"}
+{"node_count": 3, "edges": [[0, 1, 1e+308], [0, 2, 1e+308]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "degree-overflow"}
+{"node_count": 2, "edges": [[0, 1, -1.0]], "seeds": [[0, 1.0]], "scales": [0.0, 1.0, 2.0], "case_id": "invalid-weight"}
+{"node_count": 4, "edges": [[0, 1, 1.0], [1, 2, 0.3], [2, 3, 2.0]], "seeds": [[0, 1.0]], "scales": [7.0], "case_id": "direct"}
+{"node_count": 4, "edges": [[0, 1, 1.0], [1, 2, 0.3], [2, 3, 2.0]], "seeds": [[0, 1.0]], "scales": [0.25, 0.75, 1.5, 3.0, 7.0], "case_id": "composed", "config": {"max_increment": 0.5}}
+{"node_count": 4, "edges": [[0, 1, 1.0], [1, 2, 0.3], [2, 3, 2.0]], "seeds": [[0, 1.0]], "scales": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0], "case_id": "loose-truncation", "config": {"max_increment": 0.5, "poisson_tail_tolerance": 0.001}}
+{"case_id":"nan","node_count":2,"edges":[[0,1,1]],"seeds":[[0,1]],"scales":[NaN]}
+{"case_id":"infinite","node_count":2,"edges":[[0,1,1]],"seeds":[[0,1]],"scales":[1e999]}

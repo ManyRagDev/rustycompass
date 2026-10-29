@@ -1,0 +1,13 @@
+{
+  "max_cells_per_unit": "10000000",
+  "max_cells_total": "4",
+  "max_file_bytes": "4194304",
+  "max_json_depth": "64",
+  "max_lines_per_side": "100000",
+  "max_logical_memory_bytes": "134217728",
+  "max_manifest_bytes": "16777216",
+  "max_output_bytes": "16777216",
+  "max_records": "100000",
+  "max_source_descriptor_bytes": "65536",
+  "max_total_object_bytes": "134217728"
+}

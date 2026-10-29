@@ -1,0 +1,37 @@
+{
+  "metric_policy_id": "51d824e4f7e229cfeb61b63c33681fff65a879e173956bdb0029dd4473d358a5",
+  "metric_policy_jcs_sha256": "8e192cc93db13d841c2f1a928adc55de1fcf7dbda9071949888ce8b283d5982e",
+  "metric_policy_prefix_hex": "636f6d706173732d64302d706f6c6963792d763100",
+  "sha256_vectors": [
+    {
+      "hex": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": "0"
+    },
+    {
+      "hex": "616263",
+      "sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "size": "3"
+    },
+    {
+      "hex": "616264",
+      "sha256": "a52d159f262b2c6ddb724a61840befc36eb30c88877a4030b65cbe86298449c9",
+      "size": "3"
+    },
+    {
+      "hex": "610a620a",
+      "sha256": "911169ddaaf146aff539f58c26c489af3b892dff0fe283c1c264c65ae5aa59a2",
+      "size": "4"
+    },
+    {
+      "hex": "610d0a620d0a",
+      "sha256": "58055bdcc73787eb88c78d36f0b4939e9c5dc1c3ad17e25cc85a6833cf1a0cab",
+      "size": "6"
+    },
+    {
+      "hex": "efbbbf610a620a",
+      "sha256": "1220caf912196af70b1b0625cd99989bbb360bf911a109927854227ddbe76e86",
+      "size": "7"
+    }
+  ]
+}

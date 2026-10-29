@@ -1,0 +1,57 @@
+\usepackage{fancyhdr,lastpage,titlesec,needspace,enumitem,fvextra,etoolbox}
+\usepackage{xurl}
+\setlength{\headheight}{16pt}
+\setlength{\headsep}{14pt}
+\setlength{\footskip}{24pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5.5pt plus 1pt minus 1pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.16}
+\setcounter{secnumdepth}{-1}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\small\sffamily COMPASS D0}
+\fancyhead[LO,RE]{\footnotesize\sffamily Documento principal | edição 1.0}
+\fancyfoot[LE,RO]{\footnotesize\sffamily\thepage\ / \pageref*{LastPage}}
+\fancyfoot[LO,RE]{\scriptsize\sffamily 14/10/2026 | Produto, pesquisa e engenharia}
+\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\footnotesize\thepage}}
+\titleformat{\section}{\sffamily\bfseries\fontsize{19}{23}\selectfont}{}{0pt}{}
+\titleformat{\subsection}{\sffamily\bfseries\fontsize{12.3}{15.6}\selectfont}{}{0pt}{}
+\titleformat{\subsubsection}{\sffamily\bfseries\fontsize{11}{14}\selectfont}{}{0pt}{}
+\titlespacing*{\section}{0pt}{20pt}{14pt}
+\titlespacing*{\subsection}{0pt}{14pt}{6pt}
+\newcommand{\sectionbreak}{\Needspace{9\baselineskip}}
+\AtBeginEnvironment{longtable}{\fontsize{9.1}{11.7}\selectfont}
+\DefineVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\footnotesize,frame=single,rulecolor=\color{lightgray},framesep=6pt}
+\setlist{itemsep=3pt,topsep=5pt}
+\AtBeginDocument{\hypersetup{colorlinks=true,allcolors=black,pdfauthor={Emanuel Junior / ChatGPT},pdftitle={Compass D0 - Documento principal de produto, pesquisa e engenharia},pdfsubject={Reconstrucao limpa, decisao Rust, contratos e validacao}}}
+\renewcommand{\maketitle}{
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{13mm}
+{\sffamily\bfseries\fontsize{15}{20}\selectfont COMPASS D0}\par
+\vspace{7mm}\hrule\vspace{18mm}
+{\sffamily\bfseries\fontsize{32}{38}\selectfont Documento\par principal}\par
+\vspace{8mm}
+{\sffamily\fontsize{16}{22}\selectfont Produto, pesquisa\par e engenharia}\par
+\vspace{16mm}
+{\large Da intuição original à reconstrução limpa.\par Decisões, fundamentos, evidências e limites\par para iniciar o novo motor.}\par
+\vfill
+\begin{minipage}{\textwidth}
+\hrule\vspace{5mm}
+{\sffamily\bfseries EDIÇÃO 1.0 | 14 DE OUTUBRO DE 2026}\par
+\vspace{3mm}
+{\sffamily Idealização e direção: Emanuel Junior\par Consolidação documental: ChatGPT}\par
+\vspace{5mm}
+{\small Documento para revisão e uso interno.\par Decisões vigentes são separadas de hipóteses,\par propostas, resultados históricos e pendências.}
+\end{minipage}
+\end{titlepage}
+}
+
+\let\oldtableofcontents\tableofcontents
+\renewcommand{\tableofcontents}{\begingroup\setlength{\parskip}{0pt}\small\oldtableofcontents\endgroup\clearpage}
+\widowpenalty=10000
+\clubpenalty=10000

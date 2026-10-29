@@ -1,0 +1,15 @@
+{
+  "snapshot_id": "24981bc8-74c3-4809-b374-153c59bd4cfb",
+  "workspace_id": "71ae2d08-b308-4a0b-94f6-0bc811853d84",
+  "snapshot_file_sha256": "f488d8ad3793bb2b88dd720d92111a4c79f1ad1f87792d562e60d6f583b78551",
+  "corpus_id": "449101e71aeac3d10cd76e4fc1ccb1c69d8ba247d11e353c8ff129bf1665b98f",
+  "files": 64,
+  "connection": {
+    "command": "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/scripts/compass-mcp.sh",
+    "args": [
+      "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/.compass/evaluation/postspark-v1/config.json"
+    ],
+    "env": {}
+  },
+  "note": "Independent oracle frozen before snapshot; no search/read query executed for scoring."
+}

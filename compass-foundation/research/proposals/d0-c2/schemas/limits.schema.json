@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "max_cells_per_unit": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_cells_total": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_file_bytes": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_json_depth": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_lines_per_side": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_logical_memory_bytes": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_manifest_bytes": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_output_bytes": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_records": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_source_descriptor_bytes": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    },
+    "max_total_object_bytes": {
+      "maxLength": 20,
+      "pattern": "^[1-9][0-9]*$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "max_manifest_bytes",
+    "max_source_descriptor_bytes",
+    "max_records",
+    "max_json_depth",
+    "max_file_bytes",
+    "max_total_object_bytes",
+    "max_lines_per_side",
+    "max_cells_per_unit",
+    "max_cells_total",
+    "max_logical_memory_bytes",
+    "max_output_bytes"
+  ],
+  "type": "object"
+}

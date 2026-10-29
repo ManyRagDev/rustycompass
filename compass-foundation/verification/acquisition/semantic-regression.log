@@ -1,0 +1,70 @@
+   Compiling compass-core v0.1.0 (/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/crates/compass-core)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 7.49s
+     Running unittests src/lib.rs (target/debug/deps/compass_core-2434f70d47cde79d)
+
+running 1 test
+test semantic::model_tests::independent_transformers_embeddings_and_full_span_coverage has been running for over 60 seconds
+test semantic::model_tests::independent_transformers_embeddings_and_full_span_coverage ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 59 filtered out; finished in 65.41s
+
+     Running tests/acquisition.rs (target/debug/deps/acquisition-0c204e12cd85b8e5)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 14 filtered out; finished in 0.00s
+
+     Running tests/acquisition_review.rs (target/debug/deps/acquisition_review-bae72927551387af)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 8 filtered out; finished in 0.00s
+
+     Running tests/collection.rs (target/debug/deps/collection-b3d30448bf1015e6)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 9 filtered out; finished in 0.00s
+
+     Running tests/collection_review.rs (target/debug/deps/collection_review-816d7e362c8c847c)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 7 filtered out; finished in 0.00s
+
+     Running tests/contract.rs (target/debug/deps/contract-6ac4c95172c6ace0)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 20 filtered out; finished in 0.00s
+
+     Running tests/d0.rs (target/debug/deps/d0-4fc99aebb8db17a6)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 0.00s
+
+     Running tests/recovery_review.rs (target/debug/deps/recovery_review-59890a94da839e16)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 7 filtered out; finished in 0.00s
+
+     Running tests/retrieval.rs (target/debug/deps/retrieval-07fb4b950fa73ee1)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 0.00s
+
+     Running tests/search.rs (target/debug/deps/search-6b923b1ee5c8d9a1)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 0.00s
+
+     Running tests/structure.rs (target/debug/deps/structure-dba4ef107511450a)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 9 filtered out; finished in 0.00s
+

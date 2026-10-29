@@ -1,0 +1,12 @@
+{
+  "cases": [
+    {"name":"middle", "text":"a\nb\nc\n", "start":2, "max":1, "expected":{"total_lines":"3","returned_lines":"1","start_byte":"2","end_byte":"4","text":"b\n","next_start_line":"3","truncated":true}},
+    {"name":"tail", "text":"a\nb\nc\n", "start":2, "max":20, "expected":{"total_lines":"3","returned_lines":"2","start_byte":"2","end_byte":"6","text":"b\nc\n","next_start_line":null,"truncated":false}},
+    {"name":"empty", "text":"", "start":1, "max":20, "expected":{"total_lines":"0","returned_lines":"0","start_byte":"0","end_byte":"0","text":"","next_start_line":null,"truncated":false}},
+    {"name":"lf", "text":"\n", "start":1, "max":20, "expected":{"total_lines":"1","returned_lines":"1","start_byte":"0","end_byte":"1","text":"\n","next_start_line":null,"truncated":false}},
+    {"name":"beyond", "text":"a\nb\nc\n", "start":18446744073709551615, "max":20, "expected":{"total_lines":"3","returned_lines":"0","start_byte":"6","end_byte":"6","text":"","next_start_line":null,"truncated":false}},
+    {"name":"unicode-crlf", "text":"é🙂\r\nneedle\n", "start":2, "max":1, "expected":{"total_lines":"2","returned_lines":"1","start_byte":"8","end_byte":"15","text":"needle\n","next_start_line":null,"truncated":false}},
+    {"name":"bom", "text":"﻿alvo\n", "start":1, "max":1, "expected":{"total_lines":"1","returned_lines":"1","start_byte":"0","end_byte":"8","text":"﻿alvo\n","next_start_line":null,"truncated":false}},
+    {"name":"cr-and-separator", "text":"a\rb c", "start":1, "max":1, "expected":{"total_lines":"1","returned_lines":"1","start_byte":"0","end_byte":"7","text":"a\rb c","next_start_line":null,"truncated":false}}
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "RD01": {
+    "cli_command_pointers": [
+      "integration.json#/commands/2"
+    ],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd01_08_frozen_literals_nontext_and_boundaries"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD01",
+    "status": "EXECUTADO_CLI_E_INTERNO"
+  },
+  "RD02": {
+    "cli_command_pointers": [
+      "integration.json#/commands/5",
+      "integration.json#/commands/32",
+      "integration.json#/commands/35"
+    ],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd01_08_frozen_literals_nontext_and_boundaries"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD02",
+    "status": "EXECUTADO_CLI_E_INTERNO"
+  },
+  "RD03": {
+    "cli_command_pointers": [
+      "integration.json#/commands/8"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD03",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD04": {
+    "cli_command_pointers": [
+      "integration.json#/commands/11",
+      "integration.json#/commands/14"
+    ],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd01_08_frozen_literals_nontext_and_boundaries"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD04",
+    "status": "EXECUTADO_CLI_E_INTERNO"
+  },
+  "RD05": {
+    "cli_command_pointers": [
+      "integration.json#/commands/17",
+      "integration.json#/commands/20",
+      "integration.json#/commands/23"
+    ],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd01_08_frozen_literals_nontext_and_boundaries"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD05",
+    "status": "EXECUTADO_CLI_E_INTERNO"
+  },
+  "RD06": {
+    "cli_command_pointers": [
+      "integration.json#/commands/26",
+      "integration.json#/commands/29"
+    ],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd01_08_frozen_literals_nontext_and_boundaries"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD06",
+    "status": "EXECUTADO_CLI_E_INTERNO"
+  },
+  "RD07": {
+    "cli_command_pointers": [
+      "integration.json#/commands/38"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD07",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD08": {
+    "cli_command_pointers": [
+      "integration.json#/commands/38"
+    ],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd01_08_frozen_literals_nontext_and_boundaries"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD08",
+    "status": "EXECUTADO_CLI_E_INTERNO"
+  },
+  "RD09": {
+    "cli_command_pointers": [
+      "integration.json#/commands/41",
+      "integration.json#/commands/42"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD09",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD10": {
+    "cli_command_pointers": [
+      "integration.json#/commands/45",
+      "integration.json#/commands/48",
+      "integration.json#/commands/51"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD10",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD11": {
+    "cli_command_pointers": [
+      "integration.json#/commands/54",
+      "integration.json#/commands/57",
+      "integration.json#/commands/60",
+      "integration.json#/commands/63",
+      "integration.json#/commands/66",
+      "integration.json#/commands/69"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD11",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD12": {
+    "cli_command_pointers": [],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd12_synchronized_object_component_ancestor_and_dotdot"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD12",
+    "status": "EXECUTADO_INTERNO"
+  },
+  "RD13": {
+    "cli_command_pointers": [
+      "integration.json#/commands/72",
+      "integration.json#/commands/75"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD13",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD14": {
+    "cli_command_pointers": [
+      "integration.json#/commands/78",
+      "integration.json#/commands/79",
+      "integration.json#/commands/80",
+      "integration.json#/commands/83",
+      "integration.json#/commands/92",
+      "integration.json#/commands/93",
+      "integration.json#/commands/94"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD14",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD15": {
+    "cli_command_pointers": [
+      "integration.json#/commands/86",
+      "integration.json#/commands/89",
+      "integration.json#/commands/92",
+      "integration.json#/commands/93",
+      "integration.json#/commands/94",
+      "integration.json#/commands/125"
+    ],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd01_08_frozen_literals_nontext_and_boundaries"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD15",
+    "status": "EXECUTADO_CLI_E_INTERNO"
+  },
+  "RD16": {
+    "cli_command_pointers": [
+      "integration.json#/commands/41",
+      "integration.json#/commands/42"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD16",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD17": {
+    "cli_command_pointers": [
+      "integration.json#/commands/121",
+      "integration.json#/commands/122",
+      "integration.json#/commands/123",
+      "integration.json#/commands/124",
+      "integration.json#/commands/125",
+      "integration.json#/commands/126",
+      "integration.json#/commands/127",
+      "integration.json#/commands/128",
+      "integration.json#/commands/129",
+      "integration.json#/commands/130",
+      "integration.json#/commands/131",
+      "integration.json#/commands/132",
+      "integration.json#/commands/133",
+      "integration.json#/commands/134",
+      "integration.json#/commands/135",
+      "integration.json#/commands/136",
+      "integration.json#/commands/137",
+      "integration.json#/commands/138"
+    ],
+    "independent_check_pointers": [
+      "integration.json#/checks/27",
+      "integration.json#/checks/56",
+      "integration.json#/checks/84",
+      "integration.json#/checks/112",
+      "integration.json#/checks/140",
+      "integration.json#/checks/169",
+      "integration.json#/checks/198",
+      "integration.json#/checks/227",
+      "integration.json#/checks/256",
+      "integration.json#/checks/284",
+      "integration.json#/checks/312",
+      "integration.json#/checks/341",
+      "integration.json#/checks/388",
+      "integration.json#/checks/421",
+      "integration.json#/checks/451",
+      "integration.json#/checks/477",
+      "integration.json#/checks/505",
+      "integration.json#/checks/533",
+      "integration.json#/checks/561",
+      "integration.json#/checks/589",
+      "integration.json#/checks/617",
+      "integration.json#/checks/645",
+      "integration.json#/checks/673",
+      "integration.json#/checks/713",
+      "integration.json#/checks/736",
+      "integration.json#/checks/770",
+      "integration.json#/checks/802",
+      "integration.json#/checks/836",
+      "integration.json#/checks/868",
+      "integration.json#/checks/896",
+      "integration.json#/checks/923",
+      "integration.json#/checks/952",
+      "integration.json#/checks/978",
+      "integration.json#/checks/1001",
+      "integration.json#/checks/1105",
+      "integration.json#/checks/1187",
+      "integration.json#/checks/1210",
+      "integration.json#/checks/1233",
+      "integration.json#/checks/1256",
+      "integration.json#/checks/1289",
+      "integration.json#/checks/1311",
+      "integration.json#/checks/1333",
+      "integration.json#/checks/1356",
+      "integration.json#/checks/1387",
+      "integration.json#/checks/1410",
+      "integration.json#/checks/1435",
+      "integration.json#/checks/1458"
+    ],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd17_exact_structural_and_working_credit_precedes_open"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD17",
+    "status": "EXECUTADO_CLI_E_INTERNO"
+  },
+  "RD18": {
+    "cli_command_pointers": [
+      "integration.json#/commands/97",
+      "integration.json#/commands/98",
+      "integration.json#/commands/99",
+      "integration.json#/commands/100",
+      "integration.json#/commands/101",
+      "integration.json#/commands/102",
+      "integration.json#/commands/103",
+      "integration.json#/commands/104",
+      "integration.json#/commands/105",
+      "integration.json#/commands/106",
+      "integration.json#/commands/107",
+      "integration.json#/commands/108",
+      "integration.json#/commands/109",
+      "integration.json#/commands/110",
+      "integration.json#/commands/111",
+      "integration.json#/commands/112",
+      "integration.json#/commands/113",
+      "integration.json#/commands/114",
+      "integration.json#/commands/115",
+      "integration.json#/commands/116",
+      "integration.json#/commands/117",
+      "integration.json#/commands/118",
+      "integration.json#/commands/121",
+      "integration.json#/commands/122",
+      "integration.json#/commands/123",
+      "integration.json#/commands/124",
+      "integration.json#/commands/125",
+      "integration.json#/commands/126",
+      "integration.json#/commands/127",
+      "integration.json#/commands/128",
+      "integration.json#/commands/129",
+      "integration.json#/commands/130",
+      "integration.json#/commands/131",
+      "integration.json#/commands/132",
+      "integration.json#/commands/133",
+      "integration.json#/commands/134",
+      "integration.json#/commands/135",
+      "integration.json#/commands/136",
+      "integration.json#/commands/137",
+      "integration.json#/commands/138"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD18",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD19": {
+    "cli_command_pointers": [],
+    "internal_tests": [
+      "crates/compass-core/src/search.rs::tests::rd19_synchronized_cancel_deadline_and_priority"
+    ],
+    "normative_expected": "fixtures.json#/scenarios/RD19",
+    "scope": "AtomicBool synchronized with thread barriers and forced deadline hook; read_chunk, second utf8_chunk (long file without LF/hits), lines_chunk, search_chunk, before_publication, operation_finished; cancellation priority over deadline/pending input error. No public test flags. Pretty JSON preparation has before_pretty/after_pretty checkpoints as well.",
+    "status": "EXECUTADO_INTERNO"
+  },
+  "RD20": {
+    "cli_command_pointers": [
+      "integration.json#/commands/143",
+      "integration.json#/commands/144",
+      "integration.json#/commands/145",
+      "integration.json#/commands/146",
+      "integration.json#/commands/148"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD20",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD21": {
+    "cli_command_pointers": [
+      "integration.json#/commands/97",
+      "integration.json#/commands/98",
+      "integration.json#/commands/99",
+      "integration.json#/commands/100",
+      "integration.json#/commands/101",
+      "integration.json#/commands/102",
+      "integration.json#/commands/103",
+      "integration.json#/commands/104",
+      "integration.json#/commands/105",
+      "integration.json#/commands/106",
+      "integration.json#/commands/107",
+      "integration.json#/commands/108",
+      "integration.json#/commands/109",
+      "integration.json#/commands/110",
+      "integration.json#/commands/111",
+      "integration.json#/commands/112",
+      "integration.json#/commands/113",
+      "integration.json#/commands/114",
+      "integration.json#/commands/115",
+      "integration.json#/commands/116",
+      "integration.json#/commands/117",
+      "integration.json#/commands/118"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD21",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD22": {
+    "cli_command_pointers": [
+      "integration.json#/commands/121",
+      "integration.json#/commands/122",
+      "integration.json#/commands/123",
+      "integration.json#/commands/124",
+      "integration.json#/commands/125",
+      "integration.json#/commands/126",
+      "integration.json#/commands/127",
+      "integration.json#/commands/128",
+      "integration.json#/commands/129",
+      "integration.json#/commands/130",
+      "integration.json#/commands/131",
+      "integration.json#/commands/132",
+      "integration.json#/commands/133",
+      "integration.json#/commands/134",
+      "integration.json#/commands/135",
+      "integration.json#/commands/136",
+      "integration.json#/commands/137",
+      "integration.json#/commands/138"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD22",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD23": {
+    "cli_command_pointers": [
+      "integration.json#/commands/143",
+      "integration.json#/commands/144",
+      "integration.json#/commands/145",
+      "integration.json#/commands/146",
+      "integration.json#/commands/148"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD23",
+    "status": "EXECUTADO_CLI"
+  },
+  "RD24": {
+    "cli_command_pointers": [
+      "integration.json#/commands/41",
+      "integration.json#/commands/42"
+    ],
+    "internal_tests": [],
+    "normative_expected": "fixtures.json#/scenarios/RD24",
+    "positive_control": "same actual partial/truncated CLI report validated before five distinct changes; frozen independent control in self-test",
+    "specific_mutations": [
+      {
+        "mutation": "text",
+        "rejection": "RD24.text"
+      },
+      {
+        "mutation": "offsets",
+        "rejection": "RD24.offsets"
+      },
+      {
+        "mutation": "revision",
+        "rejection": "RD24.revision"
+      },
+      {
+        "mutation": "coverage",
+        "rejection": "RD24.coverage"
+      },
+      {
+        "mutation": "truncation",
+        "rejection": "RD24.truncation"
+      }
+    ],
+    "status": "EXECUTADO_CLI"
+  }
+}

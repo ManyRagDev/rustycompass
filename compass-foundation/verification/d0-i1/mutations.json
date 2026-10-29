@@ -1,0 +1,86 @@
+{
+  "modality": "binary",
+  "runtime_executed": true,
+  "failures": [],
+  "rejected": [
+    {
+      "mutation": "false-zero-missing-source",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_units"
+    },
+    {
+      "mutation": "aggregate-without-unchanged",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_measurement"
+    },
+    {
+      "mutation": "equality-from-line-count",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_units"
+    },
+    {
+      "mutation": "quadratic-debit-for-equality",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_resources"
+    },
+    {
+      "mutation": "incoherent-policy-hash",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_metric_policy_id"
+    },
+    {
+      "mutation": "subset-as-integral",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_measurement"
+    },
+    {
+      "mutation": "u64-overflow",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "u64"
+    },
+    {
+      "mutation": "invalid-native-path",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "path"
+    },
+    {
+      "mutation": "false-manifest-binding",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_sources"
+    },
+    {
+      "mutation": "false-logical-memory",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_resources"
+    },
+    {
+      "mutation": "wrong-native-unit-order",
+      "positive_control": "PASS",
+      "schema": "PASS",
+      "rejected_by": "report_units"
+    }
+  ],
+  "binary": {
+    "path": "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/target/release/compass",
+    "sha256_before": "7c4e61fd142353733626dcea68192a25b83591ef10f5e8ca42cc55679a5ebd2f",
+    "sha256_after": "7c4e61fd142353733626dcea68192a25b83591ef10f5e8ca42cc55679a5ebd2f"
+  },
+  "integrity": {
+    "index_sha256": "63168b321845393168134a30afa39811e702eecc678b31c06f3bc24d3c17208e",
+    "artifacts": 81,
+    "protected_files": 34,
+    "metric_policy_id": "51d824e4f7e229cfeb61b63c33681fff65a879e173956bdb0029dd4473d358a5"
+  },
+  "state": "PASSED",
+  "runtime_pending": false
+}

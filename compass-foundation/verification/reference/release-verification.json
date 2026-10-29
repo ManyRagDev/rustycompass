@@ -1,0 +1,35 @@
+{
+  "client_date": "2026-10-14",
+  "platform": "linux",
+  "uid": 1000,
+  "binary": "target/release/compass",
+  "binary_sha256": "c95d458792b24a1173b5c04d5d284841482e48e5198ab2e5aca04fc1e932c41a",
+  "producer_version": "0.1.0",
+  "producer_build": "sha256:94866a9d405c283d1913c13e53ff0d5413823f3ce1a654e8bbc68619d7ddd4b0",
+  "schema_version": "1",
+  "contract_version": "0.1.0",
+  "commands": [
+    {
+      "command": "python3 verification/reference/acceptance.py --binary target/release/compass",
+      "exit_code": 0,
+      "tests_passed": 23,
+      "tests_skipped": 0,
+      "reported_duration_seconds": 0.349
+    },
+    {
+      "command": "python3 verification/reference/mutations.py --binary target/release/compass",
+      "exit_code": 0,
+      "mutations_rejected": 3,
+      "mutations_skipped": 0,
+      "mutations": ["always_equal", "omit_empty", "unreadable_as_removed"]
+    }
+  ],
+  "independent_review": {
+    "scope": ["CLI", "strict JSON", "partial coverage", "native path bytes", "comparison", "limits", "publication", "cancellation"],
+    "resolved_findings": [
+      "Snapshot validation errors use exit 1; invalid policy configuration uses exit 2.",
+      "Receipt paths preserve absolute native bytes in *_path_base64 fields; a non-UTF-8 root round-trips through init, snapshot and compare."
+    ],
+    "unresolved_reproduced_defects": []
+  }
+}

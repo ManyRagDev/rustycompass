@@ -1,0 +1,6 @@
+{
+  "status": "rejected",
+  "mutant": "/tmp/compass-spectral-review-mutant.py",
+  "exit_code": 1,
+  "last_diagnostic": "AssertionError: ('two-node', 'incomplete trajectory', 'time_limit')"
+}

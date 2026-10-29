@@ -1,0 +1,1616 @@
+{
+  "self_test": {
+    "fixtures": 8,
+    "specific_mutations": 6,
+    "fixture_tampering_rejected": true
+  },
+  "campaign": {
+    "binary": "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/target/release/compass",
+    "binary_sha256": "6cfd1e8020e9b9c76de75c34dcde0215811be01303ec1d86097e309a0f163dae",
+    "fixtures_sha256": "e4c56534b1065e5799aac28a8278a7ed3e51b9ce9c4a13f0ad727e5ba6b43caa",
+    "environment": "Linux-7.0.11-76070011-generic-x86_64-with-glibc2.39",
+    "checks": [
+      "middle",
+      "tail",
+      "empty",
+      "lf",
+      "beyond",
+      "unicode-crlf",
+      "bom",
+      "cr-and-separator",
+      "search-read-continuation",
+      "offline",
+      "revisions",
+      "binding",
+      "selection-only",
+      "pretty",
+      "partial",
+      "native",
+      "object-missing",
+      "object-same-size",
+      "object-short",
+      "object-long",
+      "object-link",
+      "object-fifo",
+      "object-socket",
+      "object-directory",
+      "object-objects-link",
+      "object-root-link",
+      "text-0",
+      "text-1",
+      "text-2",
+      "max_manifest_bytes",
+      "max_source_descriptor_bytes",
+      "max_records",
+      "max_json_depth",
+      "max_logical_memory_bytes",
+      "exact-output-cap",
+      "native-resource-profile"
+    ],
+    "commands": [
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/0/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5LzAvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdk1DOTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6IjAxNGViZmUyLTVmYWYtNDRjMi1iOWI2LTlmNDdkNTRmNThmNCIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvMC90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2TUM5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/0/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImIyNmIyNTM3LWEwZGMtNGQwZC1iNjQ2LWM0MDY1MDhiYzM5OSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS8wL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2IyNmIyNTM3LWEwZGMtNGQwZC1iNjQ2LWM0MDY1MDhiYzM5OS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZNQzkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5OWlNalppTWpVek55MWhNR1JqTFRSa01HUXRZalkwTmkxak5EQTJOVEE0WW1Nek9Ua3Vhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiIzNDcxZDA1MTYyYWFkZmUyZTEzMDhmZGU1ODI4Y2RhYTRlYzhhYzRmZjA4ZjBjNzZkZmFlZTk5MTM0NDYxYWJmIn0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/0/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/0/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "2",
+          "--max-lines",
+          "1",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiNCIsIm5leHRfc3RhcnRfbGluZSI6IjMiLCJyZXR1cm5lZF9saW5lcyI6IjEiLCJzdGFydF9ieXRlIjoiMiIsInRleHQiOiJiXG4iLCJ0b3RhbF9saW5lcyI6IjMiLCJ0cnVuY2F0ZWQiOnRydWV9LCJmaWxlIjp7ImNoZWNrIjp7ImFjdHVhbF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6Ijg4MDU1M2ZjYThmY2VhOTRlMzI1ZWUyY2ZiNDhlNWE5ODVjYzc5N2YzOWExNGNjNmQzY2VkZWNmZWIyYWU0ZDIiLCJzaXplX2J5dGVzIjoiNiJ9LCJoYXNoX2NoZWNrIjp0cnVlLCJzaXplX2NoZWNrIjp0cnVlLCJzb3VyY2VfcmVmIjoiMzQxMmZkOWY5YTA4NjkzNjE1MmVjMWUzYjNhMDhjYzYyZTczNWFlODk4NjkzNjQ2MjNjYzRiZmViYTg2MzhkMyIsInN0YXRlIjoidmVyaWZpZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI4ODA1NTNmY2E4ZmNlYTk0ZTMyNWVlMmNmYjQ4ZTVhOTg1Y2M3OTdmMzlhMTRjYzZkM2NlZGVjZmViMmFlNGQyIiwic2l6ZV9ieXRlcyI6IjYifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOltdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjEiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMiJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5OTgiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjYiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiI3In0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI1Y2NkZDJjODU5NGMwNTRkN2NjZTJkYzVmMTRmYzVlN2VhY2EzYzQwZDNiMWNlYTQwZGY2MjUyMGI4ZWVlNjNiIiwic25hcHNob3RfaWQiOiJiMjZiMjUzNy1hMGRjLTRkMGQtYjY0Ni1jNDA2NTA4YmMzOTkiLCJzdGF0ZV9kaWdlc3QiOiIzNDcxZDA1MTYyYWFkZmUyZTEzMDhmZGU1ODI4Y2RhYTRlYzhhYzRmZjA4ZjBjNzZkZmFlZTk5MTM0NDYxYWJmIiwid29ya3NwYWNlX2lkIjoiMDE0ZWJmZTItNWZhZi00NGMyLWI5YjYtOWY0N2Q1NGY1OGY0In0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI1Y2NkZDJjODU5NGMwNTRkN2NjZTJkYzVmMTRmYzVlN2VhY2EzYzQwZDNiMWNlYTQwZGY2MjUyMGI4ZWVlNjNiIiwic25hcHNob3RfaWQiOiJiMjZiMjUzNy1hMGRjLTRkMGQtYjY0Ni1jNDA2NTA4YmMzOTkiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6IjM0MTJmZDlmOWEwODY5MzYxNTJlYzFlM2IzYTA4Y2M2MmU3MzVhZTg5ODY5MzY0NjIzY2M0YmZlYmE4NjM4ZDMiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiMDE0ZWJmZTItNWZhZi00NGMyLWI5YjYtOWY0N2Q1NGY1OGY0In0sInN0YXR1cyI6ImF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/1/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5LzEvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdk1TOTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6IjJiNjAxNjZmLWI0NmMtNDQwOC04NGIxLThmMGY1ZGM1ZTBjOCIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvMS90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2TVM5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/1/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImFhZTRjYTdlLTY1ZTAtNDNiNC1hNGMzLWI0ZjIzY2I3N2Y1YyIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS8xL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2FhZTRjYTdlLTY1ZTAtNDNiNC1hNGMzLWI0ZjIzY2I3N2Y1Yy5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZNUzkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5OWhZV1UwWTJFM1pTMDJOV1V3TFRRellqUXRZVFJqTXkxaU5HWXlNMk5pTnpkbU5XTXVhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiJlMjY0NjQ3MjZlNmI5NzI5NDFhMzhmZGRjOTlkYWIxNmI0NTY2NTExYzgwNzAwNWYxNTg3Zjg2ZTg5ZmM3ZjI4In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/1/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/1/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "2",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiNiIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIyIiwic3RhcnRfYnl0ZSI6IjIiLCJ0ZXh0IjoiYlxuY1xuIiwidG90YWxfbGluZXMiOiIzIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODgwNTUzZmNhOGZjZWE5NGUzMjVlZTJjZmI0OGU1YTk4NWNjNzk3ZjM5YTE0Y2M2ZDNjZWRlY2ZlYjJhZTRkMiIsInNpemVfYnl0ZXMiOiI2In0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiJjZDk5MjkzM2Q2NDMyNmQyODIxYmRjZDYwMGUzY2FkYmM0MzkwNjA5NTExZjlhNWQwN2IyN2U5NThhN2Y4NWM2Iiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6Ijg4MDU1M2ZjYThmY2VhOTRlMzI1ZWUyY2ZiNDhlNWE5ODVjYzc5N2YzOWExNGNjNmQzY2VkZWNmZWIyYWU0ZDIiLCJzaXplX2J5dGVzIjoiNiJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMiJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5ODIiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjYiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiI3In0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI3NDA0ZjgxZTcxZTNlZjVmOTNlNmU4NGI0ZTk0ZjIxMWQxMmFlMWMyYjZkMzRlYjkzZDUzY2EyMmZkNjY3MzBhIiwic25hcHNob3RfaWQiOiJhYWU0Y2E3ZS02NWUwLTQzYjQtYTRjMy1iNGYyM2NiNzdmNWMiLCJzdGF0ZV9kaWdlc3QiOiJlMjY0NjQ3MjZlNmI5NzI5NDFhMzhmZGRjOTlkYWIxNmI0NTY2NTExYzgwNzAwNWYxNTg3Zjg2ZTg5ZmM3ZjI4Iiwid29ya3NwYWNlX2lkIjoiMmI2MDE2NmYtYjQ2Yy00NDA4LTg0YjEtOGYwZjVkYzVlMGM4In0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI3NDA0ZjgxZTcxZTNlZjVmOTNlNmU4NGI0ZTk0ZjIxMWQxMmFlMWMyYjZkMzRlYjkzZDUzY2EyMmZkNjY3MzBhIiwic25hcHNob3RfaWQiOiJhYWU0Y2E3ZS02NWUwLTQzYjQtYTRjMy1iNGYyM2NiNzdmNWMiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6ImNkOTkyOTMzZDY0MzI2ZDI4MjFiZGNkNjAwZTNjYWRiYzQzOTA2MDk1MTFmOWE1ZDA3YjI3ZTk1OGE3Zjg1YzYiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiMmI2MDE2NmYtYjQ2Yy00NDA4LTg0YjEtOGYwZjVkYzVlMGM4In0sInN0YXR1cyI6ImF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/2/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5LzIvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdk1pOTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6IjAxOTE0MjYyLWIyZTMtNDlmYS1iZmQ4LTIzNGQyNzY2ZmNlZCIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvMi90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2TWk5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/2/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImQzZDBmYmEwLWI1NmQtNDcyZS1iYjg1LTdiMmY0NzNmMzA0MSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS8yL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2QzZDBmYmEwLWI1NmQtNDcyZS1iYjg1LTdiMmY0NzNmMzA0MS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZNaTkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5OWtNMlF3Wm1KaE1DMWlOVFprTFRRM01tVXRZbUk0TlMwM1lqSm1ORGN6WmpNd05ERXVhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiJlNDIwY2ZmN2NkZGM0N2NiZDJkODAzZTc1ZDcyOGEyMWY5ZjMzYWYwYTA3MThmMzU4OWE4YzJkNDc1MjBiNGEyIn0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/2/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/2/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMCIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIwIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiIiwidG90YWxfbGluZXMiOiIwIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsInNpemVfYnl0ZXMiOiIwIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiIwNzA0MzQyODM3MjI5YmE1Y2I2ZGI2NWIyNjFkY2VhYTJlZjMzNGMxN2Y0OTAzMDExOWU5MTZhZTU4NmU5NmJhIiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJzaXplX2J5dGVzIjoiMCJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5ODYiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjAiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiIxIn0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiIzMWE3NGVkOTAzNjZiYmI1MTYyZmI2ZjI1MGYxZWVjOGQ5Yzg0ZDA2NDI4ZTE0M2I4ZThmN2Q1OTdmYzUwOWI0Iiwic25hcHNob3RfaWQiOiJkM2QwZmJhMC1iNTZkLTQ3MmUtYmI4NS03YjJmNDczZjMwNDEiLCJzdGF0ZV9kaWdlc3QiOiJlNDIwY2ZmN2NkZGM0N2NiZDJkODAzZTc1ZDcyOGEyMWY5ZjMzYWYwYTA3MThmMzU4OWE4YzJkNDc1MjBiNGEyIiwid29ya3NwYWNlX2lkIjoiMDE5MTQyNjItYjJlMy00OWZhLWJmZDgtMjM0ZDI3NjZmY2VkIn0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiIzMWE3NGVkOTAzNjZiYmI1MTYyZmI2ZjI1MGYxZWVjOGQ5Yzg0ZDA2NDI4ZTE0M2I4ZThmN2Q1OTdmYzUwOWI0Iiwic25hcHNob3RfaWQiOiJkM2QwZmJhMC1iNTZkLTQ3MmUtYmI4NS03YjJmNDczZjMwNDEiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6IjA3MDQzNDI4MzcyMjliYTVjYjZkYjY1YjI2MWRjZWFhMmVmMzM0YzE3ZjQ5MDMwMTE5ZTkxNmFlNTg2ZTk2YmEiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiMDE5MTQyNjItYjJlMy00OWZhLWJmZDgtMjM0ZDI3NjZmY2VkIn0sInN0YXR1cyI6ImF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/3/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5LzMvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdk15OTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6IjdlNmUwY2ZlLTc0OGUtNDBmMy1hM2Y5LWVmZDIyM2EwMGJiNyIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvMy90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2TXk5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/3/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6Ijk5NGUxN2E3LWQ0MzktNDczNC05YjdhLTA1OTAwMjU3NzY5NiIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS8zL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzLzk5NGUxN2E3LWQ0MzktNDczNC05YjdhLTA1OTAwMjU3NzY5Ni5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZNeTkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5ODVPVFJsTVRkaE55MWtORE01TFRRM016UXRPV0kzWVMwd05Ua3dNREkxTnpjMk9UWXVhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiJjNzI1MjI5NTA1YWYwMmRmZmU1OWEzODAzNmRlNzYwY2NkY2QyZmQxODI5MDY4MDQwY2Y4Mzc4YTQxOWRiZTNmIn0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/3/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/3/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMSIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiXG4iLCJ0b3RhbF9saW5lcyI6IjEiLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiIwMWJhNDcxOWM4MGI2ZmU5MTFiMDkxYTdjMDUxMjRiNjRlZWVjZTk2NGUwOWMwNThlZjhmOTgwNWRhY2E1NDZiIiwic2l6ZV9ieXRlcyI6IjEifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6IjQyNTYwOWM2ZGMyN2U0ZWUyNjhmOWM4NTNmNTMwY2NiYjIwYTNhMzI3ODkwYzAzNWU5N2NmNzExOGQ2MzgzMTQiLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiMDFiYTQ3MTljODBiNmZlOTExYjA5MWE3YzA1MTI0YjY0ZWVlY2U5NjRlMDljMDU4ZWY4Zjk4MDVkYWNhNTQ2YiIsInNpemVfYnl0ZXMiOiIxIn0sInBhdGhfa2V5IjoiWVM1MGVIUSJ9LCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJwcm9kdWNlcl9idWlsZCI6InNoYTI1Njo1NDdiMWUzZmIwY2FlNDM4MzAwYTZmMGJmNTBiZWY5ZWY1NzMxYWI1MTNjMTVmZjNiYTg4OWJhNzNmNGU2OTQyIiwicHJvZHVjZXJfdmVyc2lvbiI6IjAuMS4wIiwicmVhZF9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJyZWFzb25zIjpbXSwicmVwb3J0X3R5cGUiOiJ2ZXJpZmllZF9yZWFkIiwicmVxdWVzdCI6eyJtYXhfbGluZXMiOiIyMCIsInBhdGhfa2V5IjoiWVM1MGVIUSIsInN0YXJ0X2xpbmUiOiIxIn0sInJlc291cmNlcyI6eyJsb2dpY2FsX21lbW9yeV9wZWFrIjoiODU0NTk4OCIsIm9iamVjdF9ieXRlc19yZWFkIjoiMSIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjIifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6Ijg5MWQyMjliM2E1ZTY4MDUzNjg3MGU1MDM1NTVjOGYzYWJlMDg0ZDY4OWI3OWE2NWYwMWUzZmY4N2MxOWYzMzYiLCJzbmFwc2hvdF9pZCI6Ijk5NGUxN2E3LWQ0MzktNDczNC05YjdhLTA1OTAwMjU3NzY5NiIsInN0YXRlX2RpZ2VzdCI6ImM3MjUyMjk1MDVhZjAyZGZmZTU5YTM4MDM2ZGU3NjBjY2RjZDJmZDE4MjkwNjgwNDBjZjgzNzhhNDE5ZGJlM2YiLCJ3b3Jrc3BhY2VfaWQiOiI3ZTZlMGNmZS03NDhlLTQwZjMtYTNmOS1lZmQyMjNhMDBiYjcifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6Ijg5MWQyMjliM2E1ZTY4MDUzNjg3MGU1MDM1NTVjOGYzYWJlMDg0ZDY4OWI3OWE2NWYwMWUzZmY4N2MxOWYzMzYiLCJzbmFwc2hvdF9pZCI6Ijk5NGUxN2E3LWQ0MzktNDczNC05YjdhLTA1OTAwMjU3NzY5NiIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiNDI1NjA5YzZkYzI3ZTRlZTI2OGY5Yzg1M2Y1MzBjY2JiMjBhM2EzMjc4OTBjMDM1ZTk3Y2Y3MTE4ZDYzODMxNCIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI3ZTZlMGNmZS03NDhlLTQwZjMtYTNmOS1lZmQyMjNhMDBiYjcifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/4/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5LzQvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdk5DOTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6IjRjOWQ1NTJhLWY3MTEtNDYwYS04ZjcxLTY3M2ZjZjRmZWRiNSIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvNC90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2TkM5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/4/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6Ijc3NmE2ODllLTAxZjQtNDBlNC1hNmViLWRmMzdjMzc0ZDYzNyIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS80L3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzLzc3NmE2ODllLTAxZjQtNDBlNC1hNmViLWRmMzdjMzc0ZDYzNy5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZOQzkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5ODNOelpoTmpnNVpTMHdNV1kwTFRRd1pUUXRZVFpsWWkxa1pqTTNZek0zTkdRMk16Y3Vhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiI2ZWExM2UxOGQxNTIxYWVhYjdmNTMzMzUzZTE5ZTRlODI1Nzg5MDFjM2M1NDE3Y2NkYWJlZDEyOTFhNTNlZDRlIn0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/4/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/4/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiNiIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIwIiwic3RhcnRfYnl0ZSI6IjYiLCJ0ZXh0IjoiIiwidG90YWxfbGluZXMiOiIzIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODgwNTUzZmNhOGZjZWE5NGUzMjVlZTJjZmI0OGU1YTk4NWNjNzk3ZjM5YTE0Y2M2ZDNjZWRlY2ZlYjJhZTRkMiIsInNpemVfYnl0ZXMiOiI2In0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiIwYzc0MWRjZTc4YzlhYzVhYWU5ZDE3MTc2NmM5ODU2YmE1MjZkZTEyOWU3MmJhYTM0ZTU3MzkwMDc0NTY0ODk0Iiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6Ijg4MDU1M2ZjYThmY2VhOTRlMzI1ZWUyY2ZiNDhlNWE5ODVjYzc5N2YzOWExNGNjNmQzY2VkZWNmZWIyYWU0ZDIiLCJzaXplX2J5dGVzIjoiNiJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMTg0NDY3NDQwNzM3MDk1NTE2MTUifSwicmVzb3VyY2VzIjp7ImxvZ2ljYWxfbWVtb3J5X3BlYWsiOiI4NTQ1OTk4Iiwib2JqZWN0X2J5dGVzX3JlYWQiOiI2Iiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiNyJ9LCJzY2hlbWFfdmVyc2lvbiI6IjEiLCJzY29wZSI6ImRlY2xhcmVkX3NuYXBzaG90X29ubHkiLCJzbmFwc2hvdCI6eyJwYXRoX25hbWVzcGFjZSI6ImxpbnV4X2J5dGVzX3YxIiwicG9saWN5X2lkIjoiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsInF1YWxpdHkiOiJjb21wbGV0ZSIsInNuYXBzaG90X2ZpbGVfc2hhMjU2IjoiMTMwY2FlNzE3ZmZlMWY2YThlNzMwMTMyMmNlZWQxNDE5MTBiZWU4NjRjYzY3OGNjODk5NWJlZTg1NWE5ZjBhMyIsInNuYXBzaG90X2lkIjoiNzc2YTY4OWUtMDFmNC00MGU0LWE2ZWItZGYzN2MzNzRkNjM3Iiwic3RhdGVfZGlnZXN0IjoiNmVhMTNlMThkMTUyMWFlYWI3ZjUzMzM1M2UxOWU0ZTgyNTc4OTAxYzNjNTQxN2NjZGFiZWQxMjkxYTUzZWQ0ZSIsIndvcmtzcGFjZV9pZCI6IjRjOWQ1NTJhLWY3MTEtNDYwYS04ZjcxLTY3M2ZjZjRmZWRiNSJ9LCJzb3VyY2UiOnsicG9saWN5X2lkIjoiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsInNuYXBzaG90X2ZpbGVfc2hhMjU2IjoiMTMwY2FlNzE3ZmZlMWY2YThlNzMwMTMyMmNlZWQxNDE5MTBiZWU4NjRjYzY3OGNjODk5NWJlZTg1NWE5ZjBhMyIsInNuYXBzaG90X2lkIjoiNzc2YTY4OWUtMDFmNC00MGU0LWE2ZWItZGYzN2MzNzRkNjM3Iiwic291cmNlX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInNvdXJjZV9yZWYiOiIwYzc0MWRjZTc4YzlhYzVhYWU5ZDE3MTc2NmM5ODU2YmE1MjZkZTEyOWU3MmJhYTM0ZTU3MzkwMDc0NTY0ODk0Iiwic291cmNlX3NjaGVtYV92ZXJzaW9uIjoiMSIsIndvcmtzcGFjZV9pZCI6IjRjOWQ1NTJhLWY3MTEtNDYwYS04ZjcxLTY3M2ZjZjRmZWRiNSJ9LCJzdGF0dXMiOiJhdmFpbGFibGUifQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/5/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5LzUvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdk5TOTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6ImYzZThiMTJjLTcwOWEtNDc2ZC1iMGViLWEyNDhmOTU4MTc0MiIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvNS90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2TlM5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/5/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImFmOGQ3Y2UzLWIwZTEtNGNhNS05Y2M4LTM5Zjg1MGVjN2IxNSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS81L3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2FmOGQ3Y2UzLWIwZTEtNGNhNS05Y2M4LTM5Zjg1MGVjN2IxNS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZOUzkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5OWhaamhrTjJObE15MWlNR1V4TFRSallUVXRPV05qT0Mwek9XWTROVEJsWXpkaU1UVXVhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiJjNjdhMWVlMmQzYTk3MGJiNWVhNjQ3ODJkNzQwMThjOTkxMTkxMmQwNjNmY2Y1YmQ1N2Y0NWY4NDAxMjhhOTlkIn0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/5/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/5/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "2",
+          "--max-lines",
+          "1",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMTUiLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMSIsInN0YXJ0X2J5dGUiOiI4IiwidGV4dCI6Im5lZWRsZVxuIiwidG90YWxfbGluZXMiOiIyIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiMGZiNmJhODUyMzEzNGJmNTk4ODM3OTI0ZDVlZDc1NzFiMWZkYzM2YTY0YzkyZDlkZTNiOTczZjg4NTg0NTJiMSIsInNpemVfYnl0ZXMiOiIxNSJ9LCJoYXNoX2NoZWNrIjp0cnVlLCJzaXplX2NoZWNrIjp0cnVlLCJzb3VyY2VfcmVmIjoiZWY2NTEwNDc2MmU1NGQ0ZGNiNDJhMTNhYjMyNDc0MThmNTJkMTM4YTQxNDFkZmYxZDE0OTc3MTllZjNmZTg3NCIsInN0YXRlIjoidmVyaWZpZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiIwZmI2YmE4NTIzMTM0YmY1OTg4Mzc5MjRkNWVkNzU3MWIxZmRjMzZhNjRjOTJkOWRlM2I5NzNmODg1ODQ1MmIxIiwic2l6ZV9ieXRlcyI6IjE1In0sInBhdGhfa2V5IjoiWVM1MGVIUSJ9LCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJwcm9kdWNlcl9idWlsZCI6InNoYTI1Njo1NDdiMWUzZmIwY2FlNDM4MzAwYTZmMGJmNTBiZWY5ZWY1NzMxYWI1MTNjMTVmZjNiYTg4OWJhNzNmNGU2OTQyIiwicHJvZHVjZXJfdmVyc2lvbiI6IjAuMS4wIiwicmVhZF9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJyZWFzb25zIjpbXSwicmVwb3J0X3R5cGUiOiJ2ZXJpZmllZF9yZWFkIiwicmVxdWVzdCI6eyJtYXhfbGluZXMiOiIxIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjIifSwicmVzb3VyY2VzIjp7ImxvZ2ljYWxfbWVtb3J5X3BlYWsiOiI4NTQ2MDMyIiwib2JqZWN0X2J5dGVzX3JlYWQiOiIxNSIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjE2In0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI0OGExZDIwOWM5ODJhYzdlMWYzZGU0YWEzOWRiY2Y2MTI5ZTEzMGMwMzZiNjk2ODE1OTExYjdhM2IzZjUyNzBjIiwic25hcHNob3RfaWQiOiJhZjhkN2NlMy1iMGUxLTRjYTUtOWNjOC0zOWY4NTBlYzdiMTUiLCJzdGF0ZV9kaWdlc3QiOiJjNjdhMWVlMmQzYTk3MGJiNWVhNjQ3ODJkNzQwMThjOTkxMTkxMmQwNjNmY2Y1YmQ1N2Y0NWY4NDAxMjhhOTlkIiwid29ya3NwYWNlX2lkIjoiZjNlOGIxMmMtNzA5YS00NzZkLWIwZWItYTI0OGY5NTgxNzQyIn0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI0OGExZDIwOWM5ODJhYzdlMWYzZGU0YWEzOWRiY2Y2MTI5ZTEzMGMwMzZiNjk2ODE1OTExYjdhM2IzZjUyNzBjIiwic25hcHNob3RfaWQiOiJhZjhkN2NlMy1iMGUxLTRjYTUtOWNjOC0zOWY4NTBlYzdiMTUiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6ImVmNjUxMDQ3NjJlNTRkNGRjYjQyYTEzYWIzMjQ3NDE4ZjUyZDEzOGE0MTQxZGZmMWQxNDk3NzE5ZWYzZmU4NzQiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiZjNlOGIxMmMtNzA5YS00NzZkLWIwZWItYTI0OGY5NTgxNzQyIn0sInN0YXR1cyI6ImF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/6/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5LzYvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdk5pOTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6IjU2OTYxNDU5LTM4NWYtNDljMC04ZjZhLTliOWVlMmZhMjYxMiIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvNi90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2Tmk5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/6/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImQxNmU1YmI4LWVjMzYtNGY1YS1iZDFjLTUxMDAxNjFiNTg3NSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS82L3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2QxNmU1YmI4LWVjMzYtNGY1YS1iZDFjLTUxMDAxNjFiNTg3NS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZOaTkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5OWtNVFpsTldKaU9DMWxZek0yTFRSbU5XRXRZbVF4WXkwMU1UQXdNVFl4WWpVNE56VXVhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiIxM2YxMTUzZDc2ZTc3YzlhZjJmMjA1YjYwM2NlYmUyNTc4YTMyMmY2YWVlMjRiNWRjMWZhOWEwYzEzYWMxYzZjIn0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/6/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/6/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "1",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiOCIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0Ijoi77u/YWx2b1xuIiwidG90YWxfbGluZXMiOiIxIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiMGQ5NmJhMzcyOGZkY2Y3OTdmODZhOWUxZTJkMzg3NDRlOGM0MjE5YjhiMjE3NTdmYTdhMmJlZWM5MDY4MTI5ZSIsInNpemVfYnl0ZXMiOiI4In0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiI0YjJjODMzZTU3ZmJjN2Q4MTM5MWY1YTY1MzhkMjQ3ZThiMzA1OWE2NWE1NDVlYTM1NGQ4Y2IxODM1NDMxYWQ3Iiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6IjBkOTZiYTM3MjhmZGNmNzk3Zjg2YTllMWUyZDM4NzQ0ZThjNDIxOWI4YjIxNzU3ZmE3YTJiZWVjOTA2ODEyOWUiLCJzaXplX2J5dGVzIjoiOCJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMSIsInBhdGhfa2V5IjoiWVM1MGVIUSIsInN0YXJ0X2xpbmUiOiIxIn0sInJlc291cmNlcyI6eyJsb2dpY2FsX21lbW9yeV9wZWFrIjoiODU0NjAwMiIsIm9iamVjdF9ieXRlc19yZWFkIjoiOCIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjkifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImFiMThmZGQ3MTQyNWVkNGRjZmY2ODBkY2ZiZWMzY2I0NzFkMWQwYWZlYmE1NTI3ODkxNGQ2NjEzYzZlNzFhMDMiLCJzbmFwc2hvdF9pZCI6ImQxNmU1YmI4LWVjMzYtNGY1YS1iZDFjLTUxMDAxNjFiNTg3NSIsInN0YXRlX2RpZ2VzdCI6IjEzZjExNTNkNzZlNzdjOWFmMmYyMDViNjAzY2ViZTI1NzhhMzIyZjZhZWUyNGI1ZGMxZmE5YTBjMTNhYzFjNmMiLCJ3b3Jrc3BhY2VfaWQiOiI1Njk2MTQ1OS0zODVmLTQ5YzAtOGY2YS05YjllZTJmYTI2MTIifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImFiMThmZGQ3MTQyNWVkNGRjZmY2ODBkY2ZiZWMzY2I0NzFkMWQwYWZlYmE1NTI3ODkxNGQ2NjEzYzZlNzFhMDMiLCJzbmFwc2hvdF9pZCI6ImQxNmU1YmI4LWVjMzYtNGY1YS1iZDFjLTUxMDAxNjFiNTg3NSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiNGIyYzgzM2U1N2ZiYzdkODEzOTFmNWE2NTM4ZDI0N2U4YjMwNTlhNjVhNTQ1ZWEzNTRkOGNiMTgzNTQzMWFkNyIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI1Njk2MTQ1OS0zODVmLTQ5YzAtOGY2YS05YjllZTJmYTI2MTIifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/7/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5LzcvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdk55OTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6IjdlZTI1ZTk4LTllMmMtNDgxOS04ODRmLTc2MzdmNzFlMmFmMCIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvNy90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2Tnk5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/7/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImU2YjRjNGM0LWYzNzctNDY2Zi1hZDQ1LWIwNzI2ZTlmOWI5NSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS83L3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2U2YjRjNGM0LWYzNzctNDY2Zi1hZDQ1LWIwNzI2ZTlmOWI5NS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZOeTkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5OWxObUkwWXpSak5DMW1NemMzTFRRMk5tWXRZV1EwTlMxaU1EY3lObVU1WmpsaU9UVXVhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiJiYzg3ZWYzNzAzY2U0ZDQ5YWM5MGQxOTk2ODYyMzdiZGI0ZmZiOGVkN2FiZTJjYzliNmM0OWZjYmQ0NWZhMjRiIn0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/7/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/7/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "1",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiNyIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiYVxyYuKAqGMiLCJ0b3RhbF9saW5lcyI6IjEiLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI5NTkwODE4MjQ5NTRlZjgzNTg2YTQ5MmYxZGQyMTkyOTM2NGQxZWUxOWEzOGJlZDg3OTlmOGE0YmRjMzYxNGZjIiwic2l6ZV9ieXRlcyI6IjcifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6ImYzNTNlODQxYWQ0ZGRiOGVlMWIxYjk0MGIwNzM5OTUxODE4Y2RkZTFiZWFhMmIzNzAxMmYzN2RmZjlhM2FmM2YiLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiOTU5MDgxODI0OTU0ZWY4MzU4NmE0OTJmMWRkMjE5MjkzNjRkMWVlMTlhMzhiZWQ4Nzk5ZjhhNGJkYzM2MTRmYyIsInNpemVfYnl0ZXMiOiI3In0sInBhdGhfa2V5IjoiWVM1MGVIUSJ9LCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJwcm9kdWNlcl9idWlsZCI6InNoYTI1Njo1NDdiMWUzZmIwY2FlNDM4MzAwYTZmMGJmNTBiZWY5ZWY1NzMxYWI1MTNjMTVmZjNiYTg4OWJhNzNmNGU2OTQyIiwicHJvZHVjZXJfdmVyc2lvbiI6IjAuMS4wIiwicmVhZF9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJyZWFzb25zIjpbXSwicmVwb3J0X3R5cGUiOiJ2ZXJpZmllZF9yZWFkIiwicmVxdWVzdCI6eyJtYXhfbGluZXMiOiIxIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjEifSwicmVzb3VyY2VzIjp7ImxvZ2ljYWxfbWVtb3J5X3BlYWsiOiI4NTQ2MDAwIiwib2JqZWN0X2J5dGVzX3JlYWQiOiI3Iiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiOCJ9LCJzY2hlbWFfdmVyc2lvbiI6IjEiLCJzY29wZSI6ImRlY2xhcmVkX3NuYXBzaG90X29ubHkiLCJzbmFwc2hvdCI6eyJwYXRoX25hbWVzcGFjZSI6ImxpbnV4X2J5dGVzX3YxIiwicG9saWN5X2lkIjoiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsInF1YWxpdHkiOiJjb21wbGV0ZSIsInNuYXBzaG90X2ZpbGVfc2hhMjU2IjoiMDQzZjRhM2VkNDc2Y2E2YTIwMTRmZjM1ODRiNzllMGYyM2JiYjMwNjhiMjUyYzFmZDBiOWE1ODhmOGE2MzM0ZCIsInNuYXBzaG90X2lkIjoiZTZiNGM0YzQtZjM3Ny00NjZmLWFkNDUtYjA3MjZlOWY5Yjk1Iiwic3RhdGVfZGlnZXN0IjoiYmM4N2VmMzcwM2NlNGQ0OWFjOTBkMTk5Njg2MjM3YmRiNGZmYjhlZDdhYmUyY2M5YjZjNDlmY2JkNDVmYTI0YiIsIndvcmtzcGFjZV9pZCI6IjdlZTI1ZTk4LTllMmMtNDgxOS04ODRmLTc2MzdmNzFlMmFmMCJ9LCJzb3VyY2UiOnsicG9saWN5X2lkIjoiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsInNuYXBzaG90X2ZpbGVfc2hhMjU2IjoiMDQzZjRhM2VkNDc2Y2E2YTIwMTRmZjM1ODRiNzllMGYyM2JiYjMwNjhiMjUyYzFmZDBiOWE1ODhmOGE2MzM0ZCIsInNuYXBzaG90X2lkIjoiZTZiNGM0YzQtZjM3Ny00NjZmLWFkNDUtYjA3MjZlOWY5Yjk1Iiwic291cmNlX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInNvdXJjZV9yZWYiOiJmMzUzZTg0MWFkNGRkYjhlZTFiMWI5NDBiMDczOTk1MTgxOGNkZGUxYmVhYTJiMzcwMTJmMzdkZmY5YTNhZjNmIiwic291cmNlX3NjaGVtYV92ZXJzaW9uIjoiMSIsIndvcmtzcGFjZV9pZCI6IjdlZTI1ZTk4LTllMmMtNDgxOS04ODRmLTc2MzdmNzFlMmFmMCJ9LCJzdGF0dXMiOiJhdmFpbGFibGUifQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/flow/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2Zsb3cvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlpteHZkeTkwY21WbEx5NWpiMjF3WVhOekwzQnZiR2xqZVM1cWMyOXUiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkiLCJ3b3Jrc3BhY2VfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2Zsb3cvdHJlZS8uY29tcGFzcy93b3Jrc3BhY2UuanNvbiIsIndvcmtzcGFjZV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlpteHZkeTkwY21WbEx5NWpiMjF3WVhOekwzZHZjbXR6Y0dGalpTNXFjMjl1In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/flow/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9mbG93L3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzLzBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZabXh2ZHk5MGNtVmxMeTVqYjIxd1lYTnpMM051WVhCemFHOTBjeTh3WTJJNVlUVTFOUzB4TkRSbExUUmhPVEV0WWpJelppMWxOMkV3WWpCbVpqaG1Oamt1YW5OdmJnIiwic3RhdGVfZGlnZXN0IjoiM2I3OTFhMThjN2I0YmRjMzMzZWIwNTJhZDQxZWEzNGUzMTZhZjZhNjZlMmRmOGNiYWZiYmI0OTI5ODAxNGVhYiJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "search",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--query",
+          "alvo",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJmaWxlcyI6W3siY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiNmIwZjQ2NTNkN2JmZGE0ZWQ1YjFhZGYwYzdiODg0ZThhOTBjNzQ5ZTNiNTEzNjA2ZmYyZTQyNWViN2E4OTI0OCIsInNpemVfYnl0ZXMiOiIyMyJ9LCJoYXNoX2NoZWNrIjp0cnVlLCJzaXplX2NoZWNrIjp0cnVlLCJzb3VyY2VfcmVmIjoiMGFjZmYyMjI5NjBhMTQ3YjI5ZmMzZjJhODc2ZDJjYjA5MmFiODExOWEyMGM2Nzc4NDRmZjJmMTE0NjdlMDMwNyIsInN0YXRlIjoidmVyaWZpZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI2YjBmNDY1M2Q3YmZkYTRlZDViMWFkZjBjN2I4ODRlOGE5MGM3NDllM2I1MTM2MDZmZjJlNDI1ZWI3YTg5MjQ4Iiwic2l6ZV9ieXRlcyI6IjIzIn0sInBhdGhfa2V5IjoiWVM1MGVIUSIsInJlYXNvbnMiOltdLCJzdGF0ZSI6InNlYXJjaGVkIn0seyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiIyZDcxMTY0MmI3MjZiMDQ0MDE2MjdjYTlmYmFjMzJmNWM4NTMwZmIxOTAzY2M0ZGIwMjI1ODcxNzkyMWE0ODgxIiwic2l6ZV9ieXRlcyI6IjEifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6IjBhY2ZmMjIyOTYwYTE0N2IyOWZjM2YyYTg3NmQyY2IwOTJhYjgxMTlhMjBjNjc3ODQ0ZmYyZjExNDY3ZTAzMDciLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiMmQ3MTE2NDJiNzI2YjA0NDAxNjI3Y2E5ZmJhYzMyZjVjODUzMGZiMTkwM2NjNGRiMDIyNTg3MTc5MjFhNDg4MSIsInNpemVfYnl0ZXMiOiIxIn0sInBhdGhfa2V5IjoiWkdseUwzZyIsInJlYXNvbnMiOltdLCJzdGF0ZSI6InNlYXJjaGVkIn0seyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI3ZTRmYTJlYjhjN2FjMDg5NzM5ZDVkZWZjNDQ4OWZhZDY4YTEwMGQ5MjA4MmNhMzVjNmI0MGE0NTI0ODIxZjg3Iiwic2l6ZV9ieXRlcyI6IjYifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6IjBhY2ZmMjIyOTYwYTE0N2IyOWZjM2YyYTg3NmQyY2IwOTJhYjgxMTlhMjBjNjc3ODQ0ZmYyZjExNDY3ZTAzMDciLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiN2U0ZmEyZWI4YzdhYzA4OTczOWQ1ZGVmYzQ0ODlmYWQ2OGExMDBkOTIwODJjYTM1YzZiNDBhNDUyNDgyMWY4NyIsInNpemVfYnl0ZXMiOiI2In0sInBhdGhfa2V5IjoiYjNSb1pYSSIsInJlYXNvbnMiOltdLCJzdGF0ZSI6InNlYXJjaGVkIn1dLCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJtYXRjaGVzIjpbeyJjb250ZW50X3NoYTI1NiI6IjZiMGY0NjUzZDdiZmRhNGVkNWIxYWRmMGM3Yjg4NGU4YTkwYzc0OWUzYjUxMzYwNmZmMmU0MjVlYjdhODkyNDgiLCJlbmRfYnl0ZSI6IjEyIiwibGluZSI6IjIiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzaXplX2J5dGVzIjoiMjMiLCJzdGFydF9ieXRlIjoiNyIsInRleHQiOiJhbHZvXG4ifV0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJxdWVyeSI6eyJtYXhfbWF0Y2hlcyI6IjIwIiwibW9kZSI6ImxpdGVyYWxfdXRmOF9saW5lcyIsInRleHQiOiJhbHZvIn0sInJlcG9ydF90eXBlIjoibGl0ZXJhbF9zZWFyY2giLCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NjYyMTYiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjMwIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiMzMifSwicmV0cmlldmFsX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInNjYW4iOnsiZXhjbHVkZWRfZW50cmllcyI6IjIiLCJtYXRjaGVzX3JldHVybmVkIjoiMSIsIm1hdGNoZXNfdHJ1bmNhdGVkIjpmYWxzZSwibWF0Y2hpbmdfbGluZXNfa25vd24iOiIxIiwibm9uX3RleHRfZmlsZXMiOiIwIiwib2JzZXJ2ZWRfZmlsZXMiOiIzIiwicmVhc29ucyI6W10sInN0YXR1cyI6ImNvbXBsZXRlIiwidW5hdmFpbGFibGVfZmlsZXMiOiIwIiwidmVyaWZpZWRfdGV4dF9maWxlcyI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInN0YXRlX2RpZ2VzdCI6IjNiNzkxYTE4YzdiNGJkYzMzM2ViMDUyYWQ0MWVhMzRlMzE2YWY2YTY2ZTJkZjhjYmFmYmJiNDkyOTgwMTRlYWIiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiMGFjZmYyMjI5NjBhMTQ3YjI5ZmMzZjJhODc2ZDJjYjA5MmFiODExOWEyMGM2Nzc4NDRmZjJmMTE0NjdlMDMwNyIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "3",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMTgiLCJuZXh0X3N0YXJ0X2xpbmUiOiI0IiwicmV0dXJuZWRfbGluZXMiOiIzIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiYmVmb3JlXG5hbHZvXG5hZnRlclxuIiwidG90YWxfbGluZXMiOiI0IiwidHJ1bmNhdGVkIjp0cnVlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI2YjBmNDY1M2Q3YmZkYTRlZDViMWFkZjBjN2I4ODRlOGE5MGM3NDllM2I1MTM2MDZmZjJlNDI1ZWI3YTg5MjQ4Iiwic2l6ZV9ieXRlcyI6IjIzIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiIwYWNmZjIyMjk2MGExNDdiMjlmYzNmMmE4NzZkMmNiMDkyYWI4MTE5YTIwYzY3Nzg0NGZmMmYxMTQ2N2UwMzA3Iiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6IjZiMGY0NjUzZDdiZmRhNGVkNWIxYWRmMGM3Yjg4NGU4YTkwYzc0OWUzYjUxMzYwNmZmMmU0MjVlYjdhODkyNDgiLCJzaXplX2J5dGVzIjoiMjMifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOltdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjMiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NjYyMTYiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIzIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiMjQifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInN0YXRlX2RpZ2VzdCI6IjNiNzkxYTE4YzdiNGJkYzMzM2ViMDUyYWQ0MWVhMzRlMzE2YWY2YTY2ZTJkZjhjYmFmYmJiNDkyOTgwMTRlYWIiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiMGFjZmYyMjI5NjBhMTQ3YjI5ZmMzZjJhODc2ZDJjYjA5MmFiODExOWEyMGM2Nzc4NDRmZjJmMTE0NjdlMDMwNyIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "4",
+          "--max-lines",
+          "3",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMjMiLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMSIsInN0YXJ0X2J5dGUiOiIxOCIsInRleHQiOiJ0YWlsXG4iLCJ0b3RhbF9saW5lcyI6IjQiLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI2YjBmNDY1M2Q3YmZkYTRlZDViMWFkZjBjN2I4ODRlOGE5MGM3NDllM2I1MTM2MDZmZjJlNDI1ZWI3YTg5MjQ4Iiwic2l6ZV9ieXRlcyI6IjIzIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiIwYWNmZjIyMjk2MGExNDdiMjlmYzNmMmE4NzZkMmNiMDkyYWI4MTE5YTIwYzY3Nzg0NGZmMmYxMTQ2N2UwMzA3Iiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6IjZiMGY0NjUzZDdiZmRhNGVkNWIxYWRmMGM3Yjg4NGU4YTkwYzc0OWUzYjUxMzYwNmZmMmU0MjVlYjdhODkyNDgiLCJzaXplX2J5dGVzIjoiMjMifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOltdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjMiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiNCJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NjYyMTYiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIzIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiMjQifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInN0YXRlX2RpZ2VzdCI6IjNiNzkxYTE4YzdiNGJkYzMzM2ViMDUyYWQ0MWVhMzRlMzE2YWY2YTY2ZTJkZjhjYmFmYmJiNDkyOTgwMTRlYWIiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiMGFjZmYyMjI5NjBhMTQ3YjI5ZmMzZjJhODc2ZDJjYjA5MmFiODExOWEyMGM2Nzc4NDRmZjJmMTE0NjdlMDMwNyIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "3",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMTgiLCJuZXh0X3N0YXJ0X2xpbmUiOiI0IiwicmV0dXJuZWRfbGluZXMiOiIzIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiYmVmb3JlXG5hbHZvXG5hZnRlclxuIiwidG90YWxfbGluZXMiOiI0IiwidHJ1bmNhdGVkIjp0cnVlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI2YjBmNDY1M2Q3YmZkYTRlZDViMWFkZjBjN2I4ODRlOGE5MGM3NDllM2I1MTM2MDZmZjJlNDI1ZWI3YTg5MjQ4Iiwic2l6ZV9ieXRlcyI6IjIzIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiIwYWNmZjIyMjk2MGExNDdiMjlmYzNmMmE4NzZkMmNiMDkyYWI4MTE5YTIwYzY3Nzg0NGZmMmYxMTQ2N2UwMzA3Iiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6IjZiMGY0NjUzZDdiZmRhNGVkNWIxYWRmMGM3Yjg4NGU4YTkwYzc0OWUzYjUxMzYwNmZmMmU0MjVlYjdhODkyNDgiLCJzaXplX2J5dGVzIjoiMjMifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOltdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjMiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NjYyMTYiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIzIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiMjQifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInN0YXRlX2RpZ2VzdCI6IjNiNzkxYTE4YzdiNGJkYzMzM2ViMDUyYWQ0MWVhMzRlMzE2YWY2YTY2ZTJkZjhjYmFmYmJiNDkyOTgwMTRlYWIiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiMGFjZmYyMjI5NjBhMTQ3YjI5ZmMzZjJhODc2ZDJjYjA5MmFiODExOWEyMGM2Nzc4NDRmZjJmMTE0NjdlMDMwNyIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/s1/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L3MxL3RyZWUvLmNvbXBhc3MvcG9saWN5Lmpzb24iLCJwb2xpY3lfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZjekV2ZEhKbFpTOHVZMjl0Y0dGemN5OXdiMnhwWTNrdWFuTnZiZyIsIndvcmtzcGFjZV9pZCI6ImJjZjg1NGYxLWNmZjItNGRkYi04YTgzLWY1MjdkOTFmOTgzOSIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvczEvdHJlZS8uY29tcGFzcy93b3Jrc3BhY2UuanNvbiIsIndvcmtzcGFjZV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdmN6RXZkSEpsWlM4dVkyOXRjR0Z6Y3k5M2IzSnJjM0JoWTJVdWFuTnZiZyJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/s1/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImI1M2NhZTgzLWU5ZjItNGM1Yi04YTRhLTY5ZjI0MTBkYWJmYyIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9zMS90cmVlLy5jb21wYXNzL3NuYXBzaG90cy9iNTNjYWU4My1lOWYyLTRjNWItOGE0YS02OWYyNDEwZGFiZmMuanNvbiIsInNuYXBzaG90X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2Y3pFdmRISmxaUzh1WTI5dGNHRnpjeTl6Ym1Gd2MyaHZkSE12WWpVelkyRmxPRE10WlRsbU1pMDBZelZpTFRoaE5HRXROamxtTWpReE1HUmhZbVpqTG1wemIyNCIsInN0YXRlX2RpZ2VzdCI6IjhiMGM2YTNmYzhmYTAzNjcyYzA0OGM1MGNkZmI4ZTA0OWNhYTgwYzk2MzQxYmFiZWUxMzk2OWVmNDZiYTk2MjMifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/s1/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/s1/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMTMiLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMiIsInN0YXJ0X2J5dGUiOiIwIiwidGV4dCI6ImNoYW5nZWRcbmFsdm9cbiIsInRvdGFsX2xpbmVzIjoiMiIsInRydW5jYXRlZCI6ZmFsc2V9LCJmaWxlIjp7ImNoZWNrIjp7ImFjdHVhbF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6ImJkY2Q2MDgzOGM2NjliNTQ0YWRkODUzZTgxMWRiYjQ3MTFmYzJiODVlZDA1ZjVkYjc4MTlkMDg1NjNlZWM5MWUiLCJzaXplX2J5dGVzIjoiMTMifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6ImUyN2E0MTc5ODdhZTVhOGM1MWI2M2Y4ZDkyYWNlYzg5ZmI0MGU3M2E0YzVkZjViZGRmNDdmNTFiZmFlZTk5MDUiLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiYmRjZDYwODM4YzY2OWI1NDRhZGQ4NTNlODExZGJiNDcxMWZjMmI4NWVkMDVmNWRiNzgxOWQwODU2M2VlYzkxZSIsInNpemVfYnl0ZXMiOiIxMyJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDYwMjgiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjEzIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiMTQifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImIxMTcyMGY2MjM5NjkyZWU4YzZlODE1YzBhNjdjMDg1ZDdiZjFhNjhjYThkMTcxYzYxYTZiMjc2Y2M0OTI3YjciLCJzbmFwc2hvdF9pZCI6ImI1M2NhZTgzLWU5ZjItNGM1Yi04YTRhLTY5ZjI0MTBkYWJmYyIsInN0YXRlX2RpZ2VzdCI6IjhiMGM2YTNmYzhmYTAzNjcyYzA0OGM1MGNkZmI4ZTA0OWNhYTgwYzk2MzQxYmFiZWUxMzk2OWVmNDZiYTk2MjMiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImIxMTcyMGY2MjM5NjkyZWU4YzZlODE1YzBhNjdjMDg1ZDdiZjFhNjhjYThkMTcxYzYxYTZiMjc2Y2M0OTI3YjciLCJzbmFwc2hvdF9pZCI6ImI1M2NhZTgzLWU5ZjItNGM1Yi04YTRhLTY5ZjI0MTBkYWJmYyIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiZTI3YTQxNzk4N2FlNWE4YzUxYjYzZjhkOTJhY2VjODlmYjQwZTczYTRjNWRmNWJkZGY0N2Y1MWJmYWVlOTkwNSIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/s1/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 2,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoiaW5jb21wYXRpYmxlX2lucHV0cyIsIm1lc3NhZ2UiOiJpbmNvbXBhdGlibGVfaW5wdXRzIn19",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "bWlzc2luZw",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoicGF0aF9ub3Rfb2JzZXJ2ZWQiLCJtZXNzYWdlIjoicGF0aF9ub3Rfb2JzZXJ2ZWQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "LmVudg",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoicGF0aF9ub3Rfb2JzZXJ2ZWQiLCJtZXNzYWdlIjoicGF0aF9ub3Rfb2JzZXJ2ZWQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "ZGly",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoicGF0aF9ub3Rfb2JzZXJ2ZWQiLCJtZXNzYWdlIjoicGF0aF9ub3Rfb2JzZXJ2ZWQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMjMiLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiNCIsInN0YXJ0X2J5dGUiOiIwIiwidGV4dCI6ImJlZm9yZVxuYWx2b1xuYWZ0ZXJcbnRhaWxcbiIsInRvdGFsX2xpbmVzIjoiNCIsInRydW5jYXRlZCI6ZmFsc2V9LCJmaWxlIjp7ImNoZWNrIjp7ImFjdHVhbF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6IjZiMGY0NjUzZDdiZmRhNGVkNWIxYWRmMGM3Yjg4NGU4YTkwYzc0OWUzYjUxMzYwNmZmMmU0MjVlYjdhODkyNDgiLCJzaXplX2J5dGVzIjoiMjMifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6IjBhY2ZmMjIyOTYwYTE0N2IyOWZjM2YyYTg3NmQyY2IwOTJhYjgxMTlhMjBjNjc3ODQ0ZmYyZjExNDY3ZTAzMDciLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiNmIwZjQ2NTNkN2JmZGE0ZWQ1YjFhZGYwYzdiODg0ZThhOTBjNzQ5ZTNiNTEzNjA2ZmYyZTQyNWViN2E4OTI0OCIsInNpemVfYnl0ZXMiOiIyMyJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NjYyMTYiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIzIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiMjQifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInN0YXRlX2RpZ2VzdCI6IjNiNzkxYTE4YzdiNGJkYzMzM2ViMDUyYWQ0MWVhMzRlMzE2YWY2YTY2ZTJkZjhjYmFmYmJiNDkyOTgwMTRlYWIiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiMGFjZmYyMjI5NjBhMTQ3YjI5ZmMzZjJhODc2ZDJjYjA5MmFiODExOWEyMGM2Nzc4NDRmZjJmMTE0NjdlMDMwNyIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMjMiLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiNCIsInN0YXJ0X2J5dGUiOiIwIiwidGV4dCI6ImJlZm9yZVxuYWx2b1xuYWZ0ZXJcbnRhaWxcbiIsInRvdGFsX2xpbmVzIjoiNCIsInRydW5jYXRlZCI6ZmFsc2V9LCJmaWxlIjp7ImNoZWNrIjp7ImFjdHVhbF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6IjZiMGY0NjUzZDdiZmRhNGVkNWIxYWRmMGM3Yjg4NGU4YTkwYzc0OWUzYjUxMzYwNmZmMmU0MjVlYjdhODkyNDgiLCJzaXplX2J5dGVzIjoiMjMifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6IjBhY2ZmMjIyOTYwYTE0N2IyOWZjM2YyYTg3NmQyY2IwOTJhYjgxMTlhMjBjNjc3ODQ0ZmYyZjExNDY3ZTAzMDciLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiNmIwZjQ2NTNkN2JmZGE0ZWQ1YjFhZGYwYzdiODg0ZThhOTBjNzQ5ZTNiNTEzNjA2ZmYyZTQyNWViN2E4OTI0OCIsInNpemVfYnl0ZXMiOiIyMyJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NjYyMTYiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIzIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiMjQifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInN0YXRlX2RpZ2VzdCI6IjNiNzkxYTE4YzdiNGJkYzMzM2ViMDUyYWQ0MWVhMzRlMzE2YWY2YTY2ZTJkZjhjYmFmYmJiNDkyOTgwMTRlYWIiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImRhMTFkOTlmOGJkMWRiZDNkNzIzZTNhYzIzZjgxM2VhOTI1N2IxNTNkYzQzYTM1Y2I5YmQ0N2JmNmQ5NTk2ZmQiLCJzbmFwc2hvdF9pZCI6IjBjYjlhNTU1LTE0NGUtNGE5MS1iMjNmLWU3YTBiMGZmOGY2OSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiMGFjZmYyMjI5NjBhMTQ3YjI5ZmMzZjJhODc2ZDJjYjA5MmFiODExOWEyMGM2Nzc4NDRmZjJmMTE0NjdlMDMwNyIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI4MDg5YTlkMC1kMjBlLTQ3NTctYmE1Mi1lZWU0MWQwMmRhZTkifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/flow/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/flow/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20"
+        ],
+        "exit": 0,
+        "stdout_base64": "ewogICJleGNlcnB0IjogewogICAgImVuZF9ieXRlIjogIjIzIiwKICAgICJuZXh0X3N0YXJ0X2xpbmUiOiBudWxsLAogICAgInJldHVybmVkX2xpbmVzIjogIjQiLAogICAgInN0YXJ0X2J5dGUiOiAiMCIsCiAgICAidGV4dCI6ICJiZWZvcmVcbmFsdm9cbmFmdGVyXG50YWlsXG4iLAogICAgInRvdGFsX2xpbmVzIjogIjQiLAogICAgInRydW5jYXRlZCI6IGZhbHNlCiAgfSwKICAiZmlsZSI6IHsKICAgICJjaGVjayI6IHsKICAgICAgImFjdHVhbF9yZXZpc2lvbiI6IHsKICAgICAgICAiY29udGVudF9zaGEyNTYiOiAiNmIwZjQ2NTNkN2JmZGE0ZWQ1YjFhZGYwYzdiODg0ZThhOTBjNzQ5ZTNiNTEzNjA2ZmYyZTQyNWViN2E4OTI0OCIsCiAgICAgICAgInNpemVfYnl0ZXMiOiAiMjMiCiAgICAgIH0sCiAgICAgICJoYXNoX2NoZWNrIjogdHJ1ZSwKICAgICAgInNpemVfY2hlY2siOiB0cnVlLAogICAgICAic291cmNlX3JlZiI6ICIwYWNmZjIyMjk2MGExNDdiMjlmYzNmMmE4NzZkMmNiMDkyYWI4MTE5YTIwYzY3Nzg0NGZmMmYxMTQ2N2UwMzA3IiwKICAgICAgInN0YXRlIjogInZlcmlmaWVkIgogICAgfSwKICAgICJleHBlY3RlZF9yZXZpc2lvbiI6IHsKICAgICAgImNvbnRlbnRfc2hhMjU2IjogIjZiMGY0NjUzZDdiZmRhNGVkNWIxYWRmMGM3Yjg4NGU4YTkwYzc0OWUzYjUxMzYwNmZmMmU0MjVlYjdhODkyNDgiLAogICAgICAic2l6ZV9ieXRlcyI6ICIyMyIKICAgIH0sCiAgICAicGF0aF9rZXkiOiAiWVM1MGVIUSIKICB9LAogICJsaW1pdHMiOiB7CiAgICAibWF4X2R1cmF0aW9uX21zIjogbnVsbCwKICAgICJtYXhfZmlsZV9ieXRlcyI6ICI0MTk0MzA0IiwKICAgICJtYXhfanNvbl9kZXB0aCI6ICI2NCIsCiAgICAibWF4X2xpbmVfYnl0ZXMiOiAiNDA5NiIsCiAgICAibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjogIjEzNDIxNzcyOCIsCiAgICAibWF4X21hbmlmZXN0X2J5dGVzIjogIjE2Nzc3MjE2IiwKICAgICJtYXhfb3V0cHV0X2J5dGVzIjogIjEwNDg1NzYiLAogICAgIm1heF9yZWNvcmRzIjogIjEwMDAwIiwKICAgICJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiAiNjU1MzYiLAogICAgIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiAiNjcxMDg4NjQiCiAgfSwKICAicHJvZHVjZXJfYnVpbGQiOiAic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLAogICJwcm9kdWNlcl92ZXJzaW9uIjogIjAuMS4wIiwKICAicmVhZF9jb250cmFjdF92ZXJzaW9uIjogIjAuMS4wIiwKICAicmVhc29ucyI6IFtdLAogICJyZXBvcnRfdHlwZSI6ICJ2ZXJpZmllZF9yZWFkIiwKICAicmVxdWVzdCI6IHsKICAgICJtYXhfbGluZXMiOiAiMjAiLAogICAgInBhdGhfa2V5IjogIllTNTBlSFEiLAogICAgInN0YXJ0X2xpbmUiOiAiMSIKICB9LAogICJyZXNvdXJjZXMiOiB7CiAgICAibG9naWNhbF9tZW1vcnlfcGVhayI6ICI4NTY2MjE2IiwKICAgICJvYmplY3RfYnl0ZXNfcmVhZCI6ICIyMyIsCiAgICAib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjogIjI0IgogIH0sCiAgInNjaGVtYV92ZXJzaW9uIjogIjEiLAogICJzY29wZSI6ICJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5IiwKICAic25hcHNob3QiOiB7CiAgICAicGF0aF9uYW1lc3BhY2UiOiAibGludXhfYnl0ZXNfdjEiLAogICAgInBvbGljeV9pZCI6ICIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwKICAgICJxdWFsaXR5IjogImNvbXBsZXRlIiwKICAgICJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ICJkYTExZDk5ZjhiZDFkYmQzZDcyM2UzYWMyM2Y4MTNlYTkyNTdiMTUzZGM0M2EzNWNiOWJkNDdiZjZkOTU5NmZkIiwKICAgICJzbmFwc2hvdF9pZCI6ICIwY2I5YTU1NS0xNDRlLTRhOTEtYjIzZi1lN2EwYjBmZjhmNjkiLAogICAgInN0YXRlX2RpZ2VzdCI6ICIzYjc5MWExOGM3YjRiZGMzMzNlYjA1MmFkNDFlYTM0ZTMxNmFmNmE2NmUyZGY4Y2JhZmJiYjQ5Mjk4MDE0ZWFiIiwKICAgICJ3b3Jrc3BhY2VfaWQiOiAiODA4OWE5ZDAtZDIwZS00NzU3LWJhNTItZWVlNDFkMDJkYWU5IgogIH0sCiAgInNvdXJjZSI6IHsKICAgICJwb2xpY3lfaWQiOiAiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsCiAgICAic25hcHNob3RfZmlsZV9zaGEyNTYiOiAiZGExMWQ5OWY4YmQxZGJkM2Q3MjNlM2FjMjNmODEzZWE5MjU3YjE1M2RjNDNhMzVjYjliZDQ3YmY2ZDk1OTZmZCIsCiAgICAic25hcHNob3RfaWQiOiAiMGNiOWE1NTUtMTQ0ZS00YTkxLWIyM2YtZTdhMGIwZmY4ZjY5IiwKICAgICJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6ICIwLjEuMCIsCiAgICAic291cmNlX3JlZiI6ICIwYWNmZjIyMjk2MGExNDdiMjlmYzNmMmE4NzZkMmNiMDkyYWI4MTE5YTIwYzY3Nzg0NGZmMmYxMTQ2N2UwMzA3IiwKICAgICJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiAiMSIsCiAgICAid29ya3NwYWNlX2lkIjogIjgwODlhOWQwLWQyMGUtNDc1Ny1iYTUyLWVlZTQxZDAyZGFlOSIKICB9LAogICJzdGF0dXMiOiAiYXZhaWxhYmxlIgp9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/partial/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L3BhcnRpYWwvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdmNHRnlkR2xoYkM5MGNtVmxMeTVqYjIxd1lYTnpMM0J2YkdsamVTNXFjMjl1Iiwid29ya3NwYWNlX2lkIjoiNDJmZGI3ZGYtODE2ZS00MGM3LTg2NWUtYmExY2M2MTY5OGFmIiwid29ya3NwYWNlX3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9wYXJ0aWFsL3RyZWUvLmNvbXBhc3Mvd29ya3NwYWNlLmpzb24iLCJ3b3Jrc3BhY2VfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZjR0Z5ZEdsaGJDOTBjbVZsTHk1amIyMXdZWE56TDNkdmNtdHpjR0ZqWlM1cWMyOXUifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/partial/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjZhZTYwYzNlLTk4YWUtNDhiMy1iYTExLWY1MmFlYjVhZmEwOCIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9wYXJ0aWFsL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzLzZhZTYwYzNlLTk4YWUtNDhiMy1iYTExLWY1MmFlYjVhZmEwOC5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZjR0Z5ZEdsaGJDOTBjbVZsTHk1amIyMXdZWE56TDNOdVlYQnphRzkwY3k4MllXVTJNR016WlMwNU9HRmxMVFE0WWpNdFltRXhNUzFtTlRKaFpXSTFZV1poTURndWFuTnZiZyIsInN0YXRlX2RpZ2VzdCI6IjljMzdkMWMxNmYzOTQxZDU0MmI3ZmVlNDczZWVmODZjZTc1MDI0MzE2ZmQ3MzBkZmZlMGI3MTE5NGI5MDRmNmEifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/partial/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/partial/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMiIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiYVxuIiwidG90YWxfbGluZXMiOiIxIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODc0MjhmYzUyMjgwM2QzMTA2NWU3YmNlM2NmMDNmZTQ3NTA5NjYzMWU1ZTA3YmJkN2EwZmRlNjBjNGNmMjVjNyIsInNpemVfYnl0ZXMiOiIyIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiI2NDc1MWUzNmMzOGI3NTMxMDUzOTRkNTE3MDMzMDk3NGY3YjU3NTZlYmMyZWVjZGVmOGY3NTgzZmQ5MTQwYzFiIiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6Ijg3NDI4ZmM1MjI4MDNkMzEwNjVlN2JjZTNjZjAzZmU0NzUwOTY2MzFlNWUwN2JiZDdhMGZkZTYwYzRjZjI1YzciLCJzaXplX2J5dGVzIjoiMiJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU3MzQiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiIzIn0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6InBhcnRpYWwiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjAzNDlmODE5Y2NkNWMwNTU0MWQ3ZDU3NTdlNWI2YTBhYjhlYjVlMTE4OTA4ZGE4ZWZmODQ3NjBjNzg5MWFmNzEiLCJzbmFwc2hvdF9pZCI6IjZhZTYwYzNlLTk4YWUtNDhiMy1iYTExLWY1MmFlYjVhZmEwOCIsInN0YXRlX2RpZ2VzdCI6bnVsbCwid29ya3NwYWNlX2lkIjoiNDJmZGI3ZGYtODE2ZS00MGM3LTg2NWUtYmExY2M2MTY5OGFmIn0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiIwMzQ5ZjgxOWNjZDVjMDU1NDFkN2Q1NzU3ZTViNmEwYWI4ZWI1ZTExODkwOGRhOGVmZjg0NzYwYzc4OTFhZjcxIiwic25hcHNob3RfaWQiOiI2YWU2MGMzZS05OGFlLTQ4YjMtYmExMS1mNTJhZWI1YWZhMDgiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6IjY0NzUxZTM2YzM4Yjc1MzEwNTM5NGQ1MTcwMzMwOTc0ZjdiNTc1NmViYzJlZWNkZWY4Zjc1ODNmZDkxNDBjMWIiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiNDJmZGI3ZGYtODE2ZS00MGM3LTg2NWUtYmExY2M2MTY5OGFmIn0sInN0YXR1cyI6ImF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/native/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L25hdGl2ZS90cmVlLy5jb21wYXNzL3BvbGljeS5qc29uIiwicG9saWN5X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2Ym1GMGFYWmxMM1J5WldVdkxtTnZiWEJoYzNNdmNHOXNhV041TG1wemIyNCIsIndvcmtzcGFjZV9pZCI6Ijc2OWVhYzlmLTQ4ZDktNDAwZC05YTE2LTk5ZWUyNjU0MWVlMyIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvbmF0aXZlL3RyZWUvLmNvbXBhc3Mvd29ya3NwYWNlLmpzb24iLCJ3b3Jrc3BhY2VfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZibUYwYVhabEwzUnlaV1V2TG1OdmJYQmhjM012ZDI5eWEzTndZV05sTG1wemIyNCJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/native/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImRhZmQ1MzM1LTg3OGQtNGZhNy1hZmE1LTNkMDUwM2M1ODFhMiIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9uYXRpdmUvdHJlZS8uY29tcGFzcy9zbmFwc2hvdHMvZGFmZDUzMzUtODc4ZC00ZmE3LWFmYTUtM2QwNTAzYzU4MWEyLmpzb24iLCJzbmFwc2hvdF9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdmJtRjBhWFpsTDNSeVpXVXZMbU52YlhCaGMzTXZjMjVoY0hOb2IzUnpMMlJoWm1RMU16TTFMVGczT0dRdE5HWmhOeTFoWm1FMUxUTmtNRFV3TTJNMU9ERmhNaTVxYzI5dSIsInN0YXRlX2RpZ2VzdCI6ImNlZWUzYmNmNGEzZTI2ZDc1ZTA0YzVhOWM0Njc2Yzc5ODI3NzNjYmViNTViNzIzYTg1YzMyZmRiYjlkYmJjZWEifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/native/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/native/package",
+          "--path-key",
+          "--8",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiNyIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoibmF0aXZlXG4iLCJ0b3RhbF9saW5lcyI6IjEiLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiJjNTRiNmZkNzdiYzY5OWExNzg3NmVkOWI0NmRjZjc3MGI2NmQwYmQwMTM4MGUyNWNkNjIwZWM4MmFkZjljNzM2Iiwic2l6ZV9ieXRlcyI6IjcifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6IjdkMTIzMTMwMjYyOWIyNDM3ZWE0YzRlYjc4MWY3MDkxMzQxNDk2N2FmNzg0M2Y1OWFlMGE4MmUxZjAzZjdmNWQiLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiYzU0YjZmZDc3YmM2OTlhMTc4NzZlZDliNDZkY2Y3NzBiNjZkMGJkMDEzODBlMjVjZDYyMGVjODJhZGY5YzczNiIsInNpemVfYnl0ZXMiOiI3In0sInBhdGhfa2V5IjoiLS04In0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOltdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjIwIiwicGF0aF9rZXkiOiItLTgiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5NjAiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjciLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiI4In0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiIyYTM5MzBhZWJlZDJlNjhlMzRiYzA3NGZiYWI0ZGRlZGNlNTI3NmQ3Y2QyOWRhN2MwOTcyZmUwYzNlZjllMmE5Iiwic25hcHNob3RfaWQiOiJkYWZkNTMzNS04NzhkLTRmYTctYWZhNS0zZDA1MDNjNTgxYTIiLCJzdGF0ZV9kaWdlc3QiOiJjZWVlM2JjZjRhM2UyNmQ3NWUwNGM1YTljNDY3NmM3OTgyNzczY2JlYjU1YjcyM2E4NWMzMmZkYmI5ZGJiY2VhIiwid29ya3NwYWNlX2lkIjoiNzY5ZWFjOWYtNDhkOS00MDBkLTlhMTYtOTllZTI2NTQxZWUzIn0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiIyYTM5MzBhZWJlZDJlNjhlMzRiYzA3NGZiYWI0ZGRlZGNlNTI3NmQ3Y2QyOWRhN2MwOTcyZmUwYzNlZjllMmE5Iiwic25hcHNob3RfaWQiOiJkYWZkNTMzNS04NzhkLTRmYTctYWZhNS0zZDA1MDNjNTgxYTIiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6IjdkMTIzMTMwMjYyOWIyNDM3ZWE0YzRlYjc4MWY3MDkxMzQxNDk2N2FmNzg0M2Y1OWFlMGE4MmUxZjAzZjdmNWQiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiNzY5ZWFjOWYtNDhkOS00MDBkLTlhMTYtOTllZTI2NTQxZWUzIn0sInN0YXR1cyI6ImF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-missing/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1taXNzaW5nL3RyZWUvLmNvbXBhc3MvcG9saWN5Lmpzb24iLCJwb2xpY3lfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFcxcGMzTnBibWN2ZEhKbFpTOHVZMjl0Y0dGemN5OXdiMnhwWTNrdWFuTnZiZyIsIndvcmtzcGFjZV9pZCI6IjlkYjIwMWNjLTA0MTctNDU4ZS04OWYyLWMyZmU4ZDYzMzc2NSIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvYmFkLW1pc3NpbmcvdHJlZS8uY29tcGFzcy93b3Jrc3BhY2UuanNvbiIsIndvcmtzcGFjZV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMVzFwYzNOcGJtY3ZkSEpsWlM4dVkyOXRjR0Z6Y3k5M2IzSnJjM0JoWTJVdWFuTnZiZyJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-missing/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjhiYTA3MzQ4LWRjY2MtNDQ3ZS04MzliLTQyYWNjY2E3MTQ1ZCIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtbWlzc2luZy90cmVlLy5jb21wYXNzL3NuYXBzaG90cy84YmEwNzM0OC1kY2NjLTQ0N2UtODM5Yi00MmFjY2NhNzE0NWQuanNvbiIsInNuYXBzaG90X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xXMXBjM05wYm1jdmRISmxaUzh1WTI5dGNHRnpjeTl6Ym1Gd2MyaHZkSE12T0dKaE1EY3pORGd0WkdOall5MDBORGRsTFRnek9XSXROREpoWTJOallUY3hORFZrTG1wemIyNCIsInN0YXRlX2RpZ2VzdCI6IjZhMDMzNTY3MjU2NTAyYmQ0YWVjNzEyNTg4YWIzMmU1N2I2NWMwYzRjODRlZmI1YmM1YjlkMWQyZDI3YWU5OTUifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-missing/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-missing/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOm51bGwsImhhc2hfY2hlY2siOm51bGwsInNpemVfY2hlY2siOm51bGwsInNvdXJjZV9yZWYiOiI5YjlkZDQzZjU5MTRlMTVlMzA5ZGMwNDY3MmIzMWU1ZTEyNDEwNjY0OGNmN2Q5NDU3YzM5ZDMzYTg3MDdlM2YxIiwic3RhdGUiOiJmYWlsZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI4NzQyOGZjNTIyODAzZDMxMDY1ZTdiY2UzY2YwM2ZlNDc1MDk2NjMxZTVlMDdiYmQ3YTBmZGU2MGM0Y2YyNWM3Iiwic2l6ZV9ieXRlcyI6IjIifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOlsib2JqZWN0X21pc3NpbmciXSwicmVwb3J0X3R5cGUiOiJ2ZXJpZmllZF9yZWFkIiwicmVxdWVzdCI6eyJtYXhfbGluZXMiOiIyMCIsInBhdGhfa2V5IjoiWVM1MGVIUSIsInN0YXJ0X2xpbmUiOiIxODQ0Njc0NDA3MzcwOTU1MTYxNSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5OTAiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjAiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiIzIn0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiJlNWQ0YWExNTM5N2RmNjkzMjk2YTBiMDM3OGYyYTcxMGFmNTViODE3ZTcwNDQ4YTkyMTE5YWIzOTA5MWI0NTU0Iiwic25hcHNob3RfaWQiOiI4YmEwNzM0OC1kY2NjLTQ0N2UtODM5Yi00MmFjY2NhNzE0NWQiLCJzdGF0ZV9kaWdlc3QiOiI2YTAzMzU2NzI1NjUwMmJkNGFlYzcxMjU4OGFiMzJlNTdiNjVjMGM0Yzg0ZWZiNWJjNWI5ZDFkMmQyN2FlOTk1Iiwid29ya3NwYWNlX2lkIjoiOWRiMjAxY2MtMDQxNy00NThlLTg5ZjItYzJmZThkNjMzNzY1In0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiJlNWQ0YWExNTM5N2RmNjkzMjk2YTBiMDM3OGYyYTcxMGFmNTViODE3ZTcwNDQ4YTkyMTE5YWIzOTA5MWI0NTU0Iiwic25hcHNob3RfaWQiOiI4YmEwNzM0OC1kY2NjLTQ0N2UtODM5Yi00MmFjY2NhNzE0NWQiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6IjliOWRkNDNmNTkxNGUxNWUzMDlkYzA0NjcyYjMxZTVlMTI0MTA2NjQ4Y2Y3ZDk0NTdjMzlkMzNhODcwN2UzZjEiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiOWRiMjAxY2MtMDQxNy00NThlLTg5ZjItYzJmZThkNjMzNzY1In0sInN0YXR1cyI6InVuYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-same-size/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1zYW1lLXNpemUvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMWE5oYldVdGMybDZaUzkwY21WbEx5NWpiMjF3WVhOekwzQnZiR2xqZVM1cWMyOXUiLCJ3b3Jrc3BhY2VfaWQiOiJjMjUwOTU5ZS0zMTQ2LTRjYTQtOGJmNy1mYzdiYjhlZWFiYjAiLCJ3b3Jrc3BhY2VfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1zYW1lLXNpemUvdHJlZS8uY29tcGFzcy93b3Jrc3BhY2UuanNvbiIsIndvcmtzcGFjZV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMWE5oYldVdGMybDZaUzkwY21WbEx5NWpiMjF3WVhOekwzZHZjbXR6Y0dGalpTNXFjMjl1In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-same-size/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImY3MDE2MGIzLTFjNmUtNGMyNy1iYjEzLTdhMjRmY2IwMzNmMSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtc2FtZS1zaXplL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2Y3MDE2MGIzLTFjNmUtNGMyNy1iYjEzLTdhMjRmY2IwMzNmMS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFhOaGJXVXRjMmw2WlM5MGNtVmxMeTVqYjIxd1lYTnpMM051WVhCemFHOTBjeTltTnpBeE5qQmlNeTB4WXpabExUUmpNamN0WW1JeE15MDNZVEkwWm1OaU1ETXpaakV1YW5OdmJnIiwic3RhdGVfZGlnZXN0IjoiOTMxMjk0OTc1ZjkyZjk5NDc0Njk0M2I4NTNiNGQyM2Q2M2E4YTI5MWRiMWYxZjM0YzgyMDJkYTc1N2IxOWQxMyJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-same-size/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-same-size/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiIwMjYzODI5OTg5YjZmZDk1NGY3MmJhYWYyZmM2NGJjMmUyZjAxZDY5MmQ0ZGU3Mjk4NmVhODA4ZjZlOTk4MTNmIiwic2l6ZV9ieXRlcyI6IjIifSwiaGFzaF9jaGVjayI6ZmFsc2UsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiI3OGM1NzdhNGU2ZDQ3ZjJkZGQzMTIxNmUwZWQ5MWU4ZjU2NjMxYjg5Mzg0NzlmNWNiZTNjYjE0YmI2MjhlMTNjIiwic3RhdGUiOiJmYWlsZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI4NzQyOGZjNTIyODAzZDMxMDY1ZTdiY2UzY2YwM2ZlNDc1MDk2NjMxZTVlMDdiYmQ3YTBmZGU2MGM0Y2YyNWM3Iiwic2l6ZV9ieXRlcyI6IjIifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOlsiaGFzaF9taXNtYXRjaCJdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjIwIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjE4NDQ2NzQ0MDczNzA5NTUxNjE1In0sInJlc291cmNlcyI6eyJsb2dpY2FsX21lbW9yeV9wZWFrIjoiODU0NTk5MCIsIm9iamVjdF9ieXRlc19yZWFkIjoiMiIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImEzZDZlMmI1NWY1ZTYxMDNhYWFmNmRlMDc4YmJkODc2MjgzNzE1MTIwYTlkOTQzNjRlNDAzZDhhN2RlNmFkMWUiLCJzbmFwc2hvdF9pZCI6ImY3MDE2MGIzLTFjNmUtNGMyNy1iYjEzLTdhMjRmY2IwMzNmMSIsInN0YXRlX2RpZ2VzdCI6IjkzMTI5NDk3NWY5MmY5OTQ3NDY5NDNiODUzYjRkMjNkNjNhOGEyOTFkYjFmMWYzNGM4MjAyZGE3NTdiMTlkMTMiLCJ3b3Jrc3BhY2VfaWQiOiJjMjUwOTU5ZS0zMTQ2LTRjYTQtOGJmNy1mYzdiYjhlZWFiYjAifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6ImEzZDZlMmI1NWY1ZTYxMDNhYWFmNmRlMDc4YmJkODc2MjgzNzE1MTIwYTlkOTQzNjRlNDAzZDhhN2RlNmFkMWUiLCJzbmFwc2hvdF9pZCI6ImY3MDE2MGIzLTFjNmUtNGMyNy1iYjEzLTdhMjRmY2IwMzNmMSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiNzhjNTc3YTRlNmQ0N2YyZGRkMzEyMTZlMGVkOTFlOGY1NjYzMWI4OTM4NDc5ZjVjYmUzY2IxNGJiNjI4ZTEzYyIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiJjMjUwOTU5ZS0zMTQ2LTRjYTQtOGJmNy1mYzdiYjhlZWFiYjAifSwic3RhdHVzIjoidW5hdmFpbGFibGUifQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-short/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1zaG9ydC90cmVlLy5jb21wYXNzL3BvbGljeS5qc29uIiwicG9saWN5X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xYTm9iM0owTDNSeVpXVXZMbU52YlhCaGMzTXZjRzlzYVdONUxtcHpiMjQiLCJ3b3Jrc3BhY2VfaWQiOiJkYmNiMTE1ZS0zMDUyLTQwMTAtYTlhMS00NWE4NThiZjQ4ODciLCJ3b3Jrc3BhY2VfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1zaG9ydC90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xYTm9iM0owTDNSeVpXVXZMbU52YlhCaGMzTXZkMjl5YTNOd1lXTmxMbXB6YjI0In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-short/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjY3NzE0MmZiLTE4ZjctNGJiNS1hMWQzLWQxMTM0OGE3NTgxMCIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtc2hvcnQvdHJlZS8uY29tcGFzcy9zbmFwc2hvdHMvNjc3MTQyZmItMThmNy00YmI1LWExZDMtZDExMzQ4YTc1ODEwLmpzb24iLCJzbmFwc2hvdF9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMWE5vYjNKMEwzUnlaV1V2TG1OdmJYQmhjM012YzI1aGNITm9iM1J6THpZM056RTBNbVppTFRFNFpqY3ROR0ppTlMxaE1XUXpMV1F4TVRNME9HRTNOVGd4TUM1cWMyOXUiLCJzdGF0ZV9kaWdlc3QiOiI0MTA1MzA5Y2YyN2E2ODJkM2JkODA5OWRjY2EyY2NmNzdmNmQ5YzUyYzBhMmQ0NDA4Yjk1MzE0OTVlODgzOTE3In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-short/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-short/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiIzZTIzZTgxNjAwMzk1OTRhMzM4OTRmNjU2NGUxYjEzNDhiYmQ3YTAwODhkNDJjNGFjYjczZWVhZWQ1OWMwMDlkIiwic2l6ZV9ieXRlcyI6IjEifSwiaGFzaF9jaGVjayI6ZmFsc2UsInNpemVfY2hlY2siOmZhbHNlLCJzb3VyY2VfcmVmIjoiNzEwYjc0MTk4YTE1NmFlODVjZjYzNzVhZTllZTAyNWI1ZjM0NmM0OGYxYzFjZmM3ZjIyZGUwNzNjNzljNDE3MyIsInN0YXRlIjoiZmFpbGVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODc0MjhmYzUyMjgwM2QzMTA2NWU3YmNlM2NmMDNmZTQ3NTA5NjYzMWU1ZTA3YmJkN2EwZmRlNjBjNGNmMjVjNyIsInNpemVfYnl0ZXMiOiIyIn0sInBhdGhfa2V5IjoiWVM1MGVIUSJ9LCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJwcm9kdWNlcl9idWlsZCI6InNoYTI1Njo1NDdiMWUzZmIwY2FlNDM4MzAwYTZmMGJmNTBiZWY5ZWY1NzMxYWI1MTNjMTVmZjNiYTg4OWJhNzNmNGU2OTQyIiwicHJvZHVjZXJfdmVyc2lvbiI6IjAuMS4wIiwicmVhZF9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJyZWFzb25zIjpbImhhc2hfbWlzbWF0Y2giLCJzaXplX21pc21hdGNoIl0sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMTg0NDY3NDQwNzM3MDk1NTE2MTUifSwicmVzb3VyY2VzIjp7ImxvZ2ljYWxfbWVtb3J5X3BlYWsiOiI4NTQ1OTkwIiwib2JqZWN0X2J5dGVzX3JlYWQiOiIxIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiMyJ9LCJzY2hlbWFfdmVyc2lvbiI6IjEiLCJzY29wZSI6ImRlY2xhcmVkX3NuYXBzaG90X29ubHkiLCJzbmFwc2hvdCI6eyJwYXRoX25hbWVzcGFjZSI6ImxpbnV4X2J5dGVzX3YxIiwicG9saWN5X2lkIjoiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsInF1YWxpdHkiOiJjb21wbGV0ZSIsInNuYXBzaG90X2ZpbGVfc2hhMjU2IjoiMzE1ZmEzMGYxMjIzMDY5NGU0N2QyYzhiZjMwMWE5ODMyMTZkNmUwOGUzODU2ODgzZmQ3ZjNlOWY5NmZkN2NmZSIsInNuYXBzaG90X2lkIjoiNjc3MTQyZmItMThmNy00YmI1LWExZDMtZDExMzQ4YTc1ODEwIiwic3RhdGVfZGlnZXN0IjoiNDEwNTMwOWNmMjdhNjgyZDNiZDgwOTlkY2NhMmNjZjc3ZjZkOWM1MmMwYTJkNDQwOGI5NTMxNDk1ZTg4MzkxNyIsIndvcmtzcGFjZV9pZCI6ImRiY2IxMTVlLTMwNTItNDAxMC1hOWExLTQ1YTg1OGJmNDg4NyJ9LCJzb3VyY2UiOnsicG9saWN5X2lkIjoiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsInNuYXBzaG90X2ZpbGVfc2hhMjU2IjoiMzE1ZmEzMGYxMjIzMDY5NGU0N2QyYzhiZjMwMWE5ODMyMTZkNmUwOGUzODU2ODgzZmQ3ZjNlOWY5NmZkN2NmZSIsInNuYXBzaG90X2lkIjoiNjc3MTQyZmItMThmNy00YmI1LWExZDMtZDExMzQ4YTc1ODEwIiwic291cmNlX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInNvdXJjZV9yZWYiOiI3MTBiNzQxOThhMTU2YWU4NWNmNjM3NWFlOWVlMDI1YjVmMzQ2YzQ4ZjFjMWNmYzdmMjJkZTA3M2M3OWM0MTczIiwic291cmNlX3NjaGVtYV92ZXJzaW9uIjoiMSIsIndvcmtzcGFjZV9pZCI6ImRiY2IxMTVlLTMwNTItNDAxMC1hOWExLTQ1YTg1OGJmNDg4NyJ9LCJzdGF0dXMiOiJ1bmF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-long/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1sb25nL3RyZWUvLmNvbXBhc3MvcG9saWN5Lmpzb24iLCJwb2xpY3lfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFd4dmJtY3ZkSEpsWlM4dVkyOXRjR0Z6Y3k5d2IyeHBZM2t1YW5OdmJnIiwid29ya3NwYWNlX2lkIjoiODM5OGJjYTYtYzgyMS00YzY1LWIxNGMtZDg0NWQwYjFhOTUxIiwid29ya3NwYWNlX3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtbG9uZy90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xXeHZibWN2ZEhKbFpTOHVZMjl0Y0dGemN5OTNiM0pyYzNCaFkyVXVhbk52YmcifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-long/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImQ2Yjg5ZDc2LWUzZmUtNGJlYS1hNGM1LWIxZWY5N2Y3NjQ3MCIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtbG9uZy90cmVlLy5jb21wYXNzL3NuYXBzaG90cy9kNmI4OWQ3Ni1lM2ZlLTRiZWEtYTRjNS1iMWVmOTdmNzY0NzAuanNvbiIsInNuYXBzaG90X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xXeHZibWN2ZEhKbFpTOHVZMjl0Y0dGemN5OXpibUZ3YzJodmRITXZaRFppT0Rsa056WXRaVE5tWlMwMFltVmhMV0UwWXpVdFlqRmxaamszWmpjMk5EY3dMbXB6YjI0Iiwic3RhdGVfZGlnZXN0IjoiZWVhZmE2ZTJjODg0MTA2NTA5M2IwY2EzNzNjOTAwZjRiNWRiZjhkMmI1MDQ5Y2U3ZGE4OTcxMjIzNTQ0MWQyNCJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-long/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-long/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOm51bGwsImhhc2hfY2hlY2siOm51bGwsInNpemVfY2hlY2siOmZhbHNlLCJzb3VyY2VfcmVmIjoiN2FhODU0NGE1ZTdhMTE1MGVjMGVjMzlkMmY2MWI5ZjgzZjVhOTcwYzA4MjAxNjVjNzA2NWE4NTRjM2UwNDhiMSIsInN0YXRlIjoiZmFpbGVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODc0MjhmYzUyMjgwM2QzMTA2NWU3YmNlM2NmMDNmZTQ3NTA5NjYzMWU1ZTA3YmJkN2EwZmRlNjBjNGNmMjVjNyIsInNpemVfYnl0ZXMiOiIyIn0sInBhdGhfa2V5IjoiWVM1MGVIUSJ9LCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJwcm9kdWNlcl9idWlsZCI6InNoYTI1Njo1NDdiMWUzZmIwY2FlNDM4MzAwYTZmMGJmNTBiZWY5ZWY1NzMxYWI1MTNjMTVmZjNiYTg4OWJhNzNmNGU2OTQyIiwicHJvZHVjZXJfdmVyc2lvbiI6IjAuMS4wIiwicmVhZF9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJyZWFzb25zIjpbInNpemVfbWlzbWF0Y2giXSwicmVwb3J0X3R5cGUiOiJ2ZXJpZmllZF9yZWFkIiwicmVxdWVzdCI6eyJtYXhfbGluZXMiOiIyMCIsInBhdGhfa2V5IjoiWVM1MGVIUSIsInN0YXJ0X2xpbmUiOiIxODQ0Njc0NDA3MzcwOTU1MTYxNSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5OTAiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjMiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiIzIn0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiIwYzBjM2MyYjUzOTBmNzc5ZDE0MDMzZTYyOTY4MDkwNDcyMjc0MzUyOWFiODEwMzJhMWJlNjMxNjJmYjhhY2UwIiwic25hcHNob3RfaWQiOiJkNmI4OWQ3Ni1lM2ZlLTRiZWEtYTRjNS1iMWVmOTdmNzY0NzAiLCJzdGF0ZV9kaWdlc3QiOiJlZWFmYTZlMmM4ODQxMDY1MDkzYjBjYTM3M2M5MDBmNGI1ZGJmOGQyYjUwNDljZTdkYTg5NzEyMjM1NDQxZDI0Iiwid29ya3NwYWNlX2lkIjoiODM5OGJjYTYtYzgyMS00YzY1LWIxNGMtZDg0NWQwYjFhOTUxIn0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiIwYzBjM2MyYjUzOTBmNzc5ZDE0MDMzZTYyOTY4MDkwNDcyMjc0MzUyOWFiODEwMzJhMWJlNjMxNjJmYjhhY2UwIiwic25hcHNob3RfaWQiOiJkNmI4OWQ3Ni1lM2ZlLTRiZWEtYTRjNS1iMWVmOTdmNzY0NzAiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6IjdhYTg1NDRhNWU3YTExNTBlYzBlYzM5ZDJmNjFiOWY4M2Y1YTk3MGMwODIwMTY1YzcwNjVhODU0YzNlMDQ4YjEiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiODM5OGJjYTYtYzgyMS00YzY1LWIxNGMtZDg0NWQwYjFhOTUxIn0sInN0YXR1cyI6InVuYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-link/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1saW5rL3RyZWUvLmNvbXBhc3MvcG9saWN5Lmpzb24iLCJwb2xpY3lfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFd4cGJtc3ZkSEpsWlM4dVkyOXRjR0Z6Y3k5d2IyeHBZM2t1YW5OdmJnIiwid29ya3NwYWNlX2lkIjoiN2IyYjE3ZTctYzUyNS00YTFhLTlhYjItNmVhZDM5ZTFmMTNlIiwid29ya3NwYWNlX3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtbGluay90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xXeHBibXN2ZEhKbFpTOHVZMjl0Y0dGemN5OTNiM0pyYzNCaFkyVXVhbk52YmcifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-link/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjIzY2ZlZDA4LTU1MDEtNGFlYS04NTJmLWI2YmJlZTBlMGU1NCIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtbGluay90cmVlLy5jb21wYXNzL3NuYXBzaG90cy8yM2NmZWQwOC01NTAxLTRhZWEtODUyZi1iNmJiZWUwZTBlNTQuanNvbiIsInNuYXBzaG90X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xXeHBibXN2ZEhKbFpTOHVZMjl0Y0dGemN5OXpibUZ3YzJodmRITXZNak5qWm1Wa01EZ3ROVFV3TVMwMFlXVmhMVGcxTW1ZdFlqWmlZbVZsTUdVd1pUVTBMbXB6YjI0Iiwic3RhdGVfZGlnZXN0IjoiMjY1YTdiZjJjMzUwZTFhYTFjNTllNjRmZDhiYmM5Mzc2NzUwZjRjOGZiNGYyYjRlZTA0YTI4YzY2YjRmOTk0ZiJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-link/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-link/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOm51bGwsImhhc2hfY2hlY2siOm51bGwsInNpemVfY2hlY2siOm51bGwsInNvdXJjZV9yZWYiOiIwMmM0OGE0OTA4YzQ0ZTZiNzdkMzc3ZjY5M2UwYWI3NGExNmE1ZmNjNWVlNjI1YTQ5NzQ2MmQxN2U4M2M3OTgxIiwic3RhdGUiOiJmYWlsZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI4NzQyOGZjNTIyODAzZDMxMDY1ZTdiY2UzY2YwM2ZlNDc1MDk2NjMxZTVlMDdiYmQ3YTBmZGU2MGM0Y2YyNWM3Iiwic2l6ZV9ieXRlcyI6IjIifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOlsic291cmNlX2ludmFsaWRfa2luZCJdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjIwIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjE4NDQ2NzQ0MDczNzA5NTUxNjE1In0sInJlc291cmNlcyI6eyJsb2dpY2FsX21lbW9yeV9wZWFrIjoiODU0NTk5MCIsIm9iamVjdF9ieXRlc19yZWFkIjoiMCIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjJlMjY5MzliNDIyMWM4NmI2OTFiMThkZDJkMmYzNTFhNTdkZDAwODhlZmE3OWUwYTEwNTliNWM3NmQwNGZhZTEiLCJzbmFwc2hvdF9pZCI6IjIzY2ZlZDA4LTU1MDEtNGFlYS04NTJmLWI2YmJlZTBlMGU1NCIsInN0YXRlX2RpZ2VzdCI6IjI2NWE3YmYyYzM1MGUxYWExYzU5ZTY0ZmQ4YmJjOTM3Njc1MGY0YzhmYjRmMmI0ZWUwNGEyOGM2NmI0Zjk5NGYiLCJ3b3Jrc3BhY2VfaWQiOiI3YjJiMTdlNy1jNTI1LTRhMWEtOWFiMi02ZWFkMzllMWYxM2UifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjJlMjY5MzliNDIyMWM4NmI2OTFiMThkZDJkMmYzNTFhNTdkZDAwODhlZmE3OWUwYTEwNTliNWM3NmQwNGZhZTEiLCJzbmFwc2hvdF9pZCI6IjIzY2ZlZDA4LTU1MDEtNGFlYS04NTJmLWI2YmJlZTBlMGU1NCIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiMDJjNDhhNDkwOGM0NGU2Yjc3ZDM3N2Y2OTNlMGFiNzRhMTZhNWZjYzVlZTYyNWE0OTc0NjJkMTdlODNjNzk4MSIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI3YjJiMTdlNy1jNTI1LTRhMWEtOWFiMi02ZWFkMzllMWYxM2UifSwic3RhdHVzIjoidW5hdmFpbGFibGUifQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-fifo/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1maWZvL3RyZWUvLmNvbXBhc3MvcG9saWN5Lmpzb24iLCJwb2xpY3lfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFdacFptOHZkSEpsWlM4dVkyOXRjR0Z6Y3k5d2IyeHBZM2t1YW5OdmJnIiwid29ya3NwYWNlX2lkIjoiOGIzNDYzODQtMDAwYy00ZjUyLTk5NWYtMzJmYjRjMjU4NWVjIiwid29ya3NwYWNlX3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtZmlmby90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xXWnBabTh2ZEhKbFpTOHVZMjl0Y0dGemN5OTNiM0pyYzNCaFkyVXVhbk52YmcifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-fifo/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImM5YmU2YThjLTk5ZDItNGVmMy1hMWEzLWU4ZmJjMjgwM2NjMCIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtZmlmby90cmVlLy5jb21wYXNzL3NuYXBzaG90cy9jOWJlNmE4Yy05OWQyLTRlZjMtYTFhMy1lOGZiYzI4MDNjYzAuanNvbiIsInNuYXBzaG90X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xXWnBabTh2ZEhKbFpTOHVZMjl0Y0dGemN5OXpibUZ3YzJodmRITXZZemxpWlRaaE9HTXRPVGxrTWkwMFpXWXpMV0V4WVRNdFpUaG1ZbU15T0RBelkyTXdMbXB6YjI0Iiwic3RhdGVfZGlnZXN0IjoiYWVlNDM1NzUxYzAyMzZhZGE1M2UyMjQyNjA4MzdiZDA0MDIxMjVmZjEzMzRmYjU1Njk0MmFlMjNmY2QxZmE1NyJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-fifo/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-fifo/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOm51bGwsImhhc2hfY2hlY2siOm51bGwsInNpemVfY2hlY2siOm51bGwsInNvdXJjZV9yZWYiOiI4MjUwNGZiYWYzZmUwYzQ0NDI5NzZkMGQ0OTUxYTMzZjUyYTcyYWNiZTM1NzIzMWI2OWI3MmRhOWY2ZTYyMWIwIiwic3RhdGUiOiJmYWlsZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI4NzQyOGZjNTIyODAzZDMxMDY1ZTdiY2UzY2YwM2ZlNDc1MDk2NjMxZTVlMDdiYmQ3YTBmZGU2MGM0Y2YyNWM3Iiwic2l6ZV9ieXRlcyI6IjIifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOlsic291cmNlX2ludmFsaWRfa2luZCJdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjIwIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjE4NDQ2NzQ0MDczNzA5NTUxNjE1In0sInJlc291cmNlcyI6eyJsb2dpY2FsX21lbW9yeV9wZWFrIjoiODU0NTk4MiIsIm9iamVjdF9ieXRlc19yZWFkIjoiMCIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjZlZjIxODIzZWU3ZWU3ODA4MjBlMWZiNjAxODc3NGMyYmIxYzA2OTU1NzY3MTNhY2IyZjczNTBlZGMzODNjMDkiLCJzbmFwc2hvdF9pZCI6ImM5YmU2YThjLTk5ZDItNGVmMy1hMWEzLWU4ZmJjMjgwM2NjMCIsInN0YXRlX2RpZ2VzdCI6ImFlZTQzNTc1MWMwMjM2YWRhNTNlMjI0MjYwODM3YmQwNDAyMTI1ZmYxMzM0ZmI1NTY5NDJhZTIzZmNkMWZhNTciLCJ3b3Jrc3BhY2VfaWQiOiI4YjM0NjM4NC0wMDBjLTRmNTItOTk1Zi0zMmZiNGMyNTg1ZWMifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjZlZjIxODIzZWU3ZWU3ODA4MjBlMWZiNjAxODc3NGMyYmIxYzA2OTU1NzY3MTNhY2IyZjczNTBlZGMzODNjMDkiLCJzbmFwc2hvdF9pZCI6ImM5YmU2YThjLTk5ZDItNGVmMy1hMWEzLWU4ZmJjMjgwM2NjMCIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiODI1MDRmYmFmM2ZlMGM0NDQyOTc2ZDBkNDk1MWEzM2Y1MmE3MmFjYmUzNTcyMzFiNjliNzJkYTlmNmU2MjFiMCIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI4YjM0NjM4NC0wMDBjLTRmNTItOTk1Zi0zMmZiNGMyNTg1ZWMifSwic3RhdHVzIjoidW5hdmFpbGFibGUifQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-socket/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1zb2NrZXQvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMWE52WTJ0bGRDOTBjbVZsTHk1amIyMXdZWE56TDNCdmJHbGplUzVxYzI5dSIsIndvcmtzcGFjZV9pZCI6Ijc2ZTdjNWZmLTcxZDgtNDZkZS04YmExLThjYTA5NGExOWNkMiIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvYmFkLXNvY2tldC90cmVlLy5jb21wYXNzL3dvcmtzcGFjZS5qc29uIiwid29ya3NwYWNlX3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2WW1Ga0xYTnZZMnRsZEM5MGNtVmxMeTVqYjIxd1lYTnpMM2R2Y210emNHRmpaUzVxYzI5dSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-socket/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImZkODE0ZmQ0LTRiODQtNDg2OS05MTUwLTEzMzRjYmY4MDk2OCIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtc29ja2V0L3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2ZkODE0ZmQ0LTRiODQtNDg2OS05MTUwLTEzMzRjYmY4MDk2OC5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFhOdlkydGxkQzkwY21WbEx5NWpiMjF3WVhOekwzTnVZWEJ6YUc5MGN5OW1aRGd4Tkdaa05DMDBZamcwTFRRNE5qa3RPVEUxTUMweE16TTBZMkptT0RBNU5qZ3Vhbk52YmciLCJzdGF0ZV9kaWdlc3QiOiJhNTdkNTZhNWZjYjAxNTQyZGM4MDBhZjAxZWFiMzM2NzBiYzBhMjdmNWMzYjg5ZDA2ZWE1ZTc1MzUzM2IzOGMyIn0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-socket/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-socket/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOm51bGwsImhhc2hfY2hlY2siOm51bGwsInNpemVfY2hlY2siOm51bGwsInNvdXJjZV9yZWYiOiJjMDM4NjAyMzRkYjRkNTE4MzA4MWY1MjM1ZWM5YTg3OTk3Y2U5YzFjZWM1MzYyMmRhMTVhOTc5M2E4ZTYyZTUyIiwic3RhdGUiOiJmYWlsZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI4NzQyOGZjNTIyODAzZDMxMDY1ZTdiY2UzY2YwM2ZlNDc1MDk2NjMxZTVlMDdiYmQ3YTBmZGU2MGM0Y2YyNWM3Iiwic2l6ZV9ieXRlcyI6IjIifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOlsic291cmNlX2ludmFsaWRfa2luZCJdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjIwIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjE4NDQ2NzQ0MDczNzA5NTUxNjE1In0sInJlc291cmNlcyI6eyJsb2dpY2FsX21lbW9yeV9wZWFrIjoiODU0NTk5MCIsIm9iamVjdF9ieXRlc19yZWFkIjoiMCIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjYwZTRlZDE1ODM5M2IxZTFhMGJmYzgzODg4OGExM2QzZTc2OTdkNzg1MjA5ODExMGViNTQ4YTNjZjc2ZTJlZjQiLCJzbmFwc2hvdF9pZCI6ImZkODE0ZmQ0LTRiODQtNDg2OS05MTUwLTEzMzRjYmY4MDk2OCIsInN0YXRlX2RpZ2VzdCI6ImE1N2Q1NmE1ZmNiMDE1NDJkYzgwMGFmMDFlYWIzMzY3MGJjMGEyN2Y1YzNiODlkMDZlYTVlNzUzNTMzYjM4YzIiLCJ3b3Jrc3BhY2VfaWQiOiI3NmU3YzVmZi03MWQ4LTQ2ZGUtOGJhMS04Y2EwOTRhMTljZDIifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjYwZTRlZDE1ODM5M2IxZTFhMGJmYzgzODg4OGExM2QzZTc2OTdkNzg1MjA5ODExMGViNTQ4YTNjZjc2ZTJlZjQiLCJzbmFwc2hvdF9pZCI6ImZkODE0ZmQ0LTRiODQtNDg2OS05MTUwLTEzMzRjYmY4MDk2OCIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiYzAzODYwMjM0ZGI0ZDUxODMwODFmNTIzNWVjOWE4Nzk5N2NlOWMxY2VjNTM2MjJkYTE1YTk3OTNhOGU2MmU1MiIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiI3NmU3YzVmZi03MWQ4LTQ2ZGUtOGJhMS04Y2EwOTRhMTljZDIifSwic3RhdHVzIjoidW5hdmFpbGFibGUifQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-directory/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1kaXJlY3RvcnkvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMV1JwY21WamRHOXllUzkwY21WbEx5NWpiMjF3WVhOekwzQnZiR2xqZVM1cWMyOXUiLCJ3b3Jrc3BhY2VfaWQiOiJmMjNiYjU2NS1lYmExLTQ4NWUtYTE5NC01MWJiZWIzNzFiOGQiLCJ3b3Jrc3BhY2VfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1kaXJlY3RvcnkvdHJlZS8uY29tcGFzcy93b3Jrc3BhY2UuanNvbiIsIndvcmtzcGFjZV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMV1JwY21WamRHOXllUzkwY21WbEx5NWpiMjF3WVhOekwzZHZjbXR6Y0dGalpTNXFjMjl1In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-directory/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImMzNDMyZGM4LWFlN2EtNDE3MS05MjJmLWE5ZTYxMDdlNmYxMyIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtZGlyZWN0b3J5L3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzL2MzNDMyZGM4LWFlN2EtNDE3MS05MjJmLWE5ZTYxMDdlNmYxMy5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFdScGNtVmpkRzl5ZVM5MGNtVmxMeTVqYjIxd1lYTnpMM051WVhCemFHOTBjeTlqTXpRek1tUmpPQzFoWlRkaExUUXhOekV0T1RJeVppMWhPV1UyTVRBM1pUWm1NVE11YW5OdmJnIiwic3RhdGVfZGlnZXN0IjoiMTBkYWUzNGE1NThhNDIxOGZmMmVkNWFhMzBlZDBmMmYxMTQ3OWYxMjJhNDFhMTJjY2JlYTExZWY1ZGIzOTRlZiJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-directory/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-directory/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOm51bGwsImhhc2hfY2hlY2siOm51bGwsInNpemVfY2hlY2siOm51bGwsInNvdXJjZV9yZWYiOiJmYzE4YzVjY2Y3NTFhYjliMzIzYTcyOTNjZjUyMDY3YWY5YWI0MzVhNjIwOTIxMmE2ODlmN2FiN2EwMGVkNzc1Iiwic3RhdGUiOiJmYWlsZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI4NzQyOGZjNTIyODAzZDMxMDY1ZTdiY2UzY2YwM2ZlNDc1MDk2NjMxZTVlMDdiYmQ3YTBmZGU2MGM0Y2YyNWM3Iiwic2l6ZV9ieXRlcyI6IjIifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOlsic291cmNlX2ludmFsaWRfa2luZCJdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjIwIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjE4NDQ2NzQ0MDczNzA5NTUxNjE1In0sInJlc291cmNlcyI6eyJsb2dpY2FsX21lbW9yeV9wZWFrIjoiODU0NTk5MCIsIm9iamVjdF9ieXRlc19yZWFkIjoiMCIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjM4MDIzZTUzNjI0OWE1OTUwMmNhMTIwZjU5Y2YxNjA4ZjVmZDc1N2Y0ZGJiNTU4YjgxMGI5ZWFiYzNiMGM1NGQiLCJzbmFwc2hvdF9pZCI6ImMzNDMyZGM4LWFlN2EtNDE3MS05MjJmLWE5ZTYxMDdlNmYxMyIsInN0YXRlX2RpZ2VzdCI6IjEwZGFlMzRhNTU4YTQyMThmZjJlZDVhYTMwZWQwZjJmMTE0NzlmMTIyYTQxYTEyY2NiZWExMWVmNWRiMzk0ZWYiLCJ3b3Jrc3BhY2VfaWQiOiJmMjNiYjU2NS1lYmExLTQ4NWUtYTE5NC01MWJiZWIzNzFiOGQifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjM4MDIzZTUzNjI0OWE1OTUwMmNhMTIwZjU5Y2YxNjA4ZjVmZDc1N2Y0ZGJiNTU4YjgxMGI5ZWFiYzNiMGM1NGQiLCJzbmFwc2hvdF9pZCI6ImMzNDMyZGM4LWFlN2EtNDE3MS05MjJmLWE5ZTYxMDdlNmYxMyIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiZmMxOGM1Y2NmNzUxYWI5YjMyM2E3MjkzY2Y1MjA2N2FmOWFiNDM1YTYyMDkyMTJhNjg5ZjdhYjdhMDBlZDc3NSIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiJmMjNiYjU2NS1lYmExLTQ4NWUtYTE5NC01MWJiZWIzNzFiOGQifSwic3RhdHVzIjoidW5hdmFpbGFibGUifQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-objects-link/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1vYmplY3RzLWxpbmsvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMVzlpYW1WamRITXRiR2x1YXk5MGNtVmxMeTVqYjIxd1lYTnpMM0J2YkdsamVTNXFjMjl1Iiwid29ya3NwYWNlX2lkIjoiYTg2ZmY2Y2ItZmZjNC00NThiLTgwMjEtZDllYjljMTQ0YzFlIiwid29ya3NwYWNlX3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtb2JqZWN0cy1saW5rL3RyZWUvLmNvbXBhc3Mvd29ya3NwYWNlLmpzb24iLCJ3b3Jrc3BhY2VfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFc5aWFtVmpkSE10YkdsdWF5OTBjbVZsTHk1amIyMXdZWE56TDNkdmNtdHpjR0ZqWlM1cWMyOXUifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-objects-link/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjU5MDEzMmQ4LTEwZmQtNDUzZC04NzU2LTM4YzUzZmVmZjIyMSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtb2JqZWN0cy1saW5rL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzLzU5MDEzMmQ4LTEwZmQtNDUzZC04NzU2LTM4YzUzZmVmZjIyMS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFc5aWFtVmpkSE10YkdsdWF5OTBjbVZsTHk1amIyMXdZWE56TDNOdVlYQnphRzkwY3k4MU9UQXhNekprT0MweE1HWmtMVFExTTJRdE9EYzFOaTB6T0dNMU0yWmxabVl5TWpFdWFuTnZiZyIsInN0YXRlX2RpZ2VzdCI6IjFlZjY2NDk2NzlkZjYyY2FjODZmYjk2OTBiM2JkMTc1NzcwZWQ2OGI2ZThmMzJjYWZlNjQzMTU3NDhlZTVhMTMifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-objects-link/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-objects-link/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOm51bGwsImhhc2hfY2hlY2siOm51bGwsInNpemVfY2hlY2siOm51bGwsInNvdXJjZV9yZWYiOiI0ODY1OTU2ZTJjYTlmYzc4NWVlYjZkMWRhODNmYWM4NmMzMmFiNmJhODZiZDVlOTE1ZjA3YTQ0OTQ5ZDBlZWY0Iiwic3RhdGUiOiJmYWlsZWQifSwiZXhwZWN0ZWRfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI4NzQyOGZjNTIyODAzZDMxMDY1ZTdiY2UzY2YwM2ZlNDc1MDk2NjMxZTVlMDdiYmQ3YTBmZGU2MGM0Y2YyNWM3Iiwic2l6ZV9ieXRlcyI6IjIifSwicGF0aF9rZXkiOiJZUzUwZUhRIn0sImxpbWl0cyI6eyJtYXhfZHVyYXRpb25fbXMiOm51bGwsIm1heF9maWxlX2J5dGVzIjoiNDE5NDMwNCIsIm1heF9qc29uX2RlcHRoIjoiNjQiLCJtYXhfbGluZV9ieXRlcyI6IjQwOTYiLCJtYXhfbG9naWNhbF9tZW1vcnlfYnl0ZXMiOiIxMzQyMTc3MjgiLCJtYXhfbWFuaWZlc3RfYnl0ZXMiOiIxNjc3NzIxNiIsIm1heF9vdXRwdXRfYnl0ZXMiOiIxMDQ4NTc2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOlsic291cmNlX2ludmFsaWRfa2luZCJdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjIwIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjE4NDQ2NzQ0MDczNzA5NTUxNjE1In0sInJlc291cmNlcyI6eyJsb2dpY2FsX21lbW9yeV9wZWFrIjoiODU0NTk5MCIsIm9iamVjdF9ieXRlc19yZWFkIjoiMCIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjBkZGFhMzQzZTA2ZWYxMTE0YTBlOTRhMGU3NTg3ZDU2ZmUwNDkxNjU2ZGQzNGI3NTJmN2M4YWZlYmU3YmRhNTciLCJzbmFwc2hvdF9pZCI6IjU5MDEzMmQ4LTEwZmQtNDUzZC04NzU2LTM4YzUzZmVmZjIyMSIsInN0YXRlX2RpZ2VzdCI6IjFlZjY2NDk2NzlkZjYyY2FjODZmYjk2OTBiM2JkMTc1NzcwZWQ2OGI2ZThmMzJjYWZlNjQzMTU3NDhlZTVhMTMiLCJ3b3Jrc3BhY2VfaWQiOiJhODZmZjZjYi1mZmM0LTQ1OGItODAyMS1kOWViOWMxNDRjMWUifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjBkZGFhMzQzZTA2ZWYxMTE0YTBlOTRhMGU3NTg3ZDU2ZmUwNDkxNjU2ZGQzNGI3NTJmN2M4YWZlYmU3YmRhNTciLCJzbmFwc2hvdF9pZCI6IjU5MDEzMmQ4LTEwZmQtNDUzZC04NzU2LTM4YzUzZmVmZjIyMSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiNDg2NTk1NmUyY2E5ZmM3ODVlZWI2ZDFkYTgzZmFjODZjMzJhYjZiYTg2YmQ1ZTkxNWYwN2E0NDk0OWQwZWVmNCIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiJhODZmZjZjYi1mZmM0LTQ1OGItODAyMS1kOWViOWMxNDRjMWUifSwic3RhdHVzIjoidW5hdmFpbGFibGUifQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-root-link/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1yb290LWxpbmsvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMWEp2YjNRdGJHbHVheTkwY21WbEx5NWpiMjF3WVhOekwzQnZiR2xqZVM1cWMyOXUiLCJ3b3Jrc3BhY2VfaWQiOiJlMjM4NDgwOC1mOTNjLTQ0YTktODRiMi0zOGQ4ZjgzZTk2MjkiLCJ3b3Jrc3BhY2VfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2JhZC1yb290LWxpbmsvdHJlZS8uY29tcGFzcy93b3Jrc3BhY2UuanNvbiIsIndvcmtzcGFjZV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlltRmtMWEp2YjNRdGJHbHVheTkwY21WbEx5NWpiMjF3WVhOekwzZHZjbXR6Y0dGalpTNXFjMjl1In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/bad-root-link/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjQxZDQyYTk4LTFkYmMtNDBjMC1hYTdlLWU4ZDA4MDBlNDI2YiIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9iYWQtcm9vdC1saW5rL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzLzQxZDQyYTk4LTFkYmMtNDBjMC1hYTdlLWU4ZDA4MDBlNDI2Yi5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZbUZrTFhKdmIzUXRiR2x1YXk5MGNtVmxMeTVqYjIxd1lYTnpMM051WVhCemFHOTBjeTgwTVdRME1tRTVPQzB4WkdKakxUUXdZekF0WVdFM1pTMWxPR1F3T0RBd1pUUXlObUl1YW5OdmJnIiwic3RhdGVfZGlnZXN0IjoiMjM4NjI0MTQzMmE2NjM3NjEzYTg4YWEyZTNlNjI1MDRiNjk1ODMzYjI3MzE0YjhmZmUzYTI4ZDNmYjAwZTFiZiJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/bad-root-link/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/bad-root-link/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "18446744073709551615",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoic291cmNlX2ludmFsaWQiLCJtZXNzYWdlIjoic291cmNlX2ludmFsaWQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/text-0/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L3RleHQtMC90cmVlLy5jb21wYXNzL3BvbGljeS5qc29uIiwicG9saWN5X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2ZEdWNGRDMHdMM1J5WldVdkxtTnZiWEJoYzNNdmNHOXNhV041TG1wemIyNCIsIndvcmtzcGFjZV9pZCI6IjM5OTM5YTExLTIzNGEtNGUyNy1iM2UyLWQxNjM3YWIzODk4NSIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvdGV4dC0wL3RyZWUvLmNvbXBhc3Mvd29ya3NwYWNlLmpzb24iLCJ3b3Jrc3BhY2VfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZkR1Y0ZEMwd0wzUnlaV1V2TG1OdmJYQmhjM012ZDI5eWEzTndZV05sTG1wemIyNCJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/text-0/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6Ijg2NDU5ZjRjLWZmMWEtNDdhYy1iNTRmLTEwZmUzOTAxNDk0NyIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS90ZXh0LTAvdHJlZS8uY29tcGFzcy9zbmFwc2hvdHMvODY0NTlmNGMtZmYxYS00N2FjLWI1NGYtMTBmZTM5MDE0OTQ3Lmpzb24iLCJzbmFwc2hvdF9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdmRHVjRkQzB3TDNSeVpXVXZMbU52YlhCaGMzTXZjMjVoY0hOb2IzUnpMemcyTkRVNVpqUmpMV1ptTVdFdE5EZGhZeTFpTlRSbUxURXdabVV6T1RBeE5EazBOeTVxYzI5dSIsInN0YXRlX2RpZ2VzdCI6IjE4MDJhN2YzNTBmYmFlYWM5OGI2MWQxNWVhMjU3ZTc4YjE3ZmM2NGYyYWVhN2ZjMWVkNzA5YmZmOWVkNmJhYjgifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/text-0/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/text-0/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "1",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiI5ODVjYzExNDk2MjM4YjI4NzYyNzIwMTczNWI5MTFlNTZmMTY4YjFjNWIxYzc4NDk0ZmZkMTNkZWE0OWI3MzE5Iiwic2l6ZV9ieXRlcyI6IjYifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6ImYyNTQ4Zjc4NTRkZDE2NDdkZWM2YjhkMDQwNWJlZTNjY2ZlZmQ2M2E3MWYzZjM4MDk1ODE5YzQ1ZDMwZmM2ZWYiLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiOTg1Y2MxMTQ5NjIzOGIyODc2MjcyMDE3MzViOTExZTU2ZjE2OGIxYzViMWM3ODQ5NGZmZDEzZGVhNDliNzMxOSIsInNpemVfYnl0ZXMiOiI2In0sInBhdGhfa2V5IjoiWVM1MGVIUSJ9LCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJwcm9kdWNlcl9idWlsZCI6InNoYTI1Njo1NDdiMWUzZmIwY2FlNDM4MzAwYTZmMGJmNTBiZWY5ZWY1NzMxYWI1MTNjMTVmZjNiYTg4OWJhNzNmNGU2OTQyIiwicHJvZHVjZXJfdmVyc2lvbiI6IjAuMS4wIiwicmVhZF9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJyZWFzb25zIjpbIm51bCJdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjEiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5OTAiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjYiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiI3In0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI1MWZlNDQ0NDYyMjIwZDQ4OThmNGQ1MTY0OTBjZDNkOTcxOWI3ZDliZjZmY2U1OWU1MjhjOGE2ODJmYjFlZDQ3Iiwic25hcHNob3RfaWQiOiI4NjQ1OWY0Yy1mZjFhLTQ3YWMtYjU0Zi0xMGZlMzkwMTQ5NDciLCJzdGF0ZV9kaWdlc3QiOiIxODAyYTdmMzUwZmJhZWFjOThiNjFkMTVlYTI1N2U3OGIxN2ZjNjRmMmFlYTdmYzFlZDcwOWJmZjllZDZiYWI4Iiwid29ya3NwYWNlX2lkIjoiMzk5MzlhMTEtMjM0YS00ZTI3LWIzZTItZDE2MzdhYjM4OTg1In0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI1MWZlNDQ0NDYyMjIwZDQ4OThmNGQ1MTY0OTBjZDNkOTcxOWI3ZDliZjZmY2U1OWU1MjhjOGE2ODJmYjFlZDQ3Iiwic25hcHNob3RfaWQiOiI4NjQ1OWY0Yy1mZjFhLTQ3YWMtYjU0Zi0xMGZlMzkwMTQ5NDciLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6ImYyNTQ4Zjc4NTRkZDE2NDdkZWM2YjhkMDQwNWJlZTNjY2ZlZmQ2M2E3MWYzZjM4MDk1ODE5YzQ1ZDMwZmM2ZWYiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiMzk5MzlhMTEtMjM0YS00ZTI3LWIzZTItZDE2MzdhYjM4OTg1In0sInN0YXR1cyI6Im5vbl90ZXh0In0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/text-1/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L3RleHQtMS90cmVlLy5jb21wYXNzL3BvbGljeS5qc29uIiwicG9saWN5X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2ZEdWNGRDMHhMM1J5WldVdkxtTnZiWEJoYzNNdmNHOXNhV041TG1wemIyNCIsIndvcmtzcGFjZV9pZCI6ImEwYzYwMzI0LTY2N2EtNDFlNi1iMGRlLWZlOGRkZTlhODQwMSIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvdGV4dC0xL3RyZWUvLmNvbXBhc3Mvd29ya3NwYWNlLmpzb24iLCJ3b3Jrc3BhY2VfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZkR1Y0ZEMweEwzUnlaV1V2TG1OdmJYQmhjM012ZDI5eWEzTndZV05sTG1wemIyNCJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/text-1/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6ImQyZGNhN2MzLTc4YTYtNDM2Yi1iZjBlLWMxMzFiZDEyYzAxMiIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS90ZXh0LTEvdHJlZS8uY29tcGFzcy9zbmFwc2hvdHMvZDJkY2E3YzMtNzhhNi00MzZiLWJmMGUtYzEzMWJkMTJjMDEyLmpzb24iLCJzbmFwc2hvdF9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdmRHVjRkQzB4TDNSeVpXVXZMbU52YlhCaGMzTXZjMjVoY0hOb2IzUnpMMlF5WkdOaE4yTXpMVGM0WVRZdE5ETTJZaTFpWmpCbExXTXhNekZpWkRFeVl6QXhNaTVxYzI5dSIsInN0YXRlX2RpZ2VzdCI6IjgyMzQ0ZjE1NzBkMzE2ZWQwY2RiNTQ1MDMyNDZiZmI0NDkxNTU4NDZjZmFmYjYwOTU2MzQ3NDk4ZjAwNGQwNmQifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/text-1/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/text-1/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "1",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiJlYTVkYmY5NTk2ZDE4N2U5NTAwZjIzZTlhNjgwMTA5NDc1MzQxY2Y0ZTgxZjdlMDQzZjdkOTcxNTJjMTA3NzJmIiwic2l6ZV9ieXRlcyI6IjIifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6ImUxYjk0YzUzYmViYzljMTM4YTQ2NTMyZTZhNTQ1YjQ0ZjAwOTkzMGQ2NTNiZThlNjJmYzY4YmMyYWQyNWY5MmYiLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiZWE1ZGJmOTU5NmQxODdlOTUwMGYyM2U5YTY4MDEwOTQ3NTM0MWNmNGU4MWY3ZTA0M2Y3ZDk3MTUyYzEwNzcyZiIsInNpemVfYnl0ZXMiOiIyIn0sInBhdGhfa2V5IjoiWVM1MGVIUSJ9LCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJwcm9kdWNlcl9idWlsZCI6InNoYTI1Njo1NDdiMWUzZmIwY2FlNDM4MzAwYTZmMGJmNTBiZWY5ZWY1NzMxYWI1MTNjMTVmZjNiYTg4OWJhNzNmNGU2OTQyIiwicHJvZHVjZXJfdmVyc2lvbiI6IjAuMS4wIiwicmVhZF9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJyZWFzb25zIjpbImludmFsaWRfdXRmOCJdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjEiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5OTAiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiIzIn0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI1ZjY2Y2MzMDI2MTI0MjFjMmRiNjYyMWVkNDNiOGY1M2QzZDg2NGI5YTQ5YmY4Y2ZjZDZjYzNmNWFkNjNkNmEzIiwic25hcHNob3RfaWQiOiJkMmRjYTdjMy03OGE2LTQzNmItYmYwZS1jMTMxYmQxMmMwMTIiLCJzdGF0ZV9kaWdlc3QiOiI4MjM0NGYxNTcwZDMxNmVkMGNkYjU0NTAzMjQ2YmZiNDQ5MTU1ODQ2Y2ZhZmI2MDk1NjM0NzQ5OGYwMDRkMDZkIiwid29ya3NwYWNlX2lkIjoiYTBjNjAzMjQtNjY3YS00MWU2LWIwZGUtZmU4ZGRlOWE4NDAxIn0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI1ZjY2Y2MzMDI2MTI0MjFjMmRiNjYyMWVkNDNiOGY1M2QzZDg2NGI5YTQ5YmY4Y2ZjZDZjYzNmNWFkNjNkNmEzIiwic25hcHNob3RfaWQiOiJkMmRjYTdjMy03OGE2LTQzNmItYmYwZS1jMTMxYmQxMmMwMTIiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6ImUxYjk0YzUzYmViYzljMTM4YTQ2NTMyZTZhNTQ1YjQ0ZjAwOTkzMGQ2NTNiZThlNjJmYzY4YmMyYWQyNWY5MmYiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiYTBjNjAzMjQtNjY3YS00MWU2LWIwZGUtZmU4ZGRlOWE4NDAxIn0sInN0YXR1cyI6Im5vbl90ZXh0In0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/text-2/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L3RleHQtMi90cmVlLy5jb21wYXNzL3BvbGljeS5qc29uIiwicG9saWN5X3BhdGhfYmFzZTY0IjoiTDNSdGNDOWpiMjF3WVhOekxYSmxZV1F0WVY4eWFuTmlNRGt2ZEdWNGRDMHlMM1J5WldVdkxtTnZiWEJoYzNNdmNHOXNhV041TG1wemIyNCIsIndvcmtzcGFjZV9pZCI6IjRmNmNiZTFlLTU5ZTYtNDg0My05Y2I5LTI4OTJiYTVkOTc5YiIsIndvcmtzcGFjZV9wYXRoIjoiL3RtcC9jb21wYXNzLXJlYWQtYV8yanNiMDkvdGV4dC0yL3RyZWUvLmNvbXBhc3Mvd29ya3NwYWNlLmpzb24iLCJ3b3Jrc3BhY2VfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZkR1Y0ZEMweUwzUnlaV1V2TG1OdmJYQmhjM012ZDI5eWEzTndZV05sTG1wemIyNCJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/text-2/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjEyYmY1ZGIyLTM5Y2UtNGQ2NC1hMGM3LTQ0MTIxMWVjNmM1MyIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS90ZXh0LTIvdHJlZS8uY29tcGFzcy9zbmFwc2hvdHMvMTJiZjVkYjItMzljZS00ZDY0LWEwYzctNDQxMjExZWM2YzUzLmpzb24iLCJzbmFwc2hvdF9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdmRHVjRkQzB5TDNSeVpXVXZMbU52YlhCaGMzTXZjMjVoY0hOb2IzUnpMekV5WW1ZMVpHSXlMVE01WTJVdE5HUTJOQzFoTUdNM0xUUTBNVEl4TVdWak5tTTFNeTVxYzI5dSIsInN0YXRlX2RpZ2VzdCI6IjJjYTk4YTNiMjA0MDQzNmVkZGMzYjE2YTI4YWQzYjE1MjBjOWU4Njk4YjZjNmMwNWNhMjhkNjRkMjIxMDY4ZTEifQo=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/text-2/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/text-2/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "1",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjpudWxsLCJuZXh0X3N0YXJ0X2xpbmUiOm51bGwsInJldHVybmVkX2xpbmVzIjoiMCIsInN0YXJ0X2J5dGUiOm51bGwsInRleHQiOm51bGwsInRvdGFsX2xpbmVzIjpudWxsLCJ0cnVuY2F0ZWQiOmZhbHNlfSwiZmlsZSI6eyJjaGVjayI6eyJhY3R1YWxfcmV2aXNpb24iOnsiY29udGVudF9zaGEyNTYiOiJjZDdiNzcxMWYxNzEyZDMzMmU1Y2UzMDBhMmZiMGNjOGQyOTgxNjk1MTAyNTRjNWU3NTQ5NzA4N2Y5ZDUyOTEwIiwic2l6ZV9ieXRlcyI6IjQxMDIifSwiaGFzaF9jaGVjayI6dHJ1ZSwic2l6ZV9jaGVjayI6dHJ1ZSwic291cmNlX3JlZiI6ImE3YzIwN2Y1NjkyZDEwMDEyOWZhMzY5OGZhODY5NDc5YTY2MDg0MjY3ZGZmMTAyMWYwMjMxYmJkMjJlOTYzMDIiLCJzdGF0ZSI6InZlcmlmaWVkIn0sImV4cGVjdGVkX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiY2Q3Yjc3MTFmMTcxMmQzMzJlNWNlMzAwYTJmYjBjYzhkMjk4MTY5NTEwMjU0YzVlNzU0OTcwODdmOWQ1MjkxMCIsInNpemVfYnl0ZXMiOiI0MTAyIn0sInBhdGhfa2V5IjoiWVM1MGVIUSJ9LCJsaW1pdHMiOnsibWF4X2R1cmF0aW9uX21zIjpudWxsLCJtYXhfZmlsZV9ieXRlcyI6IjQxOTQzMDQiLCJtYXhfanNvbl9kZXB0aCI6IjY0IiwibWF4X2xpbmVfYnl0ZXMiOiI0MDk2IiwibWF4X2xvZ2ljYWxfbWVtb3J5X2J5dGVzIjoiMTM0MjE3NzI4IiwibWF4X21hbmlmZXN0X2J5dGVzIjoiMTY3NzcyMTYiLCJtYXhfb3V0cHV0X2J5dGVzIjoiMTA0ODU3NiIsIm1heF9yZWNvcmRzIjoiMTAwMDAiLCJtYXhfc291cmNlX2Rlc2NyaXB0b3JfYnl0ZXMiOiI2NTUzNiIsIm1heF90b3RhbF9vYmplY3RfYnl0ZXMiOiI2NzEwODg2NCJ9LCJwcm9kdWNlcl9idWlsZCI6InNoYTI1Njo1NDdiMWUzZmIwY2FlNDM4MzAwYTZmMGJmNTBiZWY5ZWY1NzMxYWI1MTNjMTVmZjNiYTg4OWJhNzNmNGU2OTQyIiwicHJvZHVjZXJfdmVyc2lvbiI6IjAuMS4wIiwicmVhZF9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJyZWFzb25zIjpbImxpbmVfYnl0ZXNfbGltaXQiXSwicmVwb3J0X3R5cGUiOiJ2ZXJpZmllZF9yZWFkIiwicmVxdWVzdCI6eyJtYXhfbGluZXMiOiIxIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjEifSwicmVzb3VyY2VzIjp7ImxvZ2ljYWxfbWVtb3J5X3BlYWsiOiI4NTU0MjM4Iiwib2JqZWN0X2J5dGVzX3JlYWQiOiI0MTAyIiwib2JqZWN0X2J5dGVzX3Jlc2VydmVkIjoiNDEwMyJ9LCJzY2hlbWFfdmVyc2lvbiI6IjEiLCJzY29wZSI6ImRlY2xhcmVkX3NuYXBzaG90X29ubHkiLCJzbmFwc2hvdCI6eyJwYXRoX25hbWVzcGFjZSI6ImxpbnV4X2J5dGVzX3YxIiwicG9saWN5X2lkIjoiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsInF1YWxpdHkiOiJjb21wbGV0ZSIsInNuYXBzaG90X2ZpbGVfc2hhMjU2IjoiOWYwN2M4ZmFhOTJlOTVmMThhYTc1ZTYwNGVjNTdjZWVhOGZmNTA5MjEzN2UyZmI1MTYyZmM4MzFiMzM2NmMxYiIsInNuYXBzaG90X2lkIjoiMTJiZjVkYjItMzljZS00ZDY0LWEwYzctNDQxMjExZWM2YzUzIiwic3RhdGVfZGlnZXN0IjoiMmNhOThhM2IyMDQwNDM2ZWRkYzNiMTZhMjhhZDNiMTUyMGM5ZTg2OThiNmM2YzA1Y2EyOGQ2NGQyMjEwNjhlMSIsIndvcmtzcGFjZV9pZCI6IjRmNmNiZTFlLTU5ZTYtNDg0My05Y2I5LTI4OTJiYTVkOTc5YiJ9LCJzb3VyY2UiOnsicG9saWN5X2lkIjoiMjdmYTZkZDc2OGI0MzM0YzEyZjM4ZjQxMGE0YjNkOWVkNDAzNTc3Y2Y0MmRkNGUxNGQzZDFkZjNmZDk3NmM3ZSIsInNuYXBzaG90X2ZpbGVfc2hhMjU2IjoiOWYwN2M4ZmFhOTJlOTVmMThhYTc1ZTYwNGVjNTdjZWVhOGZmNTA5MjEzN2UyZmI1MTYyZmM4MzFiMzM2NmMxYiIsInNuYXBzaG90X2lkIjoiMTJiZjVkYjItMzljZS00ZDY0LWEwYzctNDQxMjExZWM2YzUzIiwic291cmNlX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInNvdXJjZV9yZWYiOiJhN2MyMDdmNTY5MmQxMDAxMjlmYTM2OThmYTg2OTQ3OWE2NjA4NDI2N2RmZjEwMjFmMDIzMWJiZDIyZTk2MzAyIiwic291cmNlX3NjaGVtYV92ZXJzaW9uIjoiMSIsIndvcmtzcGFjZV9pZCI6IjRmNmNiZTFlLTU5ZTYtNDg0My05Y2I5LTI4OTJiYTVkOTc5YiJ9LCJzdGF0dXMiOiJ1bmF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/caps/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2NhcHMvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlkyRndjeTkwY21WbEx5NWpiMjF3WVhOekwzQnZiR2xqZVM1cWMyOXUiLCJ3b3Jrc3BhY2VfaWQiOiIyMjdiYjM2Zi1mNjg1LTQ3MWUtYWI4OC04M2E2MmE0NzNjMmMiLCJ3b3Jrc3BhY2VfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2NhcHMvdHJlZS8uY29tcGFzcy93b3Jrc3BhY2UuanNvbiIsIndvcmtzcGFjZV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdlkyRndjeTkwY21WbEx5NWpiMjF3WVhOekwzZHZjbXR6Y0dGalpTNXFjMjl1In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/caps/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6Ijg1NDY0ZjhkLWJhOGYtNGM4Zi1iYzFkLWFlZjdlOWE2Y2NmYSIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9jYXBzL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzLzg1NDY0ZjhkLWJhOGYtNGM4Zi1iYzFkLWFlZjdlOWE2Y2NmYS5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZZMkZ3Y3k5MGNtVmxMeTVqYjIxd1lYTnpMM051WVhCemFHOTBjeTg0TlRRMk5HWTRaQzFpWVRobUxUUmpPR1l0WW1NeFpDMWhaV1kzWlRsaE5tTmpabUV1YW5OdmJnIiwic3RhdGVfZGlnZXN0IjoiMjgxZjdlODcwOWFjYzFjNTNlMjYzOWYzMTczY2E0YjI1MjI2MmQxNmYyMjM0ZTI2ZGI2ZDQ4MDM3ZmFmNGYwNSJ9Cg==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMiIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiYVxuIiwidG90YWxfbGluZXMiOiIxIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODc0MjhmYzUyMjgwM2QzMTA2NWU3YmNlM2NmMDNmZTQ3NTA5NjYzMWU1ZTA3YmJkN2EwZmRlNjBjNGNmMjVjNyIsInNpemVfYnl0ZXMiOiIyIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiI4NjVkZmQxYWFhMzAwNTIyZjBkZTliMjkwZDlkNGM5M2I0MTNhYjEyMjY4NjcyYzlmYjZhOTdkYmJlNjJkODBmIiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6Ijg3NDI4ZmM1MjI4MDNkMzEwNjVlN2JjZTNjZjAzZmU0NzUwOTY2MzFlNWUwN2JiZDdhMGZkZTYwYzRjZjI1YzciLCJzaXplX2J5dGVzIjoiMiJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjEwNDg1NzYiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6Ijg1NDU5OTAiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiIzIn0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI2ZmI0YjViMDExMjcwYjc0M2ZlNDYzNjM3ZDAzYzM3NzFjMzFhYmU0YjVmZjQzOTZhMGUyNDMyZWE0NmM5ZTQ5Iiwic25hcHNob3RfaWQiOiI4NTQ2NGY4ZC1iYThmLTRjOGYtYmMxZC1hZWY3ZTlhNmNjZmEiLCJzdGF0ZV9kaWdlc3QiOiIyODFmN2U4NzA5YWNjMWM1M2UyNjM5ZjMxNzNjYTRiMjUyMjYyZDE2ZjIyMzRlMjZkYjZkNDgwMzdmYWY0ZjA1Iiwid29ya3NwYWNlX2lkIjoiMjI3YmIzNmYtZjY4NS00NzFlLWFiODgtODNhNjJhNDczYzJjIn0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI2ZmI0YjViMDExMjcwYjc0M2ZlNDYzNjM3ZDAzYzM3NzFjMzFhYmU0YjVmZjQzOTZhMGUyNDMyZWE0NmM5ZTQ5Iiwic25hcHNob3RfaWQiOiI4NTQ2NGY4ZC1iYThmLTRjOGYtYmMxZC1hZWY3ZTlhNmNjZmEiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6Ijg2NWRmZDFhYWEzMDA1MjJmMGRlOWIyOTBkOWQ0YzkzYjQxM2FiMTIyNjg2NzJjOWZiNmE5N2RiYmU2MmQ4MGYiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiMjI3YmIzNmYtZjY4NS00NzFlLWFiODgtODNhNjJhNDczYzJjIn0sInN0YXR1cyI6ImF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoiaW5wdXRfbGltaXQiLCJtZXNzYWdlIjoiaW5wdXRfbGltaXQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoiaW5wdXRfbGltaXQiLCJtZXNzYWdlIjoiaW5wdXRfbGltaXQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoiaW5wdXRfbGltaXQiLCJtZXNzYWdlIjoiaW5wdXRfbGltaXQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoiaW5wdXRfbGltaXQiLCJtZXNzYWdlIjoiaW5wdXRfbGltaXQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoiaW5wdXRfbGltaXQiLCJtZXNzYWdlIjoiaW5wdXRfbGltaXQifX0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMiIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiYVxuIiwidG90YWxfbGluZXMiOiIxIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODc0MjhmYzUyMjgwM2QzMTA2NWU3YmNlM2NmMDNmZTQ3NTA5NjYzMWU1ZTA3YmJkN2EwZmRlNjBjNGNmMjVjNyIsInNpemVfYnl0ZXMiOiIyIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiI4NjVkZmQxYWFhMzAwNTIyZjBkZTliMjkwZDlkNGM5M2I0MTNhYjEyMjY4NjcyYzlmYjZhOTdkYmJlNjJkODBmIiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6Ijg3NDI4ZmM1MjI4MDNkMzEwNjVlN2JjZTNjZjAzZmU0NzUwOTY2MzFlNWUwN2JiZDdhMGZkZTYwYzRjZjI1YzciLCJzaXplX2J5dGVzIjoiMiJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjY1NTM2IiwibWF4X3JlY29yZHMiOiIxMDAwMCIsIm1heF9zb3VyY2VfZGVzY3JpcHRvcl9ieXRlcyI6IjY1NTM2IiwibWF4X3RvdGFsX29iamVjdF9ieXRlcyI6IjY3MTA4ODY0In0sInByb2R1Y2VyX2J1aWxkIjoic2hhMjU2OjU0N2IxZTNmYjBjYWU0MzgzMDBhNmYwYmY1MGJlZjllZjU3MzFhYjUxM2MxNWZmM2JhODg5YmE3M2Y0ZTY5NDIiLCJwcm9kdWNlcl92ZXJzaW9uIjoiMC4xLjAiLCJyZWFkX2NvbnRyYWN0X3ZlcnNpb24iOiIwLjEuMCIsInJlYXNvbnMiOltdLCJyZXBvcnRfdHlwZSI6InZlcmlmaWVkX3JlYWQiLCJyZXF1ZXN0Ijp7Im1heF9saW5lcyI6IjIwIiwicGF0aF9rZXkiOiJZUzUwZUhRIiwic3RhcnRfbGluZSI6IjEifSwicmVzb3VyY2VzIjp7ImxvZ2ljYWxfbWVtb3J5X3BlYWsiOiI2ODE2NzAiLCJvYmplY3RfYnl0ZXNfcmVhZCI6IjIiLCJvYmplY3RfYnl0ZXNfcmVzZXJ2ZWQiOiIzIn0sInNjaGVtYV92ZXJzaW9uIjoiMSIsInNjb3BlIjoiZGVjbGFyZWRfc25hcHNob3Rfb25seSIsInNuYXBzaG90Ijp7InBhdGhfbmFtZXNwYWNlIjoibGludXhfYnl0ZXNfdjEiLCJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwicXVhbGl0eSI6ImNvbXBsZXRlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI2ZmI0YjViMDExMjcwYjc0M2ZlNDYzNjM3ZDAzYzM3NzFjMzFhYmU0YjVmZjQzOTZhMGUyNDMyZWE0NmM5ZTQ5Iiwic25hcHNob3RfaWQiOiI4NTQ2NGY4ZC1iYThmLTRjOGYtYmMxZC1hZWY3ZTlhNmNjZmEiLCJzdGF0ZV9kaWdlc3QiOiIyODFmN2U4NzA5YWNjMWM1M2UyNjM5ZjMxNzNjYTRiMjUyMjYyZDE2ZjIyMzRlMjZkYjZkNDgwMzdmYWY0ZjA1Iiwid29ya3NwYWNlX2lkIjoiMjI3YmIzNmYtZjY4NS00NzFlLWFiODgtODNhNjJhNDczYzJjIn0sInNvdXJjZSI6eyJwb2xpY3lfaWQiOiIyN2ZhNmRkNzY4YjQzMzRjMTJmMzhmNDEwYTRiM2Q5ZWQ0MDM1NzdjZjQyZGQ0ZTE0ZDNkMWRmM2ZkOTc2YzdlIiwic25hcHNob3RfZmlsZV9zaGEyNTYiOiI2ZmI0YjViMDExMjcwYjc0M2ZlNDYzNjM3ZDAzYzM3NzFjMzFhYmU0YjVmZjQzOTZhMGUyNDMyZWE0NmM5ZTQ5Iiwic25hcHNob3RfaWQiOiI4NTQ2NGY4ZC1iYThmLTRjOGYtYmMxZC1hZWY3ZTlhNmNjZmEiLCJzb3VyY2VfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwic291cmNlX3JlZiI6Ijg2NWRmZDFhYWEzMDA1MjJmMGRlOWIyOTBkOWQ0YzkzYjQxM2FiMTIyNjg2NzJjOWZiNmE5N2RiYmU2MmQ4MGYiLCJzb3VyY2Vfc2NoZW1hX3ZlcnNpb24iOiIxIiwid29ya3NwYWNlX2lkIjoiMjI3YmIzNmYtZjY4NS00NzFlLWFiODgtODNhNjJhNDczYzJjIn0sInN0YXR1cyI6ImF2YWlsYWJsZSJ9",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMiIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiYVxuIiwidG90YWxfbGluZXMiOiIxIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODc0MjhmYzUyMjgwM2QzMTA2NWU3YmNlM2NmMDNmZTQ3NTA5NjYzMWU1ZTA3YmJkN2EwZmRlNjBjNGNmMjVjNyIsInNpemVfYnl0ZXMiOiIyIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiI4NjVkZmQxYWFhMzAwNTIyZjBkZTliMjkwZDlkNGM5M2I0MTNhYjEyMjY4NjcyYzlmYjZhOTdkYmJlNjJkODBmIiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6Ijg3NDI4ZmM1MjI4MDNkMzEwNjVlN2JjZTNjZjAzZmU0NzUwOTY2MzFlNWUwN2JiZDdhMGZkZTYwYzRjZjI1YzciLCJzaXplX2J5dGVzIjoiMiJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjIxNDUiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6IjE3NDU0MiIsIm9iamVjdF9ieXRlc19yZWFkIjoiMiIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjZmYjRiNWIwMTEyNzBiNzQzZmU0NjM2MzdkMDNjMzc3MWMzMWFiZTRiNWZmNDM5NmEwZTI0MzJlYTQ2YzllNDkiLCJzbmFwc2hvdF9pZCI6Ijg1NDY0ZjhkLWJhOGYtNGM4Zi1iYzFkLWFlZjdlOWE2Y2NmYSIsInN0YXRlX2RpZ2VzdCI6IjI4MWY3ZTg3MDlhY2MxYzUzZTI2MzlmMzE3M2NhNGIyNTIyNjJkMTZmMjIzNGUyNmRiNmQ0ODAzN2ZhZjRmMDUiLCJ3b3Jrc3BhY2VfaWQiOiIyMjdiYjM2Zi1mNjg1LTQ3MWUtYWI4OC04M2E2MmE0NzNjMmMifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjZmYjRiNWIwMTEyNzBiNzQzZmU0NjM2MzdkMDNjMzc3MWMzMWFiZTRiNWZmNDM5NmEwZTI0MzJlYTQ2YzllNDkiLCJzbmFwc2hvdF9pZCI6Ijg1NDY0ZjhkLWJhOGYtNGM4Zi1iYzFkLWFlZjdlOWE2Y2NmYSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiODY1ZGZkMWFhYTMwMDUyMmYwZGU5YjI5MGQ5ZDRjOTNiNDEzYWIxMjI2ODY3MmM5ZmI2YTk3ZGJiZTYyZDgwZiIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiIyMjdiYjM2Zi1mNjg1LTQ3MWUtYWI4OC04M2E2MmE0NzNjMmMifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJleGNlcnB0Ijp7ImVuZF9ieXRlIjoiMiIsIm5leHRfc3RhcnRfbGluZSI6bnVsbCwicmV0dXJuZWRfbGluZXMiOiIxIiwic3RhcnRfYnl0ZSI6IjAiLCJ0ZXh0IjoiYVxuIiwidG90YWxfbGluZXMiOiIxIiwidHJ1bmNhdGVkIjpmYWxzZX0sImZpbGUiOnsiY2hlY2siOnsiYWN0dWFsX3JldmlzaW9uIjp7ImNvbnRlbnRfc2hhMjU2IjoiODc0MjhmYzUyMjgwM2QzMTA2NWU3YmNlM2NmMDNmZTQ3NTA5NjYzMWU1ZTA3YmJkN2EwZmRlNjBjNGNmMjVjNyIsInNpemVfYnl0ZXMiOiIyIn0sImhhc2hfY2hlY2siOnRydWUsInNpemVfY2hlY2siOnRydWUsInNvdXJjZV9yZWYiOiI4NjVkZmQxYWFhMzAwNTIyZjBkZTliMjkwZDlkNGM5M2I0MTNhYjEyMjY4NjcyYzlmYjZhOTdkYmJlNjJkODBmIiwic3RhdGUiOiJ2ZXJpZmllZCJ9LCJleHBlY3RlZF9yZXZpc2lvbiI6eyJjb250ZW50X3NoYTI1NiI6Ijg3NDI4ZmM1MjI4MDNkMzEwNjVlN2JjZTNjZjAzZmU0NzUwOTY2MzFlNWUwN2JiZDdhMGZkZTYwYzRjZjI1YzciLCJzaXplX2J5dGVzIjoiMiJ9LCJwYXRoX2tleSI6IllTNTBlSFEifSwibGltaXRzIjp7Im1heF9kdXJhdGlvbl9tcyI6bnVsbCwibWF4X2ZpbGVfYnl0ZXMiOiI0MTk0MzA0IiwibWF4X2pzb25fZGVwdGgiOiI2NCIsIm1heF9saW5lX2J5dGVzIjoiNDA5NiIsIm1heF9sb2dpY2FsX21lbW9yeV9ieXRlcyI6IjEzNDIxNzcyOCIsIm1heF9tYW5pZmVzdF9ieXRlcyI6IjE2Nzc3MjE2IiwibWF4X291dHB1dF9ieXRlcyI6IjIxNDQiLCJtYXhfcmVjb3JkcyI6IjEwMDAwIiwibWF4X3NvdXJjZV9kZXNjcmlwdG9yX2J5dGVzIjoiNjU1MzYiLCJtYXhfdG90YWxfb2JqZWN0X2J5dGVzIjoiNjcxMDg4NjQifSwicHJvZHVjZXJfYnVpbGQiOiJzaGEyNTY6NTQ3YjFlM2ZiMGNhZTQzODMwMGE2ZjBiZjUwYmVmOWVmNTczMWFiNTEzYzE1ZmYzYmE4ODliYTczZjRlNjk0MiIsInByb2R1Y2VyX3ZlcnNpb24iOiIwLjEuMCIsInJlYWRfY29udHJhY3RfdmVyc2lvbiI6IjAuMS4wIiwicmVhc29ucyI6W10sInJlcG9ydF90eXBlIjoidmVyaWZpZWRfcmVhZCIsInJlcXVlc3QiOnsibWF4X2xpbmVzIjoiMjAiLCJwYXRoX2tleSI6IllTNTBlSFEiLCJzdGFydF9saW5lIjoiMSJ9LCJyZXNvdXJjZXMiOnsibG9naWNhbF9tZW1vcnlfcGVhayI6IjE3NDUzNCIsIm9iamVjdF9ieXRlc19yZWFkIjoiMiIsIm9iamVjdF9ieXRlc19yZXNlcnZlZCI6IjMifSwic2NoZW1hX3ZlcnNpb24iOiIxIiwic2NvcGUiOiJkZWNsYXJlZF9zbmFwc2hvdF9vbmx5Iiwic25hcHNob3QiOnsicGF0aF9uYW1lc3BhY2UiOiJsaW51eF9ieXRlc192MSIsInBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjZmYjRiNWIwMTEyNzBiNzQzZmU0NjM2MzdkMDNjMzc3MWMzMWFiZTRiNWZmNDM5NmEwZTI0MzJlYTQ2YzllNDkiLCJzbmFwc2hvdF9pZCI6Ijg1NDY0ZjhkLWJhOGYtNGM4Zi1iYzFkLWFlZjdlOWE2Y2NmYSIsInN0YXRlX2RpZ2VzdCI6IjI4MWY3ZTg3MDlhY2MxYzUzZTI2MzlmMzE3M2NhNGIyNTIyNjJkMTZmMjIzNGUyNmRiNmQ0ODAzN2ZhZjRmMDUiLCJ3b3Jrc3BhY2VfaWQiOiIyMjdiYjM2Zi1mNjg1LTQ3MWUtYWI4OC04M2E2MmE0NzNjMmMifSwic291cmNlIjp7InBvbGljeV9pZCI6IjI3ZmE2ZGQ3NjhiNDMzNGMxMmYzOGY0MTBhNGIzZDllZDQwMzU3N2NmNDJkZDRlMTRkM2QxZGYzZmQ5NzZjN2UiLCJzbmFwc2hvdF9maWxlX3NoYTI1NiI6IjZmYjRiNWIwMTEyNzBiNzQzZmU0NjM2MzdkMDNjMzc3MWMzMWFiZTRiNWZmNDM5NmEwZTI0MzJlYTQ2YzllNDkiLCJzbmFwc2hvdF9pZCI6Ijg1NDY0ZjhkLWJhOGYtNGM4Zi1iYzFkLWFlZjdlOWE2Y2NmYSIsInNvdXJjZV9jb250cmFjdF92ZXJzaW9uIjoiMC4xLjAiLCJzb3VyY2VfcmVmIjoiODY1ZGZkMWFhYTMwMDUyMmYwZGU5YjI5MGQ5ZDRjOTNiNDEzYWIxMjI2ODY3MmM5ZmI2YTk3ZGJiZTYyZDgwZiIsInNvdXJjZV9zY2hlbWFfdmVyc2lvbiI6IjEiLCJ3b3Jrc3BhY2VfaWQiOiIyMjdiYjM2Zi1mNjg1LTQ3MWUtYWI4OC04M2E2MmE0NzNjMmMifSwic3RhdHVzIjoiYXZhaWxhYmxlIn0=",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/caps/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/caps/package",
+          "--path-key",
+          "YS50eHQ",
+          "--start-line",
+          "1",
+          "--max-lines",
+          "20",
+          "--limits",
+          "/tmp/compass-read-a_2jsb09/caps/limits.json",
+          "--json"
+        ],
+        "exit": 1,
+        "stdout_base64": "eyJlcnJvciI6eyJjb2RlIjoib3V0cHV0X2xpbWl0IiwibWVzc2FnZSI6Im91dHB1dF9saW1pdCJ9fQ==",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "init",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/load/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJwb2xpY3lfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2xvYWQvdHJlZS8uY29tcGFzcy9wb2xpY3kuanNvbiIsInBvbGljeV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdmJHOWhaQzkwY21WbEx5NWpiMjF3WVhOekwzQnZiR2xqZVM1cWMyOXUiLCJ3b3Jrc3BhY2VfaWQiOiI5MWZjNzA2YS0wMGFkLTRlMWQtYjEzNi0zMWY0NDlhYWM3ZWQiLCJ3b3Jrc3BhY2VfcGF0aCI6Ii90bXAvY29tcGFzcy1yZWFkLWFfMmpzYjA5L2xvYWQvdHJlZS8uY29tcGFzcy93b3Jrc3BhY2UuanNvbiIsIndvcmtzcGFjZV9wYXRoX2Jhc2U2NCI6IkwzUnRjQzlqYjIxd1lYTnpMWEpsWVdRdFlWOHlhbk5pTURrdmJHOWhaQzkwY21WbEx5NWpiMjF3WVhOekwzZHZjbXR6Y0dGalpTNXFjMjl1In0K",
+        "stderr_base64": ""
+      },
+      {
+        "argv": [
+          "snapshot",
+          "--root",
+          "/tmp/compass-read-a_2jsb09/load/tree",
+          "--json"
+        ],
+        "exit": 0,
+        "stdout_base64": "eyJxdWFsaXR5IjoiY29tcGxldGUiLCJzbmFwc2hvdF9pZCI6IjZiZGE0NmUzLTkyYWMtNGQyYi1iN2RmLWRkNWI4NTAyZThkMCIsInNuYXBzaG90X3BhdGgiOiIvdG1wL2NvbXBhc3MtcmVhZC1hXzJqc2IwOS9sb2FkL3RyZWUvLmNvbXBhc3Mvc25hcHNob3RzLzZiZGE0NmUzLTkyYWMtNGQyYi1iN2RmLWRkNWI4NTAyZThkMC5qc29uIiwic25hcHNob3RfcGF0aF9iYXNlNjQiOiJMM1J0Y0M5amIyMXdZWE56TFhKbFlXUXRZVjh5YW5OaU1Ea3ZiRzloWkM5MGNtVmxMeTVqYjIxd1lYTnpMM051WVhCemFHOTBjeTgyWW1SaE5EWmxNeTA1TW1GakxUUmtNbUl0WWpka1ppMWtaRFZpT0RVd01tVTRaREF1YW5OdmJnIiwic3RhdGVfZGlnZXN0IjoiMDRjYjQ4YzVkNzU5ZGUyOGM5M2Q4NDUwZjE4NTBkYjk3MTkxZmYxOGZiZTU1NjMzZmFmNTM5YWUxZTI2OGY5OCJ9Cg==",
+        "stderr_base64": ""
+      }
+    ],
+    "resource_profile": [
+      {
+        "command": [
+          "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/target/release/compass",
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/load/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/load/package",
+          "--path-key",
+          "ZGlyLTAwMC9maWxlLTAwMDAudHh0",
+          "--start-line",
+          "30",
+          "--max-lines",
+          "5",
+          "--json"
+        ],
+        "gnu_time": "0.00 0.00 0.00 5840",
+        "gnu_time_fields": [
+          "user_s",
+          "system_s",
+          "elapsed_s",
+          "max_rss_kib"
+        ],
+        "wall_ns": 8810267,
+        "resources": {
+          "logical_memory_peak": "14690378",
+          "object_bytes_read": "4096",
+          "object_bytes_reserved": "4097"
+        },
+        "stdout_sha256": "36b768c6b4670e7e0ba12089b1c5967d305df4aaf191a49c5b51ed895173ff40"
+      },
+      {
+        "command": [
+          "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/target/release/compass",
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/load/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/load/package",
+          "--path-key",
+          "ZGlyLTAwMC9maWxlLTAwMDAudHh0",
+          "--start-line",
+          "30",
+          "--max-lines",
+          "5",
+          "--json"
+        ],
+        "gnu_time": "0.00 0.00 0.00 5892",
+        "gnu_time_fields": [
+          "user_s",
+          "system_s",
+          "elapsed_s",
+          "max_rss_kib"
+        ],
+        "wall_ns": 8013085,
+        "resources": {
+          "logical_memory_peak": "14690378",
+          "object_bytes_read": "4096",
+          "object_bytes_reserved": "4097"
+        },
+        "stdout_sha256": "36b768c6b4670e7e0ba12089b1c5967d305df4aaf191a49c5b51ed895173ff40"
+      },
+      {
+        "command": [
+          "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/target/release/compass",
+          "read",
+          "--snapshot",
+          "/tmp/compass-read-a_2jsb09/load/snapshot.json",
+          "--source",
+          "/tmp/compass-read-a_2jsb09/load/package",
+          "--path-key",
+          "ZGlyLTAwMC9maWxlLTAwMDAudHh0",
+          "--start-line",
+          "30",
+          "--max-lines",
+          "5",
+          "--json"
+        ],
+        "gnu_time": "0.00 0.00 0.00 5780",
+        "gnu_time_fields": [
+          "user_s",
+          "system_s",
+          "elapsed_s",
+          "max_rss_kib"
+        ],
+        "wall_ns": 8130458,
+        "resources": {
+          "logical_memory_peak": "14690378",
+          "object_bytes_read": "4096",
+          "object_bytes_reserved": "4097"
+        },
+        "stdout_sha256": "36b768c6b4670e7e0ba12089b1c5967d305df4aaf191a49c5b51ed895173ff40"
+      }
+    ],
+    "limitations": [
+      "Linux/openat2; synthetic inputs",
+      "cache uncontrolled; no SLO",
+      "logical ledger is not RSS",
+      "synchronized races/cancellation covered by Rust tests"
+    ]
+  }
+}

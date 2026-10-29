@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "completed_at_utc": "2026-10-29T00:17:37.770199+00:00",
+  "implementation": "spectral_window_v1, opt-in experimental; core/CLI/MCP and Multiagentes task/measurement API",
+  "agents": {
+    "numerico": "gpt-6.1-sol/xhigh",
+    "aquisicao": "gpt-6.1-sol/high",
+    "consumidor": "gpt-6.1-sol/high",
+    "avaliacao": "gpt-6.1-sol/high",
+    "revisao": "gpt-6-astra/xhigh"
+  },
+  "rust": {
+    "workspace_passed": 187,
+    "default_ignored": 1,
+    "ignored_semantic_test_run_separately": "passed; pinned model already installed",
+    "fmt": "passed",
+    "clippy_all_targets": "passed",
+    "release_build": "passed",
+    "socket_test_note": "Unix socket rejection test rerun outside sandbox IPC restriction; no code changes to accommodate it."
+  },
+  "oracles": {
+    "spectral_graphs": 25,
+    "spectral_samples": 230,
+    "integrated_result": "numerical-integrated-final.json",
+    "numeric_mutations_rejected": 21,
+    "runtime_controls": 24,
+    "nonfinite_transport_controls": 2,
+    "legacy_heat_controls": 74,
+    "explicit_obligation_public_controls": 82,
+    "legacy_acquisitions": 42,
+    "legacy_contracts": 4,
+    "legacy_cli_mcp_comparisons": 5
+  },
+  "consumer": {
+    "applied_files": {
+      "src/context/acquisition.py": {
+        "original_sha256": null,
+        "prepared_sha256": "70c5aee2a6661951e657a854ee9e02ad3a9558e81eaa6b97f4014dc8da15b880"
+      },
+      "src/context/profiles.py": {
+        "original_sha256": "60f60435181388e2a49ebd6653f807ba949e5a724e04b7335e6abeef2e3cf951",
+        "prepared_sha256": "a2040ab7e76fc1e77546c477a41ddb3d43aac919b2057257120a044a91a65008"
+      },
+      "src/context/review.py": {
+        "original_sha256": null,
+        "prepared_sha256": "4d4ac51eaadc876aae9a730b595ccf910f56afe293f77dae78c069d2603b6ade"
+      },
+      "src/context/runtime.py": {
+        "original_sha256": "eb133af726c82f3c2d6d3d0ea812de47e744267eafa6119b00fb67deca2a1103",
+        "prepared_sha256": "9a870dab1a6173fbba299dc134cc053bcd7e0b3303b654cecb9ef8f1359490d6"
+      },
+      "src/measurements/models.py": {
+        "original_sha256": "1366b586b6ccff45b6e6e72b10eb0a2565a12d5eca684c3f5638641c8f4fb042",
+        "prepared_sha256": "7abb50c3e4687a16ab767a65b00a24209a95dad05a28cbb6cb3141561bf22b76"
+      },
+      "src/measurements/service.py": {
+        "original_sha256": "3eaa9d2e163397e128834627a84707bf9abcd44ea2b1f53025773cc4d1cdc7eb",
+        "prepared_sha256": "5ad096c69c244c41febe38606a695dbf293366bbd7a8215531fd227ed99e8b53"
+      },
+      "src/measurements/source.py": {
+        "original_sha256": "ef624d22398664557325dc17c5efc84f3a3b392e827406bae9d997982d8fdfe1",
+        "prepared_sha256": "8147d7fd5f74bed6f9a136bf22cf7aad2779d252772bfad23a3d020d8243c995"
+      },
+      "src/tasks/models.py": {
+        "original_sha256": "67b91f960a36a77fc6ecabd31ab2c7f3f00073aa0dcd348889d6bb5d9caea6a8",
+        "prepared_sha256": "37af9a4abbdc779440d5c6032146216a94f3845142d2c4a1cdaf52c2f0056343"
+      },
+      "src/tasks/service.py": {
+        "original_sha256": "aa4cb76b943290e3c82e26b8d1825371173c52e57cdb8088521afc20df968781",
+        "prepared_sha256": "2ab537fb17205024595b74cabb95b444284bb8b7b9a888d6552d12cc5328ff20"
+      },
+      "tests/harness/test_compass_review_coverage.py": {
+        "original_sha256": null,
+        "prepared_sha256": "8b5b8a45015623a32a63de804639077a731eafdd9b328a00b207056a6d246457"
+      },
+      "tests/harness/test_compass_terminal.py": {
+        "original_sha256": null,
+        "prepared_sha256": "3ac7e687afcb0dd4fea42b6e60a61c373c15e339495bf2e2f7eecf72840ba8f1"
+      }
+    },
+    "reviewed_copy_tests_passed": 126,
+    "applied_tree_tests_passed": 63,
+    "installed_release_integration_tests_passed": 7,
+    "provider": "simulated; MCP real",
+    "coverage_rule": "all current changed hunks plus three context lines; prior-content gaps block deletions/shrinking replacements/empty files",
+    "guard": "no tool retrieval after terminal; persisted receipt revalidated without replay",
+    "graphify": "AST-only update completed; no LLM labels requested",
+    "rollback_directory": "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/.compass/spectral-consumer-backup-2026-10-28"
+  },
+  "independent_review": {
+    "model": "gpt-6-astra/xhigh",
+    "outcome": "no remaining blocking findings in reviewed scope",
+    "evidence": "review-evidence-metadata.json",
+    "fixed": [
+      "numerical status/quality/error/interval verification",
+      "derived graph target and witness integrity, including reidentified mutations",
+      "current changed-hunk coverage before review approval"
+    ]
+  },
+  "evaluation": {
+    "summary": "evaluation-summary.json",
+    "frozen_profile": "profile-frozen.json",
+    "sources_match_frozen": true,
+    "exact_evaluated_binaries_directory": "/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/.compass/spectral-evaluation-build",
+    "claims": "No demonstrated benefit of the window rule; maintain experimental opt-in."
+  },
+  "installed": {
+    "binary_sha256": "d76db898295a21cb0d461c9711e5d3e708c03583c8ee811a058feb875a46c80f",
+    "release_sha256": "d76db898295a21cb0d461c9711e5d3e708c03583c8ee811a058feb875a46c80f",
+    "record": ".compass/mcp/spectral-installation.json",
+    "readiness": ".compass/mcp/readiness-spectral.json",
+    "checks": [
+      "initialize",
+      "tools/list",
+      "demo search/read/continuation",
+      "original bytes/hash",
+      "same revision",
+      "compass source search/read",
+      "managed heat pack",
+      "managed semantic query",
+      "managed verified read",
+      "contract discovery",
+      "one-call current-pack sufficient evidence",
+      "interpretation pending blocks sufficiency",
+      "spectral policy discovery",
+      "spectral terminal pack with explicit scope and fixed generation",
+      "foreign cwd",
+      "clean EOF shutdown"
+    ],
+    "previous_binary_preserved": true
+  },
+  "limits": {
+    "generation_documents": 128,
+    "generation_bytes": 22369621,
+    "reference_pack_budget_bytes": 16384,
+    "small_budget_bytes": 3000,
+    "small_budget_result": "explicit metadata budget errors in all measured cases",
+    "ui": "New options exposed through CLI/MCP and task/measurement APIs; no new form controls."
+  },
+  "not_performed": [
+    "paid LLM pilot",
+    "remote deployment",
+    "automatic/default policy promotion",
+    "source collection changes",
+    "downloads"
+  ],
+  "tree_note": "Existing uncommitted/untracked work preserved; no commit created. Evaluation debug binaries and installed release identified separately."
+}

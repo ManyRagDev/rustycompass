@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "mutations": 21,
+  "checks": [
+    {
+      "mutation": "incomplete_status",
+      "rejected": true
+    },
+    {
+      "mutation": "no_seed_claims_estimated",
+      "rejected": true
+    },
+    {
+      "mutation": "stationary_claims_estimated",
+      "rejected": true
+    },
+    {
+      "mutation": "zero_scale_claims_estimated",
+      "rejected": true
+    },
+    {
+      "mutation": "late_zero_claims_estimated",
+      "rejected": true
+    },
+    {
+      "mutation": "positive_signal_claims_indeterminate",
+      "rejected": true
+    },
+    {
+      "mutation": "heat_negative_tail",
+      "rejected": true
+    },
+    {
+      "mutation": "heat_negative_roundoff",
+      "rejected": true
+    },
+    {
+      "mutation": "heat_nan_roundoff",
+      "rejected": true
+    },
+    {
+      "mutation": "heat_certified",
+      "rejected": true
+    },
+    {
+      "mutation": "observable_negative_tail",
+      "rejected": true
+    },
+    {
+      "mutation": "observable_infinite_roundoff",
+      "rejected": true
+    },
+    {
+      "mutation": "observable_certified",
+      "rejected": true
+    },
+    {
+      "mutation": "empty_c_interval",
+      "rejected": true
+    },
+    {
+      "mutation": "empty_z_interval",
+      "rejected": true
+    },
+    {
+      "mutation": "reversed_interval",
+      "rejected": true
+    },
+    {
+      "mutation": "infinite_interval",
+      "rejected": true
+    },
+    {
+      "mutation": "missing_interval",
+      "rejected": true
+    },
+    {
+      "mutation": "work_reset",
+      "rejected": true
+    },
+    {
+      "mutation": "heat_uses_own_error",
+      "rejected": true
+    },
+    {
+      "mutation": "original_reviewer_combined",
+      "rejected": true
+    }
+  ],
+  "actual_sha256": "d03b8faeb3aeb08acc3e86570b921ee4aab47e97379bac3200519d5830a8f11d",
+  "comparator_sha256": "5c8b2a9815ee1a29294fda7ba05f44dd0c83d2684b75b10452ce411986e2d8e7",
+  "runner_sha256": "b940f9b8f61f9e83f58f9057f00014aa6666269231ed638be92a5e3e48cece70"
+}

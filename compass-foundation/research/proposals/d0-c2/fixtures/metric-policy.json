@@ -1,0 +1,30 @@
+{
+  "cell_budget": "normalized_lines_exact_equal_zero_else_n0_times_nt_v1",
+  "diff": "exact_line_lcs_insert_delete",
+  "limits": {
+    "max_cells_per_unit": "10000000",
+    "max_cells_total": "50000000",
+    "max_duration_ms": null,
+    "max_file_bytes": "4194304",
+    "max_json_depth": "64",
+    "max_lines_per_side": "100000",
+    "max_logical_memory_bytes": "134217728",
+    "max_manifest_bytes": "16777216",
+    "max_output_bytes": "16777216",
+    "max_records": "100000",
+    "max_source_descriptor_bytes": "65536",
+    "max_total_object_bytes": "134217728"
+  },
+  "memory_accounting": "logical_credits_v1",
+  "metric_version": "1",
+  "normalization": "one_initial_bom_crlf_terminal_lf_v1",
+  "object_budget": "declared_size_plus_one_nonrefundable_v1",
+  "order": "native_path_bytes_baseline_first",
+  "rounding": "six_places_half_even_integer",
+  "sensor_id": "d0_line_mass_v1",
+  "sources": "verified_external_packages_v1",
+  "text": "strict_utf8_without_nul",
+  "unknown": "blocks_integral",
+  "weight": "bilateral_line_mass",
+  "zero": "explicit_empty_or_zero_mass_v1"
+}

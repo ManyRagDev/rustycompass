@@ -1,0 +1,2355 @@
+{
+  "os": "OS-D0-V1 v2",
+  "meaning": "PASS_SELF_TEST é prova do laboratório; PREPARADA_NAO_EXECUTADA não é homologação de sensor.",
+  "runtime_executed": false,
+  "entries": [
+    {
+      "id": "E01",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E01",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E01",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E02",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-complete",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E02",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-complete",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E02",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E03",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E03",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E03",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E04",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E04",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E04",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E05",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-created-text",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E05",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-created-text",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E05",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E06",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E06",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E06",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E07",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "offline-specific-mutations",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E07",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E07",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E08",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E08",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E08-AA",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E08-AB",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E08",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E08-AA",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E08-AB",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E09",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E09",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E09",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E10",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-zero-text-mass",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E10",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-zero-text-mass",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E10",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E11",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E11",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E11",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E12",
+      "offline": [
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-empty-universe",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-empty-universe",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E13",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E13",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E13",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E14",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E14",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E14",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E15",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "byte-hash-schema-vectors",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E15",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E15",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E15",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E15",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E16",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "byte-hash-schema-vectors",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E16",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E16a",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E16b",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E16",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E16a",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E16b",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E17",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "byte-hash-schema-vectors",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E17",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E17a",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E17b",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E17",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E17a",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E17b",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E18",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "byte-hash-schema-vectors",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E18",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E18a",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E18b",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E18",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E18a",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E18b",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E19",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "byte-hash-schema-vectors",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E19",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E19a",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E19b",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E19c",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E19",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E19a",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E19b",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E19c",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E20",
+      "offline": [
+        {
+          "test": "prepare:E20",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E20",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E21",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E21",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E21-non-text",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E21",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E21-non-text",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E22",
+      "offline": [
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-non-text",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E22",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-non-text",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E22",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E23",
+      "offline": [
+        {
+          "test": "prepare:E23",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E23",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E24",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E24",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E24-native",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "regression:BUG-001",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:BUG-001-path-4",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:BUG-001-path-24",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E24",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E24-native",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "BUG-001-path-4",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "BUG-001-path-24",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E25",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-scope-transition",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E25",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E25-entered",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E25-directory",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-scope-transition",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E25",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E25-entered",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E25-directory",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E26",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-unknown",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E26",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E26-ancestor",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-unknown",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E26",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E26-ancestor",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E27",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-partial",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E27",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-partial",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E27",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E28",
+      "offline": [
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "offline-specific-mutations",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-unavailable-source",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E28-missing-object",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E28-partial",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-unavailable-source",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E28-missing-object",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E28-partial",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E29",
+      "offline": [
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-unavailable-hash",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-unavailable-hash",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E30",
+      "offline": [
+        {
+          "test": "prepare:E30",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E30",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E31",
+      "offline": [
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "offline-specific-mutations",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-unavailable-source",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E31-empty-missing",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-unavailable-source",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E31-empty-missing",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E32",
+      "offline": [
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_file_bytes-2",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_file_bytes-1",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_lines_per_side-2",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_lines_per_side-1",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_cells_per_unit-4",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_cells_per_unit-3",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:file-before-source",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "boundary-max_file_bytes-2",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_file_bytes-1",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_lines_per_side-2",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_lines_per_side-1",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_cells_per_unit-4",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_cells_per_unit-3",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "file-before-source",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E33",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E33",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E33",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E34",
+      "offline": [
+        {
+          "test": "prepare:descriptor-binding",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:descriptor-duplicate",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-duplicate",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-digest",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-whitespace-binding",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:descriptor-root-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:source-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:compatibility-before-source",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "descriptor-binding",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-duplicate",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-duplicate",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-digest",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-whitespace-binding",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-root-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "source-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "compatibility-before-source",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E35",
+      "offline": [
+        {
+          "test": "prepare:deadline-public",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "deadline-public",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "public-cancellation-smoke",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1; smoke não prova checkpoint exato"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [
+        "SIGINT após p/antes de q; deadline expirado antes de publicar; precedência SIGINT/deadline com barreira I1/R1"
+      ],
+      "remaining_owner": "I1/R1"
+    },
+    {
+      "id": "E36",
+      "offline": [
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "offline-specific-mutations",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E36",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E36",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E37",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E37",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E37",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E38",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E38",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E38",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E39",
+      "offline": [
+        {
+          "test": "prepare:E39",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E39",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E40",
+      "offline": [
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-unknown",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E40",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-unknown",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E40",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E41",
+      "offline": [
+        {
+          "test": "prepare:E41",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E41",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E42",
+      "offline": [
+        {
+          "test": "strict-transport-canonical-path-u64",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E42-whitespace",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:descriptor-binding",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:descriptor-duplicate",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-duplicate",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-digest",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-whitespace-binding",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:descriptor-root-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:source-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E42-whitespace",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-binding",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-duplicate",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-duplicate",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-digest",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-whitespace-binding",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-root-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "source-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E43",
+      "offline": [
+        {
+          "test": "prepare:E43-symlink",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E43-fifo",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E43-directory",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E43-socket",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:descriptor-binding",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:descriptor-duplicate",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-duplicate",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-digest",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-whitespace-binding",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:descriptor-root-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:source-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-link",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:E43-objects-link",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E43-root-missing",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "regression:BUG-002",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E43-objects-dangling-link",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E43-symlink",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E43-fifo",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E43-directory",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E43-socket",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-binding",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-duplicate",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-duplicate",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-digest",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-whitespace-binding",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-root-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "source-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E43-objects-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E43-root-missing",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E43-objects-dangling-link",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [
+        "Substituição de objeto regular, nome e componentes após handle fixado; estabilidade/EOF/sem retry com barreiras I1/R1"
+      ],
+      "remaining_owner": "I1/R1"
+    },
+    {
+      "id": "E44",
+      "offline": [
+        {
+          "test": "frozen-reports-inputs",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:frozen-zero-text-mass",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E44-shared",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E44-distinct",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E44-hardlink",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "frozen-zero-text-mass",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E44-shared",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E44-distinct",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E44-hardlink",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E45",
+      "offline": [
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E45-False",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E45-True",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E45-False",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E45-True",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E46",
+      "offline": [
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_file_bytes-2",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_file_bytes-1",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_lines_per_side-2",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_lines_per_side-1",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_cells_per_unit-4",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:boundary-max_cells_per_unit-3",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:output-limit",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:manifest-limit",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:descriptor-limit",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:records-limit",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:memory-structural",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:memory-Wb-0",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:memory-Wb--1",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:memory-W-0",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:memory-W--1",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:file-before-memory",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:line-before-memory",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:file-before-source",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:manifest-memory-before-digest",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "boundary-max_file_bytes-2",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_file_bytes-1",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_lines_per_side-2",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_lines_per_side-1",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_cells_per_unit-4",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "boundary-max_cells_per_unit-3",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "output-limit",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-limit",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "descriptor-limit",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "records-limit",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "memory-structural",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "memory-Wb-0",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "memory-Wb--1",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "memory-W-0",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "memory-W--1",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "file-before-memory",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "line-before-memory",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "file-before-source",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "manifest-memory-before-digest",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [
+        "Checkpoints entre chunks e a cada <=4096 operações; preflight antes de construir domínio; RSS real em R1"
+      ],
+      "remaining_owner": "I1/R1"
+    },
+    {
+      "id": "E47",
+      "offline": [
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E47",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E47",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E48",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "byte-hash-schema-vectors",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E48",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:bytes-E48",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E48",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "bytes-E48",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E49",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "strict-transport-canonical-path-u64",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [],
+      "synchronized_or_internal_proof_pending": [
+        "Vetores extremos/ties exercitam o formatador offline; teste direto do formatador Rust em I1/R1. Sem promessa de construí-los pela CLI sob limites default."
+      ],
+      "remaining_owner": "I1/R1"
+    },
+    {
+      "id": "E50",
+      "offline": [
+        {
+          "test": "strict-transport-canonical-path-u64",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "offline-specific-mutations",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E50-invalid-path",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "prepare:E50-u64-overflow",
+          "layer": "modelo_estatico",
+          "state": "PREPARADA_SEM_RUNTIME"
+        },
+        {
+          "test": "regression:BUG-001",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:BUG-001-path-4",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:BUG-001-path-24",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E50-invalid-path",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E50-u64-overflow",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "BUG-001-path-4",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "BUG-001-path-24",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E51",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E51",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E51",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E52",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E52",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "regression:BUG-003",
+          "layer": "estimulo_fisico_e_controle_negativo",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E52",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido",
+      "physical_assertion": "bug003_stimulus_bytes: baseline=610d0a; current=610a; hashes distintos; normalização igual; Foundation modified"
+    },
+    {
+      "id": "E53",
+      "offline": [
+        {
+          "test": "offline-specific-mutations",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E53-missing",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E53-adulterated",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E53-missing",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        },
+        {
+          "scenario": "E53-adulterated",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E54",
+      "offline": [
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "offline-specific-mutations",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E54",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E54",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    },
+    {
+      "id": "E55",
+      "offline": [
+        {
+          "test": "literal-math-two-methods",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "resource-frontiers",
+          "layer": "offline_independente",
+          "state": "PASS_SELF_TEST"
+        },
+        {
+          "test": "prepare:E55",
+          "layer": "modelo_estatico",
+          "state": "PASS_SELF_TEST"
+        }
+      ],
+      "runtime": [
+        {
+          "scenario": "E55",
+          "state": "PREPARADA_NAO_EXECUTADA",
+          "owner": "R1 com release D0 estável"
+        }
+      ],
+      "synchronized_or_internal_proof_pending": [],
+      "remaining_owner": "R1 para executar CLI; V1 offline conferido"
+    }
+  ]
+}

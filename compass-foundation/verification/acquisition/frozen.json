@@ -1,0 +1,32 @@
+{
+  "provenance": "Frozen before new core implementation inspection or integrated execution. Synthetic expectations only.",
+  "controls_sha256": "6fbcf34ec2b553a87672e90412bdcf71f991226aa5ca08b22e17cc09c2c6dcf3",
+  "fixtures": {
+    "dev": {
+      "engine.py": "8dde9f86e75f245d40917b88b084e17f5281c8d1182a853c8a0a2de30bca2cd5",
+      "bridge.py": "75303a1121f554cd097b6b3583c1b31c374ca8ade2e83eb8f0f081ac63d9eb56",
+      "calc.rs": "f63b68db14d5ec835ecd4bf6b6b3946c28515f8f5179a712e6152d527a0ea802",
+      "view.tsx": "3b83a9f8085e424ad65501f72539ea7a8e469fefa5304cb4f72c5dfe765c2ce2",
+      "decoy.py": "389051d480c8e0fdbc4a777a43bf508e906f3ffdf1953c9ac11d2baab0637293",
+      "component.jsx": "25b7c61cbbfcc36cb59b2ae20cc33d03d6bc4d02b9f0812f74329d330d053124",
+      "logic.js": "0ce0c782b81588f36dc243f8d98620862df6254410d9dff5304f6078a4b3c466",
+      "long.ts": "34dceff5e1c4b537c38259f6ad9afe0a7c1ed24b06983f97a824c9daab12707c",
+      "unicode.py": "5f3522c864d1bf8e190e4581494c095ec26ef0acab70321498a9ced9c97acaec",
+      "wrapper.py": "1913b5874af6ca7de9707fccc63b46f49281ebed57b2278f0d1b474a9e7b0c9d",
+      "notes.txt": "4b9a74377d886d943700704c0debf84a9aa7512fe16cca4027bb1cd2ef012e18"
+    },
+    "heldout": {
+      "flow.py": "4ad087c47c3345b438f9cda9393f96870ed8bf320300e3c10a32b3503c5c48e0",
+      "adapter.py": "9211c3dfedce4428ebff939bf4db3fc908b746e2593079bdfc13a04d29a459df",
+      "control.rs": "79dbf7690359ed26dbedc44b0deb94c9e868a21ac6b16edfbb34fa4b33702741",
+      "button.tsx": "ec7dd7e4670607e21a7555a51ca6580a5bdf1bc4b701f1bcaec2b51dbd9fbffd",
+      "elsewhere.py": "84eb134d96aae98b8cc563bdb0f4b8240450e12321ec865d821e58e8786b2121",
+      "display.jsx": "8a818d4e7e899cafe7cf54194449ee64191387d5e80ee89d50931a8881645d04",
+      "math.js": "a2665ad68690ccc766c685798e640f82b5b3cbe72b178da4b2bd18030d39e083",
+      "lengthy.ts": "6ac2c514d68fda86c15646c6c2a16747a6e777d7ce019b2e3d357a8739e5d62a",
+      "international.py": "d5df759ae6b79b01dd6ae8dacbc69cc4b1b469b622b9148eb5ecee01481c8cb7",
+      "nested.py": "404a1a28fd5e8e3e5ded6a1e4d7f219dfbb54cf8a329d5333d55990f473e942b",
+      "unsupported.txt": "52408ebabbf089d9cd20c0a52a431518fe3258e66c066d5fc79c06ecc7b044be"
+    }
+  }
+}

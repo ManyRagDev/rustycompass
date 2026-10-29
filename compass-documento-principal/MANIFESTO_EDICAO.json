@@ -1,0 +1,75 @@
+{
+  "edition": "1.0",
+  "date": "2026-10-14",
+  "project": "Compass D0",
+  "status": "Consolidação para revisão do idealizador; decisões vigentes preservadas; propostas e pendências explícitas.",
+  "pdf_pages": 49,
+  "word_count": 18734,
+  "source_of_pdf": "COMPASS_DOCUMENTO_PRINCIPAL.md",
+  "scope_limit": "Não executa o produto, não replica campanhas e não certifica backup do legado.",
+  "inputs": [
+    {
+      "name": "RELATORIO.md",
+      "bytes": 463329,
+      "sha256": "a72a0405596c50e117288d005ecd52d90ccc7a2217f8f6a4b5959846cada263d"
+    },
+    {
+      "name": "WHITEPAPER.md",
+      "bytes": 23004,
+      "sha256": "7a9ab4979a6d7ba889d26d61b4d595e0e717c9316251e2ff7344353bc919eb68"
+    },
+    {
+      "name": "CADERNO_COMPASS_D0.pdf",
+      "bytes": 684944,
+      "sha256": "7543190da1cfcc5523ff35913628375ca1596b857e3d03f8bbd7a45ff9e74a9b"
+    },
+    {
+      "name": "PLANO-MESTRE-REFATORACAO-COMPASS-D0.md",
+      "version_scope": "Versão da Biblioteca, distinta da versão local citada em RELATORIO.md",
+      "bytes": 96901,
+      "sha256": "fa8720a8fdc58a91f2cb1de474e1f9bdeec533ecbda343dbce185e4bea6c55de"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "COMPASS_DOCUMENTO_PRINCIPAL.md",
+      "bytes": 132765,
+      "sha256": "abdbe1ff2020396e7d6fb40277280414c8e3c30f8455a27100a789931867ac76"
+    },
+    {
+      "name": "COMPASS_DOCUMENTO_PRINCIPAL.pdf",
+      "bytes": 276276,
+      "sha256": "a7bd8f0192380099fe76433eec2be097c9d4b6c69a0c67a68c6c43364466e870"
+    },
+    {
+      "name": "gerar_documento.py",
+      "bytes": 1312,
+      "sha256": "8c453ba75f8fd045c48f606d37926cb6aa742ce1e39689648bf2b78488c542e8"
+    },
+    {
+      "name": "verificar_edicao.py",
+      "bytes": 2499,
+      "sha256": "2b449b478d0a323560be9f02fefcfa8837252615e056948ae05330a43dff5e71"
+    },
+    {
+      "name": "estilo.tex",
+      "bytes": 2856,
+      "sha256": "339a0dba6bd2a3c7bbb67600ec9a9e316de1379bf7f89abb19193bc8dddf53cb"
+    },
+    {
+      "name": "layout.lua",
+      "bytes": 1421,
+      "sha256": "253eda97abde10ea2d3089adc57554fe73962c95a90493e53e749e2cf557d146"
+    },
+    {
+      "name": "LEIA-ME.md",
+      "bytes": 2067,
+      "sha256": "7b1540e8fff5b3ce1137a8078979d2afe01e6e59cd007a1cd8225fa82a583310"
+    },
+    {
+      "name": "VERIFICACAO_DA_EDICAO.json",
+      "bytes": 1248,
+      "sha256": "12cc145e87d25686b1a6cd8384ea60fbd1af0df05c0b0966b01660dcd859d626"
+    }
+  ]
+}

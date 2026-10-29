@@ -1,0 +1,143 @@
+{
+  "verified_at": "2026-10-24T03:02:34.007870-03:00",
+  "status": "passed",
+  "binary_sha256": "2f825d127e083e693f3ccecfdb65159980982cd998064a98d870a9746566bfd0",
+  "rust_tests": {
+    "passed": 166,
+    "ignored": 1,
+    "log": "rust-tests.log",
+    "sandbox_note": "Unix socket fixture requires execution outside restricted socket sandbox; full suite passed there."
+  },
+  "semantic_regression": {
+    "status": "passed",
+    "log": "semantic-regression.log",
+    "scope": "Installed real-model test run before the final acquisition-only packing fix; semantic module unchanged, also queried through final installed launcher.",
+    "semantic_module_sha256": "612fecb761f58a329cd659ee69ba5a33bfcf5bd992e9f184979a3d58506a711a"
+  },
+  "fmt": "passed",
+  "clippy": {
+    "status": "passed",
+    "log": "clippy.log"
+  },
+  "public_acceptance": {
+    "cases": 82,
+    "cli_invocations": 101,
+    "mcp_tool_calls": 80,
+    "false_sufficient": 0,
+    "results": "results.json"
+  },
+  "legacy_compatibility": "no-contract-compatibility.json",
+  "independent_review": {
+    "model": "gpt-6.1-sol",
+    "scope": "core author differs from reviewer; coordinator reviewed adapters",
+    "regression_file": "../../crates/compass-core/tests/acquisition_review.rs",
+    "tests": 9,
+    "resolved_findings": [
+      "Exact syntax spans exclude unrelated same-line statements",
+      "Scope search is restricted to syntax while literal witnesses include full lines",
+      "Try complete pack before incomplete metadata limit",
+      "Try complete individual witness before partial-prefix budget search"
+    ]
+  },
+  "delegation": {
+    "model": "gpt-6.1-sol",
+    "agents": 3,
+    "roles": [
+      "core implementation",
+      "CLI/MCP implementation then independent core review",
+      "independent public controls"
+    ],
+    "terra": "not available in subagent catalog; Sol fallback",
+    "astra_escalation": false,
+    "token_cost_telemetry": "not available; no numeric cost estimate"
+  },
+  "metrics": [
+    {
+      "split": "dev",
+      "case": "budget-8000",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "wall_ns": 24955903,
+      "peak_rss_kib": 13948,
+      "mandatory_source_coverage": 0.3,
+      "payload_bytes": 7770,
+      "source_bytes": 131,
+      "redundant_source_bytes": 0,
+      "items": 2,
+      "metadata_and_json_encoding_overhead_bytes": 7639
+    },
+    {
+      "split": "dev",
+      "case": "budget-16384",
+      "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+      "wall_ns": 9352682,
+      "peak_rss_kib": 13916,
+      "mandatory_source_coverage": 1.0,
+      "payload_bytes": 12414,
+      "source_bytes": 3285,
+      "redundant_source_bytes": 0,
+      "items": 9,
+      "metadata_and_json_encoding_overhead_bytes": 9129
+    },
+    {
+      "split": "dev",
+      "case": "normal-baseline-16384",
+      "payload_bytes": 2106,
+      "wall_ns": 7852432,
+      "peak_rss_kib": 9720,
+      "symbol_source_coverage": 0.2222222222222222,
+      "source_bytes": 438,
+      "redundant_source_bytes": 0,
+      "items": 2,
+      "metadata_and_json_encoding_overhead_bytes": 1668
+    },
+    {
+      "split": "heldout",
+      "case": "budget-8000",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "wall_ns": 23220265,
+      "peak_rss_kib": 14072,
+      "mandatory_source_coverage": 0.3,
+      "payload_bytes": 7772,
+      "source_bytes": 132,
+      "redundant_source_bytes": 0,
+      "items": 2,
+      "metadata_and_json_encoding_overhead_bytes": 7640
+    },
+    {
+      "split": "heldout",
+      "case": "budget-16384",
+      "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+      "wall_ns": 7619885,
+      "peak_rss_kib": 14212,
+      "mandatory_source_coverage": 1.0,
+      "payload_bytes": 12417,
+      "source_bytes": 3288,
+      "redundant_source_bytes": 0,
+      "items": 9,
+      "metadata_and_json_encoding_overhead_bytes": 9129
+    },
+    {
+      "split": "heldout",
+      "case": "normal-baseline-16384",
+      "payload_bytes": 1985,
+      "wall_ns": 8939191,
+      "peak_rss_kib": 9812,
+      "symbol_source_coverage": 0.2222222222222222,
+      "source_bytes": 324,
+      "redundant_source_bytes": 0,
+      "items": 2,
+      "metadata_and_json_encoding_overhead_bytes": 1661
+    }
+  ],
+  "installed_launcher": "../../scripts/compass-mcp.sh",
+  "installation_receipt": "../../.compass/mcp/acquisition-installation.json",
+  "installed_readiness": "../../.compass/mcp/readiness-acquisition.json",
+  "limitations": [
+    "Synthetic separate development/evaluation collections; not a guarantee for all repositories.",
+    "Completion certifies declared evidence present in current pack, not intent interpretation or final answer.",
+    "All obligations mandatory, types limited to declaration/literal/direct static relation.",
+    "Exact-selector contract mode needs no semantic ranking; optional diffusion diagnostics do not change proof.",
+    "CLI elapsed/RSS from separate processes and uncontrolled cache; MCP resource telemetry unavailable.",
+    "Budget includes all metadata; partial selection is deterministic, not a global knapsack optimizer."
+  ]
+}

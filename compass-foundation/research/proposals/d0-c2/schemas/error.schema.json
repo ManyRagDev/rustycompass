@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "error": {
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "enum": [
+            "invalid_arguments",
+            "incompatible_inputs",
+            "input_invalid",
+            "input_limit",
+            "source_invalid",
+            "output_limit",
+            "arithmetic_overflow",
+            "operational_error",
+            "deadline_exceeded",
+            "cancelled"
+          ]
+        },
+        "message": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "message"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "error"
+  ],
+  "type": "object"
+}

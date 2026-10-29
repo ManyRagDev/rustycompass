@@ -1,0 +1,82 @@
+{
+  "recorded_at_utc": "2026-10-14T13:33:42.832696+00:00",
+  "producer_build": "sha256:94866a9d405c283d1913c13e53ff0d5413823f3ce1a654e8bbc68619d7ddd4b0",
+  "binary_sha256": "c95d458792b24a1173b5c04d5d284841482e48e5198ab2e5aca04fc1e932c41a",
+  "source_hash_independently_recomputed": true,
+  "source_input_count": 21,
+  "git_commit": null,
+  "checks": [
+    {
+      "command": "scripts/cargo-local.sh fmt --all -- --check",
+      "exit_code": 0
+    },
+    {
+      "command": "scripts/cargo-local.sh clippy --workspace --all-targets --locked --offline -- -D warnings",
+      "exit_code": 0
+    },
+    {
+      "command": "scripts/cargo-local.sh test --workspace --locked --offline",
+      "exit_code": 0,
+      "unit_tests_passed": 20,
+      "contract_tests_passed": 20,
+      "ignored": 0
+    },
+    {
+      "command": "scripts/cargo-local.sh build --release --workspace --locked --offline",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 verification/reference/profile.py --binary target/release/compass --output verification/evidence/resource-profile.json",
+      "exit_code": 0,
+      "operations": 6
+    },
+    {
+      "command": "python3 verification/reference/acceptance.py --binary target/release/compass",
+      "exit_code": 0,
+      "tests_passed": 23,
+      "tests_skipped": 0,
+      "reported_duration_seconds": 0.349
+    },
+    {
+      "command": "python3 verification/reference/mutations.py --binary target/release/compass",
+      "exit_code": 0,
+      "mutations_rejected": 3,
+      "mutations_skipped": 0,
+      "mutations": [
+        "always_equal",
+        "omit_empty",
+        "unreadable_as_removed"
+      ]
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    },
+    {
+      "command": "local Markdown link check",
+      "files_checked": 8,
+      "broken_links": 0
+    }
+  ],
+  "original_edition": {
+    "files_present": 9,
+    "manifest_outputs_matched_size_and_sha256": [
+      "COMPASS_DOCUMENTO_PRINCIPAL.md",
+      "COMPASS_DOCUMENTO_PRINCIPAL.pdf",
+      "gerar_documento.py",
+      "verificar_edicao.py",
+      "estilo.tex",
+      "layout.lua",
+      "LEIA-ME.md",
+      "VERIFICACAO_DA_EDICAO.json"
+    ],
+    "outputs_checked": 8
+  },
+  "verification_sources_sha256": {
+    "verification/fixtures/manual_expectations.json": "4f724bfb976caccef8bf12d4afc8e53fb66ba358e0a16bbf856b52519418ee50",
+    "verification/reference/acceptance.py": "950c891638092299351e141d2974f2c3d74ea1ddaf7f09de33c70512e574c825",
+    "verification/reference/mutations.py": "54edcc98506fc2d762155c100e22d5bf728e9cac362a590b393916048f711258",
+    "verification/reference/profile.py": "75c8ab04beb57a09bfd392055f0a73b8cc16fbaa51a032c592f302fe75f025a3"
+  },
+  "scope": "Foundation conformance, independent CLI checks, protocol mutations and one local resource workload; no D0/product efficacy claim."
+}

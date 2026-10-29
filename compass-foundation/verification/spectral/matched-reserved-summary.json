@@ -1,0 +1,1595 @@
+{
+  "split": "reserved",
+  "input_sha256": "e9f93058a0b9be307399f0912df7cfef4050218cf817ae077cba9fdb336489fc",
+  "binary_sha256": "9f9d0fd50c65d41d597f5bb8d5d83d69d0bfc33cfe50f8ac80102aab8151bc0d",
+  "probe_sha256": "9e786fb629cd59b38805b3dd30364ed77abb5230ebc2a3ae781fb204dd5de2bd",
+  "aggregates": [
+    {
+      "budget_bytes": 16384,
+      "strategy": "none",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 5,
+      "delivered_units": 9,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 4,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 55083,
+      "source_bytes_total": 11492,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": 181.112296,
+      "per_request_wall_ms_max": 911.609136
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "bfs",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 10,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 64510,
+      "source_bytes_total": 12341,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": 197.817028,
+      "per_request_wall_ms_max": 496.055721
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 0.015625,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 5,
+      "delivered_units": 9,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 4,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 55328,
+      "source_bytes_total": 11492,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 73,
+      "per_request_wall_ms_median": 194.066267,
+      "per_request_wall_ms_max": 606.580199
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 1.0,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 5,
+      "delivered_units": 9,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 4,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 55228,
+      "source_bytes_total": 11492,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 181,
+      "per_request_wall_ms_median": 219.256258,
+      "per_request_wall_ms_max": 572.429946
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 16.0,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 5,
+      "delivered_units": 9,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 4,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 55249,
+      "source_bytes_total": 11492,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 685,
+      "per_request_wall_ms_median": 212.232128,
+      "per_request_wall_ms_max": 349.676914
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 64.0,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 5,
+      "delivered_units": 9,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 4,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 55981,
+      "source_bytes_total": 11620,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 2557,
+      "per_request_wall_ms_median": 213.547553,
+      "per_request_wall_ms_max": 546.905586
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 256.0,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 10,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 58341,
+      "source_bytes_total": 11763,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 9757,
+      "per_request_wall_ms_median": 257.593094,
+      "per_request_wall_ms_max": 758.365952
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "spectral_window_v1",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 10,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 1,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.14285714285714285,
+      "missing_support_among_accepted": 0.0,
+      "serialized_payload_bytes_total": 58423,
+      "source_bytes_total": 11763,
+      "acquired_scales_total": 102,
+      "numeric_operator_applications_total": 9807,
+      "per_request_wall_ms_median": 301.787109,
+      "per_request_wall_ms_max": 998.583017
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "none",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "bfs",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 0.015625,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 1.0,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 16.0,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 64.0,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 256.0,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "spectral_window_v1",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 10,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    }
+  ],
+  "retrospective": [
+    {
+      "case_id": "local",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": true,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        }
+      ]
+    },
+    {
+      "case_id": "local",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "same-seed-local",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": true,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:source_has_parse_errors",
+            "unresolved_relation:source_structure_partial",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unresolved_relation:source_structure_partial",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unresolved_relation:source_structure_partial",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unresolved_relation:source_structure_partial",
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "same-seed-local",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "same-seed-dependencies",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unresolved_relation:source_structure_partial",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unresolved_relation:source_structure_partial",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unresolved_relation:source_structure_partial",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:source_has_parse_errors",
+            "unresolved_relation:source_structure_partial",
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "same-seed-dependencies",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "cross-module",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 256.0,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": true,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": false,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "cross-module",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "negative-missing",
+      "budget_bytes": 16384,
+      "answerable": false,
+      "final_support_complete": null,
+      "final_reason": "no_evidence",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.125,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.25,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.5,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 1.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 2.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 4.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 8.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 16.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 32.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 64.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 128.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 256.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        }
+      ]
+    },
+    {
+      "case_id": "negative-missing",
+      "budget_bytes": 3000,
+      "answerable": false,
+      "final_support_complete": null,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "dynamic-external",
+      "budget_bytes": 16384,
+      "answerable": false,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "dynamic-external",
+      "budget_bytes": 3000,
+      "answerable": false,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "budget-coherent-unit",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "spectral_window",
+      "selected_theta": 16.0,
+      "max_evaluated_theta": 32.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": true,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        }
+      ]
+    },
+    {
+      "case_id": "budget-coherent-unit",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    }
+  ],
+  "costs": {
+    "acquisitions": 112,
+    "laboratory_adapter_calls": 112,
+    "public_cli_or_mcp_calls": 0,
+    "instrumentation_prepare_calls": 1,
+    "instrumentation_prepare_wall_ns": 508185169,
+    "probe_wall_ns_total": 30845978026,
+    "peak_rss_kib_whole_probe": 26036
+  },
+  "interpretation": "Full support of required intervals is distinct from answerability and window eligibility. Retrospective fixed-scale calls use evaluator labels only after each acquisition; they are extra instrumented acquisitions, not an adaptive selection rule. Errors remain in every applicable denominator; no production promotion threshold is claimed."
+}

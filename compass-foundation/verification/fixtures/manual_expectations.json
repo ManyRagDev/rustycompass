@@ -1,0 +1,32 @@
+{
+  "contract": "Foundation 0.1",
+  "origin": "Expected classifications fixed from manual file interventions, not Rust output.",
+  "sha256_vectors": [
+    {
+      "text": "",
+      "size_bytes": "0",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "text": "abc",
+      "size_bytes": "3",
+      "sha256": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+    }
+  ],
+  "s0": {"a.txt": "abc", "b.txt": ""},
+  "s1": {"a.txt": "abd", "c.txt": ""},
+  "s0_to_s1": [
+    {"path": "a.txt", "kind": "modified"},
+    {"path": "b.txt", "kind": "removed"},
+    {"path": "c.txt", "kind": "added"}
+  ],
+  "rename": [
+    {"path": "a.txt", "kind": "removed"},
+    {"path": "renamed.txt", "kind": "added"}
+  ],
+  "mutants": [
+    "always_equal fails s0_to_s1",
+    "omit_empty fails b.txt removed and c.txt added",
+    "unreadable_as_removed fails unknown file assertion"
+  ]
+}

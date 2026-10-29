@@ -1,0 +1,29 @@
+{
+  "file_bytes": [
+    {"declared": "4194304", "file_preflight": "admitted", "object_reservation": "4194305"},
+    {"declared": "4194305", "file_preflight": "file_bytes_limit", "object_reservation": null}
+  ],
+  "lines": [
+    {"n0": "100000", "nt": "0", "line_preflight": "admitted", "cells": "0"},
+    {"n0": "100001", "nt": "0", "line_preflight": "line_count_limit", "cells": null}
+  ],
+  "cells_per_unit": [
+    {"n0": "2500", "nt": "4000", "normalized_sequences_exactly_equal": false, "preflight": "admitted", "cells": "10000000"},
+    {"n0": "2501", "nt": "4000", "normalized_sequences_exactly_equal": false, "preflight": "diff_work_limit", "cells": "10004000"},
+    {"n0": "4000", "nt": "4000", "normalized_sequences_exactly_equal": true, "preflight": "exact_equal_zero_cells", "cells": "0", "l": "4000"},
+    {"n0": "4000", "nt": "4000", "normalized_sequences_exactly_equal": false, "preflight": "diff_work_limit", "cells": "16000000"}
+  ],
+  "cell_schedule": [
+    {"max_cells_total": "4", "units": [{"equal": false, "n0": "2", "nt": "2", "cells": "4"}, {"equal": true, "n0": "1", "nt": "1", "cells": "0"}], "remaining": "0"},
+    {"max_cells_total": "4", "units": [{"equal": true, "n0": "2", "nt": "2", "cells": "0"}, {"equal": false, "n0": "2", "nt": "2", "cells": "4"}], "remaining": "0"}
+  ],
+  "logical_memory": [
+    {"S": "83680", "W": "65628", "budget": "149308", "preflight": "admitted"},
+    {"S": "83680", "W": "65628", "budget": "149307", "preflight": "memory_budget"}
+  ],
+  "u64": [
+    {"literal": "18446744073709551615", "semantic_domain": "admitted"},
+    {"literal": "18446744073709551616", "semantic_domain": "rejected"}
+  ],
+  "notes": "Admissao so desta etapa, nao garantia que um input completo seja admissivel. Valores literais; sem criar arquivos gigantes ou calcular LCS quadratica em C2. A igualdade exata ja normalizada, depois de fonte/texto/linhas/memoria, usa LCS(X,X)=|X| e reserva zero; a igualdade nao e inferida de hashes/tamanhos/contagens. max_file_bytes refere aos bytes esperados; a leitura limitada permite um probe adicional."
+}

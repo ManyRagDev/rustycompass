@@ -1,0 +1,1707 @@
+{
+  "self_test": {
+    "manual_symbols": 20,
+    "truncated_mutations_rejected": 20,
+    "fixture_hashes": "verified"
+  },
+  "campaign": {
+    "binary_sha256": "2f825d127e083e693f3ccecfdb65159980982cd998064a98d870a9746566bfd0",
+    "acceptance_sha256": "953d5748bf4026ddd22da2161fc241f52f92953dc2ef792dda9353f51119cf59",
+    "fixture_freeze_sha256": "2bc0897e807701b8723db14153046539715e70d0262e470751bdccfe38da77b7",
+    "supplemental_fixture_sha256": "5a6535a43e633b4c8b65a03cabcef2434890d6ef9c8a0f1eb134333c3a1757c8",
+    "mcp_tool_calls": 80,
+    "controls_sha256": "6fbcf34ec2b553a87672e90412bdcf71f991226aa5ca08b22e17cc09c2c6dcf3",
+    "results": [
+      {
+        "split": "dev",
+        "case": "definition-0",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1770,
+        "wall_ns": 6829334,
+        "peak_rss_kib": 10604,
+        "source_bytes": 57,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "definition-1",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1757,
+        "wall_ns": 8401676,
+        "peak_rss_kib": 10356,
+        "source_bytes": 41,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "definition-2",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1777,
+        "wall_ns": 9413694,
+        "peak_rss_kib": 11000,
+        "source_bytes": 73,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "definition-3",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1770,
+        "wall_ns": 8046316,
+        "peak_rss_kib": 10596,
+        "source_bytes": 64,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "definition-4",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1772,
+        "wall_ns": 8360236,
+        "peak_rss_kib": 11216,
+        "source_bytes": 66,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "definition-5",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1783,
+        "wall_ns": 8153550,
+        "peak_rss_kib": 10320,
+        "source_bytes": 63,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "definition-6",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 4577,
+        "wall_ns": 8639483,
+        "peak_rss_kib": 11392,
+        "source_bytes": 2776,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "definition-7",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1773,
+        "wall_ns": 8360215,
+        "peak_rss_kib": 10708,
+        "source_bytes": 56,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "definition-8",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1802,
+        "wall_ns": 8011756,
+        "peak_rss_kib": 10520,
+        "source_bytes": 87,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "literal",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1588,
+        "wall_ns": 8339365,
+        "peak_rss_kib": 10608,
+        "source_bytes": 41,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "direct-call",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 2672,
+        "wall_ns": 8678044,
+        "peak_rss_kib": 10456,
+        "source_bytes": 59,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "dev",
+        "case": "all-mandatory",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 12414,
+        "wall_ns": 10738179,
+        "peak_rss_kib": 14172,
+        "source_bytes": 3285,
+        "redundant_source_bytes": 0,
+        "items": 9
+      },
+      {
+        "split": "dev",
+        "case": "scoped-homonym",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1751,
+        "wall_ns": 6316440,
+        "peak_rss_kib": 10648,
+        "source_bytes": 36,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "sixteen",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 8409,
+        "wall_ns": 7548203,
+        "peak_rss_kib": 10528,
+        "source_bytes": 57,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "symbol-scoped-literal",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1595,
+        "wall_ns": 7523123,
+        "peak_rss_kib": 10648,
+        "source_bytes": 41,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "dev",
+        "case": "direct-import",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 2709,
+        "wall_ns": 6502435,
+        "peak_rss_kib": 10532,
+        "source_bytes": 98,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "dev",
+        "case": "missing",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "dev",
+        "case": "ambiguous",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "dev",
+        "case": "reverse-call",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "dev",
+        "case": "dynamic-call",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "dev",
+        "case": "missing-literal",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "dev",
+        "case": "interpretation-pending",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "dev",
+        "case": "reverse-import",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "dev",
+        "case": "budget-3000",
+        "status": "budget_refused",
+        "error": {
+          "code": "invalid_input",
+          "message": "budget cannot fit acquisition omission metadata; increase budget_bytes"
+        }
+      },
+      {
+        "split": "dev",
+        "case": "budget-8000",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "wall_ns": 24955903,
+        "peak_rss_kib": 13948,
+        "mandatory_source_coverage": 0.3,
+        "payload_bytes": 7770,
+        "source_bytes": 131,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "dev",
+        "case": "budget-16384",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "wall_ns": 9352682,
+        "peak_rss_kib": 13916,
+        "mandatory_source_coverage": 1.0,
+        "payload_bytes": 12414,
+        "source_bytes": 3285,
+        "redundant_source_bytes": 0,
+        "items": 9
+      },
+      {
+        "split": "dev",
+        "case": "continuation-current-pack-only",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "current_complete": false,
+        "payload_bytes": 7782,
+        "source_bytes": 106,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "dev",
+        "case": "hybrid-all-mandatory",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "payload_bytes": 12413,
+        "wall_ns": 9348602,
+        "peak_rss_kib": 14008,
+        "source_bytes": 3285,
+        "redundant_source_bytes": 0,
+        "items": 9
+      },
+      {
+        "split": "dev",
+        "case": "normal-hybrid-baseline",
+        "payload_bytes": 6409,
+        "symbol_source_coverage": 0.8888888888888888,
+        "wall_ns": 10621906,
+        "peak_rss_kib": 12548,
+        "source_bytes": 1504,
+        "redundant_source_bytes": 0,
+        "items": 11
+      },
+      {
+        "split": "dev",
+        "case": "canonical-contract-exact16384",
+        "accepted": true
+      },
+      {
+        "split": "dev",
+        "case": "invalid-zero",
+        "rejected": true
+      },
+      {
+        "split": "dev",
+        "case": "invalid-seventeen",
+        "rejected": true
+      },
+      {
+        "split": "dev",
+        "case": "invalid-oversized",
+        "rejected": true
+      },
+      {
+        "split": "dev",
+        "case": "invalid-duplicate-id",
+        "rejected": true
+      },
+      {
+        "split": "dev",
+        "case": "invalid-exact16385",
+        "rejected": true
+      },
+      {
+        "split": "dev",
+        "case": "normal-baseline-3000",
+        "payload_bytes": 2105,
+        "wall_ns": 8018556,
+        "peak_rss_kib": 9976,
+        "symbol_source_coverage": 0.2222222222222222,
+        "source_bytes": 438,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "dev",
+        "case": "normal-baseline-8000",
+        "payload_bytes": 2105,
+        "wall_ns": 8425647,
+        "peak_rss_kib": 9720,
+        "symbol_source_coverage": 0.2222222222222222,
+        "source_bytes": 438,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "dev",
+        "case": "normal-baseline-16384",
+        "payload_bytes": 2106,
+        "wall_ns": 7852432,
+        "peak_rss_kib": 9720,
+        "symbol_source_coverage": 0.2222222222222222,
+        "source_bytes": 438,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "dev",
+        "case": "normal-baseline-65536",
+        "payload_bytes": 2106,
+        "wall_ns": 9158707,
+        "peak_rss_kib": 9920,
+        "symbol_source_coverage": 0.2222222222222222,
+        "source_bytes": 438,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "dev",
+        "case": "update-restart-old-generation-offline",
+        "preserved": true
+      },
+      {
+        "split": "heldout",
+        "case": "definition-0",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1762,
+        "wall_ns": 7440461,
+        "peak_rss_kib": 10632,
+        "source_bytes": 58,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "definition-1",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1750,
+        "wall_ns": 6528265,
+        "peak_rss_kib": 10640,
+        "source_bytes": 40,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "definition-2",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1786,
+        "wall_ns": 7616925,
+        "peak_rss_kib": 11060,
+        "source_bytes": 73,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "definition-3",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1772,
+        "wall_ns": 6768283,
+        "peak_rss_kib": 10744,
+        "source_bytes": 67,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "definition-4",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1772,
+        "wall_ns": 8211881,
+        "peak_rss_kib": 11316,
+        "source_bytes": 59,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "definition-5",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1778,
+        "wall_ns": 6879566,
+        "peak_rss_kib": 10496,
+        "source_bytes": 63,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "definition-6",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 4587,
+        "wall_ns": 7860232,
+        "peak_rss_kib": 11560,
+        "source_bytes": 2774,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "definition-7",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1790,
+        "wall_ns": 6818123,
+        "peak_rss_kib": 10676,
+        "source_bytes": 56,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "definition-8",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1808,
+        "wall_ns": 8419718,
+        "peak_rss_kib": 10724,
+        "source_bytes": 96,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "literal",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1583,
+        "wall_ns": 7257595,
+        "peak_rss_kib": 10592,
+        "source_bytes": 41,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "direct-call",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 2657,
+        "wall_ns": 7802241,
+        "peak_rss_kib": 10828,
+        "source_bytes": 59,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "heldout",
+        "case": "all-mandatory",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 12417,
+        "wall_ns": 8245172,
+        "peak_rss_kib": 14156,
+        "source_bytes": 3288,
+        "redundant_source_bytes": 0,
+        "items": 9
+      },
+      {
+        "split": "heldout",
+        "case": "scoped-homonym",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1743,
+        "wall_ns": 7635076,
+        "peak_rss_kib": 10628,
+        "source_bytes": 34,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "sixteen",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 8311,
+        "wall_ns": 7612175,
+        "peak_rss_kib": 10656,
+        "source_bytes": 58,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "symbol-scoped-literal",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 1590,
+        "wall_ns": 7451341,
+        "peak_rss_kib": 10520,
+        "source_bytes": 41,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "heldout",
+        "case": "direct-import",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "first_pack_coverage": 1,
+        "payload_bytes": 2647,
+        "wall_ns": 7793010,
+        "peak_rss_kib": 10624,
+        "source_bytes": 42,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "heldout",
+        "case": "missing",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "heldout",
+        "case": "ambiguous",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "heldout",
+        "case": "reverse-call",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "heldout",
+        "case": "dynamic-call",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "heldout",
+        "case": "missing-literal",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "heldout",
+        "case": "interpretation-pending",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "heldout",
+        "case": "reverse-import",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "false_sufficient": false
+      },
+      {
+        "split": "heldout",
+        "case": "budget-3000",
+        "status": "budget_refused",
+        "error": {
+          "code": "invalid_input",
+          "message": "budget cannot fit acquisition omission metadata; increase budget_bytes"
+        }
+      },
+      {
+        "split": "heldout",
+        "case": "budget-8000",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "wall_ns": 23220265,
+        "peak_rss_kib": 14072,
+        "mandatory_source_coverage": 0.3,
+        "payload_bytes": 7772,
+        "source_bytes": 132,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "heldout",
+        "case": "budget-16384",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "wall_ns": 7619885,
+        "peak_rss_kib": 14212,
+        "mandatory_source_coverage": 1.0,
+        "payload_bytes": 12417,
+        "source_bytes": 3288,
+        "redundant_source_bytes": 0,
+        "items": 9
+      },
+      {
+        "split": "heldout",
+        "case": "continuation-current-pack-only",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "current_complete": false,
+        "payload_bytes": 7785,
+        "source_bytes": 108,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "heldout",
+        "case": "hybrid-all-mandatory",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "payload_bytes": 12416,
+        "wall_ns": 9410024,
+        "peak_rss_kib": 14048,
+        "source_bytes": 3288,
+        "redundant_source_bytes": 0,
+        "items": 9
+      },
+      {
+        "split": "heldout",
+        "case": "normal-hybrid-baseline",
+        "payload_bytes": 5977,
+        "symbol_source_coverage": 0.8888888888888888,
+        "wall_ns": 11895680,
+        "peak_rss_kib": 12436,
+        "source_bytes": 1398,
+        "redundant_source_bytes": 0,
+        "items": 10
+      },
+      {
+        "split": "heldout",
+        "case": "canonical-contract-exact16384",
+        "accepted": true
+      },
+      {
+        "split": "heldout",
+        "case": "invalid-zero",
+        "rejected": true
+      },
+      {
+        "split": "heldout",
+        "case": "invalid-seventeen",
+        "rejected": true
+      },
+      {
+        "split": "heldout",
+        "case": "invalid-oversized",
+        "rejected": true
+      },
+      {
+        "split": "heldout",
+        "case": "invalid-duplicate-id",
+        "rejected": true
+      },
+      {
+        "split": "heldout",
+        "case": "invalid-exact16385",
+        "rejected": true
+      },
+      {
+        "split": "heldout",
+        "case": "normal-baseline-3000",
+        "payload_bytes": 1984,
+        "wall_ns": 6916696,
+        "peak_rss_kib": 9988,
+        "symbol_source_coverage": 0.2222222222222222,
+        "source_bytes": 324,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "heldout",
+        "case": "normal-baseline-8000",
+        "payload_bytes": 1984,
+        "wall_ns": 6716371,
+        "peak_rss_kib": 9784,
+        "symbol_source_coverage": 0.2222222222222222,
+        "source_bytes": 324,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "heldout",
+        "case": "normal-baseline-16384",
+        "payload_bytes": 1985,
+        "wall_ns": 8939191,
+        "peak_rss_kib": 9812,
+        "symbol_source_coverage": 0.2222222222222222,
+        "source_bytes": 324,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "heldout",
+        "case": "normal-baseline-65536",
+        "payload_bytes": 1985,
+        "wall_ns": 9029963,
+        "peak_rss_kib": 9348,
+        "symbol_source_coverage": 0.2222222222222222,
+        "source_bytes": 324,
+        "redundant_source_bytes": 0,
+        "items": 2
+      },
+      {
+        "split": "heldout",
+        "case": "update-restart-old-generation-offline",
+        "preserved": true
+      },
+      {
+        "split": "supplemental",
+        "case": "inline-symbol_definition",
+        "status": "SUFFICIENT_EVIDENCE_ACQUIRED",
+        "payload_bytes": 1725,
+        "source_bytes": 36,
+        "redundant_source_bytes": 0,
+        "items": 1
+      },
+      {
+        "split": "supplemental",
+        "case": "inline-literal_occurrence",
+        "status": "INSUFFICIENT_EVIDENCE",
+        "payload_bytes": 1316,
+        "source_bytes": 0,
+        "redundant_source_bytes": 0,
+        "items": 0
+      }
+    ],
+    "measurements": [
+      {
+        "operation": [
+          "collection",
+          "prepare"
+        ],
+        "wall_ns": 38912539,
+        "peak_rss_kib": 16540,
+        "stdout_bytes": 3738
+      },
+      {
+        "operation": [
+          "neighbors",
+          "--store"
+        ],
+        "wall_ns": 5843858,
+        "peak_rss_kib": 9852,
+        "stdout_bytes": 4132
+      },
+      {
+        "operation": [
+          "neighbors",
+          "--store"
+        ],
+        "wall_ns": 6393863,
+        "peak_rss_kib": 9784,
+        "stdout_bytes": 8457
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6829334,
+        "peak_rss_kib": 10604,
+        "stdout_bytes": 1771
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8401676,
+        "peak_rss_kib": 10356,
+        "stdout_bytes": 1758
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 9413694,
+        "peak_rss_kib": 11000,
+        "stdout_bytes": 1778
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8046316,
+        "peak_rss_kib": 10596,
+        "stdout_bytes": 1771
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8360236,
+        "peak_rss_kib": 11216,
+        "stdout_bytes": 1773
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8153550,
+        "peak_rss_kib": 10320,
+        "stdout_bytes": 1784
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8639483,
+        "peak_rss_kib": 11392,
+        "stdout_bytes": 4578
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8360215,
+        "peak_rss_kib": 10708,
+        "stdout_bytes": 1774
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8011756,
+        "peak_rss_kib": 10520,
+        "stdout_bytes": 1803
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8339365,
+        "peak_rss_kib": 10608,
+        "stdout_bytes": 1589
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8678044,
+        "peak_rss_kib": 10456,
+        "stdout_bytes": 2673
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 10738179,
+        "peak_rss_kib": 14172,
+        "stdout_bytes": 12415
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6316440,
+        "peak_rss_kib": 10648,
+        "stdout_bytes": 1752
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7548203,
+        "peak_rss_kib": 10528,
+        "stdout_bytes": 8410
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7523123,
+        "peak_rss_kib": 10648,
+        "stdout_bytes": 1596
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6502435,
+        "peak_rss_kib": 10532,
+        "stdout_bytes": 2710
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7062430,
+        "peak_rss_kib": 9788,
+        "stdout_bytes": 1083
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6246389,
+        "peak_rss_kib": 9860,
+        "stdout_bytes": 1085
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8128770,
+        "peak_rss_kib": 9672,
+        "stdout_bytes": 1102
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6378452,
+        "peak_rss_kib": 9924,
+        "stdout_bytes": 1102
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7745129,
+        "peak_rss_kib": 10700,
+        "stdout_bytes": 1085
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6580428,
+        "peak_rss_kib": 10484,
+        "stdout_bytes": 1620
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7064331,
+        "peak_rss_kib": 9888,
+        "stdout_bytes": 1100
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 21174880,
+        "peak_rss_kib": 13856,
+        "stdout_bytes": 118
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 24955903,
+        "peak_rss_kib": 13948,
+        "stdout_bytes": 7771
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 9352682,
+        "peak_rss_kib": 13916,
+        "stdout_bytes": 12415
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 24491920,
+        "peak_rss_kib": 14076,
+        "stdout_bytes": 7771
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 21817859,
+        "peak_rss_kib": 14144,
+        "stdout_bytes": 7783
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 9348602,
+        "peak_rss_kib": 14008,
+        "stdout_bytes": 12414
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 10621906,
+        "peak_rss_kib": 12548,
+        "stdout_bytes": 6410
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6683390,
+        "peak_rss_kib": 10592,
+        "stdout_bytes": 1769
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2422595,
+        "peak_rss_kib": 6528,
+        "stdout_bytes": 83
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2438106,
+        "peak_rss_kib": 6472,
+        "stdout_bytes": 83
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2277781,
+        "peak_rss_kib": 6468,
+        "stdout_bytes": 85
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2240550,
+        "peak_rss_kib": 6724,
+        "stdout_bytes": 99
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2137798,
+        "peak_rss_kib": 6224,
+        "stdout_bytes": 85
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8018556,
+        "peak_rss_kib": 9976,
+        "stdout_bytes": 2106
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8425647,
+        "peak_rss_kib": 9720,
+        "stdout_bytes": 2106
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7852432,
+        "peak_rss_kib": 9720,
+        "stdout_bytes": 2107
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 9158707,
+        "peak_rss_kib": 9920,
+        "stdout_bytes": 2107
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8961182,
+        "peak_rss_kib": 9940,
+        "stdout_bytes": 2107
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8436908,
+        "peak_rss_kib": 13964,
+        "stdout_bytes": 12415
+      },
+      {
+        "operation": [
+          "collection",
+          "update"
+        ],
+        "wall_ns": 55065274,
+        "peak_rss_kib": 16892,
+        "stdout_bytes": 3773
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7393229,
+        "peak_rss_kib": 14060,
+        "stdout_bytes": 12415
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7644286,
+        "peak_rss_kib": 10604,
+        "stdout_bytes": 1085
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7299357,
+        "peak_rss_kib": 10400,
+        "stdout_bytes": 1771
+      },
+      {
+        "operation": [
+          "collection",
+          "prepare"
+        ],
+        "wall_ns": 37798669,
+        "peak_rss_kib": 16348,
+        "stdout_bytes": 3776
+      },
+      {
+        "operation": [
+          "neighbors",
+          "--store"
+        ],
+        "wall_ns": 7094171,
+        "peak_rss_kib": 9948,
+        "stdout_bytes": 4165
+      },
+      {
+        "operation": [
+          "neighbors",
+          "--store"
+        ],
+        "wall_ns": 6658369,
+        "peak_rss_kib": 9844,
+        "stdout_bytes": 8034
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7440461,
+        "peak_rss_kib": 10632,
+        "stdout_bytes": 1763
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6528265,
+        "peak_rss_kib": 10640,
+        "stdout_bytes": 1751
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7616925,
+        "peak_rss_kib": 11060,
+        "stdout_bytes": 1787
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6768283,
+        "peak_rss_kib": 10744,
+        "stdout_bytes": 1773
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8211881,
+        "peak_rss_kib": 11316,
+        "stdout_bytes": 1773
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6879566,
+        "peak_rss_kib": 10496,
+        "stdout_bytes": 1779
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7860232,
+        "peak_rss_kib": 11560,
+        "stdout_bytes": 4588
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6818123,
+        "peak_rss_kib": 10676,
+        "stdout_bytes": 1791
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8419718,
+        "peak_rss_kib": 10724,
+        "stdout_bytes": 1809
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7257595,
+        "peak_rss_kib": 10592,
+        "stdout_bytes": 1584
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7802241,
+        "peak_rss_kib": 10828,
+        "stdout_bytes": 2658
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8245172,
+        "peak_rss_kib": 14156,
+        "stdout_bytes": 12418
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7635076,
+        "peak_rss_kib": 10628,
+        "stdout_bytes": 1744
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7612175,
+        "peak_rss_kib": 10656,
+        "stdout_bytes": 8312
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7451341,
+        "peak_rss_kib": 10520,
+        "stdout_bytes": 1591
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7793010,
+        "peak_rss_kib": 10624,
+        "stdout_bytes": 2648
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7292437,
+        "peak_rss_kib": 9984,
+        "stdout_bytes": 1084
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7527823,
+        "peak_rss_kib": 9652,
+        "stdout_bytes": 1086
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7363689,
+        "peak_rss_kib": 10052,
+        "stdout_bytes": 1103
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7570054,
+        "peak_rss_kib": 10004,
+        "stdout_bytes": 1103
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6966858,
+        "peak_rss_kib": 10700,
+        "stdout_bytes": 1086
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 5699134,
+        "peak_rss_kib": 10700,
+        "stdout_bytes": 1615
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 5753515,
+        "peak_rss_kib": 9808,
+        "stdout_bytes": 1101
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 21697445,
+        "peak_rss_kib": 14132,
+        "stdout_bytes": 118
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 23220265,
+        "peak_rss_kib": 14072,
+        "stdout_bytes": 7773
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7619885,
+        "peak_rss_kib": 14212,
+        "stdout_bytes": 12418
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 19276210,
+        "peak_rss_kib": 13840,
+        "stdout_bytes": 7773
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 21338045,
+        "peak_rss_kib": 14044,
+        "stdout_bytes": 7786
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 9410024,
+        "peak_rss_kib": 14048,
+        "stdout_bytes": 12417
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 11895680,
+        "peak_rss_kib": 12436,
+        "stdout_bytes": 5978
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 5973991,
+        "peak_rss_kib": 10568,
+        "stdout_bytes": 1761
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2375394,
+        "peak_rss_kib": 6284,
+        "stdout_bytes": 83
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2696712,
+        "peak_rss_kib": 6448,
+        "stdout_bytes": 83
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2580439,
+        "peak_rss_kib": 6292,
+        "stdout_bytes": 85
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2283901,
+        "peak_rss_kib": 6644,
+        "stdout_bytes": 99
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 2370924,
+        "peak_rss_kib": 6160,
+        "stdout_bytes": 85
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6916696,
+        "peak_rss_kib": 9988,
+        "stdout_bytes": 1985
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6716371,
+        "peak_rss_kib": 9784,
+        "stdout_bytes": 1985
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8939191,
+        "peak_rss_kib": 9812,
+        "stdout_bytes": 1986
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 9029963,
+        "peak_rss_kib": 9348,
+        "stdout_bytes": 1986
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8488449,
+        "peak_rss_kib": 9536,
+        "stdout_bytes": 1986
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 8066688,
+        "peak_rss_kib": 13940,
+        "stdout_bytes": 12418
+      },
+      {
+        "operation": [
+          "collection",
+          "update"
+        ],
+        "wall_ns": 64009485,
+        "peak_rss_kib": 16764,
+        "stdout_bytes": 3811
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7511203,
+        "peak_rss_kib": 13780,
+        "stdout_bytes": 12418
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 6199367,
+        "peak_rss_kib": 10404,
+        "stdout_bytes": 1086
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 7846462,
+        "peak_rss_kib": 10440,
+        "stdout_bytes": 1763
+      },
+      {
+        "operation": [
+          "collection",
+          "prepare"
+        ],
+        "wall_ns": 16861914,
+        "peak_rss_kib": 11600,
+        "stdout_bytes": 1285
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 3604237,
+        "peak_rss_kib": 9036,
+        "stdout_bytes": 1726
+      },
+      {
+        "operation": [
+          "retrieve",
+          "--store"
+        ],
+        "wall_ns": 4488431,
+        "peak_rss_kib": 9060,
+        "stdout_bytes": 1317
+      }
+    ],
+    "limitations": [
+      "Synthetic DEV and heldout sources; no general task efficacy claim.",
+      "RSS from GNU time per CLI process; MCP latency/RSS not separately instrumented.",
+      "OS page cache uncontrolled; no paid LLM calls."
+    ]
+  }
+}

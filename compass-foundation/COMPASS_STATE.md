@@ -1,0 +1,15 @@
+# Estado do Compass
+
+Atualizado em 28/10/2026. O [plano único](docs/PLANO-IMPLEMENTACAO.md) contém progresso e evidências.
+
+Aquisição espectral implementada em Rust/f64, CLI e MCP, sem nova dependência de produção. A opção `acquisition_policy: "spectral_window_v1"` exige escopo explícito e entrega pack terminal de schema 3 com condição estrutural e lacunas. O modo preserva o significado de `SUFFICIENT_EVIDENCE_ACQUIRED`, exclusivo da [aquisição por obrigações](docs/AQUISICAO-OBRIGACOES.md), e mantém os caminhos anteriores quando a opção não é fornecida.
+
+Multiagentes integrado: aquisição → análise → resposta persistidas, geração fixa, pack inteiro no input, reserva de saída e bloqueio de novas buscas. Retomada revalida o recibo; nova aquisição de revisão exige vínculo explícito. Aprovação de alterações exige os hunks alterados no texto verificado. Deleções/esvaziamento sem testemunho anterior ficam bloqueados. Foram aplicados 11 arquivos após conferência de hashes, com cópias anteriores preservadas; atualização graphify somente AST.
+
+A política permanece **experimental e opt-in**. A geração inteira admite até 128 documentos e 22.369.621 bytes (~21,3 MiB) para revalidação estrutural. Acima disso, termina com limitação sem evidências. Orçamento de referência: 16 KiB; 3 KiB não comportaram os metadados completos nos controles. [Avaliação congelada](verification/spectral/evaluation-summary.json): 224 aquisições; adaptativo atendeu 10/10 casos respondíveis versus 9/10 no calor fixo theta=1, mas BFS e theta=256 também atenderam 10/10. A diferença veio do fallback, não da regra de janela; tempo acumulado adaptativo foi 1,51× o fixo. Sem evidência para adoção geral ou garantia de suficiência semântica.
+
+Verificação final: 187 testes Rust mais o teste semântico executado separadamente, fmt/Clippy, 25 grafos/230 escalas NumPy, 74 controles de calor legado e 82 controles públicos de obrigações passaram. Consumidor: 126 testes na cópia revisada, 63 na árvore aplicada e sete controles com o release instalado. Astra confirmou correções do comparador, integridade do grafo e cobertura da revisão com reproduções independentes. [Detalhes de integração](verification/spectral/integration-final.json).
+
+Release local `d76db898295a21cb0d461c9711e5d3e708c03583c8ee811a058feb875a46c80f` instalado pelo launcher existente; versão anterior preservada. Reiniciar a conexão MCP para descobrir a opção nova. Recibos em `.compass/mcp/{spectral-installation,readiness-spectral}.json`. As seis ferramentas, fontes e padrões anteriores foram preservados. Medições da avaliação identificam os binários debug congelados, preservados em `.compass/spectral-evaluation-build/`, separadamente do release.
+
+Sem campanha LLM paga, downloads ou alteração de acervos consumidores. Sem commits; as evidências identificam executáveis, fontes e produtores testados. Evidências [de 24/10](verification/acquisition/summary.json) e [de calor/embeddings](verification/recovery/summary.json) preservadas. Watcher, DG, GUI completa e serviço remoto continuam posteriores.

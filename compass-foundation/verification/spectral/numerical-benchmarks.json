@@ -1,0 +1,4361 @@
+{
+  "status": "measured",
+  "probe_sha256": "55a08181f3bb1edb82d2533a241da53e3dfd225684c7b80e11b4ebdae7040636",
+  "profile": "debug binary; fixed 250ms internal compute budget",
+  "runner_sha256": "b4f48bb25c4e8b6445c4131e40013122ad5bee929c96eb3479ef3109028d5112",
+  "repetitions": 2,
+  "cases": 21,
+  "measurements": 42,
+  "maximum_nodes": 16384,
+  "conditions": "Separate process per graph/repetition. Wall time and RSS include parsing, graph construction, trajectory, JSON serialization and process startup. Internal elapsed excludes graph construction and output. Uncontrolled page cache, shared host, no release or 100k-node extrapolation. Failed/limited endpoints remain in results.",
+  "results": [
+    {
+      "case_id": "path-64",
+      "family": "path",
+      "repetition": 0,
+      "nodes": 64,
+      "undirected_edges": 63,
+      "max_degree": 2.0,
+      "average_degree": 1.96875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0474206941240187,
+          "z_q": 0.8014560736340196,
+          "work": {
+            "edge_visits": 3150,
+            "elapsed_ms": 0,
+            "increments": 2,
+            "node_visits": 5832,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999996,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.29704628560339835,
+          "z_q": 0.523777611802605,
+          "work": {
+            "edge_visits": 7308,
+            "elapsed_ms": 0,
+            "increments": 4,
+            "node_visits": 12872,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999951,
+          "y_mass": 0.9999999999999903
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.4652593788310805,
+          "z_q": 0.2775742751495444,
+          "work": {
+            "edge_visits": 14616,
+            "elapsed_ms": 1,
+            "increments": 6,
+            "node_visits": 24712,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999873
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.49199733748232416,
+          "z_q": 0.14049313585630863,
+          "work": {
+            "edge_visits": 36540,
+            "elapsed_ms": 2,
+            "increments": 11,
+            "node_visits": 59592,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999719
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.4980353251927276,
+          "z_q": 0.07045472576286435,
+          "work": {
+            "edge_visits": 114408,
+            "elapsed_ms": 8,
+            "increments": 26,
+            "node_visits": 182280,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.999999999999879,
+          "y_mass": 0.9999999999999305
+        }
+      ],
+      "work": {
+        "edge_visits": 114408,
+        "elapsed_ms": 8,
+        "increments": 26,
+        "node_visits": 182280,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 12569120,
+      "peak_rss_kib": 3784,
+      "stdout_utf8_bytes": 14117
+    },
+    {
+      "case_id": "path-64",
+      "family": "path",
+      "repetition": 1,
+      "nodes": 64,
+      "undirected_edges": 63,
+      "max_degree": 2.0,
+      "average_degree": 1.96875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0474206941240187,
+          "z_q": 0.8014560736340196,
+          "work": {
+            "edge_visits": 3150,
+            "elapsed_ms": 0,
+            "increments": 2,
+            "node_visits": 5832,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999996,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.29704628560339835,
+          "z_q": 0.523777611802605,
+          "work": {
+            "edge_visits": 7308,
+            "elapsed_ms": 0,
+            "increments": 4,
+            "node_visits": 12872,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999951,
+          "y_mass": 0.9999999999999903
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.4652593788310805,
+          "z_q": 0.2775742751495444,
+          "work": {
+            "edge_visits": 14616,
+            "elapsed_ms": 1,
+            "increments": 6,
+            "node_visits": 24712,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999873
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.49199733748232416,
+          "z_q": 0.14049313585630863,
+          "work": {
+            "edge_visits": 36540,
+            "elapsed_ms": 2,
+            "increments": 11,
+            "node_visits": 59592,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999719
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.4980353251927276,
+          "z_q": 0.07045472576286435,
+          "work": {
+            "edge_visits": 114408,
+            "elapsed_ms": 9,
+            "increments": 26,
+            "node_visits": 182280,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.999999999999879,
+          "y_mass": 0.9999999999999305
+        }
+      ],
+      "work": {
+        "edge_visits": 114408,
+        "elapsed_ms": 9,
+        "increments": 26,
+        "node_visits": 182280,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 12905849,
+      "peak_rss_kib": 3724,
+      "stdout_utf8_bytes": 14117
+    },
+    {
+      "case_id": "star-64",
+      "family": "star",
+      "repetition": 0,
+      "nodes": 64,
+      "undirected_edges": 63,
+      "max_degree": 63.0,
+      "average_degree": 1.96875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 3.8595822933492034e-05,
+          "z_q": 0.9921216049206976,
+          "work": {
+            "edge_visits": 3150,
+            "elapsed_ms": 0,
+            "increments": 2,
+            "node_visits": 5832,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999997,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.0001502747691240468,
+          "z_q": 0.9690330745804447,
+          "work": {
+            "edge_visits": 7308,
+            "elapsed_ms": 0,
+            "increments": 4,
+            "node_visits": 12872,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999949,
+          "y_mass": 0.9999999999999901
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.00028579525171721466,
+          "z_q": 0.8823926044159464,
+          "work": {
+            "edge_visits": 14616,
+            "elapsed_ms": 1,
+            "increments": 6,
+            "node_visits": 24712,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999931,
+          "y_mass": 0.9999999999999871
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.006461909548463811,
+          "z_q": 0.6078096113094935,
+          "work": {
+            "edge_visits": 36540,
+            "elapsed_ms": 3,
+            "increments": 11,
+            "node_visits": 59592,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999694,
+          "y_mass": 0.9999999999999718
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.39773602720988716,
+          "z_q": 0.14465035118779007,
+          "work": {
+            "edge_visits": 114408,
+            "elapsed_ms": 11,
+            "increments": 26,
+            "node_visits": 182280,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998846,
+          "y_mass": 0.9999999999999318
+        }
+      ],
+      "work": {
+        "edge_visits": 114408,
+        "elapsed_ms": 11,
+        "increments": 26,
+        "node_visits": 182280,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 15636402,
+      "peak_rss_kib": 3780,
+      "stdout_utf8_bytes": 17675
+    },
+    {
+      "case_id": "star-64",
+      "family": "star",
+      "repetition": 1,
+      "nodes": 64,
+      "undirected_edges": 63,
+      "max_degree": 63.0,
+      "average_degree": 1.96875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 3.8595822933492034e-05,
+          "z_q": 0.9921216049206976,
+          "work": {
+            "edge_visits": 3150,
+            "elapsed_ms": 0,
+            "increments": 2,
+            "node_visits": 5832,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999997,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.0001502747691240468,
+          "z_q": 0.9690330745804447,
+          "work": {
+            "edge_visits": 7308,
+            "elapsed_ms": 0,
+            "increments": 4,
+            "node_visits": 12872,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999949,
+          "y_mass": 0.9999999999999901
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.00028579525171721466,
+          "z_q": 0.8823926044159464,
+          "work": {
+            "edge_visits": 14616,
+            "elapsed_ms": 0,
+            "increments": 6,
+            "node_visits": 24712,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999931,
+          "y_mass": 0.9999999999999871
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.006461909548463811,
+          "z_q": 0.6078096113094935,
+          "work": {
+            "edge_visits": 36540,
+            "elapsed_ms": 2,
+            "increments": 11,
+            "node_visits": 59592,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999694,
+          "y_mass": 0.9999999999999718
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.39773602720988716,
+          "z_q": 0.14465035118779007,
+          "work": {
+            "edge_visits": 114408,
+            "elapsed_ms": 6,
+            "increments": 26,
+            "node_visits": 182280,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998846,
+          "y_mass": 0.9999999999999318
+        }
+      ],
+      "work": {
+        "edge_visits": 114408,
+        "elapsed_ms": 6,
+        "increments": 26,
+        "node_visits": 182280,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 9603879,
+      "peak_rss_kib": 3764,
+      "stdout_utf8_bytes": 17673
+    },
+    {
+      "case_id": "isolates-64",
+      "family": "isolates",
+      "repetition": 0,
+      "nodes": 64,
+      "undirected_edges": 0,
+      "max_degree": 0.0,
+      "average_degree": 0.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 904,
+            "operator_applications": 1,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 2.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 1288,
+            "operator_applications": 2,
+            "samples": 2
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 8.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 1672,
+            "operator_applications": 3,
+            "samples": 3
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 32.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 2056,
+            "operator_applications": 4,
+            "samples": 4
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 128.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 2440,
+            "operator_applications": 5,
+            "samples": 5
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        }
+      ],
+      "work": {
+        "edge_visits": 0,
+        "elapsed_ms": 0,
+        "increments": 0,
+        "node_visits": 2440,
+        "operator_applications": 5,
+        "samples": 5
+      },
+      "wall_ns": 3626558,
+      "peak_rss_kib": 3520,
+      "stdout_utf8_bytes": 5644
+    },
+    {
+      "case_id": "isolates-64",
+      "family": "isolates",
+      "repetition": 1,
+      "nodes": 64,
+      "undirected_edges": 0,
+      "max_degree": 0.0,
+      "average_degree": 0.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 904,
+            "operator_applications": 1,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 2.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 1288,
+            "operator_applications": 2,
+            "samples": 2
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 8.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 1672,
+            "operator_applications": 3,
+            "samples": 3
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 32.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 2056,
+            "operator_applications": 4,
+            "samples": 4
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 128.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 2440,
+            "operator_applications": 5,
+            "samples": 5
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        }
+      ],
+      "work": {
+        "edge_visits": 0,
+        "elapsed_ms": 0,
+        "increments": 0,
+        "node_visits": 2440,
+        "operator_applications": 5,
+        "samples": 5
+      },
+      "wall_ns": 2886218,
+      "peak_rss_kib": 3420,
+      "stdout_utf8_bytes": 5644
+    },
+    {
+      "case_id": "path-512",
+      "family": "path",
+      "repetition": 0,
+      "nodes": 512,
+      "undirected_edges": 511,
+      "max_degree": 2.0,
+      "average_degree": 1.99609375,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0474206941240187,
+          "z_q": 0.8014560736340196,
+          "work": {
+            "edge_visits": 25550,
+            "elapsed_ms": 2,
+            "increments": 2,
+            "node_visits": 46603,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999996,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.29704628560339835,
+          "z_q": 0.523777611802605,
+          "work": {
+            "edge_visits": 59276,
+            "elapsed_ms": 5,
+            "increments": 4,
+            "node_visits": 102923,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999951,
+          "y_mass": 0.9999999999999903
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.4652593788310805,
+          "z_q": 0.2775742751495444,
+          "work": {
+            "edge_visits": 118552,
+            "elapsed_ms": 10,
+            "increments": 6,
+            "node_visits": 197643,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999873
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.49199733748232416,
+          "z_q": 0.14049313585630863,
+          "work": {
+            "edge_visits": 296380,
+            "elapsed_ms": 22,
+            "increments": 11,
+            "node_visits": 476683,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999719
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.4980353251927276,
+          "z_q": 0.07045472576286435,
+          "work": {
+            "edge_visits": 927976,
+            "elapsed_ms": 54,
+            "increments": 26,
+            "node_visits": 1458187,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998789,
+          "y_mass": 0.9999999999999305
+        }
+      ],
+      "work": {
+        "edge_visits": 927976,
+        "elapsed_ms": 54,
+        "increments": 26,
+        "node_visits": 1458187,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 60623579,
+      "peak_rss_kib": 3788,
+      "stdout_utf8_bytes": 48253
+    },
+    {
+      "case_id": "path-512",
+      "family": "path",
+      "repetition": 1,
+      "nodes": 512,
+      "undirected_edges": 511,
+      "max_degree": 2.0,
+      "average_degree": 1.99609375,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0474206941240187,
+          "z_q": 0.8014560736340196,
+          "work": {
+            "edge_visits": 25550,
+            "elapsed_ms": 1,
+            "increments": 2,
+            "node_visits": 46603,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999996,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.29704628560339835,
+          "z_q": 0.523777611802605,
+          "work": {
+            "edge_visits": 59276,
+            "elapsed_ms": 3,
+            "increments": 4,
+            "node_visits": 102923,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999951,
+          "y_mass": 0.9999999999999903
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.4652593788310805,
+          "z_q": 0.2775742751495444,
+          "work": {
+            "edge_visits": 118552,
+            "elapsed_ms": 6,
+            "increments": 6,
+            "node_visits": 197643,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999873
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.49199733748232416,
+          "z_q": 0.14049313585630863,
+          "work": {
+            "edge_visits": 296380,
+            "elapsed_ms": 15,
+            "increments": 11,
+            "node_visits": 476683,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999719
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.4980353251927276,
+          "z_q": 0.07045472576286435,
+          "work": {
+            "edge_visits": 927976,
+            "elapsed_ms": 57,
+            "increments": 26,
+            "node_visits": 1458187,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998789,
+          "y_mass": 0.9999999999999305
+        }
+      ],
+      "work": {
+        "edge_visits": 927976,
+        "elapsed_ms": 57,
+        "increments": 26,
+        "node_visits": 1458187,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 63003723,
+      "peak_rss_kib": 4000,
+      "stdout_utf8_bytes": 48252
+    },
+    {
+      "case_id": "star-512",
+      "family": "star",
+      "repetition": 0,
+      "nodes": 512,
+      "undirected_edges": 511,
+      "max_degree": 511.0,
+      "average_degree": 1.99609375,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 5.814356420595867e-07,
+          "z_q": 0.9990224126816134,
+          "work": {
+            "edge_visits": 25550,
+            "elapsed_ms": 1,
+            "increments": 2,
+            "node_visits": 46603,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999997,
+          "y_mass": 0.9999999999999944
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 2.099076921147412e-06,
+          "z_q": 0.9960980923822637,
+          "work": {
+            "edge_visits": 59276,
+            "elapsed_ms": 4,
+            "increments": 4,
+            "node_visits": 102923,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999959,
+          "y_mass": 0.9999999999999901
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 5.67339620925272e-07,
+          "z_q": 0.9844929118862901,
+          "work": {
+            "edge_visits": 118552,
+            "elapsed_ms": 8,
+            "increments": 6,
+            "node_visits": 197643,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999925,
+          "y_mass": 0.9999999999999865
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 8.136313757048245e-06,
+          "z_q": 0.939413139091363,
+          "work": {
+            "edge_visits": 296380,
+            "elapsed_ms": 20,
+            "increments": 11,
+            "node_visits": 476683,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999704,
+          "y_mass": 0.9999999999999711
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.00015695100286449137,
+          "z_q": 0.7788496567316774,
+          "work": {
+            "edge_visits": 927976,
+            "elapsed_ms": 69,
+            "increments": 26,
+            "node_visits": 1458187,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998812,
+          "y_mass": 0.9999999999999307
+        }
+      ],
+      "work": {
+        "edge_visits": 927976,
+        "elapsed_ms": 69,
+        "increments": 26,
+        "node_visits": 1458187,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 77803782,
+      "peak_rss_kib": 3904,
+      "stdout_utf8_bytes": 120405
+    },
+    {
+      "case_id": "star-512",
+      "family": "star",
+      "repetition": 1,
+      "nodes": 512,
+      "undirected_edges": 511,
+      "max_degree": 511.0,
+      "average_degree": 1.99609375,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 5.814356420595867e-07,
+          "z_q": 0.9990224126816134,
+          "work": {
+            "edge_visits": 25550,
+            "elapsed_ms": 1,
+            "increments": 2,
+            "node_visits": 46603,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999997,
+          "y_mass": 0.9999999999999944
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 2.099076921147412e-06,
+          "z_q": 0.9960980923822637,
+          "work": {
+            "edge_visits": 59276,
+            "elapsed_ms": 3,
+            "increments": 4,
+            "node_visits": 102923,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999959,
+          "y_mass": 0.9999999999999901
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 5.67339620925272e-07,
+          "z_q": 0.9844929118862901,
+          "work": {
+            "edge_visits": 118552,
+            "elapsed_ms": 7,
+            "increments": 6,
+            "node_visits": 197643,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999925,
+          "y_mass": 0.9999999999999865
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 8.136313757048245e-06,
+          "z_q": 0.939413139091363,
+          "work": {
+            "edge_visits": 296380,
+            "elapsed_ms": 31,
+            "increments": 11,
+            "node_visits": 476683,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999704,
+          "y_mass": 0.9999999999999711
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.00015695100286449137,
+          "z_q": 0.7788496567316774,
+          "work": {
+            "edge_visits": 927976,
+            "elapsed_ms": 80,
+            "increments": 26,
+            "node_visits": 1458187,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998812,
+          "y_mass": 0.9999999999999307
+        }
+      ],
+      "work": {
+        "edge_visits": 927976,
+        "elapsed_ms": 81,
+        "increments": 26,
+        "node_visits": 1458187,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 88512613,
+      "peak_rss_kib": 4020,
+      "stdout_utf8_bytes": 120405
+    },
+    {
+      "case_id": "isolates-512",
+      "family": "isolates",
+      "repetition": 0,
+      "nodes": 512,
+      "undirected_edges": 0,
+      "max_degree": 0.0,
+      "average_degree": 0.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 7179,
+            "operator_applications": 1,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 2.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 10251,
+            "operator_applications": 2,
+            "samples": 2
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 8.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 13323,
+            "operator_applications": 3,
+            "samples": 3
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 32.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 16395,
+            "operator_applications": 4,
+            "samples": 4
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 128.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 19467,
+            "operator_applications": 5,
+            "samples": 5
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        }
+      ],
+      "work": {
+        "edge_visits": 0,
+        "elapsed_ms": 0,
+        "increments": 0,
+        "node_visits": 19467,
+        "operator_applications": 5,
+        "samples": 5
+      },
+      "wall_ns": 3833473,
+      "peak_rss_kib": 3624,
+      "stdout_utf8_bytes": 23560
+    },
+    {
+      "case_id": "isolates-512",
+      "family": "isolates",
+      "repetition": 1,
+      "nodes": 512,
+      "undirected_edges": 0,
+      "max_degree": 0.0,
+      "average_degree": 0.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 7179,
+            "operator_applications": 1,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 2.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 10251,
+            "operator_applications": 2,
+            "samples": 2
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 8.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 13323,
+            "operator_applications": 3,
+            "samples": 3
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 32.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 16395,
+            "operator_applications": 4,
+            "samples": 4
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 128.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 19467,
+            "operator_applications": 5,
+            "samples": 5
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        }
+      ],
+      "work": {
+        "edge_visits": 0,
+        "elapsed_ms": 0,
+        "increments": 0,
+        "node_visits": 19467,
+        "operator_applications": 5,
+        "samples": 5
+      },
+      "wall_ns": 3112104,
+      "peak_rss_kib": 3788,
+      "stdout_utf8_bytes": 23560
+    },
+    {
+      "case_id": "path-4096",
+      "family": "path",
+      "repetition": 0,
+      "nodes": 4096,
+      "undirected_edges": 4095,
+      "max_degree": 2.0,
+      "average_degree": 1.99951171875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0474206941240187,
+          "z_q": 0.8014560736340196,
+          "work": {
+            "edge_visits": 204750,
+            "elapsed_ms": 11,
+            "increments": 2,
+            "node_visits": 372750,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999996,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.29704628560339835,
+          "z_q": 0.523777611802605,
+          "work": {
+            "edge_visits": 475020,
+            "elapsed_ms": 29,
+            "increments": 4,
+            "node_visits": 823310,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999951,
+          "y_mass": 0.9999999999999903
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.4652593788310805,
+          "z_q": 0.2775742751495444,
+          "work": {
+            "edge_visits": 950040,
+            "elapsed_ms": 68,
+            "increments": 6,
+            "node_visits": 1581070,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999873
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.49199733748232416,
+          "z_q": 0.14049313585630863,
+          "work": {
+            "edge_visits": 2375100,
+            "elapsed_ms": 162,
+            "increments": 11,
+            "node_visits": 3813390,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999719
+        }
+      ],
+      "work": {
+        "edge_visits": 3595410,
+        "elapsed_ms": 251,
+        "increments": 15,
+        "node_visits": 5701646,
+        "operator_applications": 438,
+        "samples": 4
+      },
+      "wall_ns": 271971031,
+      "peak_rss_kib": 5944,
+      "stdout_utf8_bytes": 142678
+    },
+    {
+      "case_id": "path-4096",
+      "family": "path",
+      "repetition": 1,
+      "nodes": 4096,
+      "undirected_edges": 4095,
+      "max_degree": 2.0,
+      "average_degree": 1.99951171875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0474206941240187,
+          "z_q": 0.8014560736340196,
+          "work": {
+            "edge_visits": 204750,
+            "elapsed_ms": 15,
+            "increments": 2,
+            "node_visits": 372750,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999996,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.29704628560339835,
+          "z_q": 0.523777611802605,
+          "work": {
+            "edge_visits": 475020,
+            "elapsed_ms": 34,
+            "increments": 4,
+            "node_visits": 823310,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999951,
+          "y_mass": 0.9999999999999903
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.4652593788310805,
+          "z_q": 0.2775742751495444,
+          "work": {
+            "edge_visits": 950040,
+            "elapsed_ms": 60,
+            "increments": 6,
+            "node_visits": 1581070,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999873
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.49199733748232416,
+          "z_q": 0.14049313585630863,
+          "work": {
+            "edge_visits": 2375100,
+            "elapsed_ms": 151,
+            "increments": 11,
+            "node_visits": 3813390,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999719
+        }
+      ],
+      "work": {
+        "edge_visits": 4160520,
+        "elapsed_ms": 251,
+        "increments": 17,
+        "node_visits": 6582286,
+        "operator_applications": 507,
+        "samples": 4
+      },
+      "wall_ns": 272709731,
+      "peak_rss_kib": 6168,
+      "stdout_utf8_bytes": 142678
+    },
+    {
+      "case_id": "star-4096",
+      "family": "star",
+      "repetition": 0,
+      "nodes": 4096,
+      "undirected_edges": 4095,
+      "max_degree": 4095.0,
+      "average_degree": 1.99951171875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 9.043858219055063e-09,
+          "z_q": 0.9998779136841119,
+          "work": {
+            "edge_visits": 204750,
+            "elapsed_ms": 12,
+            "increments": 2,
+            "node_visits": 372750,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999993,
+          "y_mass": 0.9999999999999948
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 3.2332577116723545e-08,
+          "z_q": 0.9995117864433719,
+          "work": {
+            "edge_visits": 475020,
+            "elapsed_ms": 26,
+            "increments": 4,
+            "node_visits": 823310,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999958,
+          "y_mass": 0.9999999999999909
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 2.21337131262652e-09,
+          "z_q": 0.9980487220895204,
+          "work": {
+            "edge_visits": 950040,
+            "elapsed_ms": 50,
+            "increments": 6,
+            "node_visits": 1581070,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999925,
+          "y_mass": 0.9999999999999875
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 1.502167186983396e-08,
+          "z_q": 0.9922178865186158,
+          "work": {
+            "edge_visits": 2375100,
+            "elapsed_ms": 130,
+            "increments": 11,
+            "node_visits": 3813390,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999692,
+          "y_mass": 0.9999999999999711
+        }
+      ],
+      "work": {
+        "edge_visits": 4594590,
+        "elapsed_ms": 251,
+        "increments": 18,
+        "node_visits": 7249934,
+        "operator_applications": 560,
+        "samples": 4
+      },
+      "wall_ns": 284225322,
+      "peak_rss_kib": 6052,
+      "stdout_utf8_bytes": 703419
+    },
+    {
+      "case_id": "star-4096",
+      "family": "star",
+      "repetition": 1,
+      "nodes": 4096,
+      "undirected_edges": 4095,
+      "max_degree": 4095.0,
+      "average_degree": 1.99951171875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 9.043858219055063e-09,
+          "z_q": 0.9998779136841119,
+          "work": {
+            "edge_visits": 204750,
+            "elapsed_ms": 10,
+            "increments": 2,
+            "node_visits": 372750,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999993,
+          "y_mass": 0.9999999999999948
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 3.2332577116723545e-08,
+          "z_q": 0.9995117864433719,
+          "work": {
+            "edge_visits": 475020,
+            "elapsed_ms": 24,
+            "increments": 4,
+            "node_visits": 823310,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999958,
+          "y_mass": 0.9999999999999909
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 2.21337131262652e-09,
+          "z_q": 0.9980487220895204,
+          "work": {
+            "edge_visits": 950040,
+            "elapsed_ms": 51,
+            "increments": 6,
+            "node_visits": 1581070,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999925,
+          "y_mass": 0.9999999999999875
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 1.502167186983396e-08,
+          "z_q": 0.9922178865186158,
+          "work": {
+            "edge_visits": 2375100,
+            "elapsed_ms": 126,
+            "increments": 11,
+            "node_visits": 3813390,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999692,
+          "y_mass": 0.9999999999999711
+        }
+      ],
+      "work": {
+        "edge_visits": 4856670,
+        "elapsed_ms": 251,
+        "increments": 19,
+        "node_visits": 7659534,
+        "operator_applications": 592,
+        "samples": 4
+      },
+      "wall_ns": 284425587,
+      "peak_rss_kib": 6256,
+      "stdout_utf8_bytes": 703419
+    },
+    {
+      "case_id": "isolates-4096",
+      "family": "isolates",
+      "repetition": 0,
+      "nodes": 4096,
+      "undirected_edges": 0,
+      "max_degree": 0.0,
+      "average_degree": 0.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 57358,
+            "operator_applications": 1,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 2.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 81934,
+            "operator_applications": 2,
+            "samples": 2
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 8.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 106510,
+            "operator_applications": 3,
+            "samples": 3
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 32.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 131086,
+            "operator_applications": 4,
+            "samples": 4
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 128.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 155662,
+            "operator_applications": 5,
+            "samples": 5
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        }
+      ],
+      "work": {
+        "edge_visits": 0,
+        "elapsed_ms": 2,
+        "increments": 0,
+        "node_visits": 155662,
+        "operator_applications": 5,
+        "samples": 5
+      },
+      "wall_ns": 10436382,
+      "peak_rss_kib": 5456,
+      "stdout_utf8_bytes": 166935
+    },
+    {
+      "case_id": "isolates-4096",
+      "family": "isolates",
+      "repetition": 1,
+      "nodes": 4096,
+      "undirected_edges": 0,
+      "max_degree": 0.0,
+      "average_degree": 0.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 57358,
+            "operator_applications": 1,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 2.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 81934,
+            "operator_applications": 2,
+            "samples": 2
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 8.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 106510,
+            "operator_applications": 3,
+            "samples": 3
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 32.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 131086,
+            "operator_applications": 4,
+            "samples": 4
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 128.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 0,
+            "increments": 0,
+            "node_visits": 155662,
+            "operator_applications": 5,
+            "samples": 5
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        }
+      ],
+      "work": {
+        "edge_visits": 0,
+        "elapsed_ms": 2,
+        "increments": 0,
+        "node_visits": 155662,
+        "operator_applications": 5,
+        "samples": 5
+      },
+      "wall_ns": 10118024,
+      "peak_rss_kib": 5468,
+      "stdout_utf8_bytes": 166935
+    },
+    {
+      "case_id": "path-16384",
+      "family": "path",
+      "repetition": 0,
+      "nodes": 16384,
+      "undirected_edges": 16383,
+      "max_degree": 2.0,
+      "average_degree": 1.9998779296875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0474206941240187,
+          "z_q": 0.8014560736340196,
+          "work": {
+            "edge_visits": 819150,
+            "elapsed_ms": 54,
+            "increments": 2,
+            "node_visits": 1490960,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999996,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.29704628560339835,
+          "z_q": 0.523777611802605,
+          "work": {
+            "edge_visits": 1900428,
+            "elapsed_ms": 108,
+            "increments": 4,
+            "node_visits": 3293200,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999951,
+          "y_mass": 0.9999999999999903
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.4652593788310805,
+          "z_q": 0.2775742751495444,
+          "work": {
+            "edge_visits": 3800856,
+            "elapsed_ms": 207,
+            "increments": 6,
+            "node_visits": 6324240,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999873
+        }
+      ],
+      "work": {
+        "edge_visits": 4652772,
+        "elapsed_ms": 253,
+        "increments": 7,
+        "node_visits": 7634960,
+        "operator_applications": 141,
+        "samples": 3
+      },
+      "wall_ns": 319215117,
+      "peak_rss_kib": 12876,
+      "stdout_utf8_bytes": 398943
+    },
+    {
+      "case_id": "path-16384",
+      "family": "path",
+      "repetition": 1,
+      "nodes": 16384,
+      "undirected_edges": 16383,
+      "max_degree": 2.0,
+      "average_degree": 1.9998779296875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0474206941240187,
+          "z_q": 0.8014560736340196,
+          "work": {
+            "edge_visits": 819150,
+            "elapsed_ms": 52,
+            "increments": 2,
+            "node_visits": 1490960,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999996,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.29704628560339835,
+          "z_q": 0.523777611802605,
+          "work": {
+            "edge_visits": 1900428,
+            "elapsed_ms": 108,
+            "increments": 4,
+            "node_visits": 3293200,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999951,
+          "y_mass": 0.9999999999999903
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.4652593788310805,
+          "z_q": 0.2775742751495444,
+          "work": {
+            "edge_visits": 3800856,
+            "elapsed_ms": 221,
+            "increments": 6,
+            "node_visits": 6324240,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999873
+        }
+      ],
+      "work": {
+        "edge_visits": 4390644,
+        "elapsed_ms": 253,
+        "increments": 7,
+        "node_visits": 7241744,
+        "operator_applications": 133,
+        "samples": 3
+      },
+      "wall_ns": 332680832,
+      "peak_rss_kib": 12952,
+      "stdout_utf8_bytes": 398943
+    },
+    {
+      "case_id": "star-16384",
+      "family": "star",
+      "repetition": 0,
+      "nodes": 16384,
+      "undirected_edges": 16383,
+      "max_degree": 16383.0,
+      "average_degree": 1.9998779296875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 5.649670263001767e-10,
+          "z_q": 0.999969481421718,
+          "work": {
+            "edge_visits": 819150,
+            "elapsed_ms": 41,
+            "increments": 2,
+            "node_visits": 1490960,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999998,
+          "y_mass": 0.999999999999995
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 2.0176856316806346e-09,
+          "z_q": 0.9998779339172507,
+          "work": {
+            "edge_visits": 1900428,
+            "elapsed_ms": 105,
+            "increments": 4,
+            "node_visits": 3293200,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999943,
+          "y_mass": 0.9999999999999902
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 9.454531419535845e-11,
+          "z_q": 0.9995118342244351,
+          "work": {
+            "edge_visits": 3800856,
+            "elapsed_ms": 207,
+            "increments": 6,
+            "node_visits": 6324240,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999925,
+          "y_mass": 0.999999999999987
+        }
+      ],
+      "work": {
+        "edge_visits": 4652772,
+        "elapsed_ms": 254,
+        "increments": 7,
+        "node_visits": 7634960,
+        "operator_applications": 141,
+        "samples": 3
+      },
+      "wall_ns": 357450961,
+      "peak_rss_kib": 13156,
+      "stdout_utf8_bytes": 2181384
+    },
+    {
+      "case_id": "star-16384",
+      "family": "star",
+      "repetition": 1,
+      "nodes": 16384,
+      "undirected_edges": 16383,
+      "max_degree": 16383.0,
+      "average_degree": 1.9998779296875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 5.649670263001767e-10,
+          "z_q": 0.999969481421718,
+          "work": {
+            "edge_visits": 819150,
+            "elapsed_ms": 42,
+            "increments": 2,
+            "node_visits": 1490960,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999998,
+          "y_mass": 0.999999999999995
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 2.0176856316806346e-09,
+          "z_q": 0.9998779339172507,
+          "work": {
+            "edge_visits": 1900428,
+            "elapsed_ms": 102,
+            "increments": 4,
+            "node_visits": 3293200,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999943,
+          "y_mass": 0.9999999999999902
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 9.454531419535845e-11,
+          "z_q": 0.9995118342244351,
+          "work": {
+            "edge_visits": 3800856,
+            "elapsed_ms": 202,
+            "increments": 6,
+            "node_visits": 6324240,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999925,
+          "y_mass": 0.999999999999987
+        }
+      ],
+      "work": {
+        "edge_visits": 4620006,
+        "elapsed_ms": 254,
+        "increments": 7,
+        "node_visits": 7585808,
+        "operator_applications": 140,
+        "samples": 3
+      },
+      "wall_ns": 368773267,
+      "peak_rss_kib": 13076,
+      "stdout_utf8_bytes": 2181384
+    },
+    {
+      "case_id": "isolates-16384",
+      "family": "isolates",
+      "repetition": 0,
+      "nodes": 16384,
+      "undirected_edges": 0,
+      "max_degree": 0.0,
+      "average_degree": 0.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 1,
+            "increments": 0,
+            "node_visits": 229392,
+            "operator_applications": 1,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 2.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 1,
+            "increments": 0,
+            "node_visits": 327696,
+            "operator_applications": 2,
+            "samples": 2
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 8.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 2,
+            "increments": 0,
+            "node_visits": 426000,
+            "operator_applications": 3,
+            "samples": 3
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 32.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 2,
+            "increments": 0,
+            "node_visits": 524304,
+            "operator_applications": 4,
+            "samples": 4
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 128.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 2,
+            "increments": 0,
+            "node_visits": 622608,
+            "operator_applications": 5,
+            "samples": 5
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        }
+      ],
+      "work": {
+        "edge_visits": 0,
+        "elapsed_ms": 10,
+        "increments": 0,
+        "node_visits": 622608,
+        "operator_applications": 5,
+        "samples": 5
+      },
+      "wall_ns": 43210528,
+      "peak_rss_kib": 11720,
+      "stdout_utf8_bytes": 658462
+    },
+    {
+      "case_id": "isolates-16384",
+      "family": "isolates",
+      "repetition": 1,
+      "nodes": 16384,
+      "undirected_edges": 0,
+      "max_degree": 0.0,
+      "average_degree": 0.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 1,
+            "increments": 0,
+            "node_visits": 229392,
+            "operator_applications": 1,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 2.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 2,
+            "increments": 0,
+            "node_visits": 327696,
+            "operator_applications": 2,
+            "samples": 2
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 8.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 2,
+            "increments": 0,
+            "node_visits": 426000,
+            "operator_applications": 3,
+            "samples": 3
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 32.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 3,
+            "increments": 0,
+            "node_visits": 524304,
+            "operator_applications": 4,
+            "samples": 4
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        },
+        {
+          "theta": 128.0,
+          "quality": "no_dynamics",
+          "c_q": 0.0,
+          "z_q": 1.0,
+          "work": {
+            "edge_visits": 0,
+            "elapsed_ms": 3,
+            "increments": 0,
+            "node_visits": 622608,
+            "operator_applications": 5,
+            "samples": 5
+          },
+          "h_mass": 1.0,
+          "y_mass": 1.0
+        }
+      ],
+      "work": {
+        "edge_visits": 0,
+        "elapsed_ms": 13,
+        "increments": 0,
+        "node_visits": 622608,
+        "operator_applications": 5,
+        "samples": 5
+      },
+      "wall_ns": 44765500,
+      "peak_rss_kib": 11408,
+      "stdout_utf8_bytes": 658462
+    },
+    {
+      "case_id": "grid-64",
+      "family": "grid",
+      "repetition": 0,
+      "nodes": 64,
+      "undirected_edges": 112,
+      "max_degree": 4.0,
+      "average_degree": 3.5,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.027381175118442007,
+          "z_q": 0.7905517849540017,
+          "work": {
+            "edge_visits": 5600,
+            "elapsed_ms": 0,
+            "increments": 2,
+            "node_visits": 5832,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999992,
+          "y_mass": 0.9999999999999949
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.2784912213764343,
+          "z_q": 0.45383129981249026,
+          "work": {
+            "edge_visits": 12992,
+            "elapsed_ms": 0,
+            "increments": 4,
+            "node_visits": 12872,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999949,
+          "y_mass": 0.9999999999999901
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.8381925793263145,
+          "z_q": 0.14880519298022363,
+          "work": {
+            "edge_visits": 25984,
+            "elapsed_ms": 1,
+            "increments": 6,
+            "node_visits": 24712,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999868
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 1.0411499679398384,
+          "z_q": 0.0392524101213527,
+          "work": {
+            "edge_visits": 64960,
+            "elapsed_ms": 2,
+            "increments": 11,
+            "node_visits": 59592,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999711
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.6793788940337409,
+          "z_q": 0.016088938038175977,
+          "work": {
+            "edge_visits": 203392,
+            "elapsed_ms": 8,
+            "increments": 26,
+            "node_visits": 182280,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998794,
+          "y_mass": 0.9999999999999297
+        }
+      ],
+      "work": {
+        "edge_visits": 203392,
+        "elapsed_ms": 8,
+        "increments": 26,
+        "node_visits": 182280,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 10927406,
+      "peak_rss_kib": 3796,
+      "stdout_utf8_bytes": 17087
+    },
+    {
+      "case_id": "grid-64",
+      "family": "grid",
+      "repetition": 1,
+      "nodes": 64,
+      "undirected_edges": 112,
+      "max_degree": 4.0,
+      "average_degree": 3.5,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.027381175118442007,
+          "z_q": 0.7905517849540017,
+          "work": {
+            "edge_visits": 5600,
+            "elapsed_ms": 0,
+            "increments": 2,
+            "node_visits": 5832,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999992,
+          "y_mass": 0.9999999999999949
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.2784912213764343,
+          "z_q": 0.45383129981249026,
+          "work": {
+            "edge_visits": 12992,
+            "elapsed_ms": 0,
+            "increments": 4,
+            "node_visits": 12872,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999949,
+          "y_mass": 0.9999999999999901
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.8381925793263145,
+          "z_q": 0.14880519298022363,
+          "work": {
+            "edge_visits": 25984,
+            "elapsed_ms": 1,
+            "increments": 6,
+            "node_visits": 24712,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999868
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 1.0411499679398384,
+          "z_q": 0.0392524101213527,
+          "work": {
+            "edge_visits": 64960,
+            "elapsed_ms": 3,
+            "increments": 11,
+            "node_visits": 59592,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999711
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.6793788940337409,
+          "z_q": 0.016088938038175977,
+          "work": {
+            "edge_visits": 203392,
+            "elapsed_ms": 8,
+            "increments": 26,
+            "node_visits": 182280,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998794,
+          "y_mass": 0.9999999999999297
+        }
+      ],
+      "work": {
+        "edge_visits": 203392,
+        "elapsed_ms": 9,
+        "increments": 26,
+        "node_visits": 182280,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 12243971,
+      "peak_rss_kib": 3612,
+      "stdout_utf8_bytes": 17087
+    },
+    {
+      "case_id": "grid-1024",
+      "family": "grid",
+      "repetition": 0,
+      "nodes": 1024,
+      "undirected_edges": 1984,
+      "max_degree": 4.0,
+      "average_degree": 3.875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.027381175118442007,
+          "z_q": 0.7905517849540017,
+          "work": {
+            "edge_visits": 99200,
+            "elapsed_ms": 5,
+            "increments": 2,
+            "node_visits": 93196,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999993,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.2784912213764288,
+          "z_q": 0.45383129981249026,
+          "work": {
+            "edge_visits": 230144,
+            "elapsed_ms": 11,
+            "increments": 4,
+            "node_visits": 205836,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999948,
+          "y_mass": 0.9999999999999901
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.8381920676025251,
+          "z_q": 0.14880519240805468,
+          "work": {
+            "edge_visits": 460288,
+            "elapsed_ms": 22,
+            "increments": 6,
+            "node_visits": 395276,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999923,
+          "y_mass": 0.9999999999999868
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.9671650622034238,
+          "z_q": 0.039161933169353264,
+          "work": {
+            "edge_visits": 1150720,
+            "elapsed_ms": 50,
+            "increments": 11,
+            "node_visits": 953356,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999712
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.9920942327405385,
+          "z_q": 0.009908250958689604,
+          "work": {
+            "edge_visits": 3602944,
+            "elapsed_ms": 175,
+            "increments": 26,
+            "node_visits": 2916364,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998794,
+          "y_mass": 0.99999999999993
+        }
+      ],
+      "work": {
+        "edge_visits": 3602944,
+        "elapsed_ms": 176,
+        "increments": 26,
+        "node_visits": 2916364,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 189189783,
+      "peak_rss_kib": 4520,
+      "stdout_utf8_bytes": 172487
+    },
+    {
+      "case_id": "grid-1024",
+      "family": "grid",
+      "repetition": 1,
+      "nodes": 1024,
+      "undirected_edges": 1984,
+      "max_degree": 4.0,
+      "average_degree": 3.875,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.027381175118442007,
+          "z_q": 0.7905517849540017,
+          "work": {
+            "edge_visits": 99200,
+            "elapsed_ms": 5,
+            "increments": 2,
+            "node_visits": 93196,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999993,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.2784912213764288,
+          "z_q": 0.45383129981249026,
+          "work": {
+            "edge_visits": 230144,
+            "elapsed_ms": 12,
+            "increments": 4,
+            "node_visits": 205836,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999948,
+          "y_mass": 0.9999999999999901
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.8381920676025251,
+          "z_q": 0.14880519240805468,
+          "work": {
+            "edge_visits": 460288,
+            "elapsed_ms": 25,
+            "increments": 6,
+            "node_visits": 395276,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999923,
+          "y_mass": 0.9999999999999868
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.9671650622034238,
+          "z_q": 0.039161933169353264,
+          "work": {
+            "edge_visits": 1150720,
+            "elapsed_ms": 53,
+            "increments": 11,
+            "node_visits": 953356,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999681,
+          "y_mass": 0.9999999999999712
+        },
+        {
+          "theta": 128.0,
+          "quality": "estimated",
+          "c_q": 0.9920942327405385,
+          "z_q": 0.009908250958689604,
+          "work": {
+            "edge_visits": 3602944,
+            "elapsed_ms": 160,
+            "increments": 26,
+            "node_visits": 2916364,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998794,
+          "y_mass": 0.99999999999993
+        }
+      ],
+      "work": {
+        "edge_visits": 3602944,
+        "elapsed_ms": 161,
+        "increments": 26,
+        "node_visits": 2916364,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 174831375,
+      "peak_rss_kib": 4428,
+      "stdout_utf8_bytes": 172487
+    },
+    {
+      "case_id": "grid-4096",
+      "family": "grid",
+      "repetition": 0,
+      "nodes": 4096,
+      "undirected_edges": 8064,
+      "max_degree": 4.0,
+      "average_degree": 3.9375,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.027381175118442007,
+          "z_q": 0.7905517849540017,
+          "work": {
+            "edge_visits": 403200,
+            "elapsed_ms": 15,
+            "increments": 2,
+            "node_visits": 372750,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999993,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.2784912213764288,
+          "z_q": 0.45383129981249026,
+          "work": {
+            "edge_visits": 935424,
+            "elapsed_ms": 35,
+            "increments": 4,
+            "node_visits": 823310,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999949,
+          "y_mass": 0.99999999999999
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.8381920676025251,
+          "z_q": 0.14880519240805468,
+          "work": {
+            "edge_visits": 1870848,
+            "elapsed_ms": 70,
+            "increments": 6,
+            "node_visits": 1581070,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999867
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.9671650622034238,
+          "z_q": 0.039161933169353264,
+          "work": {
+            "edge_visits": 4677120,
+            "elapsed_ms": 175,
+            "increments": 11,
+            "node_visits": 3813390,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.999999999999968,
+          "y_mass": 0.9999999999999712
+        }
+      ],
+      "work": {
+        "edge_visits": 6209280,
+        "elapsed_ms": 251,
+        "increments": 14,
+        "node_visits": 5021710,
+        "operator_applications": 384,
+        "samples": 4
+      },
+      "wall_ns": 288709123,
+      "peak_rss_kib": 6724,
+      "stdout_utf8_bytes": 361931
+    },
+    {
+      "case_id": "grid-4096",
+      "family": "grid",
+      "repetition": 1,
+      "nodes": 4096,
+      "undirected_edges": 8064,
+      "max_degree": 4.0,
+      "average_degree": 3.9375,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.027381175118442007,
+          "z_q": 0.7905517849540017,
+          "work": {
+            "edge_visits": 403200,
+            "elapsed_ms": 16,
+            "increments": 2,
+            "node_visits": 372750,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999993,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.2784912213764288,
+          "z_q": 0.45383129981249026,
+          "work": {
+            "edge_visits": 935424,
+            "elapsed_ms": 43,
+            "increments": 4,
+            "node_visits": 823310,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999949,
+          "y_mass": 0.99999999999999
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 0.8381920676025251,
+          "z_q": 0.14880519240805468,
+          "work": {
+            "edge_visits": 1870848,
+            "elapsed_ms": 78,
+            "increments": 6,
+            "node_visits": 1581070,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999922,
+          "y_mass": 0.9999999999999867
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 0.9671650622034238,
+          "z_q": 0.039161933169353264,
+          "work": {
+            "edge_visits": 4677120,
+            "elapsed_ms": 214,
+            "increments": 11,
+            "node_visits": 3813390,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.999999999999968,
+          "y_mass": 0.9999999999999712
+        }
+      ],
+      "work": {
+        "edge_visits": 5354496,
+        "elapsed_ms": 252,
+        "increments": 12,
+        "node_visits": 4337678,
+        "operator_applications": 331,
+        "samples": 4
+      },
+      "wall_ns": 297249184,
+      "peak_rss_kib": 6540,
+      "stdout_utf8_bytes": 361931
+    },
+    {
+      "case_id": "clique-64",
+      "family": "clique",
+      "repetition": 0,
+      "nodes": 64,
+      "undirected_edges": 2016,
+      "max_degree": 63.0,
+      "average_degree": 63.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.006460365140147232,
+          "z_q": 0.6079588513829286,
+          "work": {
+            "edge_visits": 100800,
+            "elapsed_ms": 2,
+            "increments": 2,
+            "node_visits": 5832,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999998,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.3976574613247363,
+          "z_q": 0.14468286765735525,
+          "work": {
+            "edge_visits": 233856,
+            "elapsed_ms": 5,
+            "increments": 4,
+            "node_visits": 12872,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999937,
+          "y_mass": 0.9999999999999896
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 1.1848840640430889,
+          "z_q": 0.01591584139203007,
+          "work": {
+            "edge_visits": 467712,
+            "elapsed_ms": 10,
+            "increments": 6,
+            "node_visits": 24712,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999895,
+          "y_mass": 0.9999999999999862
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 5.073432793200858e-10,
+          "z_q": 0.015625000000006502,
+          "work": {
+            "edge_visits": 1169280,
+            "elapsed_ms": 26,
+            "increments": 11,
+            "node_visits": 59592,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999569,
+          "y_mass": 0.9999999999999681
+        },
+        {
+          "theta": 128.0,
+          "quality": "numerically_indeterminate",
+          "c_q": 0.0,
+          "z_q": 0.0156249999999978,
+          "work": {
+            "edge_visits": 3661056,
+            "elapsed_ms": 83,
+            "increments": 26,
+            "node_visits": 182280,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998888,
+          "y_mass": 0.9999999999999301
+        }
+      ],
+      "work": {
+        "edge_visits": 3661056,
+        "elapsed_ms": 83,
+        "increments": 26,
+        "node_visits": 182280,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 90096396,
+      "peak_rss_kib": 4040,
+      "stdout_utf8_bytes": 16978
+    },
+    {
+      "case_id": "clique-64",
+      "family": "clique",
+      "repetition": 1,
+      "nodes": 64,
+      "undirected_edges": 2016,
+      "max_degree": 63.0,
+      "average_degree": 63.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "complete",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.006460365140147232,
+          "z_q": 0.6079588513829286,
+          "work": {
+            "edge_visits": 100800,
+            "elapsed_ms": 3,
+            "increments": 2,
+            "node_visits": 5832,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999998,
+          "y_mass": 0.9999999999999952
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.3976574613247363,
+          "z_q": 0.14468286765735525,
+          "work": {
+            "edge_visits": 233856,
+            "elapsed_ms": 7,
+            "increments": 4,
+            "node_visits": 12872,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999937,
+          "y_mass": 0.9999999999999896
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 1.1848840640430889,
+          "z_q": 0.01591584139203007,
+          "work": {
+            "edge_visits": 467712,
+            "elapsed_ms": 15,
+            "increments": 6,
+            "node_visits": 24712,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999999895,
+          "y_mass": 0.9999999999999862
+        },
+        {
+          "theta": 32.0,
+          "quality": "estimated",
+          "c_q": 5.073432793200858e-10,
+          "z_q": 0.015625000000006502,
+          "work": {
+            "edge_visits": 1169280,
+            "elapsed_ms": 38,
+            "increments": 11,
+            "node_visits": 59592,
+            "operator_applications": 289,
+            "samples": 4
+          },
+          "h_mass": 0.9999999999999569,
+          "y_mass": 0.9999999999999681
+        },
+        {
+          "theta": 128.0,
+          "quality": "numerically_indeterminate",
+          "c_q": 0.0,
+          "z_q": 0.0156249999999978,
+          "work": {
+            "edge_visits": 3661056,
+            "elapsed_ms": 114,
+            "increments": 26,
+            "node_visits": 182280,
+            "operator_applications": 907,
+            "samples": 5
+          },
+          "h_mass": 0.9999999999998888,
+          "y_mass": 0.9999999999999301
+        }
+      ],
+      "work": {
+        "edge_visits": 3661056,
+        "elapsed_ms": 114,
+        "increments": 26,
+        "node_visits": 182280,
+        "operator_applications": 907,
+        "samples": 5
+      },
+      "wall_ns": 122612514,
+      "peak_rss_kib": 4072,
+      "stdout_utf8_bytes": 16980
+    },
+    {
+      "case_id": "clique-256",
+      "family": "clique",
+      "repetition": 0,
+      "nodes": 256,
+      "undirected_edges": 32640,
+      "max_degree": 255.0,
+      "average_degree": 255.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0016113481935750521,
+          "z_q": 0.6068841797718163,
+          "work": {
+            "edge_visits": 1632000,
+            "elapsed_ms": 46,
+            "increments": 2,
+            "node_visits": 23306,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 0.9999999999999951
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.11115037327371129,
+          "z_q": 0.13765970836897323,
+          "work": {
+            "edge_visits": 3786240,
+            "elapsed_ms": 116,
+            "increments": 4,
+            "node_visits": 51466,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999978,
+          "y_mass": 0.9999999999999833
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 4.559964808386485,
+          "z_q": 0.004230081756098311,
+          "work": {
+            "edge_visits": 7572480,
+            "elapsed_ms": 202,
+            "increments": 6,
+            "node_visits": 98826,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.999999999999994,
+          "y_mass": 0.9999999999999729
+        }
+      ],
+      "work": {
+        "edge_visits": 9726720,
+        "elapsed_ms": 250,
+        "increments": 7,
+        "node_visits": 124682,
+        "operator_applications": 148,
+        "samples": 3
+      },
+      "wall_ns": 339031853,
+      "peak_rss_kib": 9220,
+      "stdout_utf8_bytes": 35562
+    },
+    {
+      "case_id": "clique-256",
+      "family": "clique",
+      "repetition": 1,
+      "nodes": 256,
+      "undirected_edges": 32640,
+      "max_degree": 255.0,
+      "average_degree": 255.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0016113481935750521,
+          "z_q": 0.6068841797718163,
+          "work": {
+            "edge_visits": 1632000,
+            "elapsed_ms": 38,
+            "increments": 2,
+            "node_visits": 23306,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 1.0,
+          "y_mass": 0.9999999999999951
+        },
+        {
+          "theta": 2.0,
+          "quality": "estimated",
+          "c_q": 0.11115037327371129,
+          "z_q": 0.13765970836897323,
+          "work": {
+            "edge_visits": 3786240,
+            "elapsed_ms": 97,
+            "increments": 4,
+            "node_visits": 51466,
+            "operator_applications": 57,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999978,
+          "y_mass": 0.9999999999999833
+        },
+        {
+          "theta": 8.0,
+          "quality": "estimated",
+          "c_q": 4.559964808386485,
+          "z_q": 0.004230081756098311,
+          "work": {
+            "edge_visits": 7572480,
+            "elapsed_ms": 216,
+            "increments": 6,
+            "node_visits": 98826,
+            "operator_applications": 115,
+            "samples": 3
+          },
+          "h_mass": 0.999999999999994,
+          "y_mass": 0.9999999999999729
+        }
+      ],
+      "work": {
+        "edge_visits": 9073920,
+        "elapsed_ms": 250,
+        "increments": 7,
+        "node_visits": 117002,
+        "operator_applications": 138,
+        "samples": 3
+      },
+      "wall_ns": 330392510,
+      "peak_rss_kib": 9468,
+      "stdout_utf8_bytes": 35561
+    },
+    {
+      "case_id": "clique-512",
+      "family": "clique",
+      "repetition": 0,
+      "nodes": 512,
+      "undirected_edges": 130816,
+      "max_degree": 511.0,
+      "average_degree": 511.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0008053575336535222,
+          "z_q": 0.6067071291083544,
+          "work": {
+            "edge_visits": 6540800,
+            "elapsed_ms": 143,
+            "increments": 2,
+            "node_visits": 46603,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 1.0000000000000004,
+          "y_mass": 0.9999999999999946
+        }
+      ],
+      "work": {
+        "edge_visits": 11511808,
+        "elapsed_ms": 252,
+        "increments": 4,
+        "node_visits": 78859,
+        "operator_applications": 43,
+        "samples": 1
+      },
+      "wall_ns": 599421531,
+      "peak_rss_kib": 26832,
+      "stdout_utf8_bytes": 23923
+    },
+    {
+      "case_id": "clique-512",
+      "family": "clique",
+      "repetition": 1,
+      "nodes": 512,
+      "undirected_edges": 130816,
+      "max_degree": 511.0,
+      "average_degree": 511.0,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        0.5,
+        2.0,
+        8.0,
+        32.0,
+        128.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 0.5,
+          "quality": "estimated",
+          "c_q": 0.0008053575336535222,
+          "z_q": 0.6067071291083544,
+          "work": {
+            "edge_visits": 6540800,
+            "elapsed_ms": 147,
+            "increments": 2,
+            "node_visits": 46603,
+            "operator_applications": 24,
+            "samples": 1
+          },
+          "h_mass": 1.0000000000000004,
+          "y_mass": 0.9999999999999946
+        }
+      ],
+      "work": {
+        "edge_visits": 10726912,
+        "elapsed_ms": 251,
+        "increments": 4,
+        "node_visits": 74251,
+        "operator_applications": 40,
+        "samples": 1
+      },
+      "wall_ns": 587857149,
+      "peak_rss_kib": 27140,
+      "stdout_utf8_bytes": 23923
+    },
+    {
+      "case_id": "weak-bridge-12",
+      "family": "weak-bridge",
+      "repetition": 0,
+      "nodes": 12,
+      "undirected_edges": 31,
+      "max_degree": 5.02,
+      "average_degree": 5.003333333333333,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        1.0,
+        16.0,
+        256.0,
+        4096.0,
+        65536.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 1.0,
+          "quality": "estimated",
+          "c_q": 0.34199833704489285,
+          "z_q": 0.41884970107382974,
+          "work": {
+            "edge_visits": 1922,
+            "elapsed_ms": 0,
+            "increments": 2,
+            "node_visits": 1313,
+            "operator_applications": 30,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999987,
+          "y_mass": 0.9999999999999998
+        },
+        {
+          "theta": 16.0,
+          "quality": "estimated",
+          "c_q": 0.00012072976462997058,
+          "z_q": 0.1651043529739208,
+          "work": {
+            "edge_visits": 8742,
+            "elapsed_ms": 0,
+            "increments": 5,
+            "node_visits": 5453,
+            "operator_applications": 140,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999847,
+          "y_mass": 0.9999999999999976
+        },
+        {
+          "theta": 256.0,
+          "quality": "estimated",
+          "c_q": 0.027785635399997087,
+          "z_q": 0.1428919270919444,
+          "work": {
+            "edge_visits": 102548,
+            "elapsed_ms": 7,
+            "increments": 41,
+            "node_visits": 61685,
+            "operator_applications": 1653,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999997553,
+          "y_mass": 0.9999999999998828
+        },
+        {
+          "theta": 4096.0,
+          "quality": "estimated",
+          "c_q": 0.1300388142750637,
+          "z_q": 0.08370698346022289,
+          "work": {
+            "edge_visits": 1602514,
+            "elapsed_ms": 79,
+            "increments": 617,
+            "node_visits": 960317,
+            "operator_applications": 25846,
+            "samples": 4
+          },
+          "h_mass": 0.999999999996052,
+          "y_mass": 0.999999999998036
+        }
+      ],
+      "work": {
+        "edge_visits": 4793158,
+        "elapsed_ms": 250,
+        "increments": 1843,
+        "node_visits": 2871773,
+        "operator_applications": 77308,
+        "samples": 4
+      },
+      "wall_ns": 253111071,
+      "peak_rss_kib": 3656,
+      "stdout_utf8_bytes": 4981
+    },
+    {
+      "case_id": "weak-bridge-12",
+      "family": "weak-bridge",
+      "repetition": 1,
+      "nodes": 12,
+      "undirected_edges": 31,
+      "max_degree": 5.02,
+      "average_degree": 5.003333333333333,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        1.0,
+        16.0,
+        256.0,
+        4096.0,
+        65536.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 1.0,
+          "quality": "estimated",
+          "c_q": 0.34199833704489285,
+          "z_q": 0.41884970107382974,
+          "work": {
+            "edge_visits": 1922,
+            "elapsed_ms": 0,
+            "increments": 2,
+            "node_visits": 1313,
+            "operator_applications": 30,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999987,
+          "y_mass": 0.9999999999999998
+        },
+        {
+          "theta": 16.0,
+          "quality": "estimated",
+          "c_q": 0.00012072976462997058,
+          "z_q": 0.1651043529739208,
+          "work": {
+            "edge_visits": 8742,
+            "elapsed_ms": 0,
+            "increments": 5,
+            "node_visits": 5453,
+            "operator_applications": 140,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999847,
+          "y_mass": 0.9999999999999976
+        },
+        {
+          "theta": 256.0,
+          "quality": "estimated",
+          "c_q": 0.027785635399997087,
+          "z_q": 0.1428919270919444,
+          "work": {
+            "edge_visits": 102548,
+            "elapsed_ms": 5,
+            "increments": 41,
+            "node_visits": 61685,
+            "operator_applications": 1653,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999997553,
+          "y_mass": 0.9999999999998828
+        },
+        {
+          "theta": 4096.0,
+          "quality": "estimated",
+          "c_q": 0.1300388142750637,
+          "z_q": 0.08370698346022289,
+          "work": {
+            "edge_visits": 1602514,
+            "elapsed_ms": 70,
+            "increments": 617,
+            "node_visits": 960317,
+            "operator_applications": 25846,
+            "samples": 4
+          },
+          "h_mass": 0.999999999996052,
+          "y_mass": 0.999999999998036
+        }
+      ],
+      "work": {
+        "edge_visits": 5131368,
+        "elapsed_ms": 250,
+        "increments": 1973,
+        "node_visits": 3074393,
+        "operator_applications": 82763,
+        "samples": 4
+      },
+      "wall_ns": 253110961,
+      "peak_rss_kib": 3568,
+      "stdout_utf8_bytes": 4981
+    },
+    {
+      "case_id": "weak-bridge-64",
+      "family": "weak-bridge",
+      "repetition": 0,
+      "nodes": 64,
+      "undirected_edges": 993,
+      "max_degree": 31.02,
+      "average_degree": 31.000625,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        1.0,
+        16.0,
+        256.0,
+        4096.0,
+        65536.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 1.0,
+          "quality": "estimated",
+          "c_q": 0.08098575410060636,
+          "z_q": 0.3765500887779791,
+          "work": {
+            "edge_visits": 61566,
+            "elapsed_ms": 2,
+            "increments": 2,
+            "node_visits": 6984,
+            "operator_applications": 30,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999993,
+          "y_mass": 0.9999999999999996
+        },
+        {
+          "theta": 16.0,
+          "quality": "estimated",
+          "c_q": 0.0005735313386136736,
+          "z_q": 0.031241224815272514,
+          "work": {
+            "edge_visits": 280026,
+            "elapsed_ms": 11,
+            "increments": 5,
+            "node_visits": 29064,
+            "operator_applications": 140,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999853,
+          "y_mass": 0.9999999999999968
+        },
+        {
+          "theta": 256.0,
+          "quality": "estimated",
+          "c_q": 2.653956586128803e-05,
+          "z_q": 0.03109104123829968,
+          "work": {
+            "edge_visits": 3284844,
+            "elapsed_ms": 98,
+            "increments": 41,
+            "node_visits": 328968,
+            "operator_applications": 1653,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999997664,
+          "y_mass": 0.9999999999998834
+        }
+      ],
+      "work": {
+        "edge_visits": 8353116,
+        "elapsed_ms": 250,
+        "increments": 102,
+        "node_visits": 834440,
+        "operator_applications": 4205,
+        "samples": 3
+      },
+      "wall_ns": 256474892,
+      "peak_rss_kib": 4000,
+      "stdout_utf8_bytes": 10440
+    },
+    {
+      "case_id": "weak-bridge-64",
+      "family": "weak-bridge",
+      "repetition": 1,
+      "nodes": 64,
+      "undirected_edges": 993,
+      "max_degree": 31.02,
+      "average_degree": 31.000625,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        1.0,
+        16.0,
+        256.0,
+        4096.0,
+        65536.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 1.0,
+          "quality": "estimated",
+          "c_q": 0.08098575410060636,
+          "z_q": 0.3765500887779791,
+          "work": {
+            "edge_visits": 61566,
+            "elapsed_ms": 1,
+            "increments": 2,
+            "node_visits": 6984,
+            "operator_applications": 30,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999993,
+          "y_mass": 0.9999999999999996
+        },
+        {
+          "theta": 16.0,
+          "quality": "estimated",
+          "c_q": 0.0005735313386136736,
+          "z_q": 0.031241224815272514,
+          "work": {
+            "edge_visits": 280026,
+            "elapsed_ms": 7,
+            "increments": 5,
+            "node_visits": 29064,
+            "operator_applications": 140,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999853,
+          "y_mass": 0.9999999999999968
+        },
+        {
+          "theta": 256.0,
+          "quality": "estimated",
+          "c_q": 2.653956586128803e-05,
+          "z_q": 0.03109104123829968,
+          "work": {
+            "edge_visits": 3284844,
+            "elapsed_ms": 100,
+            "increments": 41,
+            "node_visits": 328968,
+            "operator_applications": 1653,
+            "samples": 3
+          },
+          "h_mass": 0.9999999999997664,
+          "y_mass": 0.9999999999998834
+        }
+      ],
+      "work": {
+        "edge_visits": 9358032,
+        "elapsed_ms": 250,
+        "increments": 114,
+        "node_visits": 934664,
+        "operator_applications": 4711,
+        "samples": 3
+      },
+      "wall_ns": 254776997,
+      "peak_rss_kib": 3680,
+      "stdout_utf8_bytes": 10440
+    },
+    {
+      "case_id": "weak-bridge-256",
+      "family": "weak-bridge",
+      "repetition": 0,
+      "nodes": 256,
+      "undirected_edges": 16257,
+      "max_degree": 127.02,
+      "average_degree": 127.00015625,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        1.0,
+        16.0,
+        256.0,
+        4096.0,
+        65536.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 1.0,
+          "quality": "estimated",
+          "c_q": 0.020988469614719847,
+          "z_q": 0.3700125843445243,
+          "work": {
+            "edge_visits": 1007934,
+            "elapsed_ms": 23,
+            "increments": 2,
+            "node_visits": 27914,
+            "operator_applications": 30,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999982,
+          "y_mass": 0.9999999999999988
+        },
+        {
+          "theta": 16.0,
+          "quality": "estimated",
+          "c_q": 0.0032839126599510113,
+          "z_q": 0.007812464038851151,
+          "work": {
+            "edge_visits": 4584474,
+            "elapsed_ms": 103,
+            "increments": 5,
+            "node_visits": 116234,
+            "operator_applications": 140,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999792,
+          "y_mass": 0.9999999999999888
+        }
+      ],
+      "work": {
+        "edge_visits": 11217330,
+        "elapsed_ms": 250,
+        "increments": 10,
+        "node_visits": 277514,
+        "operator_applications": 344,
+        "samples": 2
+      },
+      "wall_ns": 296644078,
+      "peak_rss_kib": 6368,
+      "stdout_utf8_bytes": 23621
+    },
+    {
+      "case_id": "weak-bridge-256",
+      "family": "weak-bridge",
+      "repetition": 1,
+      "nodes": 256,
+      "undirected_edges": 16257,
+      "max_degree": 127.02,
+      "average_degree": 127.00015625,
+      "limits": {
+        "max_elapsed_ms": 250,
+        "max_node_visits": 20000000,
+        "max_edge_visits": 20000000,
+        "max_increments": 8192,
+        "max_operator_applications": 1000000,
+        "max_samples": 64
+      },
+      "requested_scales": [
+        1.0,
+        16.0,
+        256.0,
+        4096.0,
+        65536.0
+      ],
+      "status": "time_limit",
+      "samples": [
+        {
+          "theta": 1.0,
+          "quality": "estimated",
+          "c_q": 0.020988469614719847,
+          "z_q": 0.3700125843445243,
+          "work": {
+            "edge_visits": 1007934,
+            "elapsed_ms": 23,
+            "increments": 2,
+            "node_visits": 27914,
+            "operator_applications": 30,
+            "samples": 1
+          },
+          "h_mass": 0.9999999999999982,
+          "y_mass": 0.9999999999999988
+        },
+        {
+          "theta": 16.0,
+          "quality": "estimated",
+          "c_q": 0.0032839126599510113,
+          "z_q": 0.007812464038851151,
+          "work": {
+            "edge_visits": 4584474,
+            "elapsed_ms": 106,
+            "increments": 5,
+            "node_visits": 116234,
+            "operator_applications": 140,
+            "samples": 2
+          },
+          "h_mass": 0.9999999999999792,
+          "y_mass": 0.9999999999999888
+        }
+      ],
+      "work": {
+        "edge_visits": 11119788,
+        "elapsed_ms": 250,
+        "increments": 10,
+        "node_visits": 275210,
+        "operator_applications": 341,
+        "samples": 2
+      },
+      "wall_ns": 288133688,
+      "peak_rss_kib": 6580,
+      "stdout_utf8_bytes": 23621
+    }
+  ]
+}

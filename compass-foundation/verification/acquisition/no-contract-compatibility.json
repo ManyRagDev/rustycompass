@@ -1,0 +1,7 @@
+{
+  "binary_sha256": "2f825d127e083e693f3ccecfdb65159980982cd998064a98d870a9746566bfd0",
+  "previous_binary_sha256": "f263dad974f60186eebae512b446d498557a72f2d39d3d72f6ce7588171dc09a",
+  "cases": 3,
+  "checks": "exact JSON equality for literal/none, lexical/bfs, literal/heat on unchanged existing generation",
+  "passed": true
+}

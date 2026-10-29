@@ -1,0 +1,1600 @@
+{
+  "split": "dev",
+  "input_sha256": "9dec87962bece08f0c330ada1edd0482b096866746411c27e6798bd84d6e39ca",
+  "binary_sha256": "9f9d0fd50c65d41d597f5bb8d5d83d69d0bfc33cfe50f8ac80102aab8151bc0d",
+  "probe_sha256": "9e786fb629cd59b38805b3dd30364ed77abb5230ebc2a3ae781fb204dd5de2bd",
+  "aggregates": [
+    {
+      "budget_bytes": 16384,
+      "strategy": "none",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 9,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 48559,
+      "source_bytes_total": 10919,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": 178.742093,
+      "per_request_wall_ms_max": 436.060148
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "bfs",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 9,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 54148,
+      "source_bytes_total": 11349,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": 184.569729,
+      "per_request_wall_ms_max": 313.907937
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 0.015625,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 9,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 48805,
+      "source_bytes_total": 10919,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 73,
+      "per_request_wall_ms_median": 177.191,
+      "per_request_wall_ms_max": 236.69128
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 1.0,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 9,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 48704,
+      "source_bytes_total": 10919,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 181,
+      "per_request_wall_ms_median": 188.203738,
+      "per_request_wall_ms_max": 389.423168
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 16.0,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 9,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 50109,
+      "source_bytes_total": 10919,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 685,
+      "per_request_wall_ms_median": 209.329349,
+      "per_request_wall_ms_max": 326.60573
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 64.0,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 9,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 50662,
+      "source_bytes_total": 10919,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 2557,
+      "per_request_wall_ms_median": 205.253309,
+      "per_request_wall_ms_max": 382.723307
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "fixed_heat",
+      "fixed_theta": 256.0,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 9,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 52129,
+      "source_bytes_total": 10998,
+      "acquired_scales_total": 7,
+      "numeric_operator_applications_total": 9757,
+      "per_request_wall_ms_median": 240.480361,
+      "per_request_wall_ms_max": 436.415759
+    },
+    {
+      "budget_bytes": 16384,
+      "strategy": "spectral_window_v1",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 0,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 6,
+      "delivered_units": 9,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 5,
+      "accepted_windows": 1,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.14285714285714285,
+      "missing_support_among_accepted": 0.0,
+      "serialized_payload_bytes_total": 52215,
+      "source_bytes_total": 10998,
+      "acquired_scales_total": 102,
+      "numeric_operator_applications_total": 9807,
+      "per_request_wall_ms_median": 270.210815,
+      "per_request_wall_ms_max": 630.613809
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "none",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "bfs",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 0.015625,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 1.0,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 16.0,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 64.0,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "fixed_heat",
+      "fixed_theta": 256.0,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    },
+    {
+      "budget_bytes": 3000,
+      "strategy": "spectral_window_v1",
+      "fixed_theta": null,
+      "cases": 7,
+      "errors": 7,
+      "evidence_cases": 6,
+      "complete_evidence_cases": 0,
+      "delivered_units": 0,
+      "required_units": 9,
+      "answerable_cases": 5,
+      "answerable_with_full_support": 0,
+      "accepted_windows": 0,
+      "windows_without_answer_support": 0,
+      "acceptance_rate": 0.0,
+      "missing_support_among_accepted": null,
+      "serialized_payload_bytes_total": 0,
+      "source_bytes_total": 0,
+      "acquired_scales_total": 0,
+      "numeric_operator_applications_total": 0,
+      "per_request_wall_ms_median": null,
+      "per_request_wall_ms_max": null
+    }
+  ],
+  "retrospective": [
+    {
+      "case_id": "local",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "local",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "same-seed-local",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": true,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "same-seed-local",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "same-seed-dependencies",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 3,
+          "window_eligible": false,
+          "gaps": [
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "same-seed-dependencies",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "cross-module",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 2,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "cross-module",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "negative-missing",
+      "budget_bytes": 16384,
+      "answerable": false,
+      "final_support_complete": null,
+      "final_reason": "no_evidence",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.125,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.25,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 0.5,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 1.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 2.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 4.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 8.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 16.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 32.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 64.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 128.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        },
+        {
+          "theta": 256.0,
+          "support_complete": null,
+          "delivered_units": 0,
+          "window_eligible": false,
+          "gaps": []
+        }
+      ]
+    },
+    {
+      "case_id": "negative-missing",
+      "budget_bytes": 3000,
+      "answerable": false,
+      "final_support_complete": null,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "dynamic-external",
+      "budget_bytes": 16384,
+      "answerable": false,
+      "final_support_complete": true,
+      "final_reason": "no_window",
+      "selected_theta": 256.0,
+      "max_evaluated_theta": 256.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 64.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 128.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        },
+        {
+          "theta": 256.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": false,
+          "gaps": [
+            "external_or_ambiguous_lexical_import",
+            "unresolved_relation:callable_value_requires_flow_resolution",
+            "unresolved_relation:declaration_not_found_in_static_scope",
+            "unresolved_relation:external_or_unavailable_module",
+            "unsupported_structure"
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "dynamic-external",
+      "budget_bytes": 3000,
+      "answerable": false,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    },
+    {
+      "case_id": "budget-coherent-unit",
+      "budget_bytes": 16384,
+      "answerable": true,
+      "final_support_complete": true,
+      "final_reason": "spectral_window",
+      "selected_theta": 16.0,
+      "max_evaluated_theta": 32.0,
+      "any_trajectory_candidate_has_support": true,
+      "first_supported_trajectory_theta": 0.015625,
+      "any_eligible_candidate_has_support": true,
+      "fixed_scales_with_full_support": [
+        0.015625,
+        1.0,
+        16.0,
+        64.0,
+        256.0
+      ],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": [
+        {
+          "theta": 0.015625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.03125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.0625,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.125,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.25,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 0.5,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 1.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 2.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 4.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 8.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 16.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        },
+        {
+          "theta": 32.0,
+          "support_complete": true,
+          "delivered_units": 1,
+          "window_eligible": true,
+          "gaps": []
+        }
+      ]
+    },
+    {
+      "case_id": "budget-coherent-unit",
+      "budget_bytes": 3000,
+      "answerable": true,
+      "final_support_complete": false,
+      "final_reason": null,
+      "selected_theta": null,
+      "max_evaluated_theta": null,
+      "any_trajectory_candidate_has_support": false,
+      "first_supported_trajectory_theta": null,
+      "any_eligible_candidate_has_support": false,
+      "fixed_scales_with_full_support": [],
+      "fixed_scale_changes_delivered_intervals": false,
+      "candidates": []
+    }
+  ],
+  "costs": {
+    "acquisitions": 112,
+    "laboratory_adapter_calls": 112,
+    "public_cli_or_mcp_calls": 0,
+    "instrumentation_prepare_calls": 1,
+    "instrumentation_prepare_wall_ns": 184963341,
+    "probe_wall_ns_total": 26953183914,
+    "peak_rss_kib_whole_probe": 25492
+  },
+  "interpretation": "Full support of required intervals is distinct from answerability and window eligibility. Retrospective fixed-scale calls use evaluator labels only after each acquisition; they are extra instrumented acquisitions, not an adaptive selection rule. Errors remain in every applicable denominator; no production promotion threshold is claimed."
+}

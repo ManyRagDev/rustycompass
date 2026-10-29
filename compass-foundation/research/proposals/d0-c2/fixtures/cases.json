@@ -1,0 +1,1923 @@
+[
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "current_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "10",
+          "m": "20",
+          "n0": "10",
+          "nt": "10",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "0",
+      "M": "20",
+      "decimal": "0.000000",
+      "status": "complete"
+    },
+    "id": "E01",
+    "notes": "",
+    "title": "igualdade"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "current_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "x",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "9",
+          "m": "20",
+          "n0": "10",
+          "nt": "10",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "20",
+      "decimal": "0.100000",
+      "status": "complete"
+    },
+    "id": "E02",
+    "notes": "",
+    "title": "substituicao"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "current_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "x"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "1",
+          "l": "10",
+          "m": "21",
+          "n0": "10",
+          "nt": "11",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "1",
+      "M": "21",
+      "decimal": "0.047619",
+      "status": "complete"
+    },
+    "id": "E03",
+    "notes": "",
+    "title": "adicao"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "current_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "1",
+          "l": "9",
+          "m": "19",
+          "n0": "10",
+          "nt": "9",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "C": "1",
+      "M": "19",
+      "decimal": "0.052632",
+      "status": "complete"
+    },
+    "id": "E04",
+    "notes": "",
+    "title": "remocao"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [],
+        "current_lines": [
+          "a",
+          "b"
+        ],
+        "expected": {
+          "a": "2",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "0",
+          "nt": "2",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "2",
+      "decimal": "1.000000",
+      "status": "complete"
+    },
+    "id": "E05",
+    "notes": "",
+    "title": "criar"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [],
+        "expected": {
+          "a": "0",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "2",
+          "nt": "0",
+          "r": "2"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "2",
+      "decimal": "1.000000",
+      "status": "complete"
+    },
+    "id": "E06",
+    "notes": "",
+    "title": "remover"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [
+          "b"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "1"
+        }
+      },
+      {
+        "baseline_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "current_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "9",
+          "m": "18",
+          "n0": "9",
+          "nt": "9",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "20",
+      "decimal": "0.100000",
+      "status": "complete"
+    },
+    "id": "E07",
+    "notes": "",
+    "title": "agregado"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "c"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "1",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "1"
+        }
+      },
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "b"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "2",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "AA": [
+        "0",
+        "4"
+      ],
+      "AB": [
+        "2",
+        "4"
+      ]
+    },
+    "id": "E08",
+    "notes": "As duas contas sao comparacoes distintas; nao somar.",
+    "title": "A B A"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [],
+        "expected": {
+          "a": "0",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "2",
+          "nt": "0",
+          "r": "2"
+        }
+      },
+      {
+        "baseline_lines": [],
+        "current_lines": [
+          "a",
+          "b"
+        ],
+        "expected": {
+          "a": "2",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "0",
+          "nt": "2",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "4",
+      "M": "4",
+      "decimal": "1.000000",
+      "status": "complete"
+    },
+    "id": "E09",
+    "notes": "",
+    "title": "rename"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [],
+        "current_lines": [],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "0",
+          "m": "0",
+          "n0": "0",
+          "nt": "0",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "0",
+      "M": "0",
+      "decimal": "0.000000",
+      "status": "complete",
+      "zero_basis": "zero_text_mass"
+    },
+    "id": "E10",
+    "notes": "",
+    "title": "vazio"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [],
+        "current_lines": [],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "0",
+          "m": "0",
+          "n0": "0",
+          "nt": "0",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "0",
+      "M": "0",
+      "decimal": "0.000000",
+      "status": "complete",
+      "zero_basis": "zero_text_mass"
+    },
+    "id": "E11",
+    "notes": "",
+    "title": "criar remover vazio"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "C": "0",
+      "M": "0",
+      "decimal": "0.000000",
+      "status": "complete",
+      "zero_basis": "empty_universe"
+    },
+    "id": "E12",
+    "notes": "",
+    "title": "acervo vazio"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [],
+        "current_lines": [],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "0",
+          "m": "0",
+          "n0": "0",
+          "nt": "0",
+          "r": "0"
+        }
+      },
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [
+          "b"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "2",
+      "decimal": "1.000000",
+      "status": "complete"
+    },
+    "id": "E13",
+    "notes": "",
+    "title": "vazio no agregado"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "b",
+          "a"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "1",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "1"
+        }
+      },
+      {
+        "baseline_lines": [
+          "a",
+          "a"
+        ],
+        "current_lines": [
+          "a"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "1",
+          "l": "1",
+          "m": "3",
+          "n0": "2",
+          "nt": "1",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "individual_ratios": [
+        [
+          "2",
+          "4"
+        ],
+        [
+          "1",
+          "3"
+        ]
+      ]
+    },
+    "id": "E14",
+    "notes": "",
+    "title": "ordem repeticao"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "b"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "2",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "0",
+      "M": "4",
+      "decimal": "0.000000",
+      "status": "complete"
+    },
+    "id": "E15",
+    "notes": "",
+    "title": "CRLF LF"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "b"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "2",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "0"
+        }
+      },
+      {
+        "baseline_lines": [],
+        "current_lines": [],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "0",
+          "m": "0",
+          "n0": "0",
+          "nt": "0",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "individual_ratios": [
+        [
+          "0",
+          "4"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    },
+    "id": "E16",
+    "notes": "",
+    "title": "BOM"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [
+          "a"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "1",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "0"
+        }
+      },
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [
+          "a",
+          ""
+        ],
+        "expected": {
+          "a": "1",
+          "c": "1",
+          "l": "1",
+          "m": "3",
+          "n0": "1",
+          "nt": "2",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "individual_ratios": [
+        [
+          "0",
+          "2"
+        ],
+        [
+          "1",
+          "3"
+        ]
+      ]
+    },
+    "id": "E17",
+    "notes": "",
+    "title": "LF terminal"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [],
+        "current_lines": [
+          ""
+        ],
+        "expected": {
+          "a": "1",
+          "c": "1",
+          "l": "0",
+          "m": "1",
+          "n0": "0",
+          "nt": "1",
+          "r": "0"
+        }
+      },
+      {
+        "baseline_lines": [
+          ""
+        ],
+        "current_lines": [
+          "",
+          ""
+        ],
+        "expected": {
+          "a": "1",
+          "c": "1",
+          "l": "1",
+          "m": "3",
+          "n0": "1",
+          "nt": "2",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "individual_ratios": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "3"
+        ]
+      ]
+    },
+    "id": "E18",
+    "notes": "",
+    "title": "linhas vazias"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a "
+        ],
+        "current_lines": [
+          "a"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "1"
+        }
+      },
+      {
+        "baseline_lines": [
+          "\u00e9"
+        ],
+        "current_lines": [
+          "e\u0301"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "1"
+        }
+      },
+      {
+        "baseline_lines": [
+          "a\rb"
+        ],
+        "current_lines": [
+          "a",
+          "b"
+        ],
+        "expected": {
+          "a": "2",
+          "c": "3",
+          "l": "0",
+          "m": "3",
+          "n0": "1",
+          "nt": "2",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "individual_ratios": [
+        [
+          "2",
+          "2"
+        ],
+        [
+          "2",
+          "2"
+        ],
+        [
+          "3",
+          "3"
+        ]
+      ]
+    },
+    "id": "E19",
+    "notes": "",
+    "title": "sem trim NFC CR"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "local": [
+        "non_text"
+      ],
+      "reasons": [
+        "no_text_units"
+      ],
+      "status": "unavailable",
+      "subtype": "invalid_utf8"
+    },
+    "id": "E20",
+    "input": {
+      "baseline_hex": "00ff",
+      "current_hex": "00fe"
+    },
+    "notes": "",
+    "title": "binario"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "current_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "x",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "9",
+          "m": "20",
+          "n0": "10",
+          "nt": "10",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "20",
+      "decimal": "0.100000",
+      "non_text_units": "1",
+      "status": "complete"
+    },
+    "id": "E21",
+    "input": {
+      "non_text_baseline_hex": "00ff",
+      "non_text_current_hex": "00fe"
+    },
+    "notes": "",
+    "title": "mistura"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "local": [
+        "non_text"
+      ],
+      "reasons": [
+        "no_text_units"
+      ],
+      "status": "unavailable",
+      "subtype": "nul"
+    },
+    "id": "E22",
+    "input": {
+      "baseline_hex": "610a",
+      "current_hex": "0061"
+    },
+    "notes": "",
+    "title": "texto binario"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "local": [
+        "non_text"
+      ],
+      "reasons": [
+        "no_text_units"
+      ],
+      "status": "unavailable",
+      "subtype": "invalid_utf8"
+    },
+    "id": "E23",
+    "input": {
+      "baseline_hex": "fffe6100",
+      "current_hex": "fffe6100"
+    },
+    "notes": "",
+    "title": "UTF16"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [
+          "a"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "1",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "0"
+        }
+      },
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [
+          "a"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "1",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "0",
+      "M": "4",
+      "decimal": "0.000000",
+      "status": "complete"
+    },
+    "id": "E24",
+    "input": {
+      "executability_only": [
+        false,
+        true
+      ],
+      "hardlink_content_hex": "610a",
+      "path_hex": [
+        "41",
+        "61",
+        "ff"
+      ]
+    },
+    "notes": "Dois hardlinks; somente metadata em uma unidade e 0/2.",
+    "title": "metadata nomes hardlinks"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [],
+        "expected": {
+          "a": "0",
+          "c": "1",
+          "l": "0",
+          "m": "1",
+          "n0": "1",
+          "nt": "0",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "directory_replacement_ratio": [
+        "1",
+        "1"
+      ],
+      "scope_only": {
+        "local": [
+          "scope_transition"
+        ],
+        "reasons": [
+          "no_text_units"
+        ],
+        "status": "unavailable"
+      }
+    },
+    "id": "E25",
+    "input": {
+      "baseline_hex": "610a",
+      "baseline_type": "regular_file",
+      "current_type": "excluded_symlink",
+      "directory_variant": "complete_directory",
+      "reverse_supported": true
+    },
+    "notes": "",
+    "title": "escopo e diretorio"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [
+          "a",
+          "b"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "1",
+          "l": "1",
+          "m": "3",
+          "n0": "1",
+          "nt": "2",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "1",
+      "M": "3",
+      "decimal": "0.333333",
+      "reasons": [
+        "foundation_partial",
+        "unresolved_units"
+      ],
+      "status": "partial",
+      "unknown": "p"
+    },
+    "id": "E26",
+    "input": {
+      "current_ancestor_coverage": "unstable",
+      "p_baseline_hex": "610a",
+      "p_current_hex": "610a",
+      "q_baseline_hex": "610a",
+      "q_current_hex": "610a620a"
+    },
+    "notes": "",
+    "title": "ancestral parcial"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "current_lines": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "10",
+          "m": "20",
+          "n0": "10",
+          "nt": "10",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "0",
+      "M": "20",
+      "decimal": "0.000000",
+      "reasons": [
+        "foundation_partial"
+      ],
+      "status": "partial",
+      "unknown_region": "private"
+    },
+    "id": "E27",
+    "input": {
+      "current_unknown_region_path_hex": "70726976617465",
+      "current_unknown_region_state": "unreadable",
+      "files_inside_region": "not_inventoried"
+    },
+    "notes": "",
+    "title": "regiao sem inventario"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "local": [
+        "source_missing"
+      ],
+      "reasons": [
+        "no_text_units",
+        "unresolved_units"
+      ],
+      "status": "unavailable",
+      "with_E03": {
+        "status": "partial",
+        "subset": [
+          "1",
+          "21"
+        ]
+      }
+    },
+    "id": "E28",
+    "input": {
+      "baseline_object_variant": "missing_in_bound_package",
+      "baseline_package": null,
+      "current_package": "valid_verified"
+    },
+    "notes": "Current pode ser verified; nunca calcular p.",
+    "title": "fonte antiga ausente"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "hash_check": false,
+      "local": [
+        "hash_mismatch"
+      ],
+      "reasons": [
+        "no_text_units",
+        "unresolved_units"
+      ],
+      "size_check": true,
+      "status": "unavailable"
+    },
+    "id": "E29",
+    "input": {
+      "actual_hex": "616264",
+      "expected_hex": "616263"
+    },
+    "notes": "",
+    "title": "adulteracao abc abd"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "actual_revision": null,
+      "hash_check": null,
+      "local": [
+        "size_mismatch"
+      ],
+      "size_check": false,
+      "status": "unavailable"
+    },
+    "id": "E30",
+    "input": {
+      "actual_hex": "61626364",
+      "expected_hex": "616263",
+      "raw_read_cap": "4"
+    },
+    "notes": "Mudanca C2: cap s+1=4 encerra sem prova de EOF; nao publica hash parcial. EOF completo em arquivo menor admite ambos checks.",
+    "title": "tamanho abc abcd"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "local": [
+        "source_missing"
+      ],
+      "reasons": [
+        "no_text_units",
+        "unresolved_units"
+      ],
+      "status": "unavailable"
+    },
+    "id": "E31",
+    "input": {
+      "baseline_expected_hex": "616263",
+      "baseline_package": null,
+      "current_expected_hex": "616263",
+      "current_package": null,
+      "empty_missing_variant": true
+    },
+    "notes": "",
+    "title": "igualdade sem bytes"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "cells": "16000000",
+      "file_size": "4194305",
+      "local_diff": [
+        "diff_work_limit"
+      ],
+      "local_file": [
+        "file_bytes_limit"
+      ],
+      "n0": "4000",
+      "nt": "4000"
+    },
+    "id": "E32",
+    "notes": "",
+    "title": "limites arquivo diff"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "c"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "1",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "4",
+      "cells_reserved": "4",
+      "decimal": "0.500000",
+      "q": [
+        "diff_work_limit"
+      ],
+      "status": "partial"
+    },
+    "id": "E33",
+    "input": {
+      "max_cells_total": "4",
+      "order_path_hex": [
+        "70",
+        "71"
+      ],
+      "p_baseline_lines": [
+        "a",
+        "b"
+      ],
+      "p_current_lines": [
+        "a",
+        "c"
+      ],
+      "q_baseline_lines": [
+        "a"
+      ],
+      "q_current_lines": [
+        "b"
+      ]
+    },
+    "notes": "",
+    "title": "saldo celulas"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "codes": {
+        "manifest_invalid": "1",
+        "workspace_policy_binding": "2"
+      },
+      "no_report": true
+    },
+    "id": "E34",
+    "input": {
+      "mutations": [
+        "workspace_id",
+        "policy_id",
+        "descriptor_snapshot_id",
+        "state_digest"
+      ],
+      "valid_version": "1"
+    },
+    "notes": "",
+    "title": "incompatibilidade corrupcao"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "cancelled": "130",
+      "deadline_exceeded": "1",
+      "no_report": true
+    },
+    "id": "E35",
+    "input": {
+      "cancel_checkpoint": "after_p_before_q",
+      "deadline_checkpoint": "expired_before_publish",
+      "max_duration_ms_example": "1"
+    },
+    "notes": "",
+    "title": "SIGINT prazo"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "C": "0",
+      "M": "8000",
+      "cells_reserved": "0",
+      "decimal": "0.000000",
+      "l": "4000",
+      "n0": "4000",
+      "nt": "4000",
+      "status": "complete"
+    },
+    "id": "E36",
+    "input": {
+      "all_sources_verified": true,
+      "line_limit_admitted": true,
+      "logical_memory_admitted": true,
+      "normalized_sequences_exactly_equal": true
+    },
+    "notes": "D0-C2-A1: depois das admissões anteriores, LCS(X,X)=|X|. A igualdade é comparada nas sequências normalizadas, não inferida de hash, tamanho ou contagem.",
+    "title": "iguais sobre teto"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "c"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "1",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "1"
+        }
+      },
+      {
+        "baseline_lines": [],
+        "current_lines": [
+          "a"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "1",
+          "l": "0",
+          "m": "1",
+          "n0": "0",
+          "nt": "1",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "3",
+      "M": "5",
+      "admitted": [
+        "p",
+        "r"
+      ],
+      "cells_reserved": "4",
+      "decimal": "0.600000",
+      "ordered_products": [
+        "4",
+        "1",
+        "0"
+      ],
+      "q": [
+        "diff_work_limit"
+      ],
+      "status": "partial",
+      "total": "4"
+    },
+    "id": "E37",
+    "notes": "r lado vazio custa 0; agregado conhecido inclui p E33 e r, C/M=3/5.",
+    "title": "saldo insuficiente continua"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [],
+        "current_lines": [],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "0",
+          "m": "0",
+          "n0": "0",
+          "nt": "0",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "0",
+      "M": "0",
+      "decimal": "0.000000",
+      "reasons": [
+        "foundation_partial"
+      ],
+      "status": "partial",
+      "zero_basis": "zero_text_mass"
+    },
+    "id": "E38",
+    "notes": "",
+    "title": "zero parcial"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "candidates": "0",
+      "reasons": [
+        "foundation_partial",
+        "no_text_units"
+      ],
+      "status": "unavailable"
+    },
+    "id": "E39",
+    "notes": "",
+    "title": "nenhum texto regiao desconhecida"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "local": [
+        "observation_unknown"
+      ],
+      "no_object_reads": true
+    },
+    "id": "E40",
+    "notes": "",
+    "title": "unknown vence exclusao"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "local": [
+        "source_missing"
+      ],
+      "non_text_units": "0",
+      "status": "unavailable"
+    },
+    "id": "E41",
+    "notes": "",
+    "title": "binario mais fonte ausente"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "descriptor_whitespace": "accepted_source_ref_changes",
+      "duplicate_key": {
+        "descriptor": "source_invalid",
+        "manifest": "input_invalid"
+      },
+      "manifest_whitespace": "requires_new_binding"
+    },
+    "id": "E42",
+    "input": {
+      "descriptor_serializations": [
+        "canonical",
+        "whitespace_and_reordered_properties"
+      ],
+      "duplicate_literal_json": "{\"snapshot_id\":\"x\",\"snapshot_id\":\"y\"}"
+    },
+    "notes": "",
+    "title": "serializacoes descriptor manifesto"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "invalid_kind": "source_invalid_kind",
+      "no_escape": true,
+      "object_missing": "local",
+      "substitution": "source_unstable"
+    },
+    "id": "E43",
+    "input": {
+      "links_in_components": [
+        "package-root",
+        "objects",
+        "object-name"
+      ],
+      "object_kinds": [
+        "symlink",
+        "fifo",
+        "directory",
+        "regular_replaced_after_open"
+      ]
+    },
+    "notes": "",
+    "title": "links FIFO substituicao"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "empty_object_reservation": "1",
+      "same_hash_different_roots": "two_reads_reservations",
+      "same_root_binding_object": "one_read_reservation"
+    },
+    "id": "E44",
+    "input": {
+      "distinct_roots_with_same_descriptor": true,
+      "shared_sides": "same_snapshot_same_root_same_object"
+    },
+    "notes": "",
+    "title": "fonte compartilhada"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "baseline_first_reserved": "3",
+      "budget": "3",
+      "current_empty": "total_bytes_limit",
+      "next_q": {
+        "both_sides_empty_distinct_roots": true,
+        "forward": "unavailable",
+        "forward_q_local": [
+          "total_bytes_limit"
+        ],
+        "reverse": "partial",
+        "reverse_subset": [
+          "0",
+          "1"
+        ]
+      },
+      "reversed_empty_reserved": "1",
+      "reversed_nonempty": "total_bytes_limit",
+      "sizes": [
+        "2",
+        "0"
+      ]
+    },
+    "id": "E45",
+    "input": {
+      "distinct_roots": true,
+      "p_declared_sizes": [
+        "2",
+        "0"
+      ],
+      "q_declared_sizes": [
+        "0",
+        "0"
+      ],
+      "total_byte_budget": "3"
+    },
+    "notes": "Checks e bytes/refs diferem ao inverter; nao prometer simetria de disponibilidade geral. Proximo q vazio verificado nos dois pacotes: requer 2 reservas; forward sem saldo fica unavailable, reversed admite q e fica partial com subset zero.",
+    "title": "byte budget assimetria"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "S_over_limit": "input_limit",
+      "W_before_cells": "memory_budget",
+      "Wb_over_balance": "memory_budget_before_reads",
+      "line_limit_before_W": "line_count_limit"
+    },
+    "id": "E46",
+    "notes": "",
+    "title": "memoria precedencias"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "missing_s": "2",
+      "next_empty_budget_total": "3",
+      "next_local": [
+        "total_bytes_limit"
+      ],
+      "physical_read": "0",
+      "reserve": "3"
+    },
+    "id": "E47",
+    "notes": "",
+    "title": "saldo bytes sem devolucao"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "\ufeffa"
+        ],
+        "current_lines": [
+          "a"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "0",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "2",
+      "decimal": "1.000000",
+      "status": "complete"
+    },
+    "id": "E48",
+    "notes": "",
+    "title": "segundo BOM"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "ratios": [
+        [
+          "1",
+          "2000000",
+          "0.000000"
+        ],
+        [
+          "3",
+          "2000000",
+          "0.000002"
+        ],
+        [
+          "1",
+          "10000000",
+          "0.000000"
+        ],
+        [
+          "1999999",
+          "2000000",
+          "1.000000"
+        ]
+      ]
+    },
+    "id": "E49",
+    "notes": "",
+    "title": "arredondamento"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "invalid_path": "Li4",
+      "positive_display_zero_is_not_zero": true,
+      "schema_accepts_semantics_rejects": true,
+      "u64_overflow": "18446744073709551616"
+    },
+    "id": "E50",
+    "notes": "",
+    "title": "semantica supera schema"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "c"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "1",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "1"
+        }
+      },
+      {
+        "baseline_lines": [
+          "z"
+        ],
+        "current_lines": [
+          "z"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "1",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "6",
+      "cells_reserved": "4",
+      "decimal": "0.333333",
+      "equal_unit_cells_reserved": "0",
+      "status": "complete"
+    },
+    "id": "E51",
+    "input": {
+      "max_cells_total": "4",
+      "ordered_units": [
+        "different_2x2",
+        "equal_1x1_after_balance_zero"
+      ]
+    },
+    "notes": "A primeira unidade diferente consome as quatro células; a segunda é igual após normalização e continua available com saldo zero.",
+    "title": "igualdade com saldo de celulas zero"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a"
+        ],
+        "current_lines": [
+          "a"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "1",
+          "m": "2",
+          "n0": "1",
+          "nt": "1",
+          "r": "0"
+        }
+      }
+    ],
+    "expected": {
+      "C": "0",
+      "M": "2",
+      "cells_reserved": "0",
+      "decimal": "0.000000",
+      "status": "complete"
+    },
+    "id": "E52",
+    "input": {
+      "baseline_hex": "610d0a",
+      "current_hex": "610a",
+      "normalization": "crlf_to_lf",
+      "sources_verified": true
+    },
+    "notes": "Os hashes e bytes diferem, mas as sequências após normalização são exatamente iguais; só esta igualdade final dispensa células.",
+    "title": "igualdade apos normalizacao com bytes diferentes"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "adulterated": {
+        "cells_reserved": "0",
+        "local": [
+          "hash_mismatch"
+        ],
+        "status": "unavailable"
+      },
+      "missing": {
+        "cells_reserved": "0",
+        "local": [
+          "source_missing"
+        ],
+        "status": "unavailable"
+      }
+    },
+    "id": "E53",
+    "input": {
+      "declared_line_count": "4000",
+      "normalization_would_match_if_bytes_were_accepted": true
+    },
+    "notes": "Disponibilidade da igualdade só é avaliada após ambos os bytes serem verificados; fonte ausente ou adulterada não chega à comparação de sequências.",
+    "title": "fonte invalida bloqueia antes da igualdade"
+  },
+  {
+    "calculations": [],
+    "expected": {
+      "cells": "16000000",
+      "local": [
+        "diff_work_limit"
+      ],
+      "n0": "4000",
+      "nt": "4000",
+      "normalized_sequences_exactly_equal": false,
+      "status": "unavailable"
+    },
+    "id": "E54",
+    "input": {
+      "all_sources_verified": true,
+      "same_line_count": true,
+      "same_sizes_allowed": true
+    },
+    "notes": "Mesma contagem de linhas, e mesmo tamanho se houver, não é igualdade de sequência. A reserva quadrática e os tetos continuam obrigatórios.",
+    "title": "mesma contagem diferente continua sujeita ao teto"
+  },
+  {
+    "calculations": [
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "b"
+        ],
+        "expected": {
+          "a": "0",
+          "c": "0",
+          "l": "2",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "0"
+        }
+      },
+      {
+        "baseline_lines": [
+          "a",
+          "b"
+        ],
+        "current_lines": [
+          "a",
+          "c"
+        ],
+        "expected": {
+          "a": "1",
+          "c": "2",
+          "l": "1",
+          "m": "4",
+          "n0": "2",
+          "nt": "2",
+          "r": "1"
+        }
+      }
+    ],
+    "expected": {
+      "C": "2",
+      "M": "8",
+      "cells_reserved": "4",
+      "decimal": "0.250000",
+      "first_equal_cells_reserved": "0",
+      "second_different_cells_reserved": "4",
+      "status": "complete"
+    },
+    "id": "E55",
+    "input": {
+      "max_cells_total": "4",
+      "ordered_units": [
+        "equal_2x2",
+        "different_2x2"
+      ]
+    },
+    "notes": "A primeira unidade igual não reduz o saldo; a segunda diferente recebe as quatro células e é calculada exatamente.",
+    "title": "igualdade nao consome celulas da unidade seguinte"
+  }
+]

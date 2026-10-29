@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "intent": "Inspecionar checkoutSignal e sua chamada direta de total_amount",
+  "obligations": [
+    {
+      "id": "checkout-definition",
+      "kind": "symbol_definition",
+      "symbol": {"name": "checkoutSignal"}
+    },
+    {
+      "id": "total-definition",
+      "kind": "symbol_definition",
+      "symbol": {"name": "total_amount"}
+    },
+    {
+      "id": "checkout-calls-total",
+      "kind": "resolved_relation",
+      "source": {"name": "checkoutSignal"},
+      "target": {"name": "total_amount"},
+      "relation": "calls"
+    }
+  ],
+  "interpretation_pending": []
+}

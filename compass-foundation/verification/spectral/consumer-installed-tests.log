@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0
+rootdir: /home/many/Documentos/Projetos linux/Multiagentes
+configfile: pytest.ini
+plugins: mock-3.15.1, langsmith-0.10.7, anyio-4.14.2, asyncio-1.4.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 63 items
+
+tests/harness/test_compass_review_coverage.py ....................       [ 31%]
+tests/harness/test_compass_terminal.py ................................. [ 84%]
+..........                                                               [100%]
+
+============================= 63 passed in 15.46s ==============================

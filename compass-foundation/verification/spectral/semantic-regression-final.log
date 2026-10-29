@@ -1,0 +1,10 @@
+   Compiling compass-core v0.1.0 (/home/many/Documentos/Projetos linux/Bússola SGC/compass-foundation/crates/compass-core)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 2.51s
+     Running unittests src/lib.rs (target/debug/deps/compass_core-2434f70d47cde79d)
+
+running 1 test
+test semantic::model_tests::independent_transformers_embeddings_and_full_span_coverage has been running for over 60 seconds
+test semantic::model_tests::independent_transformers_embeddings_and_full_span_coverage ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 67 filtered out; finished in 73.26s
+

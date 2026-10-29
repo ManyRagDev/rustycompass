@@ -1,0 +1,24 @@
+{
+  "d0_c2_a1": {
+    "cell_policy": "normalized_lines_exact_equal_zero_else_n0_times_nt_v1",
+    "equal_over_cell_cap": "passed",
+    "equal_preserves_cell_balance": "passed",
+    "invalid_sources_precede_equality": "passed",
+    "normalization_equal_bytes_differ": "passed",
+    "same_count_different_hits_limit": "passed"
+  },
+  "date": "2026-10-18",
+  "fenced_blocks_balanced": true,
+  "git_diff_check": "passed",
+  "implementation_started": false,
+  "local_links_checked": 24,
+  "markdown_files_checked": 4,
+  "no_trailing_whitespace": true,
+  "production_suite_run": false,
+  "protected_files_identical": 34,
+  "status": "passed",
+  "usage_end_percent": 29,
+  "usage_note": "Diferenca aproximada compartilhada; nao contagem de tokens da tarefa.",
+  "usage_shared_window_minutes": 10080,
+  "usage_start_percent": 28
+}

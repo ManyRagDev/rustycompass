@@ -1,0 +1,227 @@
+{
+  "baseline": {
+    "consistency": "observation_window",
+    "contract_version": "0.1.0",
+    "finished_at": "2026-10-14T12:00:01Z",
+    "producer_build": "fixture:no-production-build",
+    "producer_version": "candidate-fixture",
+    "quality": "complete",
+    "schema_version": "1",
+    "snapshot_file_sha256": "c045e22ba8c915acd5e82fece4019486ceede421fe5a36c68a2624ffb1c84b05",
+    "snapshot_id": "00000000-0000-4000-8000-000000000013",
+    "started_at": "2026-10-14T12:00:00Z",
+    "state_digest": "7939666038ee0cee78e1d9c2bbdd9f4c3dcbd4e91cb22f5c05513f5431fa216e"
+  },
+  "comparison": {
+    "baseline_snapshot_id": "00000000-0000-4000-8000-000000000013",
+    "changes": [
+      {
+        "after": {
+          "content_sha256": "87428fc522803d31065e7bce3cf03fe475096631e5e07bbd7a0fde60c4cf25c7",
+          "executable": false,
+          "kind": "file",
+          "path_key": "cA",
+          "size_bytes": "2",
+          "state": "observed"
+        },
+        "before": null,
+        "classification": "added",
+        "content_changed": true,
+        "executable_changed": false,
+        "path_key": "cA"
+      }
+    ],
+    "contract_version": "0.1.0",
+    "counts": {
+      "added": "1",
+      "entered_scope": "0",
+      "left_scope": "0",
+      "metadata_changed": "0",
+      "modified": "0",
+      "removed": "0",
+      "unchanged": "0",
+      "unknown": "0"
+    },
+    "current_snapshot_id": "00000000-0000-4000-8000-000000000010",
+    "path_namespace": "linux_bytes_v1",
+    "policy_id": "27fa6dd768b4334c12f38f410a4b3d9ed403577cf42dd4e14d3d1df3fd976c7e",
+    "quality": "complete",
+    "relation": "different",
+    "schema_version": "1",
+    "unknown_regions": [],
+    "workspace_id": "00000000-0000-4000-8000-000000000001"
+  },
+  "current": {
+    "consistency": "observation_window",
+    "contract_version": "0.1.0",
+    "finished_at": "2026-10-14T12:00:01Z",
+    "producer_build": "fixture:no-production-build",
+    "producer_version": "candidate-fixture",
+    "quality": "complete",
+    "schema_version": "1",
+    "snapshot_file_sha256": "21eb861a31e83ba72ca4a86e2e0a8bbc6f457ff6cb6fdf7479943d1c90bcb38e",
+    "snapshot_id": "00000000-0000-4000-8000-000000000010",
+    "started_at": "2026-10-14T12:00:00Z",
+    "state_digest": "71028d30c9919c4b66bc997492a1198b88dd13afe4be609873cd11a2acade9e8"
+  },
+  "d0_contract_version": "0.1.0",
+  "foundation_quality": "complete",
+  "foundation_relation": "different",
+  "measurement": {
+    "known_subset": {
+      "line_mass": "1",
+      "resolved_text_units": "1",
+      "scope": "resolved_text_units_only",
+      "value": {
+        "decimal": "1.000000",
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "zero_basis": null
+    },
+    "line_mass": "1",
+    "reasons": [],
+    "status": "complete",
+    "value": {
+      "decimal": "1.000000",
+      "denominator": "1",
+      "numerator": "1"
+    },
+    "zero_basis": null
+  },
+  "metric_policy": {
+    "cell_budget": "normalized_lines_exact_equal_zero_else_n0_times_nt_v1",
+    "diff": "exact_line_lcs_insert_delete",
+    "limits": {
+      "max_cells_per_unit": "10000000",
+      "max_cells_total": "50000000",
+      "max_duration_ms": null,
+      "max_file_bytes": "4194304",
+      "max_json_depth": "64",
+      "max_lines_per_side": "100000",
+      "max_logical_memory_bytes": "134217728",
+      "max_manifest_bytes": "16777216",
+      "max_output_bytes": "16777216",
+      "max_records": "100000",
+      "max_source_descriptor_bytes": "65536",
+      "max_total_object_bytes": "134217728"
+    },
+    "memory_accounting": "logical_credits_v1",
+    "metric_version": "1",
+    "normalization": "one_initial_bom_crlf_terminal_lf_v1",
+    "object_budget": "declared_size_plus_one_nonrefundable_v1",
+    "order": "native_path_bytes_baseline_first",
+    "rounding": "six_places_half_even_integer",
+    "sensor_id": "d0_line_mass_v1",
+    "sources": "verified_external_packages_v1",
+    "text": "strict_utf8_without_nul",
+    "unknown": "blocks_integral",
+    "weight": "bilateral_line_mass",
+    "zero": "explicit_empty_or_zero_mass_v1"
+  },
+  "metric_policy_id": "51d824e4f7e229cfeb61b63c33681fff65a879e173956bdb0029dd4473d358a5",
+  "metric_version": "1",
+  "path_namespace": "linux_bytes_v1",
+  "policy_id": "27fa6dd768b4334c12f38f410a4b3d9ed403577cf42dd4e14d3d1df3fd976c7e",
+  "producer_build": "fixture:no-production-build",
+  "producer_version": "candidate-fixture",
+  "report_type": "d0_measurement",
+  "resources": {
+    "cells_reserved": "0",
+    "logical_memory_peak": "167744",
+    "object_bytes_read": "2",
+    "object_bytes_reserved": "3"
+  },
+  "schema_version": "1",
+  "scope": {
+    "candidates": "1",
+    "exclusions": [],
+    "non_text_units": "0",
+    "resolved_text_units": "1",
+    "scope_transitions": "0",
+    "unavailable_units": "0"
+  },
+  "sensor_id": "d0_line_mass_v1",
+  "sources": {
+    "baseline": {
+      "policy_id": "27fa6dd768b4334c12f38f410a4b3d9ed403577cf42dd4e14d3d1df3fd976c7e",
+      "snapshot_file_sha256": "c045e22ba8c915acd5e82fece4019486ceede421fe5a36c68a2624ffb1c84b05",
+      "snapshot_id": "00000000-0000-4000-8000-000000000013",
+      "source_contract_version": "0.1.0",
+      "source_ref": "a6844401571f25ee315aa961c6c821cd3e85fb8edba91852fde4e3461387e69e",
+      "source_schema_version": "1",
+      "workspace_id": "00000000-0000-4000-8000-000000000001"
+    },
+    "current": {
+      "policy_id": "27fa6dd768b4334c12f38f410a4b3d9ed403577cf42dd4e14d3d1df3fd976c7e",
+      "snapshot_file_sha256": "21eb861a31e83ba72ca4a86e2e0a8bbc6f457ff6cb6fdf7479943d1c90bcb38e",
+      "snapshot_id": "00000000-0000-4000-8000-000000000010",
+      "source_contract_version": "0.1.0",
+      "source_ref": "6fb84d32f684f333c294c8fc0d9efcb5b932c58839a2cdca3cf17f095830aa6c",
+      "source_schema_version": "1",
+      "workspace_id": "00000000-0000-4000-8000-000000000001"
+    }
+  },
+  "units": [
+    {
+      "after": {
+        "content_sha256": "87428fc522803d31065e7bce3cf03fe475096631e5e07bbd7a0fde60c4cf25c7",
+        "executable": false,
+        "kind": "file",
+        "path_key": "cA",
+        "size_bytes": "2",
+        "state": "observed"
+      },
+      "before": null,
+      "calculation": {
+        "a": "1",
+        "c": "1",
+        "delta": {
+          "decimal": "1.000000",
+          "denominator": "1",
+          "numerator": "1"
+        },
+        "l": "0",
+        "m": "1",
+        "n0": "0",
+        "nt": "1",
+        "r": "0",
+        "zero_basis": null
+      },
+      "checks": {
+        "baseline": {
+          "actual_revision": null,
+          "expected_revision": null,
+          "hash_check": null,
+          "observation": "absent",
+          "reasons": [],
+          "size_check": null,
+          "source_ref": null,
+          "state": "absent"
+        },
+        "current": {
+          "actual_revision": {
+            "content_sha256": "87428fc522803d31065e7bce3cf03fe475096631e5e07bbd7a0fde60c4cf25c7",
+            "size_bytes": "2"
+          },
+          "expected_revision": {
+            "content_sha256": "87428fc522803d31065e7bce3cf03fe475096631e5e07bbd7a0fde60c4cf25c7",
+            "size_bytes": "2"
+          },
+          "hash_check": true,
+          "observation": "observed",
+          "reasons": [],
+          "size_check": true,
+          "source_ref": "6fb84d32f684f333c294c8fc0d9efcb5b932c58839a2cdca3cf17f095830aa6c",
+          "state": "verified"
+        }
+      },
+      "classification": "added",
+      "non_text": [],
+      "path_key": "cA",
+      "reasons": [],
+      "status": "available"
+    }
+  ],
+  "workspace_id": "00000000-0000-4000-8000-000000000001"
+}

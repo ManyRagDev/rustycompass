@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "release_sha256": "f263dad974f60186eebae512b446d498557a72f2d39d3d72f6ce7588171dc09a",
+  "installed_sha256": "f263dad974f60186eebae512b446d498557a72f2d39d3d72f6ce7588171dc09a",
+  "rust_tests": {
+    "passed": 138,
+    "ignored_in_standard_suite": 1,
+    "ignored_model_test_executed_separately": true
+  },
+  "format": "passed",
+  "clippy_all_targets_deny_warnings": "passed",
+  "cli_mcp_end_to_end": "results.json",
+  "legacy_reading": "legacy-reading.json",
+  "legacy_mcp": "legacy-mcp.json",
+  "heat_numeric": "heat-results.json",
+  "relation_weights": "weights-results.json",
+  "semantic_reference": "../semantic/results.json",
+  "semantic_source_matches_reference_test": true,
+  "limitations": [
+    "Linux CPU only",
+    "conservative syntactic resolution, explicit partial/unavailable cases",
+    "semantic CPU peak approximately 1.2 GiB in synthetic controls",
+    "full structural resolver scope rebuilt on update",
+    "heat optional; BFS and heat both met tiny controls, no general quality claim",
+    "legacy reduced scan/memory profiles explicitly refused by indexed MCP tools; output/deadline honored"
+  ],
+  "protected_sources": "No Multiagentes modifications and no displaced PostSpark answer key accessed."
+}
